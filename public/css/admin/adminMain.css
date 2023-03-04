@@ -1,0 +1,99 @@
+*{
+    --navAdminColor: #0a64bf;
+    margin: 0;
+    padding: 0;
+    --primary: #333333;
+    --hoverColor: #d9c208;
+    --yellowColor: #fce001;
+    --textTitle: #414141;
+    --mainWidth: 1178px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.adminButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background: var(--yellowColor);
+    font-weight: 600;
+    color: var(--textTitle);
+    font-size: 16px;
+}
+.logoutButton:hover{
+    font-size: 15px;
+}
+.mainContainer{
+    width: 100%;
+    display: flex;
+}
+.adminSideNav{
+    width: 15%;
+    background: var(--navAdminColor);
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.side{
+    width: 15%;
+    background: var(--navAdminColor);
+}
+.navLinkAdmin{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    column-gap: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navIconAdmin img{
+    width: 30px;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+.navLinkName{
+    color: white;
+    font-weight: 700;
+}
+.navLinkAdmin:hover{
+    background: #053d79;
+}
+.adminContent{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.adminWrap{
+    width: 85%;
+}
+.success-message{
+    width: 100%;
+    height: 40px;
+    background: #6bcb96;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adminHomePageDescription{
+    margin-top: 20px;
+}
+#errorDiv{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.urlPage{
+    padding: 15px;
+    color: gray;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0.8;
+}

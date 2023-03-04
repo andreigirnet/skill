@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    --primary: #333333;
+    --hoverColor: #d9c208;
+    --yellowColor: #fce001;
+    --textTitle: #414141;
+    --mainWidth: 1178px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#frontNav{
+    background: var(--primary);
+    padding: 0 40px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mainLogo img{
+    width: 100px;
+}
+#navMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.navItem{
+    padding: 15px;
+    cursor: pointer;
+}
+.navItem a{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#loginMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+#googleIcon img{
+    width: 50px;
+}
+#hamButton{
+    position: fixed;
+    z-index: 6;
+    margin: 10px 20px;
+    border: 3px solid white;
+    background: var(--primary);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+#hamButton img{
+    width: 30px;
+}
+#responsiveNav{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    opacity: 0.8;
+    z-index: 5;
+}
+.responsiveNavItem{
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+.responsiveNavItem a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* Main page Hovers */
+.navItem:hover{
+    background: var(--hoverColor);
+}
+
+/*!*Media Responisve*!*/
+/*!* Extra small devices (phones, 600px and down) *!*/
+/*@media only screen and (max-width: 600px){*/
+/*    #navMenu{*/
+/*        display: none;*/
+/*    }*/
+/*    #hamButton{*/
+/*        display: flex;*/
+/*    }*/
+/*    #frontNav{*/
+/*        justify-content: end;*/
+/*        column-gap: 10px;*/
+/*        padding: 9px;*/
+/*    }*/
+/*}*/
+
+/*!* Small devices (portrait tablets and large phones, 600px and up) *!*/
+/*@media only screen and (max-width: 600px){*/
+/*    #navMenu{*/
+/*        display: none;*/
+/*    }*/
+/*    #hamButton{*/
+/*        display: flex;*/
+/*    }*/
+/*    #frontNav{*/
+/*        justify-content: end;*/
+/*        column-gap: 20px;*/
+/*        padding: 9px;*/
+/*    }*/
+/*}*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (max-width: 768px){*/
+/*    #navMenu{*/
+/*        display: none;*/
+/*    }*/
+/*    #hamButton{*/
+/*        display: flex;*/
+/*    }*/
+/*    #frontNav{*/
+/*        justify-content: end;*/
+/*        column-gap: 20px;*/
+/*        padding: 9px;*/
+/*    }*/
+/*}*/
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (max-width: 992px){*/
+/*    #navMenu{*/
+/*        display: none;*/
+/*    }*/
+/*    #hamButton{*/
+/*        display: flex;*/
+/*    }*/
+/*    #frontNav{*/
+/*        justify-content: end;*/
+/*        column-gap: 20px;*/
+/*        padding: 9px;*/
+/*    }*/
+/*}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px){
+    #navMenu{
+        display: flex;
+        justify-content: space-between;
+    }
+    #navMenu{
+        display: none;
+    }
+    #hamButton{
+        display: flex;
+    }
+    #frontNav{
+        justify-content: end;
+        column-gap: 10px;
+        padding: 9px;
+    }
+}

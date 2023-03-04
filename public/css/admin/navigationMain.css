@@ -1,0 +1,105 @@
+.adminNav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.adminNavWrap{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilePicture img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.rightAdminMainNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.downArrowLang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.flagArrow{
+    width: 20px;
+}
+.dropdownLanguage{
+    width: 130px;
+    height: auto;
+    position: absolute;
+    background: white;
+    padding: 5px 15px;
+    border: 1px solid gray;
+    display: none;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.language{
+    position: relative;
+}
+.dropdownLanguageItem{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.dropdownLanguageItem img{
+    width: 30px;
+}
+.dropdownLanguageItem:hover{
+    transform: scale(1.1);
+}
+#selectedLanguage{
+    width: 30px;
+}
+.dropAdminMenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.dropAdminMenu a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 5px;
+    background: #053d79;
+}
+.navArrow{
+   width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+.navLinkDropAdmin{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.navLinkDropAdmin:hover{
+    font-size: 15px;
+    opacity: 0.9;
+}
+#employersDrop{
+    display: none;
+}
+#billingDrop{
+    display: none;
+}

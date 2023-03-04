@@ -1,0 +1,25 @@
+.registerEmployeeWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 200px;
+}
+.leftRegisterEmployee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+.rightRegisterEmployee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-top: 100px;
+}
+.registerEmployeeForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+}

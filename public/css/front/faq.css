@@ -1,0 +1,110 @@
+.secondaryBannerFaq{
+    background: url("../../images/banners/help.jpg");
+    background-position: bottom;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.faqWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.faqContainer{
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-row-gap: 50px;
+    column-gap: 50px;
+}
+.faqBox{
+    width: 500px;
+}
+.faqHeader{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    height: 50px;
+    background: #474949;
+    color: white;
+    padding: 0 20px;
+}
+.faqHeader img{
+    width: 30px;
+}
+.majorFaq{
+    display: flex;
+    align-items: start;
+    column-gap: 10px;
+}
+.number{
+    background: #00a6ed;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.majorFaqText{
+    line-height: 40px;
+    width: 90%;
+}
+.innerFaq{
+    padding: 5px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+    border: 1px solid gray;
+}
+#uppDownArrow{
+    width: 20px;
+}
+.actionAccordion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 20px;
+}
+.accordionContent{
+    display: none;
+    transition: 1s ease-in-out;
+}
+.majorFaq img{
+    width: 30px;
+    margin-top: 5px;
+}
+.accordionButton{
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1400px) {
+   .faqContainer{
+       grid-template-columns: auto;
+       justify-content: center;
+   }
+    .faqBox{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .faqContainer{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .faqBox{
+        width: 300px;
+    }
+}
+

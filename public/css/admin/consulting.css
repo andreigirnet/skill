@@ -1,0 +1,29 @@
+.consultingWrap{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.consultingContainer{
+    width: 90%;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+}
+.consultingList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.consultingListItem{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.consultingListItem img{
+    width: 30px;
+}
+.consultingListText{
+    font-size: 20px;
+}

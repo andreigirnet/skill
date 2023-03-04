@@ -1,0 +1,102 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: 'PT Sans Narrow', sans-serif;
+}
+.loginContainer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url("../../images/banners/loginBanner.jpg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: end;
+}
+.loginFormWrap{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    opacity: 0.9;
+}
+.loginFormWrap form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginTitle{
+    font-family: inherit;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.inputLogin{
+    width:75%;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid #545454;
+    background-color: transparent;
+    color: #a9a9a9;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    font-size: inherit;
+    font-family: inherit;
+}
+.rememberMe{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.rememberMeText{
+    color: #a7a4a4;
+    font-size: 14px;
+}
+.loginRegisterButton{
+    margin-top: 30px;
+    width: 50%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    background: #4cae4c;
+    cursor: pointer;
+}
+.loginRegisterButton:hover{
+    background: #318031;
+}
+.lostPassword{
+    color: #d9016e;
+    margin-top: 10px;
+}
+.loginForm{
+    margin-top: 20px;
+}
+.registerLink a{
+    color: #d9016e;
+}
+.invalid-feedback{
+    color: red;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .loginFormWrap{
+     width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .loginFormWrap{
+        width: 100%;
+    }
+}

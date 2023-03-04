@@ -1,0 +1,57 @@
+.profileContent{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    row-gap: 20px;
+}
+.userImage img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.userProfileInfo{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.userNameValue{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--textTitle);
+}
+.userEmailValue{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--textTitle);
+}
+.userUpdateForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.formLabel{
+    color: var(--textTitle);
+    font-weight: 600;
+}
+.formInputProfile{
+    width: 300px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.formTitle{
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--textTitle);
+}
+

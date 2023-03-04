@@ -1,0 +1,43 @@
+.qtyIcon{
+    width: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.qtyContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+}
+.qtyInput{
+    border: none;
+    outline: none;
+    width: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.qtyIcon:hover{
+    transform: scale(1.1);
+}
+td{
+    font-size: 16px;
+    font-weight: 700;
+}
+th{
+    font-size: 20px;
+    font-weight: 700;
+}
+.deleteIcon{
+    border: none;
+}
