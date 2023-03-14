@@ -14,27 +14,42 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
-
 Auth::routes();
 
 Route::middleware(['auth'])->group(function () {
 //After Login the routes are accept by the loginUsers...
     Route::get('/home', [App\Http\Controllers\ProfileController::class,'index'])->name('admin.en.home');
+
     Route::get('/profile',[App\Http\Controllers\ProfileController::class,'show'])->name('admin.en.profile');
     Route::put('/profile/store/image',[App\Http\Controllers\ProfileController::class,'storeImage'])->name('store.profileImg');
+
     Route::get('/dashboard/employer', [App\Http\Controllers\EmployeeController::class,'index'])->name('dashboard.employer');
     Route::get('/employer/consulting', function(){
         return view('admin.administrator.consulting');
     })->name('admin.consulting');
+
     Route::get('/register/employee', [App\Http\Controllers\EmployeeController::class,'create'])->name('register.employee');
     Route::post('/register/employee/store', [App\Http\Controllers\EmployeeController::class,'store'])->name('register.employee.store');
+
     Route::get('/cart', [App\Http\Controllers\BasketController::class,'index'])->name('basket.index');
+    Route::get('/cart/get', [App\Http\Controllers\BasketController::class,'getCartItems'])->name('basket.get');
     Route::post('/cart/add/', [App\Http\Controllers\BasketController::class,'store'])->name('basket.store');
-    Route::delete('/cart/delete/{basket}', [App\Http\Controllers\BasketController::class,'destroy'])->name('basket.delete');
+    Route::delete('/cart/delete/{item}', [App\Http\Controllers\BasketController::class,'destroy'])->name('basket.delete');
     Route::post('/add/cart', [App\Http\Controllers\BasketController::class,'store'])->name('basket.add');
+    Route::put('/cart/update/{item}', [App\Http\Controllers\BasketController::class,'update'])->name('update.cart');
+    Route::post('/cart/add/discount', [App\Http\Controllers\BasketController::class,'applyDiscount'])->name('add.discount');
+    Route::post('/cart/clear/discount', [App\Http\Controllers\BasketController::class,'removeDiscount'])->name('remove.discount');
+
+    Route::get('/checkout', [App\Http\Controllers\CheckoutController::class,'index'])->name('checkout.index');
+    Route::post('/checkout/store', [App\Http\Controllers\CheckoutController::class,'store'])->name('checkout.store');
+
     Route::get('/orders', [App\Http\Controllers\OrderController::class,'index'])->name('order.index');
+    Route::post('/order/items', [App\Http\Controllers\OrderController::class,'store'])->name('order.store');
+    Route::get('/orders/{id}/download', [App\Http\Controllers\OrderController::class,'download'])->name('orders.download');
+
+    Route::get('/error', function () {
+        return view('admin.administrator.error');
+    })->name('error');
 });
 
 

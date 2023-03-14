@@ -7,6 +7,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Storage;
+use Stripe\Invoice;
+use Stripe\Stripe;
 
 class OrderController extends Controller
 {
@@ -31,7 +34,9 @@ class OrderController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        //
+        Order::create([
+            ""
+        ]);
     }
 
     /**
@@ -64,5 +69,25 @@ class OrderController extends Controller
     public function destroy(Order $order): RedirectResponse
     {
         //
+    }
+    //Download invoice for the order
+    public function download($id)
+    {
+        Stripe::setApiKey(env('STRIPE_SECRET'));
+        $order = Order::find($id);
+
+        // Get the invoice ID for the order
+        $invoiceId = $order->invoice_id;
+
+        // Download the invoice PDF from Stripe
+        $pdf = Invoice::retrieve($invoiceId);
+        dd($pdf);
+        $filename = "invoice-{$order->id}.pdf";
+
+        // Save the invoice PDF to the storage/app/invoices directory
+        Storage::put("invoices/{$filename}", $pdf);
+
+        // Download the invoice PDF
+        return Storage::download("invoices/{$filename}");
     }
 }

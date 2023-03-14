@@ -8,30 +8,37 @@ use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
+use Jackiedo\Cart\Cart;
 
 class BasketController extends Controller
 {
+    protected Cart $cart;
+
+    public function __construct(Cart $cart)
+    {
+        $this->cart = $cart;
+    }
     /**
      * Display a listing of the resource.
      */
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
-        $cartItems = Basket::latest()->get();
-        return view('admin.administrator.cart')->with('cartItems', $cartItems);
+        $cartItems = $this->cart->getDetails();
+        $cartTotal = $this->cart->getTotal();
+        $cartSubTotal = $this->cart->getItemsSubtotal();
+        return view('admin.administrator.cart');
     }
-
+    public function getCartItems(): string
+    {
+        $cartItems = $this->cart->getDetails();
+        return $cartItems->toJson();
+    }
     /**
-     * Show the form for creating a new resource.
+     * Show the fo for creating a new resource.
      */
     public function create(): Response
     {
         //
-    }
-
-    public function getItems()
-    {
-        $cartItems = Basket::latest()->get();
-        return json_encode($cartItems);
     }
 
     /**
@@ -40,13 +47,27 @@ class BasketController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $product = DB::select('SELECT * FROM products WHERE id='.$request->productId);
-        Basket::create([
-            'user_id'=>auth()->user()->id,
-            'course_name'=>$product[0]->name,
-            'cost'=>$product[0]->price,
+
+        $this->cart->addItem([
+            'id'=>$request->productId,
+            'title'=>$product[0]->name,
+            'price'=>$product[0]->price,
             'quantity'=>1
         ]);
         return redirect(route('basket.index'))->with('success',"The course has been added to the cart");
+    }
+
+    public function applyDiscount(){
+        $this->cart->applyAction([
+            'group'      => 'Discount',
+            'id'         => 1,
+            'title'      => 'Sale 10%',
+            'value'      => '-10%',
+            'enabled'    =>  false
+        ]);
+    }
+    public function removeDiscount(){
+        $this->cart->clearActions();
     }
 
     /**
@@ -68,17 +89,20 @@ class BasketController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Basket $basket): RedirectResponse
+    public function update(Request $request, $id)
     {
-        //
+        $this->cart->updateItem($id, [
+            'quantity' => $request->quantity,
+        ]);
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Basket $basket): RedirectResponse
+    public function destroy($id): RedirectResponse
     {
-        DB::statement("DELETE FROM baskets WHERE id=".$basket->id);
+        $this->cart->clearActions();
+        $this->cart->removeItem($id);
         return redirect(route('basket.index'))->with('success', "The course has been deleted");
     }
 }

@@ -97,3 +97,9 @@ a{
     letter-spacing: 3px;
     opacity: 0.8;
 }
+.errorContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

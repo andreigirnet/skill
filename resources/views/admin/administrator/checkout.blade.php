@@ -1,0 +1,50 @@
+@extends('admin.administrator.layout')
+@section('adminPages')
+    <div class="checkoutContainer">
+        <div class="adminHomePageTitle">Checkout Page</div>
+        <div class="checkoutWrap">
+            <div class="checkoutLeftSide">
+                <form action="">
+                    <input type="hidden" name="firstName" id="checkOutName">
+                    <input type="hidden" name="lastName" id="checkOutName">
+                    <input type="hidden" name="lastName" id="checkOutName">
+                </form>
+            </div>
+            <div class="checkoutRightSide">
+                <div class="checkoutContent">
+                    <div class="orderCheckoutDetailsTitle">Your Order Details:</div>
+                    <div class="orderItems">
+                        <div class="orderDetailLeft">Items:</div>
+                        <div class="allItemsInCart">
+                        @foreach($cartDetails->items as $item)
+                        <div class="orderDetailRight">{{$item->title}}</div>
+                            <div>-</div>
+                        <div class="orderDetailRight">{{$item->quantity}}</div>
+                        @endforeach
+                        </div>
+                    </div>
+                    <div class="orderDetail">
+                        <div class="orderDetailLeft">Total Items Qty:</div>
+                        <div class="orderDetailRight">{{$cartDetails->quantities_sum}} items</div>
+                    </div>
+                    <div class="orderDetail">
+                        <div class="orderDetailLeft">Price to Pay:</div>
+                        <div class="orderDetailRight">{{$cartDetails->total}} €</div>
+                    </div>
+                </div>
+                <form id="payment-form" action="{{route('checkout.store')}}" method="POST">
+                    @csrf
+                    <input type="hidden" name="cartTotal" value="{{$cartDetails->total}}">
+                    <input type="hidden" name="cartQty" value="{{$cartDetails->quantities_sum}}">
+                    <div id="payment-element">
+                        <!-- Elements will create form elements here -->
+                    </div>
+                    <button id="complete-order" style="margin-top: 20px" class="adminButton">Pay</button>
+                    <div id="card-errors">
+                        <!-- Display error message to your customers here -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+@endsection
