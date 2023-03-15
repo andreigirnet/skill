@@ -20,8 +20,9 @@ a{
     align-items: center;
 }
 #mainLogo img{
-    width: 100px;
+    width: 85px;
 }
+
 #navMenu{
     display: flex;
     align-items: center;

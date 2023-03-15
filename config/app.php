@@ -15,8 +15,11 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
-
+    'name' => env('APP_NAME'),
+    'address'=>'115 Cherrywood Park',
+    'town'=>'Dubin',
+    'telephone'=>'892777333',
+    'email'=>'info@irish_safetytraining.com',
     /*
     |--------------------------------------------------------------------------
     | Application Environment

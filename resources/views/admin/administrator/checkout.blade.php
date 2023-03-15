@@ -36,6 +36,17 @@
                     @csrf
                     <input type="hidden" name="cartTotal" value="{{$cartDetails->total}}">
                     <input type="hidden" name="cartQty" value="{{$cartDetails->quantities_sum}}">
+                    <label for="address">Adress:</label>
+                    <input type="text" id="address" name="address" required>
+                    <div class="input-row">
+                        <label for="county">County:</label>
+                        <input type="text" id="county" name="county" required>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
+
                     <div id="payment-element">
                         <!-- Elements will create form elements here -->
                     </div>

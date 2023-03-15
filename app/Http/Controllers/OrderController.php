@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Stripe\Invoice;
 use Stripe\Stripe;
@@ -18,7 +19,8 @@ class OrderController extends Controller
      */
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
-        return view('admin.administrator.orders');
+        $orders = DB::select("SELECT * FROM orders ORDER BY created_at DESC");
+        return view('admin.administrator.orders')->with('orders',$orders);
     }
 
     /**
@@ -66,28 +68,9 @@ class OrderController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Order $order): RedirectResponse
+    public function destroy($id): RedirectResponse
     {
-        //
-    }
-    //Download invoice for the order
-    public function download($id)
-    {
-        Stripe::setApiKey(env('STRIPE_SECRET'));
-        $order = Order::find($id);
-
-        // Get the invoice ID for the order
-        $invoiceId = $order->invoice_id;
-
-        // Download the invoice PDF from Stripe
-        $pdf = Invoice::retrieve($invoiceId);
-        dd($pdf);
-        $filename = "invoice-{$order->id}.pdf";
-
-        // Save the invoice PDF to the storage/app/invoices directory
-        Storage::put("invoices/{$filename}", $pdf);
-
-        // Download the invoice PDF
-        return Storage::download("invoices/{$filename}");
+        DB::statement("DELETE FROM orders WHERE id=".$id);
+        return redirect(route('order.index'))->with('success','Order has been removed');
     }
 }

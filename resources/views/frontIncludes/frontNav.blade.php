@@ -10,7 +10,7 @@
 {{--        <div class="navItem"><a href="{{route('front.products')}}">Online Courses</a></div>--}}
         <div class="navItem"><a href="{{route('front.team')}}">Team Training</a></div>
         <div class="navItem"><a href="{{route('front.consulting')}}">Consulting</a></div>
-        <div class="navItem"><a href="tel:8665562570">Call us</a></div>
+        <div class="navItem"><a href="tel:{{config('app.telephone')}}">Call us</a></div>
     </div>
     <div id="loginMenu">
         <div id="googleIcon">

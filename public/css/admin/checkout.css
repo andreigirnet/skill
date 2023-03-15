@@ -56,16 +56,44 @@
 #payment-form{
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 .card-errors{
     margin-top: 20px;
     color: red;
 }
 #payment-element {
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.30) 0px 0px 0px 1px;
     padding: 20px;
     border-radius: 5px;
 }
 .InputElement{
     height: 50px;
 }
+#payment-form label{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+#payment-form input{
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.30) 0px 0px 0px 1px;
+}
+.input-row{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: space-around;
+}
+#county{
+    width: 40%;
+}
+#city{
+    width: 40%;
+}
+

@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{{asset("css/admin/employeeRegister.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/dashboard.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/basket.css")}}">
+    <link rel="stylesheet" href="{{asset("css/admin/orders.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/checkout.css")}}">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://js.stripe.com/v3/"></script>

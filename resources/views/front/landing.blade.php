@@ -9,7 +9,7 @@
             <div class="mainBannerRight">
                 <h1 class="mainBannerTitle">CONVENIENT & EFFECTIVE,<br> SO YOU CAN GET BACK TO WORK</h1>
                 <div class="mainBannerDescription">Providing top-quality safety training, certification management and consultative services that simplify the task of ensuring every worker returns home safely.</div>
-                <a href="{{route('register')}}"><div class="pulse-button">Start Now</div></a>
+                <a href="{{route('register')}}"><div class="pulse-button">Pay / Register Here</div></a>
             </div>
         </div>
         <div class="scroll">
@@ -204,7 +204,7 @@
 
                 For general inquiries, student support, sales, or technical assistance please call us at 019682644
 
-                Alternatively, you may use our chat based support system or email us at info@skillcourses.ie
+                Alternatively, you may use our chat based support system or email us at {{config('app.email')}}
             </div>
         </div>
     </div>
@@ -212,7 +212,7 @@
     <div class="title">
         <div class="titleText">Get your Certificate</div>
         <div class="borderTitle"></div>
-        <a href="{{route('register')}}"><div class="pulse-button" data-aos="fade-up">Start Now</div></a>
+        <a href="{{route('register')}}"><div class="pulse-button" data-aos="fade-up">Pay / Register Here</div></a>
     </div>
 
     <div class="benefitsSection">

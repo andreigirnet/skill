@@ -9,6 +9,9 @@
     --mainWidth: 1178px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
+.logo img{
+    width: 100px;
+}
 a{
     text-decoration: none;
 }

@@ -86,7 +86,11 @@ class CheckoutController extends Controller
                     'quantity'    =>$request->cartQty,
                     'paid'        => $request->cartTotal,
                     'charge_id'   => $charge->id,
-                    'invoice_id'  => $invoice->id
+                    'invoice_id'  => $invoice->id,
+                    'address'     => $request->address,
+                    'city'        => $request->city,
+                    'county'      => $request->county,
+                    'country'     => $request->country
                 ]);
 
                 $this->cart->clearItems();

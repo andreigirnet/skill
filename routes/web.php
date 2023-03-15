@@ -45,7 +45,8 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/orders', [App\Http\Controllers\OrderController::class,'index'])->name('order.index');
     Route::post('/order/items', [App\Http\Controllers\OrderController::class,'store'])->name('order.store');
-    Route::get('/orders/{id}/download', [App\Http\Controllers\OrderController::class,'download'])->name('orders.download');
+    Route::get('/invoice/{id}',[App\Http\Controllers\InvoiceController::class,'download'])->name('invoice.download');
+    Route::delete('/orders/delete/{id}', [App\Http\Controllers\OrderController::class,'destroy'])->name('order.delete');
 
     Route::get('/error', function () {
         return view('admin.administrator.error');

@@ -1,0 +1,30 @@
+.invoiceLink{
+    width: 30px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.submitDeleteOrder{
+    border: none;
+    cursor: pointer;
+}
+.submitDeleteOrder img{
+    width: 30px;
+}
+.deleteFormOrders{
+    width: 30px
+}
+.actionOrder{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 20px;
+}
+.invoiceLink:hover{
+    transform: scale(1.1);
+}
+.submitDeleteOrder img{
+    transition: 0.8s;
+}
+.submitDeleteOrder img:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,68 @@
+.invoiceBody{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.invoiceContainer{
+    width: 90%;
+}
+.invoiceHeader{
+    float: left;
+}
+.invoiceLogo img{
+    width: 100px;
+}
+.invoiceTextLarge{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fab205;
+    font-weight: 600;
+}
+.invoiceOwnAddress{
+    margin-top: 50px;
+    font-size: 20px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+}
+.billedTo{
+    margin-top: 50px;
+}
+.invoiceDataText{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.invoiceText{
+    font-size: 20px;
+    opacity: 0.9;
+}
+.invoiceDetails{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.line{
+    width: 100%;
+    height: 0.5px;
+    background: gray;
+}
+.invoiceDetailsRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bankDetailsTotalSum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.messageInvoice{
+    display: flex;
+    justify-content: center;
+}
+.heart{
+    width: 20px;
+}
