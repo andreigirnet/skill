@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="{{asset("css/admin/basket.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/orders.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/checkout.css")}}">
+    <link rel="stylesheet" href="{{asset("css/admin/package.css")}}">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
 
@@ -33,13 +34,22 @@
         {{ session('success') }}
     </div>
 @endif
+@if ($message = Session::get('error'))
+    <div class="error-message">
+        <strong>{{ $message }}</strong>
+    </div>
+@endif
+@if ($errors->any())
+    @foreach ($errors->all() as $error)
+        <div class="error-message">{{$error}}</div>
+    @endforeach
+@endif
 @include('adminIncludes/navigationAdminMain')
 @yield('adminContent')
 
 
-<script src="{{asset('js/language.js')}}"></script>
+{{--<script src="{{asset('js/language.js')}}"></script>--}}
 <script src="{{asset('js/dropAdminMenu.js')}}"></script>
 <script src="{{asset('js/errors.js')}}"></script>
-<script src="{{asset('js/stripe.js')}}"></script>
 </body>
 </html>

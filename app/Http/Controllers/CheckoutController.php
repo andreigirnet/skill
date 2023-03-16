@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\Basket;
 use App\Models\Order;
+use App\Models\Package;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -81,17 +82,26 @@ class CheckoutController extends Controller
                 ]);
 
                 Order::create([
-                    'user_id'     =>auth()->user()->id,
+                    'user_id'     => auth()->user()->id,
                     'product_name'=> "Manual Handling",
-                    'quantity'    =>$request->cartQty,
+                    'quantity'    => $request->cartQty,
                     'paid'        => $request->cartTotal,
                     'charge_id'   => $charge->id,
                     'invoice_id'  => $invoice->id,
                     'address'     => $request->address,
                     'city'        => $request->city,
                     'county'      => $request->county,
-                    'country'     => $request->country
+                    'country'     => $request->country,
+                    'status'      => 'paid'
                 ]);
+
+                for ($i = 0; $i < $request->cartQty; $i++) {
+                    $package = new Package();
+                    $package->user_id = auth()->user()->id;
+                    $package->course_name = "Manual Handling";
+                    $package->status = "theory";
+                    $package->save();
+                }
 
                 $this->cart->clearItems();
 

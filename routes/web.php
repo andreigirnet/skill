@@ -48,12 +48,15 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/invoice/{id}',[App\Http\Controllers\InvoiceController::class,'download'])->name('invoice.download');
     Route::delete('/orders/delete/{id}', [App\Http\Controllers\OrderController::class,'destroy'])->name('order.delete');
 
+    Route::get('/packages', [App\Http\Controllers\PackageController::class,'index'])->name('package.index');
+    Route::get('/share/packages/{id}', [App\Http\Controllers\PackageController::class,'share'])->name('package.share');
+
     Route::get('/error', function () {
         return view('admin.administrator.error');
     })->name('error');
+
+    Route::put('/password/update/{id}', [App\Http\Controllers\ProfileController::class,'update'])->name('password.update');
 });
-
-
 
 //Front end routes, User experience
 Route::get('/', function(){return view("front.landing");})->name('home');

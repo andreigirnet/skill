@@ -58,4 +58,5 @@
             </div>
         </div>
     </div>
+    <script src="{{asset('js/stripe.js')}}"></script>
 @endsection

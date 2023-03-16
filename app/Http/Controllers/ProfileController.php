@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class ProfileController extends Controller
 {
@@ -72,7 +73,26 @@ class ProfileController extends Controller
      */
     public function update(Request $request, string $id): RedirectResponse
     {
-        //
+        $user = User::find($id);
+        $request->validate([
+            'newPassword' => 'required|min:8'
+        ]);
+        $oldPassword = DB::select('SELECT password FROM users WHERE id='.$id);
+        if ($request->newPassword === $request->confirmNewPassword){
+            if (Hash::check($request->oldPassword, $oldPassword[0]->password)){
+                $hashed = Hash::make($request->newPassword, [
+                    'rounds' => 12,
+                ]);
+                $user->update([
+                   'password'=>$hashed
+                ]);
+                return back()->with('success', 'Password has been updated');
+            }else{
+                return back()->with('error', 'The old password is wrong');
+            }
+        }else{
+            return back()->with('error', 'The new password is different from the confirm password, please try again');
+        }
     }
 
     /**

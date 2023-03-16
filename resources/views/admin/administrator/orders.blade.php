@@ -10,6 +10,7 @@
                 <th>Order Id</th>
                 <th>Amount</th>
                 <th>Quantity</th>
+                <th>Status</th>
                 <th>Invoice</th>
             </tr>
             </thead>
@@ -24,6 +25,7 @@
                 <td>{{$order->id}}</td>
                 <td>{{$order->paid}}</td>
                 <td>{{$order->quantity}}</td>
+                <td>{{$order->status}}</td>
                 <td><a href="{{route('invoice.download',$order->id)}}"><img class="invoiceLink" src="{{asset('images/icons/pdf.png')}}" alt=""></a></td>
             </tr>
             @endforeach

@@ -43,7 +43,7 @@
             <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
             <div class="navLinkDropAdmin">Orders</div>
         </a>
-        <a href="">
+        <a href="{{route('package.index')}}">
             <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
             <div class="navLinkDropAdmin">Packages</div>
         </a>
