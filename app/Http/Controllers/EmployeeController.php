@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\RegisterEmployeeMail;
 use App\Models\Employee;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class EmployeeController extends Controller
 {
@@ -33,17 +35,7 @@ class EmployeeController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        $request->validate([
-            'name'=> 'required',
-            'email'=> 'required|unique:employees',
-            'phone'=> 'max:15'
-        ]);
-        Employee::create([
-            'name'=>$request->name,
-            'email'=>$request->email,
-            'telephone'=>$request->phone,
-            'user_id'=>auth()->user()->id
-        ]);
+        dd(Mail::to('andrei.girnet95@gmail.com')->send(new RegisterEmployeeMail()));
         return redirect(route('register.employee'))->with('success', 'Employee has been added to your dashboard');
     }
 
