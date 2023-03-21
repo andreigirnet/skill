@@ -12,13 +12,15 @@ use Illuminate\Queue\SerializesModels;
 class RegisterEmployeeMail extends Mailable
 {
     use Queueable, SerializesModels;
-
+    public $email;
+    public $password;
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct($email,$password)
     {
-        //
+        $this->email = $email;
+        $this->password = $password;
     }
 
     /**
@@ -37,7 +39,7 @@ class RegisterEmployeeMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.registerEmployee',
+            markdown: 'emails.employee',
         );
     }
 

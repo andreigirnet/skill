@@ -1,0 +1,41 @@
+.shareContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.selectTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--textTitle);
+}
+.textShare{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.textShare div{
+    font-weight: bold;
+}
+.selectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 500px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.formShare{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+
+}

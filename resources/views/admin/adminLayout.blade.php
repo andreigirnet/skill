@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{asset("css/admin/orders.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/checkout.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/package.css")}}">
+    <link rel="stylesheet" href="{{asset("css/admin/share.css")}}">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
 

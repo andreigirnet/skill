@@ -4,11 +4,7 @@
         <div class="adminHomePageTitle">Checkout Page</div>
         <div class="checkoutWrap">
             <div class="checkoutLeftSide">
-                <form action="">
-                    <input type="hidden" name="firstName" id="checkOutName">
-                    <input type="hidden" name="lastName" id="checkOutName">
-                    <input type="hidden" name="lastName" id="checkOutName">
-                </form>
+                <img class="checkoutImage" src="{{asset('images/checkout/checkout.png')}}" alt="">
             </div>
             <div class="checkoutRightSide">
                 <div class="checkoutContent">

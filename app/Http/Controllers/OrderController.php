@@ -19,7 +19,7 @@ class OrderController extends Controller
      */
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
-        $orders = DB::select("SELECT * FROM orders ORDER BY created_at DESC");
+        $orders = DB::select("SELECT * FROM orders WHERE user_id=" . auth()->user()->id . " ORDER BY created_at DESC");
         return view('admin.administrator.orders')->with('orders',$orders);
     }
 

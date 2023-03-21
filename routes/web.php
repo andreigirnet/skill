@@ -24,6 +24,7 @@ Route::middleware(['auth'])->group(function () {
     Route::put('/profile/store/image',[App\Http\Controllers\ProfileController::class,'storeImage'])->name('store.profileImg');
 
     Route::get('/dashboard/employer', [App\Http\Controllers\EmployeeController::class,'index'])->name('dashboard.employer');
+    Route::delete('/delete/employer/{id}', [App\Http\Controllers\EmployeeController::class,'destroy'])->name('delete.employer');
     Route::get('/employer/consulting', function(){
         return view('admin.administrator.consulting');
     })->name('admin.consulting');
@@ -50,6 +51,9 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/packages', [App\Http\Controllers\PackageController::class,'index'])->name('package.index');
     Route::get('/share/packages/{id}', [App\Http\Controllers\PackageController::class,'share'])->name('package.share');
+    Route::post('/share/package/{id}', [App\Http\Controllers\PackageController::class,'sharePackage'])->name('package.share.store');
+
+    Route::get('/course/{id}', [App\Http\Controllers\CourseController::class,'index'])->name('course.index');
 
     Route::get('/error', function () {
         return view('admin.administrator.error');

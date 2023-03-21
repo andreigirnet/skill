@@ -5,10 +5,12 @@ namespace App\Http\Controllers;
 use App\Mail\RegisterEmployeeMail;
 use App\Models\Employee;
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 
 class EmployeeController extends Controller
@@ -18,7 +20,7 @@ class EmployeeController extends Controller
      */
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
-        $employees = DB::select('SELECT e.name, e.email, e.created_at FROM users JOIN employees as e on users.id = e.user_id WHERE users.id = ' . auth()->user()->id . ' ORDER BY e.created_at DESC');
+        $employees = DB::select('SELECT * FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=' . auth()->user()->id);
         return view('admin.administrator.dashboard')->with('employees', $employees);
     }
 
@@ -35,7 +37,20 @@ class EmployeeController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        dd(Mail::to('andrei.girnet95@gmail.com')->send(new RegisterEmployeeMail()));
+        $request->validate([
+            'name'=>'required|max:50',
+            'email'=>'required|unique:users'
+        ]);
+        $password = 'User' .  rand(10, 9999);
+        Mail::to($request->email)->send(new RegisterEmployeeMail($request->email,$password));
+        $hashPassword = Hash::make($password, [
+            'rounds' => 12,
+        ]);
+        User::create([
+            'name' => $request->name,
+            'email'=> $request->email,
+            'password'=>$hashPassword
+        ]);
         return redirect(route('register.employee'))->with('success', 'Employee has been added to your dashboard');
     }
 
@@ -66,8 +81,9 @@ class EmployeeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Employee $employee): RedirectResponse
+    public function destroy($id): RedirectResponse
     {
-        //
+        DB::statement('DELETE FROM company_employee WHERE employee='.$id);
+        return (redirect(route('dashboard.employer')))->with('success', 'Employer has been deleted successfully');
     }
 }

@@ -1,0 +1,2942 @@
+{
+    "english": {
+        "stage_1":{
+            "slide_1": {
+                "img" : "/images/curs/step1/1.webp",
+                "title": "INTRODUCTION",
+                "content": "Manual handling tasks occur wherever people are at work.\nEvery time we use our bodies to move an object we are in the process of manual handling, whether we are in an office, factory, warehouse, shop or any other environment for work.\n",
+                "bullets": []
+            },
+            "slide_2": {
+                "img" : "/images/curs/step1/2.webp",
+                "title": "COURSE OBJECTIVES",
+                "content": "",
+                "bullets": [
+                    "To highlight the dangers of back pain, how they are caused and what you can do to prevent these dangers.",
+                    "To encourage you to evaluate your manual handling tasks.",
+                    "To demonstrate good manual handling techniques.",
+                    "To increase your awareness of manual handling habits."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step1/3.webp",
+                "title": "WHAT IS MANUAL HANDLING?",
+                "content": "",
+                "bullets": [
+                    "Manual handling is approved in any case where human strength is necessary.",
+                    "This is not limited to lifting or carrying a load or just moving a heavy load.",
+                    "Manual handling means using the body to exert the force of lifting, lowering, pushing, pulling, carrying, moving, holding, restraining or to fix a load.",
+                    "The load can be inanimate, for example a box, a painting, for example a person or an animal."
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step1/4.webp",
+                "title": "MANUAL HANDLING TASKS",
+                "content": "Some examples of manual handling tasks daily include:",
+                "bullets": [
+                    "picking up paper boxes",
+                    "carrying a shopping bag",
+                    "pushing a stroller",
+                    "unloading a car",
+                    "stacking shelves",
+                    "raising a child",
+                    "moving furniture"
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step1/5.webp",
+                "title": "INJURIES CAUSED BY INCORRECT MANUAL HANDLING",
+                "content": "",
+                "bullets": [
+                    "Manual handling tasks are the cause of a large number of workplace injuries each year. Improper manual handling tasks can cause hand, arm and neck injuries.",
+                    "Accidentally dropping loads can also injure the legs. • However, most manual handling injuries affect the back.",
+                    "The resulting injury can be a cut or bruise, but more commonly it is a muscle strain or ligament trauma."
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step1/6.webp",
+                "title": "Responsibility",
+                "content": "What are my responsibilities regarding manual handling at work? As an employee, you must:",
+                "bullets": [
+                    "Cooperate with your employer in manual handling matters not to engage in behavior that could endanger yourself or others. Use mechanical devices correctly report hazardous work activities and any workplace defects, systems or equipment tell your employer about any physical deficiencies that could create risks"
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step1/7.webp",
+                "title": "SUMMARY",
+                "content": "",
+                "bullets": [
+                    "Manual handling is identified when human force is required to move an object and covers activities that involve lifting, transporting, lowering, pushing or pulling a load.",
+                    "A large percentage of reported workplace injuries are related to manual activities handling.",
+                    "Most injuries from manual handling tasks affect the back."
+                ]
+            }
+        },
+        "stage_2":{
+            "slide_1": {
+                "img" : "/images/curs/step2/b1.webp",
+                "title": "INTRODUCTION",
+                "content": "The back is the part of the body most affected by manual handling activities. To prevent back injuries, it's important to understand how your back works and what you can do to take care of it.",
+                "bullets": []
+            },
+            "slide_2": {
+                "img" : "/images/curs/step2/b2.webp",
+                "title": "THE OBJECTIVES OF THE LESSON",
+                "content": "This lesson covers:",
+                "bullets": [
+                    "The main components of the back.",
+                    "Different types of back injuries.",
+                    "How your behavior contributes to your risk of back injury."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step2/b3.webp",
+                "title": "REAR COMPONENTS",
+                "content": "Your back is a complex structure made up of many parts including:",
+                "bullets": [
+                    "Spine",
+                    "Nerves",
+                    "Muscles, ligaments and tendons"
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step2/b4.webp",
+                "title": "SPINE",
+                "content": "The main bone in your back is your spine. Your spine provides structural support to your body and is made up of bones called vertebrae and intervertebral discs.",
+                "bullets": []
+            },
+            "slide_5": {
+                "img" : "/images/curs/step2/b5.webp",
+                "title": "NERVES",
+                "content": "The main nerve in your back is the spinal cord.\nThe spinal cord connects the nerves in each\nbody part with your brain.",
+                "bullets": []
+            },
+            "slide_6": {
+                "img" : "/images/curs/step2/b6.webp",
+                "title": "MUSCLES, LIGAMENTS AND TENDONS",
+                "content": "The supporting muscles, ligaments and tendons of the back connect to the spine and allow the body to assume a variety of positions.",
+                "bullets": []
+            },
+            "slide_7": {
+                "img" : "/images/curs/step2/b7.webp",
+                "title": "SPINE",
+                "content": "The spine extends from the skull to the coccyx.\nIt is made up of 33 interlocking bones called vertebrae\nwhich sit on top of each other and form a slight curve in the shape of the letter \"S\".\n",
+                "bullets": []
+            },
+            "slide_8": {
+                "img" : "/images/curs/step2/b8.webp",
+                "title": "SPINE",
+                "content": "The vertebrae are separated by discs\nin the front of the spine (the weight-bearing part of the spine). These discs are filled with a jelly-like substance that acts as a rear shock absorber. The discs absorb fluid when we lie down, which takes pressure off the spine.\n",
+                "bullets": []
+            },
+            "slide_9": {
+                "img" : "/images/curs/step2/b9.webp",
+                "title": "DISC DISEASES",
+                "content": "If excessive force or repeated loads are placed on the discs (such as when lifting weights), degeneration of a disc can occur. As a disc degenerates, cracks may appear in the disc. A disc that ruptures is called a herniated disc (also known as a slipped or prolapsed disc). Discs contain few nerves and this is why back damage sometimes goes unnoticed for years.",
+                "bullets": []
+            },
+            "slide_10": {
+                "img" : "/images/curs/step2/b10.webp",
+                "title": "SPINAL CORD (NERVES)",
+                "content": "The spinal cord extends from the base of the brain about two-thirds of the way down the spine.\nThe nerves of the spinal cord branch out through small gaps between the vertebrae and connect with nerves throughout the body. Any tissue pressing on a nerve can cause pain, for example, an inflamed muscle or a herniated disc.",
+                "bullets": []
+            },
+            "slide_11": {
+                "img" : "/images/curs/step2/b11.webp",
+                "title": "MUSCLES, LIGAMENTS AND TENDONS",
+                "content": "Do you know what muscles, ligaments and tendons do?",
+                "bullets": [
+                    "Ligaments hold the bones at the level of the joints",
+                    "Tendons attach muscles to bones",
+                    "Muscles have the ability to contract and relax"
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step2/b12.webp",
+                "title": "Injury",
+                "content": "A cruciate ligament happens when the ligament is stretched or torn.\nA sprain is usually caused by a direct injury or sudden twisting of the joint. You can strain muscles by stretching them too far, causing tiny tears in the tissue. The muscles are then weakened so that they may not be able to hold the bones of the spine in the correct place. The spine becomes less stable, causing lower back pain. Muscles tire if they are not allowed to rest and recover during use.",
+                "bullets": []
+            },
+            "slide_13": {
+                "img" : "/images/curs/step2/b13.webp",
+                "title": "HOW IS THE BACK INJURED?",
+                "content": "Sometimes the back is injured by just one incident, for example, lifting something\ntoo hard, but usually a back injury is the consequence of a cumulative abuse over time. Cumulative overuse is a term used to describe repeated poor positions or movements while performing manual physical strength tasks that over time cause back injuries. For example, continuous twisting and bending of the back while lifting, placing an object at a certain height can lead to an injury.",
+                "bullets": []
+            },
+            "slide_14": {
+                "img" : "/images/curs/step2/b14.webp",
+                "title": "EXAMPLES OF CUMULATIVE MOVEMENTS",
+                "content": "Poor posture, repetitive movements, an inactive lifestyle, and incorrect body movement exercise techniques are all examples of cumulative misuse.\nINCORRECT BODY EXERCISE TECHNIQUE\nIncorrect exercise technique (for example, twisting while lifting) puts pressure on your back, arms and neck. Over time, these movements cause back injuries.",
+                "bullets": []
+            },
+            "slide_15": {
+                "img" : "/images/curs/step2/b15.webp",
+                "title": "REPETITION OF THE TASK",
+                "content": "Repetitive activity is a task that is performed repeatedly and continuously, for example, packing or sorting tasks. Repetitive tasks increase the risk of injury as you put repeated effort on the same set of muscles.",
+                "bullets": []
+            },
+            "slide_16": {
+                "img" : "/images/curs/step2/b16.webp",
+                "title": "POOR POSTURE",
+                "content": "Poor posture, whether sitting or standing, increases strain on the back and neck. Poor posture may not cause discomfort in the short term, but continued bad posture can cause back pain in the long term. Remember, your back muscles support your spine, so maintaining good posture can reduce the likelihood of problems.",
+                "bullets": []
+            },
+            "slide_17": {
+                "img" : "/images/curs/step2/b17.webp",
+                "title": "POOR POSTURE",
+                "content": "If you are overweight and lead a sedentary lifestyle, you are more likely to damage your back. Being overweight puts more stress on weight-bearing joints and increases the risk of wear and tear. Muscles and joints need to be exercised to stay strong. Being sedentary means that your muscles and joints lose strength. Manual handling tasks put more strain on poorly conditioned muscles than on well-conditioned muscles.",
+                "bullets": []
+            },
+            "slide_18": {
+                "img" : "/images/curs/step2/b18.webp",
+                "title": "Three of the following statements are correct.",
+                "content": "",
+                "bullets": [
+                    "The back does not always give warning signs that injury is occurring.",
+                    "Manual handling injuries affect the back more.",
+                    "Back injuries heal very quickly.",
+                    "Most back problems result from cumulative abuse rather than a single incident."
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step2/b18.webp",
+                "title": "SUMMARY",
+                "content": "",
+                "bullets": [
+                    "Your back is made up of bones (vertebrae), nerves (a spinal cord) and supporting muscles, ligaments and tendons.",
+                    "Sometimes the back can be injured in a single incident, but usually back problems are the result of cumulative use.",
+                    "Poor posture, inactive lifestyle, repetition of tasks and incorrect techniques used are all examples of cumulative misuse."
+                ]
+            }
+        },
+        "stage_3":{
+            "slide_1": {
+                "img" : "/images/curs/step3/c1.webp",
+                "title": "INTRODUCTION",
+                "content": "Back injuries can be very painful and take a long time to heal.\nTherefore, it is much better to anticipate getting an injury now,\nrather than trying to cure it after obtaining it.",
+                "bullets": []
+            },
+            "slide_2": {
+                "img" : "/images/curs/step3/c2.webp",
+                "title": "THE OBJECTIVES OF THE LESSON",
+                "content": "This lesson covers:",
+                "bullets": [
+                    "The four areas that should be considered before performing a manual handling task."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step3/c3.webp",
+                "title": "RISK ASSESSMENT",
+                "content": "Your employer will carry out a risk assessment for any manual handling tasks that may be carried out on a regular basis\nHowever, if you want to avoid any harm now and in the future, you must also develop the habit of assessing the risks involved in every manual handling task you undertake.\n\nNote\nThis is especially important if you only perform occasional manual handling tasks.",
+                "bullets": []
+            },
+            "slide_4": {
+                "img" : "/images/curs/step3/c4.webp",
+                "title": "RISK ASSESSMENT",
+                "content": "There are four areas you should assess for risk before performing a manual handling task.\nSome people find it useful to use the acronym \"TILE\" when referring to these different domains:\n We will now look at each of these four areas in detail.:",
+                "bullets": [
+                    "Task",
+                    "Individual (Individual) Load (Load)",
+                    "Environment"
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step3/c5.webp",
+                "title": "TILE - TASK",
+                "content": "Sometimes with manual handling activities, the task itself can be overlooked. People may be more likely to evaluate a task that does not appear to cause problems and appears to be more visible and tangible than the task. However, it is important to be aware of how a task is performed to assess what you can do to reduce the risk of injury.\nFor example, by looking at a load, it may be clear that the load could be lifted mechanically, which eliminates the need to use and involve manual handling.\n\nNote\nThe best way to avoid injury is to avoid manual lifting in general.",
+                "bullets": [
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step3/c6.webp",
+                "title": "TASK",
+                "content": "Even if an activity can't be automated, there are still things you can do.\nFor example, consider a person who carries documents to work every day.",
+                "bullets": [
+                    "Reduce the number of documents in your bag.",
+                    "Have a second set of documents so that one set can be kept at work and the other set can be kept at home."
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step3/c7.webp",
+                "title": "Correction",
+                "content": "This option eliminates the need for manual handling.\nto the habit of evaluating every task you do.\nFind out what works best for you!",
+                "bullets": [
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step3/c8.webp",
+                "title": "Activity",
+                "content": "If you cannot completely eliminate the need to involve manual handling, the next priority is to look at ways to reduce the risk.\nFor example, a task that involves twisting, bending, stretching the muscles, presents a greater risk because these movements put additional stress on the body.\nWe will now look at some of the risk factors associated with pregnancy and what you can do to avoid these risks.",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step3/c9.webp",
+                "title": "Activity: Does the task involve bending over?",
+                "content": "Bending over puts more pressure on the lower back and increases the risk of injury.\nWhen the spine is bent beyond normal, the entire structure of the back comes under stress.\nTo avoid the need to bend over, the load must be assessed preventively and ways that work for you with greater benefit must be sought.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step3/c10.webp",
+                "title": "Activity: Does the task involve stretching?",
+                "content": "Uncomfortable movements, such as stretching, which increase the risk of injury.\nTo reduce the stretch, avoid lifting from shoulder height, especially if the load is heavy.\nHeavy weights should be stored at waist height, where they can be handled comfortably.\nThere is an increased risk whenever the pregnancy is below mid-thigh height or above shoulder level.",
+                "bullets": [
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step3/c11.webp",
+                "title": "Activity: Does pregnancy involve twisting?",
+                "content": "Twisting affects the lower back, putting stress on the entire back structure.\nAvoid twisting your body when carrying or placing a load.\nInstead, turn your legs and your whole body in the direction you want to go.\nAny sudden or heavy movement that could lead to loss of control should be avoided.",
+                "bullets": [
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step3/c12.webp",
+                "title": "Activity: Does the task involve long-distance transport?",
+                "content": "Always consider using mechanical aids to reduce body strain.\nFor example, use as simple as a trolley,\nbag allows you to transport loads easily between intended locations. Using the right equipment (eg a pallet truck, trolley,\nbag, clothes rail, conveyor belt, etc.) for a specific one\nload reduces the risk of letting the mechanical device take most of the weight. Note\nDo not use a mechanical aid that you are not sure how to use correctly or that you have not been trained to use.",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step3/c13.webp",
+                "title": "Activity: Does the load involve pushing or pulling?",
+                "content": "If you have a choice, it is recommended to push a weight rather than pull it. Check that there are no hazards or obstacles in your way. You must wear non-slip footwear when pushing or pulling weight.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step3/c14.webp",
+                "title": "Activity:  Does the task involve repetitive handling?",
+                "content": "Try to avoid repetitive manipulation because it involves using the same muscles over and over to complete a task. In these situations, it is important to rotate or vary the load. Varying the load allows some muscles to rest while other muscles are being used.\n\nIf you cannot change the activities, allow enough time for rest or recovery.",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step3/c15.webp",
+                "title": "Activity: Have you planned to move or transport?",
+                "content": "Try to avoid repetitive manipulation because it involves using the same muscles over and over to complete a task. In these situations, it is important to rotate or vary the load. Varying the load allows some muscles to rest while other muscles are being used.\n\nIf you cannot change the activities, allow enough time for rest or recovery.",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step3/c16.webp",
+                "title": "Test your knowledge True or False",
+                "content": "There are 4 areas of risk assessment in manual handling activities; load, individual, load and environment.\nA manual handling task should be examined to see if the implementation of manual handling can be eliminated and, if not, for ways to reduce the risk.\nTasks that involve twisting, bending, or stretching the body pose a greater risk of injury. It is better to twist your body when lifting or carrying a weight instead of turning your legs and body in the direction you want to go.",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step3/c17.webp",
+                "title": "Individual factors",
+                "content": "Consideration should be given to the individual ability of the person performing the manual handling task. For example, a person's age, general health and fitness level all affect the ability to lift a weight. Never lift a weight if you are unsure of your capabilities. You should only lift what can be done comfortably. Due to individual factors, it is difficult to specify the exact maximum weight that a person can carry. However, there are some guidelines on the following screen that you can use to determine whether or not you should be lifting a certain load .",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step3/c18.webp",
+                "title": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step3/c19.webp",
+                "title": "Individual factors",
+                "content": "Health problems\nIf you have a particular health problem (for example, a pre-existing back injury) or if you are taking any medication that could affect your ability to perform manual handling, you should inform your manager. Never lift a load from a cart\nyou are not sure that you are able to perform it without damage.\nLet your manager know if you need specialized training.",
+                "bullets": [
+                ]
+            },
+            "slide_20": {
+                "img" : "/images/curs/step3/c20.webp",
+                "title": "Individual factors",
+                "content": "Appropriate footwear, personal protective equipment and clothing What factors should be considered?",
+                "bullets": [
+                ]
+            },
+            "slide_21": {
+                "img" : "/images/curs/step3/c21.webp",
+                "title": "Shoes",
+                "content": "In general, flat shoes with non-slip soles\nshould be worn. If necessary\npushing or pulling a load,\nthe footwear must be slip-resistant. Where there is a risk of foot injury, suitable shoes/boots can be provided.",
+                "bullets": [
+                ]
+            },
+            "slide_22": {
+                "img" : "/images/curs/step3/c22.webp",
+                "title": "HANDS",
+                "content": "If there is a risk of injury to your hands, suitable gloves may be provided and must be worn.",
+                "bullets": [
+                ]
+            },
+            "slide_23": {
+                "img" : "/images/curs/step3/c23.webp",
+                "title": "WEAR",
+                "content": "Clothing should be enough\nloose enough to allow free movement of the body, but not too loose to be attached to something that would cause danger. Coveralls or similar clothing can be provided if required\nprotection to help you keep loads close to your body.",
+                "bullets": [
+                ]
+            },
+            "slide_24": {
+                "img" : "/images/curs/step3/c24.webp",
+                "title": "Individual factors",
+                "content": "Back care\nTo prevent back pain, take care of your back by keeping it in shape and exercising it correctly. Weak muscles are often the cause of back pain, especially lower back pain. The muscles of the back, abdomen and buttocks all support the spine. These muscles are called core muscles and by exercising them correctly you can strengthen and reduce the risk of back pain. Strong quadriceps (front of the thigh muscles) and hamstrings (back of the thigh muscles) are important to prevent back injuries when lifting.\nProper lifting techniques involve using your legs and if your legs are weak, you might end up using your back.",
+                "bullets": [
+                ]
+            },
+            "slide_25": {
+                "img" : "/images/curs/step3/c25.webp",
+                "title": "The task",
+                "content": "You should always check the weight of the load before lifting.\nThe weight of a load may be clearly marked, but if it is not, or the load is unknown, there are some techniques you can use to estimate the weight of a load.",
+                "bullets": [
+                ]
+            },
+            "slide_26": {
+                "img" : "/images/curs/step3/c26.webp",
+                "title": "Weight",
+                "content": "One technique you can use to assess weight is to move the load back and forth.\nYou should also check if it exists\na heavier side (if the center of gravity is off-center).\nYou can also gradually apply force to the load (weight) and stop lifting it if the lifting becomes uncomfortable.",
+                "bullets": [
+                ]
+            },
+            "slide_27": {
+                "img" : "/images/curs/step3/c27.webp",
+                "title": "Task",
+                "content": "What other factors could cause difficulty while lifting a weight? Apart from weight, the pregnancy should be examined to check if:",
+                "bullets": [
+                    "is bulky or difficult to contain for transport, has sharp or broken edges",
+                    "is hot, wet, dirty or slippery",
+                    "has information displayed",
+                    "is unstable, for example, its contents can move",
+                    "this will block your view. All of these factors affect your ability to handle the load safely and increase the risk of injury."
+                ]
+            },
+            "slide_28": {
+                "img" : "/images/curs/step3/c28.webp",
+                "title": "The working environment",
+                "content": "After assessing your pregnancy and its weight\nfor possible risks, it is important to immediately assess the work environment. Before moving/transporting anything, consider the following:",
+                "bullets": [
+                    "Is there enough space available to maneuver comfortably?",
+                    "Are the floors stable and at the same level?",
+                    "Is the temperature comfortable? Extremely cold temperature or\nthe heat of a load can make it difficult to carry/move.\n",
+                    "Is there enough lighting to clearly see what you are doing?"
+                ]
+            },
+            "slide_29": {
+                "img" : "/images/curs/step3/c29.webp",
+                "title": "Work Environment - Hazards",
+                "content": "This work environment presents a number of hazards that include a risk for manual handling deployment tasks.",
+                "bullets": [
+                    "Correct",
+                    "Always make sure you are working in a well-lit room, as poor lighting limits your ability to identify any hazards and obstacles."
+                ]
+            },
+            "slide_30": {
+                "img" : "/images/curs/step3/c30.webp",
+                "title": "The working environment",
+                "content": "Always check that the floors are dry and at the same level. Slippery, uneven or unstable floors increase the risk of accidents and injuries to the back and other body parts. Inform your manager if you are aware of any defects in the floors.",
+                "bullets": [
+                ]
+            },
+            "slide_31": {
+                "img" : "/images/curs/step3/c31.webp",
+                "title": "Correct",
+                "content": "Be aware of your route and any hazards that may be present. Additionally, make sure you have adequate room to maneuver during a task. Working in a confined space prevents good posture and maneuverability and forces you to make awkward movements that expose you to a higher risk of injury.",
+                "bullets": [
+                ]
+            },
+            "slide_32": {
+                "img" : "/images/curs/step3/c32.webp",
+                "title": "Question",
+                "content": "In this situation, to which of the four areas below does the risk apply?",
+                "bullets": [
+                    "Entourage",
+                    "Task",
+                    "Work environment",
+                    "Individual abilities"
+                ]
+            },
+            "slide_33": {
+                "img" : "/images/curs/step3/c33.webp",
+                "title": "Question",
+                "answer": "In this example, risk is related to individual capabilities.\nThe person is pregnant, which affects her ability to implement manual handling.\n",
+                "content": "In this situation, to which of the four areas below does the risk apply? In this example, risk is related to individual capabilities.\nThe person is pregnant, which affects her ability to implement manual handling.",
+                "bullets": [
+                    "Entourage",
+                    "Task",
+                    "Work environment",
+                    "Individual capacities",
+                    "Correct"
+                ]
+            },
+            "slide_34": {
+                "img" : "/images/curs/step3/c34.webp",
+                "title": "Question",
+                "answer": "",
+                "content": "In this situation, to which of the four areas below does the risk apply?",
+                "bullets": [
+                    "Entourage",
+                    "Pregnancy",
+                    "Work environment",
+                    "Individual abilities"
+                ]
+            },
+            "slide_35": {
+                "img" : "/images/curs/step3/c35.webp",
+                "title": "Question",
+                "answer": "Pregnancy. In this example, the risk is related to the weight of the pregnancy. The load is poorly packed, which could affect its safe transport.",
+                "content": "In this situation, to which of those\nfour areas below does the risk apply? ",
+                "bullets": [
+                    "Entourage",
+                    "Pregnancy",
+                    "Work environment",
+                    "Individual abilities"
+                ]
+            },
+            "slide_36": {
+                "img" : "/images/curs/step3/c36.webp",
+                "title": "Question",
+                "answer": "",
+                "content": "In this situation, to which of the four areas below does the risk apply?",
+                "bullets": [
+                    "Entourage",
+                    "Pregnancy",
+                    "Work environment",
+                    "Individual abilities"
+                ]
+            },
+            "slide_37": {
+                "img" : "/images/curs/step3/c37.webp",
+                "title": "Question",
+                "answer": "Entourage. In this example, the risk is related to the environment. Uncomfortable movements, such as stretching, which increase the risk of injury. \n To reduce the risk of injury, the load should be stored at waist height, \n where stretching can be avoided and the load can be handled comfortably.",
+                "content": "In this situation, to which of the four areas below does the risk apply?",
+                "bullets": [
+                    "Entourage",
+                    "Pregnancy",
+                    "Work environment",
+                    "Individual abilities"
+                ]
+            },
+            "slide_38": {
+                "img" : "/images/curs/step3/c38.webp",
+                "title": "Question",
+                "answer": "",
+                "content": "In this situation, to which of the four areas below does the risk apply?",
+                "bullets": [
+                    "Entourage",
+                    "Pregnancy",
+                    "Work environment",
+                    "Individual abilities"
+                ]
+            },
+            "slide_39": {
+                "img" : "/images/curs/step3/c39.webp",
+                "title": "SUMMARY",
+                "answer": "",
+                "content": "In this situation, to which of the four areas below does the risk apply?",
+                "bullets": [
+                    "Improper manual handling practices can go unnoticed for years.\nThe negative effects of these incorrect exercises may not be visible\nat the moment, but it could have serious consequences in the future that could cause\nserious back problems.\n",
+                    "It is in your best interest to rate correctly\nevery manual handling task you perform.\n",
+                    "When assessing the risk from a manual handling task,\nthink \"TILE\" (task, individual (own abilities),\nthe weight of the load and the working environment. "
+                ]
+            }
+        },
+        "stage_4":{
+            "slide_1": {
+                "img" : "/images/curs/step4/d1.webp",
+                "title": "Introduction",
+                "answer": "",
+                "content": "When manual handling cannot be avoided, it is important to use good handling technique when lifting, carrying, placing, pushing or pulling a load.",
+                "bullets": [
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step4/d2.webp",
+                "title": "Lesson objectives",
+                "answer": "",
+                "content": "This lesson covers:",
+                "bullets": [
+                    "Principles for manual handling.",
+                    "How to carry out correct lifting in different situations according to the handling manual."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step4/d3.webp",
+                "title": "Principles of manual handling",
+                "answer": "",
+                "content": "What are the safety principles for manual handling that should be followed to reduce the risk of injury?",
+                "bullets": [
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step4/d4.webp",
+                "title": "Adopt a stable posture",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step4/d5.webp",
+                "title": "Adopt a stable posture",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step4/d6.webp",
+                "title": "Get up slowly",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step4/d7.webp",
+                "title": "Carry the load close to your body",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step4/d8.webp",
+                "title": "Avoid twisting during manual handling tasks",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step4/d9.webp",
+                "title": "Adopting a stable position",
+                "answer": "",
+                "content": "Your legs and body should be pointed in the direction you intend to walk. If the load has an unstable weight (in motion), you should keep the heaviest part of the load close to your body.\nTake a position with your feet shoulder-width flat on the ground to give yourself a base of support and stability. Keep one foot slightly in front of the other and avoid leaning forward or backward from this position because you risk losing your stability.\nAvoid tight clothing or inappropriate footwear that could make movement difficult.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step4/d10.webp",
+                "title": "Adopting a stable position",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "bend your knees and let them move away from each other.",
+                    "Avoid a bend (bending over the back)",
+                    "or squatting position (fully flexible hips and knees)."
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step4/d11.webp",
+                "title": "Get a firm grip",
+                "answer": "",
+                "content": "Bend your head slightly and direct your body towards the load to grab it well with your arms.\nYou will have a better grip if you can grasp the load with your whole hand so that your fingers curve around it. If the load is slippery, greasy or otherwise difficult to grasp, it may be necessary to wear gloves. You may need to lean slightly over the load to get a better contact (a grip).",
+                "bullets": [
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step4/d12.webp",
+                "title": "Stand up slowly",
+                "answer": "",
+                "content": "When you lift, keep your back in its natural shape. Keep your shoulders level and your face in the same direction as your hips. As the lift begins, slowly and smoothly use your legs, gently rooting your head. As you straighten your knees, allow your hips to straighten.\nPull the load up towards the waist (center of gravity).\nDo not twist while lifting.\n",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step4/d13.webp",
+                "title": "Carry the load close to your body.",
+                "answer": "",
+                "content": "While walking, keep the load close to your body.\nCarrying the load close to the center of gravity reduces pressure on the back. Holding a load slightly away from your body doubles the impact of its weight on body (back) pressure. Holding a load at arm's length increases its impact on the body fivefold. Minimize load impact. Keep the center of gravity of the load close to the center of gravity of the body.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step4/d14.webp",
+                "title": "The Seesaw Principle",
+                "answer": "",
+                "content": "When you sit on a swing with someone of the same weight, you will be in balance. What happens when you are heavier than the person you are sitting with, for example with a child?",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step4/d15.webp",
+                "title": "The Seesaw Principle",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "Can you balance a seesaw when one person is heavier than the other?",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step4/d16.webp",
+                "title": "Correct",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "The heavier person will have the lower rocker.",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step4/d17.webp",
+                "title": "Correct",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "If the heavier person sits closer to the pivot point (in this case, the middle of the rocker) the effect of their weight is less.",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step4/d18.webp",
+                "title": "What does the rocking chair teach us?",
+                "answer": "",
+                "content": "So, we know that when we place something heavier closer to the pivot, the effect of this weight is reduced.\nWhy does this matter when applying manual handling?",
+                "bullets": [
+                    "We should try to stand close to the object we are picking up before picking it up.",
+                    "We should try to keep the load close to our body when lifting, lowering, pushing or pulling.",
+                    "We should find someone lighter (in weight) to perform a manual handling task."
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step4/d19.webp",
+                "title": "Correct",
+                "answer": "We should find someone lighter (in weight) to perform a manual handling task.",
+                "content": "If you start the manual handling procedure close to the load and try to keep it close to the body, you reduce the effort required to perform it. Please continue. ✓ We should try to stand close to the object we are picking up before picking it up. We should try to keep the load close to our body when lifting, lowering, pushing or pulling.",
+                "bullets": [
+                ]
+            },
+            "slide_20": {
+                "img" : "/images/curs/step4/d20.webp",
+                "title": "Avoid twisting during the manual handling procedure.",
+                "answer": "",
+                "content": "When walking with a weight, walk carefully with a normal step. Look forward, not down at the load.\nIf you need to change direction, move your feet first, then your whole body. Remember, avoid twisting your body during manual handling.",
+                "bullets": [
+
+                ]
+            },
+            "slide_21": {
+                "img" : "/images/curs/step4/d21.webp",
+                "title": "True False",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "X When you are about to lift a load/weight, stand with your feet close together so that they give you a base of support and stability.",
+                    "X It is good to twist your body and lift at the same time.",
+                    "✓ Holding a load away from the body's center of gravity increases the impact of the load.",
+                    "X Stand up as quickly as possible after lifting a load from the floor."
+                ]
+            },
+            "slide_22": {
+                "img" : "/images/curs/step4/d22.webp",
+                "title": "Placing a load",
+                "answer": "",
+                "content": "Placing a load down can affect the back just as much as lifting it\nthis one.\nWhen placing the load down, bend the knees to achieve a lower body height, but at the same time the back should stay in its natural shape. Do not lose contact with the load until it has been placed down.\nIf precise positioning of the load is required,\nfirst place it down, then find the desired position. ",
+                "bullets": [
+                ]
+            },
+            "slide_23": {
+                "img" : "/images/curs/step4/d23.webp",
+                "title": "Pushing or pulling a load ",
+                "answer": "",
+                "content": "Both for pushing and for pulling a load, the hands should be positioned between shoulder and waist height. Hands placed either too high or too low on the load impose additional stress on the body.\nLean in the direction you are pushing or pulling, keeping your back in its natural shape and knees slightly bent.\nWhen you push off, place one foot forward and push off from the back foot. When you pull, place one foot back and\npush off from the front foot.",
+                "bullets": [
+                ]
+            },
+            "slide_24": {
+                "img" : "/images/curs/step4/d24.webp",
+                "title": "Carrying out a team load ",
+                "answer": "",
+                "content": "When doing a team load make sure there is enough space to maneuver as a team. Work with someone who is of similar build and height to you.\nDiscuss the performance of the load. A person should be appointed to give instructions.\nIdentify the center of gravity of\ncargo - is there a heavier part? If there are stairs or slopes in your route, remember that more of the weight of the load will be felt by those at the bottom end.\nLift at the same time and move in coordination together.",
+                "bullets": [
+                ]
+            },
+            "slide_25": {
+                "img" : "/images/curs/step4/d25.webp",
+                "title": "Unloading a car (trunk)",
+                "answer": "",
+                "content": "Lifting heavy objects from an extremely low height creates more serious problems and requires special attention. To place a load in the trunk, place the load on the edge of the trunk. Then slowly lower it by bending both knees. Try to keep a broad base. It can help if you put one foot in front of the other.",
+                "bullets": [
+                    "Advice:Place a large piece of cardboard on the floor behind the machine before unloading it. Then, when you come to unload the trunk, you can lower the load with the help of this cardboard, which makes the situation significantly easier than bending too much."
+                ]
+            },
+            "slide_26": {
+                "img" : "/images/curs/step4/d26.webp",
+                "title": "Lifting a load in a seated position",
+                "answer": "",
+                "content": "If you lift an object while sitting, you cannot use your strong leg muscles.\nThis means that most of the work is done by the weaker muscles in the upper body. For this reason, you should avoid lifting objects while you are in a seated position.",
+                "bullets": [
+                ]
+            },
+            "slide_27": {
+                "img" : "/images/curs/step4/d27.webp",
+                "title": "Lifting while sitting ",
+                "answer": "",
+                "content": "If you have to lift loads while seated, place the objects in such a way that\navoid stretching or bending too far in front of the body.\nAvoid storing loads below waist level as this leads to bending and twisting of the body.",
+                "bullets": [
+                ]
+            },
+            "slide_28": {
+                "img" : "/images/curs/step4/d28.webp",
+                "title": "Loading in two stages ",
+                "answer": "",
+                "content": "To carry out a load with a greater distance, such as from the floor to shoulder height, it is advisable to do it in two stages.\nGet into position and lift the load slowly/slightly. Next, place the load on a safe place halfway up (for example, a table or bench) to change the grip and adopt a more suitable position for lifting from waist height to shoulder height.",
+                "bullets": [
+                ]
+            },
+            "slide_29": {
+                "img" : "/images/curs/step4/d29.webp",
+                "title": "Loading in two stages ",
+                "answer": "",
+                "content": "To carry out a load with a greater distance, such as from the floor to shoulder height, it is advisable to do it in two stages.\nGet into position and lift the load slowly/slightly. Next, place the load on a safe place halfway up (for example, a table or bench) to change the grip and adopt a more suitable position for lifting from waist height to shoulder height.",
+                "bullets": [
+                ]
+            },
+            "slide_30": {
+                "img" : "/images/curs/step4/d30.webp",
+                "title": "Continue lifting to the upper level. ",
+                "answer": "",
+                "content": "Extra care should be taken when lifting above shoulder level (eg stacking objects/items on high shelves), as lifting loads at this level is too far from the body's center of gravity and increases the effect of the weight of the load which affects the pressure on the shoulders and back.",
+                "bullets": [
+                ]
+            },
+            "slide_31": {
+                "img" : "/images/curs/step4/d31.webp",
+                "title": "SUMMARY",
+                "answer": "",
+                "content": "Extra care should be taken when lifting above shoulder level (eg stacking objects/items on high shelves), as lifting loads at this level is too far from the body's center of gravity and increases the effect of the weight of the load which affects the pressure on the shoulders and back.",
+                "bullets": [
+                    "Always stop and think before performing a manual handling task. Plan transportation, consider mechanical aids, familiarize yourself with the route and possible hazards.",
+                    "If you must do a lift, place your feet shoulder-width apart, bend your knees slightly, get a firm grip, and lift yourself up slowly.",
+                    "Injuries are not only obtained when lifting loads. They can also happen when carry out pushing, pulling, transporting and placing a load."
+
+                ]
+            }
+        },
+        "test":{
+            "slide_1": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Which of the following is correct when placing a load?",
+                "answer": "Bend your knees to bend slightly while keeping your back in its natural shape.",
+                "content": "",
+                "bullets": [
+                    "Take your hands off the load before putting it down.",
+                    "Place the load on your knees before setting it down.",
+                    "Bend your knees to bend slightly while keeping your back in its natural shape."
+
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step4/d33.webp",
+                "title": "When performing a team load, which of the following should be performed?",
+                "answer": "Discuss the performance of the load. A person should be appointed to give instructions.",
+                "content": "",
+                "bullets": [
+                    "Carry the load above shoulder height",
+                    "Lift the load to one side first and then tell the other person to lift their side.",
+                    "Discuss the performance of the load. A person should be appointed to give instructions."
+
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step4/d34.webp",
+                "title": "If you are unsure about your ability to lift a load, what should you do?",
+                "answer": "Inform your manager",
+                "content": "",
+                "bullets": [
+                    "Continue charging anyway.",
+                    "Inform your manager"
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Manual handling tasks only occur in intensive work environments, such as factory or industrial environments.",
+                "answer": "False",
+                "content": "",
+                "bullets": [
+                    "True",
+                    "False",
+                    "Bend your knees to bend slightly while keeping your back in its natural shape."
+
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Which of the following statements most accurately describes a manual handling procedure?",
+                "answer": "Any transportation where human power is required.",
+                "content": "",
+                "bullets": [
+                    "Moving heavy objects.",
+                    "Moving objects with mechanical means.",
+                    "Any transportation where human power is required."
+
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Which part of the body is most affected by injuries as a result of implementing the manual handling procedure?",
+                "answer": "Back",
+                "content": "",
+                "bullets": [
+                    "Hands.",
+                    "The back.",
+                    "The legs."
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "What is the best method to carry a load/weight by hand?",
+                "answer": "Bend your knees to bend slightly while keeping your back in its natural shape.",
+                "content": "",
+                "bullets": [
+                    "Hold the load at shoulder height.",
+                    "Keep the load slightly away from the body.",
+                    "Keep the load close to your body's center of gravity."
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "When carrying a load/weight, should you change direction if necessary?",
+                "answer": "By moving your legs.",
+                "content": "",
+                "bullets": [
+                    "Moving your legs.",
+                    "Twisting your body.",
+                    "Stepping back and twisting your body."
+
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "What is the recommended hand position when pushing or pulling a load/weight?",
+                "answer": "Between the height of the shoulder and the waist.",
+                "content": "",
+                "bullets": [
+                    "Above shoulder height.",
+                    "Below waist height.",
+                    "Between shoulder and waist height."
+
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "How are you most likely to injure your back?",
+                "answer": "Bend your knees to bend slightly while keeping your back in its natural shape.",
+                "content": "",
+                "bullets": [
+                    "The back is usually affected from regular walking.",
+                    "The back is usually injured by a single incident.",
+                    "The back is most likely to be injured as a result of cumulative damage."
+
+                ]
+            }
+        }
+    },
+    "polish": {
+        "stage_1":{
+            "slide_1": {
+                "img" : "/images/curs/step4/1.webp",
+                "title": "WSTĘP",
+                "answer": "",
+                "content": "Ręczne zadania przenoszenia występują wszędzie tam, gdzie pracują ludzie.\nZa każdym razem, gdy używamy naszych ciał do poruszenia przedmiotu, jesteśmy w procesie manualnym\nobsługi, niezależnie od tego, czy znajdujemy się w biurze, fabryce, magazynie, sklepie czy jakimkolwiek innym środowisku\nDo pracy.",
+                "bullets": [
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step4/2.webp",
+                "title": "CELE KURSU",
+                "answer": "",
+                "content": "Ręczne zadania przenoszenia występują wszędzie tam, gdzie pracują ludzie.\nZa każdym razem, gdy używamy naszych ciał do poruszenia przedmiotu, jesteśmy w procesie manualnym\nobsługi, niezależnie od tego, czy znajdujemy się w biurze, fabryce, magazynie, sklepie czy jakimkolwiek innym środowisku\nDo pracy.",
+                "bullets": [
+                    "Aby zwrócić uwagę na niebezpieczeństwa związane z bólem pleców, w jaki sposób są one spowodowane i co możesz zrobić, aby zapobiec tym zagrożeniom.",
+                    "Aby zachęcić Cię do oceny swoich zadań związanych z przenoszeniem ręcznym.",
+                    "Zademonstrowanie dobrych technik obsługi ręcznej.",
+                    "Zwiększenie świadomości nawyków związanych z obsługą ręczną."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step4/3.webp",
+                "title": "CZYM JEST PRZENOSZENIE RĘCZNE?",
+                "answer": "",
+                "content": "Ręczne zadania przenoszenia występują wszędzie tam, gdzie pracują ludzie.\nZa każdym razem, gdy używamy naszych ciał do poruszenia przedmiotu, jesteśmy w procesie manualnym\nobsługi, niezależnie od tego, czy znajdujemy się w biurze, fabryce, magazynie, sklepie czy jakimkolwiek innym środowisku\nDo pracy.",
+                "bullets": [
+                    "Ręczne przemieszczanie jest dozwolone wszędzie tam, gdzie potrzebna jest siła ludzka.",
+                    "Nie ogranicza się to do podnoszenia lub przenoszenia ładunku lub po prostu przenoszenia ciężkiego ładunku.",
+                    "Ręczne przemieszczanie oznacza użycie ciała do wywierania siły w celu podnoszenia, opuszczania, pchania, ciągnięcia, przenoszenia, przemieszczania, trzymania, ograniczania lub mocowania ładunku.",
+                    "Ładunek może być nieożywiony, na przykład pudełko, obraz, na przykład osoba lub zwierzę."
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step4/4.webp",
+                "title": "ZADANIA PRZENOSZENIA RĘCZNEGO",
+                "answer": "",
+                "content": "Kilka przykładów zadań związanych z ręczną obsługą\ncodziennie obejmują:\n",
+                "bullets": [
+                    "zbieranie papierowych pudełek",
+                    "noszenie torby na zakupy",
+                    "pchanie wózka",
+                    "rozładunek samochodu",
+                    "układanie półek",
+                    "wychowywania dziecka",
+                    "przenoszenie mebli"
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step4/5.webp",
+                "title": "USZKODZENIA SPOWODOWANE NIEWŁAŚCIWĄ RĘCZNĄ OBSŁUGĄ",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Ręczne prace związane z przemieszczaniem są każdego roku przyczyną dużej liczby urazów w miejscu pracy. Niewłaściwe prace związane z ręcznym przemieszczaniem mogą spowodować obrażenia dłoni, ramion i szyi.",
+                    "Przypadkowe upuszczenie ładunku może również spowodować obrażenia nóg. • Jednak większość urazów związanych z ręcznym przemieszczaniem dotyczy pleców.",
+                    "Wynikowym urazem może być skaleczenie lub siniak, ale częściej jest to nadwyrężenie mięśnia lub uraz więzadła."
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step4/6.webp",
+                "title": "Jakie są moje obowiązki związane z ręcznym przemieszczaniem w pracy? Jako pracownik musisz:",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Współpracuj ze swoim pracodawcą w kwestiach związanych z ręcznym przemieszczaniem, aby nie angażować się w zachowania, które mogą stanowić zagrożenie dla Ciebie lub innych osób. Prawidłowo używaj urządzeń mechanicznych Zgłaszaj niebezpieczne czynności w pracy, a wszelkie usterki, systemy lub sprzęt w miejscu pracy Poinformuj pracodawcę o wszelkich usterkach fizycznych, które mogą stwarzać ryzyko"
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step4/7.webp",
+                "title": "STRESZCZENIE",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Ręczne przemieszczanie jest określane, gdy do przeniesienia przedmiotu potrzebna jest siła ludzka i obejmuje czynności obejmujące podnoszenie, transportowanie, opuszczanie, pchanie lub ciągnięcie ładunku.",
+                    "Duży odsetek zgłoszonych urazów w miejscu pracy jest związanych z czynnościami manualnymi obsługiwanie.",
+                    "Większość urazów związanych z ręcznymi czynnościami transportowymi dotyczy pleców."
+                ]
+            }
+        },
+        "stage_2":{
+            "slide_1": {
+                "img" : "/images/curs/step4/b1.webp",
+                "title": "WSTĘP",
+                "answer": "",
+                "content": "Plecy są częścią ciała najbardziej narażoną na ręczne czynności transportowe. Aby zapobiec urazom kręgosłupa, ważne jest, aby zrozumieć, jak działają twoje plecy i co możesz zrobić, aby o nie zadbać.",
+                "bullets": [
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step4/b2.webp",
+                "title": "CELE LEKCJI",
+                "answer": "",
+                "content": "Ta lekcja obejmuje:",
+                "bullets": [
+                    "Główne elementy pleców.",
+                    "Różne rodzaje urazów kręgosłupa.",
+                    "W jaki sposób twoje zachowanie przyczynia się do ryzyka urazu kręgosłupa."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step4/b3.webp",
+                "title": "KOMPONENTY TYLNE",
+                "answer": "",
+                "content": "Twoje plecy to złożona struktura składająca się z wielu części, w tym:",
+                "bullets": [
+                    "Kręgosłup",
+                    "Nerwy",
+                    "Mięśnie, więzadła i ścięgna"
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step4/b4.webp",
+                "title": "KRĘGOSŁUP",
+                "answer": "",
+                "content": "Główną kością w plecach jest kręgosłup. Kręgosłup zapewnia strukturalne wsparcie dla ciała i składa się z kości zwanych kręgami i krążków międzykręgowych.",
+                "bullets": [
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step4/b5.webp",
+                "title": "NERWOWOŚĆ",
+                "answer": "",
+                "content": "Głównym nerwem w plecach jest rdzeń kręgowy.\nRdzeń kręgowy łączy nerwy w każdym z nich\nczęść ciała z mózgiem.\n",
+                "bullets": [
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step4/b6.webp",
+                "title": "MIĘŚNIE, WIĘZADŁA I ŚCIĘGNA",
+                "answer": "",
+                "content": "Mięśnie wspierające, więzadła i ścięgna pleców łączą się z kręgosłupem i pozwalają ciału przyjmować różne pozycje.",
+                "bullets": [
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step4/b7.webp",
+                "title": "KRĘGOSŁUP",
+                "answer": "",
+                "content": "Kręgosłup rozciąga się od czaszki do kości ogonowej.\nSkłada się z 33 zazębiających się kości zwanych kręgami\nktóre siedzą jedna na drugiej i tworzą lekką krzywiznę w kształcie litery „S”.",
+                "bullets": [
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step4/b8.webp",
+                "title": "DYSKI",
+                "answer": "",
+                "content": "Kręgi są oddzielone dyskami\nw przedniej części kręgosłupa (obciążająca część kręgosłupa). Tarcze te są wypełnione galaretowatą substancją, która działa jak tylny amortyzator. Dyski wchłaniają płyn, gdy się kładziemy, co odciąża kręgosłup.",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step4/b9.webp",
+                "title": "CHOROBY DYSKU",
+                "answer": "",
+                "content": "Jeśli na dyski zostanie przyłożona nadmierna siła lub powtarzające się obciążenia (na przykład podczas podnoszenia ciężarów), może dojść do degeneracji dysku. Gdy dysk ulega degeneracji, na dysku mogą pojawić się pęknięcia. Dysk, który pęka, nazywany jest przepukliną dysku (znaną również jako wypadnięcie lub wypadnięcie dysku). Krążki zawierają niewiele nerwów i dlatego uszkodzenia kręgosłupa czasami pozostają niezauważone przez lata.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step4/b10.webp",
+                "title": "RDZEŃ KRĘGOWY (NERWY)",
+                "answer": "",
+                "content": "Rdzeń kręgowy rozciąga się od podstawy mózgu około dwóch trzecich długości kręgosłupa.\nNerwy rdzenia kręgowego rozgałęziają się przez małe szczeliny między kręgami i łączą się z nerwami w całym ciele. Każda tkanka uciskająca nerw może powodować ból, na przykład zapalenie mięśnia lub przepuklina dysku.",
+                "bullets": [
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step4/b11.webp",
+                "title": "MIĘŚNIE, WIĘZADŁA I ŚCIĘGNA",
+                "answer": "",
+                "content": "Czy wiesz, co robią mięśnie, więzadła i ścięgna?",
+                "bullets": [
+                    "Więzadła utrzymują kości na poziomie stawów",
+                    "Ścięgna przyczepiają mięśnie do kości",
+                    "Mięśnie mają zdolność kurczenia się i rozluźniania"
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step4/b12.webp",
+                "title": "obrażenia",
+                "answer": "",
+                "content": "Więzadło krzyżowe występuje, gdy więzadło jest rozciągnięte lub rozdarte.\nSkręcenie jest zwykle spowodowane bezpośrednim urazem lub nagłym skręceniem stawu. Możesz nadwerężyć mięśnie, rozciągając je zbyt daleko, powodując drobne rozdarcia w tkance. Mięśnie są wtedy osłabione, przez co mogą nie być w stanie utrzymać kości kręgosłupa we właściwym miejscu. Kręgosłup staje się mniej stabilny, powodując ból w dole pleców. Mięśnie męczą się, jeśli nie pozwalają im odpocząć i zregenerować się podczas użytkowania.",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step4/b13.webp",
+                "title": "W JAKI SPOSÓB OBRAŻA SIĘ PLECY?",
+                "answer": "",
+                "content": "Czasami plecy są kontuzjowane przez tylko jedno zdarzenie, na przykład podnoszenie czegoś\nzbyt mocno, ale zwykle kontuzja pleców jest konsekwencją skumulowanego nadużycia w czasie. Skumulowane nadużywanie to termin używany do opisania powtarzających się złych pozycji lub ruchów podczas wykonywania manualnych zadań siłowych, które z czasem powodują urazy kręgosłupa. Na przykład ciągłe skręcanie i zginanie pleców podczas podnoszenia, umieszczanie przedmiotu na określonej wysokości może prowadzić do kontuzji.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step4/b14.webp",
+                "title": "PRZYKŁADY RUCHÓW KUMULATYCZNYCH",
+                "answer": "",
+                "content": "Zła postawa, powtarzające się ruchy, nieaktywny tryb życia i nieprawidłowe techniki ćwiczeń ruchowych to przykłady skumulowanych nadużyć.\nNIEPRAWIDŁOWA TECHNIKA ĆWICZEŃ CIAŁA\nNieprawidłowa technika ćwiczeń (na przykład skręcanie podczas podnoszenia) wywiera nacisk na plecy, ramiona i szyję. Z biegiem czasu ruchy te powodują urazy kręgosłupa.",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step4/b15.webp",
+                "title": "POWTÓRZENIE ZADANIA",
+                "answer": "",
+                "content": "Czynność powtarzalna to czynność wykonywana wielokrotnie iw sposób ciągły, na przykład zadania związane z pakowaniem lub sortowaniem. Powtarzające się zadania zwiększają ryzyko kontuzji, gdy powtarzasz wysiłek na tym samym zestawie mięśni.",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step4/b16.webp",
+                "title": "ZŁA POSTAWA",
+                "answer": "",
+                "content": "Zła postawa, zarówno siedząca, jak i stojąca, zwiększa obciążenie pleców i szyi. Zła postawa może nie powodować dyskomfortu na krótką metę, ale utrzymująca się zła postawa może powodować ból pleców w dłuższej perspektywie.Pamiętaj, że mięśnie pleców wspierają kręgosłup, więc utrzymanie dobrej postawy może zmniejszyć prawdopodobieństwo wystąpienia problemów.",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step4/b17.webp",
+                "title": "NAWYKI NA CAŁE ŻYCIE",
+                "answer": "",
+                "content": "Jeśli masz nadwagę i prowadzisz siedzący tryb życia, istnieje większe prawdopodobieństwo uszkodzenia kręgosłupa. Nadwaga powoduje większy nacisk na obciążone stawy i zwiększa ryzyko ich zużycia. Mięśnie i stawy muszą być ćwiczone, aby zachować siłę. Siedzący tryb życia oznacza, że mięśnie i stawy tracą siłę. Ręczne czynności związane z przemieszczaniem powodują większe obciążenie słabo kondycjonowanych mięśni niż dobrze kondycjonowanych.",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step4/b18.webp",
+                "title": "PYTANIE",
+                "answer": "",
+                "content": "Trzy z poniższych stwierdzeń są poprawne.",
+                "bullets": [
+                    "Plecy nie zawsze dają sygnały ostrzegawcze, że dochodzi do urazu.",
+                    "Urazy związane z ręcznym przemieszczaniem dotykają bardziej pleców.",
+                    "Urazy kręgosłupa goją się bardzo szybko.",
+                    "Większość problemów z plecami wynika raczej z kumulatywnego nadużycia niż z pojedynczego incydentu."
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step4/b18.webp",
+                "title": "STRESZCZENIE",
+                "answer": "",
+                "content": "Trzy z poniższych stwierdzeń są poprawne.",
+                "bullets": [
+                    "Plecy składają się z kości (kręgów), nerwów (rdzenia kręgowego) oraz mięśni podtrzymujących, więzadeł i ścięgien.",
+                    "Czasami plecy mogą doznać urazu podczas jednego incydentu, ale zwykle problemy z plecami są wynikiem skumulowanego użytkowania.",
+                    "Niewłaściwa postawa, nieaktywny tryb życia, powtarzanie zadań i stosowanie niewłaściwych technik to przykłady skumulowanych nadużyć."
+                ]
+            }
+        },
+        "stage_3":{
+            "slide_1": {
+                "img" : "/images/curs/step4/c1.webp",
+                "title": "WSTĘP",
+                "answer": "",
+                "content": "Urazy kręgosłupa mogą być bardzo bolesne i długo się goić.\nDlatego dużo lepiej już teraz przewidzieć kontuzję,\nzamiast próbować go wyleczyć po jego uzyskaniu.",
+                "bullets": [
+
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step4/c2.webp",
+                "title": "CELE LEKCJI",
+                "answer": "",
+                "content": "Ta lekcja obejmuje:",
+                "bullets": [
+                    "Cztery obszary, które należy wziąć pod uwagę przed wykonaniem zadania ręcznego przenoszenia."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step4/c3.webp",
+                "title": "OCENA RYZYKA",
+                "answer": "",
+                "content": "Twój pracodawca przeprowadzi ocenę ryzyka dla wszelkich zadań związanych z ręcznym przemieszczaniem, które mogą być wykonywane regularnie\nJeśli jednak chcesz uniknąć szkód teraz iw przyszłości, musisz także wyrobić w sobie nawyk oceny ryzyka związanego z każdym zadaniem związanym z przenoszeniem ręcznym.",
+                "bullets": [
+                    "Notatka Jest to szczególnie ważne, jeśli wykonujesz tylko okazjonalne zadania związane z przenoszeniem ręcznym.\n"
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step4/c4.webp",
+                "title": "OCENA RYZYKA",
+                "answer": "",
+                "content": "Istnieją cztery obszary, które należy ocenić pod kątem ryzyka przed wykonaniem zadania ręcznego przenoszenia.\nNiektóre osoby uważają za przydatne używanie akronimu „TILE” w odniesieniu do tych różnych domen:",
+                "bullets": [
+                    "Zadanie",
+                    "Obciążenie indywidualne (indywidualne) (obciążenie)",
+                    "Środowisko",
+                    "Przyjrzymy się teraz szczegółowo każdemu z tych czterech obszarów."
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step4/c5.webp",
+                "title": "PŁYTKA - ZADANIE",
+                "answer": "",
+                "content": "Czasami przy ręcznych czynnościach związanych z przenoszeniem można przeoczyć samo zadanie. Ludzie mogą być bardziej skłonni do oceny zadania, które nie wydaje się sprawiać problemów i wydaje się być bardziej widoczne i namacalne niż zadanie. Jednak ważne jest, aby być świadomym sposobu wykonywania zadania, aby ocenić, co możesz zrobić, aby zmniejszyć ryzyko obrażeń.\nNa przykład, patrząc na ładunek, może być jasne, że ładunek można podnieść mechanicznie, co eliminuje potrzebę użycia i ręcznej obsługi.",
+                "bullets": [
+                    "Notatka Najlepszym sposobem uniknięcia obrażeń jest ogólne unikanie ręcznego podnoszenia."
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step4/c6.webp",
+                "title": "Aktywność",
+                "answer": "",
+                "content": "Nawet jeśli danej czynności nie można zautomatyzować, nadal są rzeczy, które możesz zrobić.\nWeźmy na przykład osobę, która codziennie nosi dokumenty do pracy.\n• Zmniejsz liczbę dokumentów w torbie.\n• Mieć drugi zestaw dokumentów, tak aby jeden zestaw mógł być przechowywany w pracy, a drugi w domu.",
+                "bullets": [
+                    "Zmniejsz liczbę dokumentów w torbie.",
+                    "Mieć drugi zestaw dokumentów, tak aby jeden zestaw mógł być przechowywany w pracy, a drugi w domu."
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step4/c7.webp",
+                "title": "Korekta",
+                "answer": "",
+                "content": "Ta opcja eliminuje potrzebę ręcznej obsługi.\nnawyk oceniania każdego zadania, które wykonujesz.\nDowiedz się, co jest dla Ciebie najlepsze!",
+                "bullets": [
+                    "Zmniejsz liczbę dokumentów w torbie.",
+                    "Mieć drugi zestaw dokumentów, tak aby jeden zestaw mógł być przechowywany w pracy, a drugi w domu."
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step4/c8.webp",
+                "title": "Aktywność",
+                "answer": "",
+                "content": "Jeśli nie można całkowicie wyeliminować potrzeby ręcznej obsługi, następnym priorytetem jest przyjrzenie się sposobom zmniejszenia ryzyka.\nNa przykład zadanie, które obejmuje skręcanie, zginanie, rozciąganie mięśni, wiąże się z większym ryzykiem, ponieważ te ruchy powodują dodatkowy stres dla ciała.\nPrzyjrzymy się teraz niektórym czynnikom ryzyka związanym z ciążą i temu, co możesz zrobić, aby ich uniknąć.",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step4/c9.webp",
+                "title": "Aktywność Czy zadanie polega na pochylaniu się?",
+                "answer": "",
+                "content": "Pochylanie się powoduje większy nacisk na dolną część pleców i zwiększa ryzyko kontuzji.\nKiedy kręgosłup jest wygięty poza normalne, cała struktura pleców jest obciążona.\nAby uniknąć konieczności schylania się, obciążenie należy oceniać zapobiegawczo i szukać sposobów, które przynoszą większe korzyści.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step4/c10.webp",
+                "title": "Aktywność Czy zadanie obejmuje rozciąganie?",
+                "answer": "",
+                "content": "Niewygodne ruchy, takie jak rozciąganie, które zwiększają ryzyko kontuzji.\nAby zmniejszyć rozciąganie, unikaj podnoszenia z wysokości ramion, zwłaszcza jeśli ładunek jest ciężki.\nCiężkie przedmioty należy przechowywać na wysokości pasa, gdzie można je wygodnie przenosić.\nIstnieje zwiększone ryzyko, gdy ciąża jest poniżej połowy uda lub powyżej poziomu ramion",
+                "bullets": [
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step4/c11.webp",
+                "title": "Aktywność",
+                "answer": "",
+                "content": "Czy ciąża wiąże się ze skręcaniem?\nSkręcanie wpływa na dolną część pleców, kładąc nacisk na całą strukturę pleców.\nUnikaj skręcania ciała podczas przenoszenia lub umieszczania ładunku.\nZamiast tego obróć nogi i całe ciało w kierunku, w którym chcesz iść.\nNależy unikać wszelkich nagłych lub ciężkich ruchów, które mogłyby doprowadzić do utraty kontroli.",
+                "bullets": [
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step4/c12.webp",
+                "title": "Aktywność",
+                "answer": "",
+                "content": "Czy zlecenie obejmuje transport na duże odległości?\nZawsze rozważ użycie pomocy mechanicznych w celu zmniejszenia obciążenia ciała.\nNa przykład użyj tak prostego jak wózek,\nTorba umożliwia łatwe przenoszenie ładunków między wyznaczonymi lokalizacjami. Używając odpowiedniego sprzętu (np. wózka paletowego, wózka,\ntorba, drążek na ubrania, przenośnik taśmowy itp.) dla konkretnego\nobciążenie zmniejsza ryzyko, że urządzenie mechaniczne przejmie większą część ciężaru. Notatka\nNie używaj pomocy mechanicznej, której nie jesteś pewien, jak prawidłowo używać lub której obsługi nie zostałeś przeszkolony.",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step4/c13.webp",
+                "title": "Aktywność",
+                "answer": "",
+                "content": "Czy ładunek obejmuje pchanie lub ciągnięcie?\nJeśli masz wybór, zaleca się raczej pchanie ciężarka niż ciągnięcie go. Sprawdź, czy na drodze nie ma żadnych zagrożeń ani przeszkód. Podczas pchania lub ciągnięcia ciężarów należy nosić obuwie antypoślizgowe.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step4/c14.webp",
+                "title": "Aktywność",
+                "answer": "",
+                "content": "Czy zadanie obejmuje powtarzalną obsługę? Staraj się unikać powtarzających się manipulacji, ponieważ wymaga to ciągłego używania tych samych mięśni do wykonania zadania. W takich sytuacjach ważne jest obracanie lub zmiana obciążenia. Zróżnicowanie obciążenia pozwala niektórym mięśniom odpocząć, podczas gdy inne są używane.\n\nJeśli nie możesz zmienić czynności, poświęć wystarczająco dużo czasu na odpoczynek lub regenerację.",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step4/c15.webp",
+                "title": "Aktywność",
+                "answer": "",
+                "content": "Planowałeś przeprowadzkę lub transport?\nPowinieneś zaplanować z wyprzedzeniem trasę, którą będziesz używać do przemieszczania lub transportu zadań związanych z ręcznym przemieszczaniem.\nNp:\nCzy znasz trasę, którą będziesz podróżować, czy jest to trasa nieznana? Czy trasa jest wolna od zagrożeń?",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step4/c16.webp",
+                "title": "Sprawdź swoją wiedzę prawda czy fałsz",
+                "answer": "",
+                "content": "Istnieją 4 obszary oceny ryzyka w czynnościach związanych z przenoszeniem ręcznym; ładunek, jednostka, ładunek i środowisko.\nZadanie ręcznego przenoszenia powinno zostać zbadane, aby zobaczyć, czy można wyeliminować ręczne przemieszczanie, a jeśli nie, jakie są sposoby zmniejszenia ryzyka.\nZadania wymagające skręcania, zginania lub rozciągania ciała stwarzają większe ryzyko obrażeń. Lepiej jest skręcać ciało podczas podnoszenia lub przenoszenia ciężarów, zamiast obracać nogi i ciało w kierunku, w którym chcesz iść.",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step4/c17.webp",
+                "title": "Czynniki indywidualne",
+                "answer": "",
+                "content": "Należy wziąć pod uwagę indywidualne umiejętności osoby wykonującej zadanie ręcznego przemieszczania. Na przykład wiek, ogólny stan zdrowia i poziom sprawności wpływają na zdolność podnoszenia ciężarów. Nigdy nie podnoś ciężaru, jeśli nie jesteś pewien swoich możliwości. Powinieneś podnosić tylko to, co da się zrobić wygodnie. Ze względu na indywidualne czynniki trudno jest określić dokładną maksymalną wagę, jaką może udźwignąć dana osoba, jednak na poniższym ekranie znajdują się wskazówki, które można wykorzystać do określenia, czy należy podnosić dany ładunek ",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step4/c18.webp",
+                "title": "",
+                "img_additional": "/images/curs/step4/sl_18.png",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step4/c19.webp",
+                "title": "Czynniki indywidualne",
+                "answer": "",
+                "content": "Problemy zdrowotne\nJeśli masz konkretny problem zdrowotny (na przykład istniejący wcześniej uraz kręgosłupa) lub jeśli przyjmujesz jakiekolwiek leki, które mogą wpływać na twoją zdolność do ręcznego przenoszenia, powinieneś poinformować o tym swojego przełożonego. Nigdy nie podnoś ładunku z wózka\nnie jesteś pewien, czy jesteś w stanie wykonać to bez obrażeń.\nPoinformuj swojego przełożonego, jeśli potrzebujesz specjalistycznego szkolenia.",
+                "bullets": [
+                ]
+            },
+            "slide_20": {
+                "img" : "/images/curs/step4/c20.webp",
+                "title": "Czynniki indywidualne",
+                "answer": "",
+                "content": "Odpowiednie obuwie, środki ochrony indywidualnej i odzież Jakie czynniki należy wziąć pod uwagę?",
+                "bullets": [
+                ]
+            },
+            "slide_21": {
+                "img" : "/images/curs/step4/c21.webp",
+                "title": "BUTY",
+                "answer": "",
+                "content": "Ogólnie rzecz biorąc, płaskie buty z antypoślizgowymi podeszwami\nnależy nosić. Jeśli to konieczne\npchanie lub ciągnięcie ładunku,\nobuwie musi być antypoślizgowe. Tam, gdzie istnieje ryzyko urazu stopy, można zapewnić odpowiednie buty.",
+                "bullets": [
+                ]
+            },
+            "slide_22": {
+                "img" : "/images/curs/step4/c22.webp",
+                "title": "RĘCE",
+                "answer": "",
+                "content": "Jeśli istnieje ryzyko zranienia rąk, można zapewnić odpowiednie rękawice, które należy nosić.",
+                "bullets": [
+                ]
+            },
+            "slide_23": {
+                "img" : "/images/curs/step4/c23.webp",
+                "title": "NOSIĆ",
+                "answer": "",
+                "content": "Odzież powinna wystarczyć\nwystarczająco luźna, aby umożliwić swobodne poruszanie się ciała, ale nie za luźna, aby przyczepić się do czegoś, co mogłoby spowodować niebezpieczeństwo. W razie potrzeby można zapewnić kombinezony lub podobną odzież\nochrona pomagająca utrzymać ciężar blisko ciała.",
+                "bullets": [
+                ]
+            },
+            "slide_24": {
+                "img" : "/images/curs/step4/c24.webp",
+                "title": "Czynniki indywidualne",
+                "answer": "",
+                "content": "Pielęgnacja pleców\nAby zapobiec bólom pleców, dbaj o plecy, utrzymując je w dobrej formie i odpowiednio je ćwicząc. Słabe mięśnie są często przyczyną bólu pleców, zwłaszcza bólu dolnej części pleców. Mięśnie pleców, brzucha i pośladków wspierają kręgosłup. Mięśnie te nazywane są mięśniami rdzeniowymi i ćwicząc je prawidłowo, można wzmocnić i zmniejszyć ryzyko bólu pleców. Silne mięśnie czworogłowe (przednia część uda) i ścięgna podkolanowe (tylna część uda) są ważne, aby zapobiegać urazom pleców podczas podnoszenia ciężarów.\nWłaściwe techniki podnoszenia wymagają użycia nóg, a jeśli twoje nogi są słabe, możesz w końcu użyć pleców.",
+                "bullets": [
+                ]
+            },
+            "slide_25": {
+                "img" : "/images/curs/step4/c25.webp",
+                "title": "Zadanie",
+                "answer": "",
+                "content": "Przed podniesieniem zawsze należy sprawdzić ciężar ładunku.\nCiężar ładunku może być wyraźnie oznaczony, ale jeśli tak nie jest lub ładunek jest nieznany, istnieje kilka technik, których można użyć do oszacowania ciężaru ładunku.",
+                "bullets": [
+                ]
+            },
+            "slide_26": {
+                "img" : "/images/curs/step4/c26.webp",
+                "title": "Zadanie",
+                "answer": "",
+                "content": "Jedną z technik, których możesz użyć do oceny wagi, jest przesuwanie ładunku tam iz powrotem.\nNależy również sprawdzić, czy istnieje\ncięższej stronie (jeśli środek ciężkości jest poza środkiem).\nMożesz także stopniowo przykładać siłę do ładunku (ciężaru) i przestać go podnosić, jeśli podnoszenie staje się niewygodne.\n",
+                "bullets": [
+                ]
+            },
+            "slide_27": {
+                "img" : "/images/curs/step4/c27.webp",
+                "title": "Zadanie",
+                "answer": "",
+                "content": "Jakie inne czynniki mogą powodować trudności podczas podnoszenia ciężarów? Poza wagą należy zbadać ciążę pod kątem:",
+                "bullets": [
+                    "jest wielkogabarytowy lub trudny do przechowywania podczas transportu, ma ostre lub połamane krawędzie",
+                    "jest gorąca, mokra, brudna lub śliska ma wyświetlane informacje",
+                    "jest niestabilny, na przykład jego zawartość może się poruszać",
+                    "to zablokuje ci widok."
+                ]
+            },
+            "slide_28": {
+                "img" : "/images/curs/step4/c28.webp",
+                "title": "Środowisko pracy",
+                "answer": "",
+                "content": "Po ocenie ciąży i jej wagi\npod kątem możliwych zagrożeń, ważna jest natychmiastowa ocena środowiska pracy. Przed przeniesieniem/przetransportowaniem czegokolwiek należy wziąć pod uwagę następujące kwestie:",
+                "bullets": [
+                    "Czy jest wystarczająco dużo miejsca do wygodnego manewrowania?",
+                    "Czy podłogi są stabilne i na tym samym poziomie?",
+                    "Czy temperatura jest komfortowa? Ekstremalnie niska temperatura lub ciepło ładunku może utrudniać jego przenoszenie/przenoszenie.",
+                    "Czy jest wystarczająco dużo światła, aby wyraźnie widzieć, co robisz?"
+                ]
+            },
+            "slide_29": {
+                "img" : "/images/curs/step4/c29.webp",
+                "title": "Środowisko pracy — zagrożenia",
+                "answer": "",
+                "content": "To środowisko pracy stwarza szereg zagrożeń, w tym ryzyko związane z ręczną obsługą zadań wdrażania.\nPrawidłowy\nZawsze upewnij się, że pracujesz w dobrze oświetlonym pomieszczeniu, ponieważ słabe oświetlenie ogranicza zdolność rozpoznawania wszelkich zagrożeń i przeszkód.",
+                "bullets": [
+                ]
+            },
+            "slide_30": {
+                "img" : "/images/curs/step4/c30.webp",
+                "title": "Prawidłowy",
+                "answer": "",
+                "content": "Zawsze sprawdzaj, czy podłogi są suche i na tym samym poziomie. Śliskie, nierówne lub niestabilne podłogi zwiększają ryzyko wypadków i urazów pleców i innych części ciała. Poinformuj swojego przełożonego, jeśli zauważysz jakiekolwiek wady podłóg.",
+                "bullets": [
+                ]
+            },
+            "slide_31": {
+                "img" : "/images/curs/step4/c31.webp",
+                "title": "Prawidłowy",
+                "answer": "",
+                "content": "Bądź świadomy swojej trasy i wszelkich zagrożeń, które mogą się pojawić. Dodatkowo upewnij się, że masz odpowiednią swobodę manewru podczas wykonywania zadania. Praca w ograniczonej przestrzeni uniemożliwia prawidłową postawę i manewrowość oraz zmusza do wykonywania niezręcznych ruchów, które narażają na większe ryzyko obrażeń.",
+                "bullets": [
+                ]
+            },
+            "slide_32": {
+                "img" : "/images/curs/step4/c32.webp",
+                "title": "Pytanie",
+                "answer": "",
+                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
+                "bullets": [
+                    "Otoczenie",
+                    "Zadanie",
+                    "Środowisko pracy",
+                    "Umiejętności indywidualne"
+                ]
+            },
+            "slide_33": {
+                "img" : "/images/curs/step4/c33.webp",
+                "title": "Pytanie",
+                "answer": "Indywidualne możliwości. W tym przykładzie ryzyko jest związane z indywidualnymi możliwościami.\nOsoba jest w ciąży, co wpływa na jej zdolność do ręcznego przenoszenia. Proszę kontynuować.",
+                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
+                "bullets": [
+                    "Otoczenie",
+                    "Zadanie",
+                    "Indywidualne możliwości",
+                    "Prawidłowy"
+                ]
+            },
+            "slide_34": {
+                "img" : "/images/curs/step4/c34.webp",
+                "title": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
+                "answer": "",
+                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
+                "bullets": [
+                    "Otoczenie",
+                    "Ciąża",
+                    "Środowisko pracy",
+                    "Umiejętności indywidualne"
+                ]
+            },
+            "slide_35": {
+                "img" : "/images/curs/step4/c35.webp",
+                "title": "Pytanie",
+                "answer": "Ciąża. W tym przykładzie ryzyko jest związane z wagą ciąży. Ładunek jest źle zapakowany, co może mieć wpływ na jego bezpieczny transport. Proszę kontynuuj.",
+                "content": "W tej sytuacji, do którego z tych\ncztery obszary poniżej, czy występuje ryzyko?",
+                "bullets": [
+                    "Otoczenie",
+                    "Ciąża",
+                    "Środowisko pracy",
+                    "Indywidualne zdolności"
+                ]
+            },
+            "slide_36": {
+                "img" : "/images/curs/step4/c36.webp",
+                "title": "Pytanie",
+                "answer": "",
+                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
+                "bullets": [
+                    "Otoczenie",
+                    "Ciąża",
+                    "Środowisko pracy",
+                    "Indywidualne zdolności"
+                ]
+            },
+            "slide_37": {
+                "img" : "/images/curs/step4/c37.webp",
+                "title": "Pytanie",
+                "answer": "Otoczenie. W tym przykładzie ryzyko jest związane ze środowiskiem. Niewygodne ruchy, takie jak rozciąganie, które zwiększają ryzyko kontuzji. Aby zmniejszyć ryzyko obrażeń, ładunek należy przechowywać na wysokości pasa, gdzie można uniknąć rozciągania i wygodnie go przenosić. Proszę kontynuuj.",
+                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko? ",
+                "bullets": [
+                    "Otoczenie",
+                    "Ciąża",
+                    "Środowisko pracy",
+                    "Indywidualne zdolności"
+                ]
+            },
+            "slide_38": {
+                "img" : "/images/curs/step4/c38.webp",
+                "title": "Pytanie",
+                "answer": "",
+                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
+                "bullets": [
+                    "Ciąża",
+                    "Waga",
+                    "Środowisko pracy",
+                    "Indywidualne zdolności"
+                ]
+            },
+            "slide_39": {
+                "img" : "/images/curs/step4/c39.webp",
+                "title": "Pytanie",
+                "answer": "Środowisko pracy. ntuzji. W tym przykładzie ryzyko jest związane ze środowiskiem pracy. Praca przy słabym oświetleniu nie pozwala wyraźnie widzieć i utrudnia identyfikację ewentualnych zagrożeń. Proszę kontynuuj.",
+                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
+                "bullets": [
+                    "Ciąża",
+                    "Waga",
+                    "Środowisko pracy",
+                    "Indywidualne zdolności"
+                ]
+            },
+            "slide_40": {
+                "img" : "/images/curs/step4/c40.webp",
+                "title": "Pytanie",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Niewłaściwe praktyki obsługi ręcznej mogą pozostać niezauważone przez lata.\nNegatywne skutki tych nieprawidłowych ćwiczeń mogą nie być widoczne\nw tej chwili, ale może to mieć poważne konsekwencje w przyszłości, które mogą spowodować\npoważne problemy z plecami.",
+                    "Prawidłowe ocenianie leży w Twoim najlepszym interesie\nkażde ręczne zadanie przenoszenia, które wykonujesz.\n",
+                    "Podczas oceny ryzyka związanego z zadaniami związanymi z przenoszeniem ręcznym,\npomyśl „KAFELKA” (zadanie, indywidualne (własne możliwości),\nciężar ładunku i środowisko pracy.\n"
+                ]
+            }
+        },
+        "stage_4":{
+            "slide_1": {
+                "img" : "/images/curs/step4/d1.webp",
+                "title": "Wstęp",
+                "answer": "",
+                "content": "Gdy nie można uniknąć ręcznego przemieszczania, ważne jest stosowanie dobrej techniki manipulacji podczas podnoszenia, przenoszenia, umieszczania, pchania lub ciągnięcia ładunku.",
+                "bullets": [
+
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step4/d2.webp",
+                "title": "Cele Lekcji",
+                "answer": "",
+                "content": "Ta lekcja obejmuje:",
+                "bullets": [
+                    "Zasady obsługi ręcznej.",
+                    "Jak wykonać prawidłowe podnoszenie w różnych sytuacjach zgodnie z instrukcją obsługi."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step4/d3.webp",
+                "title": "Zasady obsługi ręcznej",
+                "answer": "",
+                "content": "Jakich zasad bezpieczeństwa przy ręcznym przemieszczaniu należy przestrzegać, aby zmniejszyć ryzyko obrażeń?",
+                "bullets": [
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step4/d4.webp",
+                "title": "Przyjmij stabilną postawę",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step4/d5.webp",
+                "title": "Przyjmij stabilną postawę",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step4/d6.webp",
+                "title": "Wstań powoli",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step4/d7.webp",
+                "title": "Noś ładunek blisko ciała",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step4/d8.webp",
+                "title": "Unikaj skręcania podczas ręcznego przenoszenia ",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step4/d9.webp",
+                "title": "Przyjęcie stabilnej pozycji",
+                "answer": "",
+                "content": "Twoje nogi i ciało powinny być skierowane w kierunku, w którym zamierzasz iść. Jeśli ładunek ma niestabilny ciężar (w ruchu), najcięższą część ładunku należy trzymać blisko ciała.\nZajmij pozycję ze stopami rozstawionymi na szerokość barków płasko na ziemi, aby zapewnić sobie podstawę podparcia i stabilności. Trzymaj jedną stopę lekko przed drugą i unikaj pochylania się do przodu lub do tyłu z tej pozycji, ponieważ ryzykujesz utratę stabilności.\nUnikaj ciasnych ubrań lub nieodpowiedniego obuwia, które mogłoby utrudniać poruszanie się.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step4/d10.webp",
+                "title": "Przyjęcie stabilnej pozycji",
+                "answer": "",
+                "content": "ugnij kolana i pozwól im się od siebie oddalić.\nUnikaj zginania (pochylania się nad plecami)\nlub w pozycji kucznej (w pełni elastyczne biodra i kolana).",
+                "bullets": [
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step4/d11.webp",
+                "title": "Zdobądź mocny chwyt",
+                "answer": "",
+                "content": "Lekko pochyl głowę i skieruj ciało w stronę ładunku, aby dobrze chwycić go ramionami.\nBędziesz mieć lepszy chwyt, jeśli będziesz w stanie uchwycić ładunek całą dłonią, tak aby palce zakrzywiły się wokół niego. Jeśli ładunek jest śliski, tłusty lub trudny do uchwycenia, może być konieczne założenie rękawic. Być może będziesz musiał pochylić się nieco nad ładunkiem, aby uzyskać lepszy kontakt (uchwyt).",
+                "bullets": [
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step4/d12.webp",
+                "title": "Wstań powoli",
+                "answer": "",
+                "content": "Podczas podnoszenia utrzymuj plecy w ich naturalnym kształcie. Trzymaj ramiona na poziomie, a twarz w tym samym kierunku co biodra. Gdy rozpocznie się podnoszenie, powoli i płynnie używaj nóg, delikatnie ukorzeniając głowę. Kiedy prostujesz kolana, pozwól biodrom się wyprostować.\nPociągnij ładunek w górę w kierunku pasa (środek ciężkości).\nNie skręcaj podczas podnoszenia.",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step4/d13.webp",
+                "title": "Noś ładunek blisko ciała.",
+                "answer": "",
+                "content": "Podczas chodzenia trzymaj ładunek blisko ciała.\nPrzenoszenie ładunku blisko środka ciężkości zmniejsza nacisk na plecy. Trzymanie ładunku w niewielkiej odległości od ciała podwaja wpływ jego ciężaru na nacisk ciała (pleców), Trzymanie ładunku na wyciągnięcie ręki zwiększa jego wpływ na ciało pięciokrotnie. Zminimalizuj wpływ obciążenia. Środek ciężkości ładunku powinien znajdować się blisko środka ciężkości ciała.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step4/d14.webp",
+                "title": "Zasada huśtawki",
+                "answer": "",
+                "content": "Kiedy siedzisz na huśtawce z kimś o tej samej wadze, będziesz w równowadze.Co się dzieje, gdy jesteś cięższy od osoby, z którą siedzisz, na przykład z dzieckiem?",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step4/d15.webp",
+                "title": "Cięższa osoba będzie miała dolny wahacz.",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "Kiedy siedzisz na huśtawce z kimś o tej samej wadze, będziesz w równowadze.Co się dzieje, gdy jesteś cięższy od osoby, z którą siedzisz, na przykład z dzieckiem?",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step4/d16.webp",
+                "title": "Zasada huśtawki",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "Czy potrafisz utrzymać równowagę na huśtawce, gdy jedna osoba jest cięższa od drugiej?",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step4/d17.webp",
+                "title": "Prawidłowy",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "Jeśli cięższa osoba siedzi bliżej punktu obrotu (w tym przypadku środka bujaka), efekt jej wagi jest mniejszy.\nProszę kontynuuj.",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step4/d18.webp",
+                "title": "Czego uczy nas bujany fotel?",
+                "answer": "",
+                "content": "Wiemy więc, że gdy umieścimy coś cięższego bliżej sworznia, efekt tego ciężaru zostanie zmniejszony.\nDlaczego ma to znaczenie przy stosowaniu ręcznego przenoszenia?\n(Wskazówka: 2 są poprawne)\nPowinniśmy starać się stanąć blisko przedmiotu, który podnosimy, zanim go podniesiemy.\nPowinniśmy starać się trzymać ładunek blisko ciała podczas podnoszenia, opuszczania, pchania lub ciągnięcia.\nPowinniśmy znaleźć kogoś lżejszego (wagowo) do ręcznego przenoszenia.",
+                "bullets": [
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step4/d19.webp",
+                "title": "Poprawnie",
+                "answer": "Do ręcznego przenoszenia powinniśmy znaleźć kogoś lżejszego (wagowo).",
+                "content": "Rozpoczynając procedurę ręcznego przemieszczania blisko ładunku i starając się trzymać go blisko ciała, zmniejszasz wysiłek wymagany do jego wykonania. Proszę kontynuuj. ✓ Powinniśmy starać się stanąć blisko przedmiotu, który podnosimy, zanim go podniesiemy. Powinniśmy starać się trzymać ładunek blisko ciała podczas podnoszenia, opuszczania, pchania lub ciągnięcia.",
+                "bullets": [
+                ]
+            },
+            "slide_20": {
+                "img" : "/images/curs/step4/d20.webp",
+                "title": "Unikaj skręcania podczas procedury ręcznego przenoszenia.",
+                "answer": "",
+                "content": "Chodząc z ciężarem, chodź ostrożnie, normalnym krokiem. Patrz przed siebie, a nie na ładunek.\nJeśli musisz zmienić kierunek, najpierw poruszaj stopami, a potem całym ciałem. Pamiętaj, unikaj skręcania ciała podczas ręcznego przenoszenia. ",
+                "bullets": [
+                ]
+            },
+            "slide_21": {
+                "img" : "/images/curs/step4/d21.webp",
+                "title": "Prawda fałsz",
+                "answer": "Trzymanie ładunku z dala od środka ciężkości ciała zwiększa siłę oddziaływania ładunku. X Wstań jak najszybciej po podniesieniu ładunku z podłogi.",
+                "content": "",
+                "bullets": [
+                    "Gdy zamierzasz podnieść ładunek/ciężar, stań ze stopami blisko siebie, aby zapewnić ci podstawę podparcia i stabilności.",
+                    "Dobrze jest skręcać ciało i jednocześnie podnosić.",
+                    "Trzymanie ładunku z dala od środka ciężkości ciała zwiększa siłę oddziaływania ładunku. X Wstań jak najszybciej po podniesieniu ładunku z podłogi."
+                ]
+            },
+            "slide_22": {
+                "img" : "/images/curs/step4/d22.webp",
+                "title": "Umieszczanie ładunku",
+                "answer": "Umieszczanie ładunku może wpływać na plecy tak samo, jak jego podnoszenie\nten.\nOdkładając ładunek ugnij kolana, aby uzyskać niższą wysokość ciała, ale jednocześnie plecy powinny pozostać w swoim naturalnym kształcie. Nie trać kontaktu z ładunkiem, dopóki nie zostanie on odłożony.\nJeśli wymagane jest precyzyjne pozycjonowanie ładunku,\nnajpierw umieść go, a następnie znajdź żądaną pozycję.",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_23": {
+                "img" : "/images/curs/step4/d23.webp",
+                "title": "Pchanie lub ciągnięcie ładunku ",
+                "answer": "",
+                "content": "Zarówno podczas pchania, jak i ciągnięcia ładunku, ręce powinny znajdować się na wysokości między ramionami a talią. Ręce umieszczone zbyt wysoko lub zbyt nisko na ładunku powodują dodatkowe obciążenie dla ciała.\nPochyl się w kierunku, w którym pchasz lub ciągniesz, utrzymując plecy w ich naturalnym kształcie i lekko ugięte kolana.\nKiedy się odpychasz, umieść jedną stopę do przodu i odepchnij się od tylnej stopy. Kiedy pociągniesz, odłóż jedną stopę do tyłu i\nodepchnij się przednią stopą.",
+                "bullets": [
+                ]
+            },
+            "slide_24": {
+                "img" : "/images/curs/step4/d24.webp",
+                "title": "Przeprowadzanie obciążenia zespołu ",
+                "answer": "",
+                "content": "Wykonując obciążenie zespołowe, upewnij się, że jest wystarczająco dużo miejsca do manewrowania jako zespół. Pracuj z kimś o podobnej budowie i wzroście do ciebie.\nOmów działanie obciążenia. Należy wyznaczyć osobę do wydawania instrukcji.\nZidentyfikuj środek ciężkości\ncargo - czy jest cięższa część? Jeśli na Twojej trasie znajdują się schody lub pochyłości, pamiętaj, że większy ciężar ładunku odczują ci, którzy znajdują się na dole.\nPodnieś w tym samym czasie i poruszaj się razem w koordynacji.",
+                "bullets": [
+                ]
+            },
+            "slide_25": {
+                "img" : "/images/curs/step4/d25.webp",
+                "title": "Rozładunek samochodu (bagażnika) ",
+                "answer": "",
+                "content": "Podnoszenie ciężkich przedmiotów z bardzo małej wysokości stwarza poważniejsze problemy i wymaga szczególnej uwagi. Aby umieścić ładunek w bagażniku, umieść go na krawędzi bagażnika. Następnie powoli opuść go, zginając oba kolana. Staraj się zachować szeroką podstawę. Może pomóc, jeśli postawisz jedną stopę przed drugą.\nRada:Przed rozładunkiem połóż duży kawałek kartonu na podłodze za maszyną. Następnie, gdy przyjdziesz rozładować bagażnik, możesz obniżyć ładunek za pomocą tej tektury, co znacznie ułatwia sytuację niż nadmierne schylanie się.",
+                "bullets": [
+                ]
+            },
+            "slide_26": {
+                "img" : "/images/curs/step4/d26.webp",
+                "title": "Podnoszenie ładunku w pozycji siedzącej",
+                "answer": "",
+                "content": "Jeśli podnosisz przedmiot podczas siedzenia, nie możesz używać silnych mięśni nóg.\nOznacza to, że większość pracy wykonują słabsze mięśnie górnej części ciała. Z tego powodu należy unikać podnoszenia przedmiotów w pozycji siedzącej.",
+                "bullets": [
+                ]
+            },
+            "slide_27": {
+                "img" : "/images/curs/step4/d27.webp",
+                "title": "Podnoszenie podczas siedzenia ",
+                "answer": "",
+                "content": "Jeśli musisz podnosić ładunki siedząc, umieść przedmioty w taki sposób, aby\nunikaj rozciągania lub zginania się zbyt daleko przed ciałem.\nUnikaj przechowywania ładunków poniżej talii, ponieważ prowadzi to do zginania i skręcania ciała.",
+                "bullets": [
+                ]
+            },
+            "slide_28": {
+                "img" : "/images/curs/step4/d28.webp",
+                "title": "Ładowanie w dwóch etapach",
+                "answer": "",
+                "content": "Aby wykonać obciążenie na większej odległości, np. od podłogi do wysokości ramion, zaleca się wykonanie tego w dwóch etapach.\nZajmij pozycję i podnieś ładunek powoli/lekko. Następnie umieść ładunek w bezpiecznym miejscu do połowy wysokości (na przykład na stole lub ławce), aby zmienić uchwyt i przyjąć bardziej odpowiednią pozycję do podnoszenia z wysokości pasa do wysokości ramion.",
+                "bullets": [
+                ]
+            },
+            "slide_29": {
+                "img" : "/images/curs/step4/d29.webp",
+                "title": "Kontynuuj podnoszenie na wyższy poziom. ",
+                "answer": "",
+                "content": "Szczególną ostrożność należy zachować przy podnoszeniu powyżej poziomu ramion (np. układanie przedmiotów/przedmiotów na wysokich półkach), ponieważ podnoszenie ładunków na tym poziomie jest zbyt oddalone od środka ciężkości ciała i zwiększa efekt ciężaru ładunku, który wpływa na ciśnienie na ramionach i plecach.",
+                "bullets": [
+                ]
+            },
+            "slide_30": {
+                "img" : "/images/curs/step4/d30.webp",
+                "title": "Streszczenie",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Zawsze zatrzymaj się i pomyśl przed wykonaniem zadania ręcznego przenoszenia. Zaplanuj transport, rozważ pomoce mechaniczne, zapoznaj się z trasą i możliwymi zagrożeniami.",
+                    "Jeśli musisz się podnieść, rozstaw stopy na szerokość barków, lekko ugnij kolana, chwyć się mocno i powoli unieś.",
+                    "Urazy powstają nie tylko podczas podnoszenia ciężarów. Mogą się również zdarzyć, gdy\npchać, ciągnąć, transportować i umieszczać ładunek."
+                ]
+            }
+
+        },
+        "test":{
+            "slide_1": {
+                "img" : "/images/curs/step4/d31.webp",
+                "title": "Które z poniższych jest prawidłowe podczas umieszczania ładunku?",
+                "answer": "Zegnij kolana, aby lekko się ugiąć, utrzymując plecy w ich naturalnym kształcie.",
+                "content": "",
+                "bullets": [
+                    "Zdejmij ręce z ładunku przed jego odłożeniem.",
+                    "Umieść ładunek na kolanach przed odłożeniem go.",
+                    "Zegnij kolana, aby lekko się ugiąć, utrzymując plecy w ich naturalnym kształcie."
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Które z poniższych czynności należy wykonać podczas wykonywania obciążenia zespołowego?",
+                "answer": "Omów wydajność obciążenia. Należy wyznaczyć osobę do wydawania instrukcji.",
+                "content": "",
+                "bullets": [
+                    "Przenoś ładunek powyżej wysokości ramion",
+                    "Najpierw podnieś ładunek na jedną stronę, a następnie powiedz drugiej osobie, aby uniosła swoją stronę.",
+                    "Omów wydajność obciążenia. Należy wyznaczyć osobę do wydawania instrukcji."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Jeśli nie jesteś pewien, czy jesteś w stanie podnieść ciężar, co powinieneś zrobić?",
+                "answer": "Poinformuj swojego przełożonego",
+                "content": "",
+                "bullets": [
+                    "Mimo to kontynuuj ładowanie.",
+                    "Poinformuj swojego kierownika"
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Ręczne zadania przenoszenia występują tylko w intensywnych środowiskach pracy, takich jak fabryki lub środowiska przemysłowe.",
+                "answer": "Fałsz",
+                "content": "",
+                "bullets": [
+                    "PRAWDA",
+                    "Podróbka"
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step4/d33.webp",
+                "title": "Które z poniższych stwierdzeń najdokładniej opisuje procedurę ręcznego przenoszenia?",
+                "answer": "Jakikolwiek transport, jeśli wymagana jest siła ludzka.",
+                "content": "",
+                "bullets": [
+                    "Przenoszenie ciężkich przedmiotów.",
+                    "Przenoszenie przedmiotów za pomocą środków mechanicznych",
+                    "Każdy transport, w którym wymagana jest siła ludzka."
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step4/d33.webp",
+                "title": "Która część ciała jest najbardziej narażona na urazy w wyniku realizacji procedury ręcznego przemieszczania?",
+                "answer": "Powrót",
+                "content": "",
+                "bullets": [
+                    "Ręce",
+                    "Powrót",
+                    "Nogi"
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step4/d33.webp",
+                "title": "Jaka jest najlepsza metoda ręcznego przenoszenia ładunku/ciężaru?",
+                "answer": "Trzymaj ładunek blisko środka ciężkości ciała.",
+                "content": "",
+                "bullets": [
+                    "Trzymaj ładunek na wysokości ramion.",
+                    "Trzymaj ładunek w niewielkiej odległości od ciała.",
+                    "Trzymaj ładunek blisko środka ciężkości ciała."
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step4/d33.webp",
+                "title": "Czy podczas przenoszenia ładunku/ciężaru należy zmienić kierunek, jeśli to konieczne?",
+                "answer": "Poruszając nogami.",
+                "content": "",
+                "bullets": [
+                    "Poruszanie nogami.",
+                    "Skręcanie ciała.",
+                    "Cofanie się i skręcanie ciała."
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step4/d33.webp",
+                "title": "Jaka jest zalecana pozycja dłoni podczas pchania lub ciągnięcia ładunku/ciężaru?",
+                "answer": "Poruszając nogami.",
+                "content": "",
+                "bullets": [
+                    "Powyżej wysokości ramion.",
+                    "Poniżej talii.",
+                    "Między ramionami a talią."
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step4/d33.webp",
+                "title": "W jaki sposób najprawdopodobniej zranisz plecy?",
+                "answer": "Plecy są najbardziej narażone na kontuzje w wyniku skumulowanych uszkodzeń.",
+                "content": "",
+                "bullets": [
+                    "Plecy są zazwyczaj dotknięte regularnym chodzeniem.",
+                    "Plecy są zwykle kontuzjowane w wyniku jednego incydentu.",
+                    "Plecy są najbardziej narażone na kontuzje w wyniku skumulowanych uszkodzeń."
+                ]
+            }
+        }
+    },
+    "russian": {
+        "stage_1": {
+            "slide_1": {
+                "img" : "/images/curs/step1/1.webp",
+                "title": "ВВЕДЕНИЕ",
+                "answer": "",
+                "content": "Задачи ручной обработки возникают везде, где люди находятся на работе.\nКаждый раз, когда мы используем наше тело для перемещения объекта, мы находимся в процессе ручного управления.\nобработка, независимо от того, находимся ли мы в офисе, на заводе, на складе, в магазине или в любой другой среде\nДля работы.",
+                "bullets": [
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step1/2.webp",
+                "title": "ЦЕЛИ КУРСА",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Выявить опасности болей в спине и причины их возникновения.\nи что вы можете сделать, чтобы предотвратить эти опасности.",
+                    "Чтобы побудить вас оценить свои задачи по ручной обработке.",
+                    "Чтобы продемонстрировать хорошие методы ручного обращения.",
+                    "Повысить вашу осведомленность о привычках ручного обращения."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step1/3.webp",
+                "title": "ЧТО ТАКОЕ РУЧНОЕ ОБРАЩЕНИЕ?",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Ручное перемещение разрешается во всех случаях, когда необходима сила человека.",
+                    "Это не ограничивается подъемом или переноской груза или просто перемещением тяжелого груза.",
+                    "Ручное обращение означает использование тела для приложения силы для подъема, опускания, толкания, вытягивания, переноски, перемещения, удержания, удержания или фиксации груза.",
+                    "Груз может быть неодушевленным, например, коробка, картина, например, человек или животное."
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step1/4.webp",
+                "title": "ЗАДАЧИ, ВЫПОЛНЯЕМЫЕ ВРУЧНУЮ",
+                "answer": "",
+                "content": "Некоторые примеры задач ручной обработки\nежедневно включают:",
+                "bullets": [
+                    "собирать бумажные коробки",
+                    "ношение сумки с покупками",
+                    "толкать коляску",
+                    "разгрузка автомобиля",
+                    "штабелируемые полки",
+                    "воспитание ребенка",
+                    "передвижение мебели"
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step1/5.webp",
+                "title": "ТРАВМЫ, ВЫЗВАННЫЕ НЕПРАВИЛЬНЫМ РУЧНЫМ ОБРАЩЕНИЕМ",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Работа, выполняемая вручную, ежегодно является причиной большого количества производственных травм. Неправильное выполнение ручных операций может привести к травмам рук, рук и шеи.",
+                    "Случайно падающие грузы также могут повредить ноги. • Тем не менее, большинство травм, связанных с ручной работой, затрагивают спину.",
+                    "Полученная травма может быть порезом или синяком, но чаще это растяжение мышц или травма связок.",
+                    "разгрузка автомобиля",
+                    "штабелируемые полки",
+                    "воспитание ребенка",
+                    "передвижение мебели"
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step1/6.webp",
+                "title": "Oтветственность",
+                "answer": "",
+                "content": "Каковы мои обязанности в отношении ручного труда на работе? Как сотрудник вы должны:",
+                "bullets": [
+                    "Сотрудничайте со своим работодателем в вопросах ручного труда, чтобы не совершать действий, которые могут подвергнуть опасности вас или других. Используйте механические устройства, правильно сообщайте об опасной рабочей деятельности и любых дефектах, системах или оборудовании на рабочем месте, сообщайте своему работодателю о любых физических недостатках, которые могут создавать риски."
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step1/7.webp",
+                "title": "КРАТКОЕ СОДЕРЖАНИЕ",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Ручная обработка определяется, когда для перемещения объекта требуется человеческая сила, и охватывает действия, связанные с подъемом, транспортировкой, опусканием, толканием или тягой груза.",
+                    "Большой процент зарегистрированных травм на рабочем месте связан с физическим трудом. умение обращаться.",
+                    "Большинство травм, связанных с ручным перемещением, поражают спину."
+                ]
+            }
+        },
+        "stage_2": {
+            "slide_1": {
+                "img" : "/images/curs/step1/b1.webp",
+                "title": "ВВЕДЕНИЕ",
+                "answer": "",
+                "content": "Спина — это часть тела, которая больше всего страдает от ручной работы. Чтобы предотвратить травмы спины, важно понимать, как работает ваша спина и что вы можете сделать, чтобы позаботиться о ней.",
+                "bullets": [
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step1/b2.webp",
+                "title": "ЦЕЛИ УРОКА",
+                "answer": "",
+                "content": "Этот урок охватывает:",
+                "bullets": [
+                    "Основные компоненты спинки.",
+                    "Различные виды травм спины.",
+                    "Как ваше поведение влияет на риск получения травмы спины."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step1/b3.webp",
+                "title": "ЗАДНИЕ КОМПОНЕНТЫ",
+                "answer": "",
+                "content": "Ваша спина представляет собой сложную структуру, состоящую из многих частей, в том числе:",
+                "bullets": [
+                    "Позвоночник",
+                    "Нервы",
+                    "Мышцы, связки и сухожилия"
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step1/b4.webp",
+                "title": "ПОЗВОНОЧНИК",
+                "answer": "",
+                "content": "Основная кость в спине – это позвоночник. Ваш позвоночник обеспечивает структурную поддержку вашего тела и состоит из костей, называемых позвонками, и межпозвоночных дисков.",
+                "bullets": [
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step1/b5.webp",
+                "title": "НЕРВЫ",
+                "answer": "",
+                "content": "Главный нерв в спине — спинной мозг.\nСпинной мозг соединяет нервы в каждом\nчасть тела с вашим мозгом.\n",
+                "bullets": [
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step1/b6.webp",
+                "title": "МЫШЦЫ, СВЯЗКИ И СУХОЖИЛИЯ",
+                "answer": "",
+                "content": "Поддерживающие мышцы, связки и сухожилия спины соединяются с позвоночником и позволяют телу принимать различные положения.",
+                "bullets": [
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step1/b7.webp",
+                "title": "ПОЗВОНОЧНИК",
+                "answer": "",
+                "content": "Позвоночник простирается от черепа до копчика.\nОн состоит из 33 взаимосвязанных костей, называемых позвонками.\nкоторые сидят друг над другом и образуют небольшую кривую в форме буквы «S».",
+                "bullets": [
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step1/b8.webp",
+                "title": "ДИСКИ",
+                "answer": "",
+                "content": "Позвонки разделены дисками\nв передней части позвоночника (несущая часть позвоночника). Эти диски заполнены желеобразным веществом, выполняющим функцию заднего амортизатора. Диски поглощают жидкость, когда мы ложимся, что снимает нагрузку с позвоночника.",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step1/b9.webp",
+                "title": "ДИСКОВЫЕ ЗАБОЛЕВАНИЯ",
+                "answer": "",
+                "content": "Если на диски воздействует чрезмерная сила или повторяющиеся нагрузки (например, при поднятии тяжестей), может произойти дегенерация диска. Когда диск дегенерирует, в нем могут появиться трещины. Диск, который разрывается, называется грыжей диска (также известной как грыжа или выпадение диска). Диски содержат мало нервов, поэтому повреждения спины иногда остаются незамеченными в течение многих лет.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step1/b10.webp",
+                "title": "СПИННОЙ МОЗГ (НЕРВЫ)",
+                "answer": "",
+                "content": "Спинной мозг простирается от основания головного мозга примерно на две трети пути вниз по позвоночнику.\nНервы спинного мозга разветвляются через небольшие промежутки между позвонками и соединяются с нервами по всему телу. Любая ткань, сдавливающая нерв, может вызвать боль, например, воспаленная мышца или грыжа диска.",
+                "bullets": [
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step1/b11.webp",
+                "title": "МЫШЦЫ, СВЯЗКИ И СУХОЖИЛИЯ",
+                "answer": "",
+                "content": "Знаете ли вы, что делают мышцы, связки и сухожилия?",
+                "bullets": [
+                    "Связки удерживают кости на уровне суставов",
+                    "Сухожилия прикрепляют мышцы к костям",
+                    "Мышцы способны сокращаться и расслабляться"
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step1/b12.webp",
+                "title": "рана",
+                "answer": "",
+                "content": "Крестообразная связка возникает, когда связка растягивается или разрывается.\nПричиной растяжения обычно является прямая травма или внезапное скручивание сустава. Вы можете напрягать мышцы, растягивая их слишком сильно, вызывая крошечные разрывы в тканях. Затем мышцы ослабевают, так что они не могут удерживать кости позвоночника в правильном месте. Позвоночник становится менее устойчивым, что вызывает боль в пояснице. Мышцы устают, если им не дают отдыхать и восстанавливаться во время работы.",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step1/b13.webp",
+                "title": "КАК ТРАВМИРУЕТСЯ СПИНА?",
+                "answer": "",
+                "content": "Иногда спина травмируется всего лишь одним происшествием, например, поднятием чего-либо\nслишком сильно, но обычно травма спины является следствием кумулятивного злоупотребления с течением времени. Кумулятивное чрезмерное использование — это термин, используемый для описания повторяющихся неправильных положений или движений при выполнении физических силовых упражнений, которые со временем вызывают травмы спины. Например, постоянные скручивания и изгибы спины при подъеме, размещении предмета на определенной высоте могут привести к травме.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step1/b14.webp",
+                "title": "ПРИМЕРЫ КУМУЛЯТИВНЫХ ДВИЖЕНИЙ",
+                "answer": "",
+                "content": "Плохая осанка, повторяющиеся движения, малоподвижный образ жизни и неправильные техники движений тела — все это примеры кумулятивного неправильного использования.\nНЕПРАВИЛЬНАЯ ТЕХНИКА УПРАЖНЕНИЙ ДЛЯ ТЕЛА\nНеправильная техника выполнения упражнений (например, скручивания при подъеме) оказывает давление на спину, руки и шею. Со временем эти движения вызывают травмы спины.",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step1/b15.webp",
+                "title": "ПОВТОРЕНИЕ ЗАДАЧИ",
+                "answer": "",
+                "content": "Повторяющаяся деятельность — это задача, которая выполняется многократно и непрерывно, например, задачи по упаковке или сортировке. Повторяющиеся задачи увеличивают риск получения травмы, поскольку вы многократно нагружаете один и тот же набор мышц.",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step1/b16.webp",
+                "title": "ПЛОХАЯ ОСАЖКА",
+                "answer": "",
+                "content": "Плохая осанка, будь то сидя или стоя, увеличивает нагрузку на спину и шею. Плохая осанка может не вызывать дискомфорта в краткосрочной перспективе, но постоянная плохая осанка может вызвать боль в спине в долгосрочной перспективе.Помните, что мышцы спины поддерживают позвоночник, поэтому поддержание хорошей осанки может снизить вероятность возникновения проблем.",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step1/b17.webp",
+                "title": "ПОЖИЗНЕННЫЕ ПРИВЫЧКИ",
+                "answer": "",
+                "content": "Если у вас избыточный вес и вы ведете малоподвижный образ жизни, у вас больше шансов повредить спину. Избыточный вес увеличивает нагрузку на несущие суставы и повышает риск их износа. Мышцы и суставы должны тренироваться, чтобы оставаться сильными. Малоподвижный образ жизни означает, что ваши мышцы и суставы теряют силу. Задания, выполняемые вручную, вызывают большую нагрузку на плохо тренированные мышцы, чем на хорошо тренированные.",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step1/b18.webp",
+                "title": "ВОПРОС",
+                "answer": "",
+                "content": "Три из следующих утверждений верны.",
+                "bullets": [
+                    "Спина не всегда сигнализирует о травме.",
+                    "Травмы, связанные с ручной обработкой, в большей степени затрагивают спину.",
+                    "Травмы спины заживают очень быстро.",
+                    "Большинство проблем со спиной возникают в результате кумулятивного насилия, а не одного случая."
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step1/b19.webp",
+                "title": "КРАТКОЕ СОДЕРЖАНИЕ",
+                "answer": "",
+                "content": "Три из следующих утверждений верны.",
+                "bullets": [
+                    "Ваша спина состоит из костей (позвонков), нервов (спинной мозг) и поддерживающих мышц, связок и сухожилий.",
+                    "Иногда спина может быть повреждена в результате одного инцидента, но обычно проблемы со спиной являются результатом кумулятивного использования.",
+                    "Плохая осанка, малоподвижный образ жизни, повторение задач и использование неправильных техник – все это примеры кумулятивного неправильного использования."
+                ]
+            }
+        },
+        "stage_3": {
+            "slide_1": {
+                "img" : "/images/curs/step1/c1.webp",
+                "title": "ВВЕДЕНИЕ",
+                "answer": "",
+                "content": "Травмы спины могут быть очень болезненными и долго заживают.\nПоэтому гораздо лучше предвидеть получение травмы сейчас,\nвместо того, чтобы пытаться вылечить его после его получения.",
+                "bullets": [
+                    "Ваша спина состоит из костей (позвонков), нервов (спинной мозг) и поддерживающих мышц, связок и сухожилий.",
+                    "Иногда спина может быть повреждена в результате одного инцидента, но обычно проблемы со спиной являются результатом кумулятивного использования.",
+                    "Плохая осанка, малоподвижный образ жизни, повторение задач и использование неправильных техник – все это примеры кумулятивного неправильного использования."
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step1/c2.webp",
+                "title": "ЦЕЛИ УРОКА",
+                "answer": "",
+                "content": "Этот урок охватывает:",
+                "bullets": [
+                    "Четыре области, которые следует учитывать перед выполнением задачи ручной обработки."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step1/c3.webp",
+                "title": "ОЦЕНКА РИСКА",
+                "answer": "",
+                "content": "Ваш работодатель проведет оценку рисков для любых ручных операций, которые могут выполняться на регулярной основе.\nОднако, если вы хотите избежать какого-либо вреда сейчас и в будущем, вы также должны выработать привычку оценивать риски, связанные с каждой ручной работой, которую вы выполняете.",
+                "bullets": [
+                    "Примечание Это особенно важно, если вы только время от времени выполняете ручные операции."
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step1/c4.webp",
+                "title": "ОЦЕНКА РИСКА",
+                "answer": "",
+                "content": "Есть четыре области, которые вы должны оценить на предмет риска, прежде чем выполнять задачу ручной обработки.\nНекоторые люди считают полезным использовать аббревиатуру «TILE» при обращении к этим разным доменам:",
+                "bullets": [
+                    "Задача",
+                    "Индивидуальная (индивидуальная) нагрузка (Load)",
+                    "Среда"
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step1/c5.webp",
+                "title": "ЗАДАЧА",
+                "answer": "",
+                "content": "Иногда при ручной обработке можно упустить из виду саму задачу. Люди могут с большей вероятностью оценить задачу, которая не вызывает проблем и кажется более заметной и осязаемой, чем задача. Однако важно знать, как выполняется задача, чтобы оценить, что вы можете сделать, чтобы снизить риск получения травмы.\nНапример, при взгляде на груз может быть ясно, что груз можно поднять механически, что устраняет необходимость использования ручного труда.",
+                "bullets": [
+                    "Примечание: Лучший способ избежать травм — вообще избегать ручного подъема.\n"
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step1/c6.webp",
+                "title": "Деятельность",
+                "answer": "",
+                "content": "Даже если какое-то действие нельзя автоматизировать, вы все равно можете кое-что сделать.\nНапример, рассмотрим человека, который каждый день носит документы на работу.",
+                "bullets": [
+                    "Сократите количество документов в сумке.",
+                    "Имейте второй комплект документов, чтобы один комплект можно было оставить на работе, а другой – дома."
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step1/c7.webp",
+                "title": "Коррекция",
+                "answer": "",
+                "content": "Эта опция устраняет необходимость ручной обработки.\nк привычке оценивать каждое задание, которое вы делаете.\nУзнайте, что лучше всего работает для вас!\n",
+                "bullets": [
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step1/c8.webp",
+                "title": "Деятельность",
+                "answer": "",
+                "content": "Если вы не можете полностью исключить необходимость ручной обработки, следующим приоритетом является поиск способов снижения риска.\nНапример, задание, которое включает в себя скручивание, сгибание, растяжение мышц, представляет больший риск, поскольку эти движения создают дополнительную нагрузку на тело.\nТеперь мы рассмотрим некоторые факторы риска, связанные с беременностью, и то, что вы можете сделать, чтобы избежать этих рисков.",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step1/c9.webp",
+                "title": "Упражнение Включает ли задание наклон?",
+                "answer": "",
+                "content": "Наклоны оказывают большее давление на нижнюю часть спины и увеличивают риск получения травмы.\nКогда позвоночник сгибается сверх нормы, вся структура спины испытывает нагрузку.\nЧтобы избежать необходимости наклоняться, необходимо превентивно оценивать нагрузку и искать способы, которые работают для вас с большей пользой.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step1/c10.webp",
+                "title": "Задание Включает ли задание растяжку?",
+                "answer": "",
+                "content": "Неудобные движения, такие как растяжка, которые повышают риск получения травмы.\nЧтобы уменьшить растяжение, избегайте подъема с уровня плеч, особенно если это тяжелый груз.\nТяжелые грузы следует хранить на уровне талии, чтобы с ними можно было удобно обращаться.\nСуществует повышенный риск, если беременность находится ниже середины бедра или выше уровня плеч.",
+                "bullets": [
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step1/c11.webp",
+                "title": "Включает ли беременность скручивание?",
+                "answer": "",
+                "content": "Скручивания воздействуют на нижнюю часть спины, создавая нагрузку на всю структуру спины.\nИзбегайте скручивания тела при переноске или размещении груза.\nВместо этого поверните ноги и все тело в нужном вам направлении.\nСледует избегать любых резких или резких движений, которые могут привести к потере контроля.",
+                "bullets": [
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step1/c12.webp",
+                "title": "Деятельность",
+                "answer": "",
+                "content": "Включает ли задача транспортировку на дальние расстояния?\nВсегда рассматривайте возможность использования механических вспомогательных средств для снижения нагрузки на тело.\nНапример, использовать так же просто, как тележка,\nСумка позволяет легко перевозить грузы между предполагаемыми местами. Использование подходящего оборудования (например, тележки, тележки,\nсумка, штанга для одежды, конвейерная лента и т. д.) для конкретного\nнагрузка снижает риск того, что механическое устройство возьмет на себя большую часть веса. Примечание\nНе используйте вспомогательное механическое средство, которым вы не уверены, как правильно пользоваться, или которым вы не обучены пользоваться.",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step1/c13.webp",
+                "title": "Деятельность",
+                "answer": "",
+                "content": "Включает ли нагрузка толкание или вытягивание?\nЕсли у вас есть выбор, рекомендуется толкать вес, а не тянуть его. Убедитесь, что на вашем пути нет опасностей или препятствий. Вы должны носить нескользящую обувь, когда толкаете или тянете вес.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step1/c14.webp",
+                "title": "Деятельность",
+                "answer": "",
+                "content": "Включает ли задание повторяющиеся действия? Старайтесь избегать повторяющихся манипуляций, потому что они включают в себя многократное использование одних и тех же мышц для выполнения задачи. В этих ситуациях важно чередовать или варьировать нагрузку. Изменение нагрузки позволяет некоторым мышцам отдыхать, в то время как другие мышцы используются.\n\nЕсли вы не можете изменить деятельность, выделите достаточно времени для отдыха или восстановления.",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step1/c15.webp",
+                "title": "Деятельность",
+                "answer": "",
+                "content": "Вы планировали переехать или перевезти?\nВам следует заранее спланировать маршрут, который вы будете использовать для перемещения или перевозки ручного труда.\nНапример:\nВы знаете маршрут, по которому пойдете, или это неизвестный маршрут? Маршрут свободен от опасностей?",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step1/c16.webp",
+                "title": "Проверьте свои знания Верно или неверно",
+                "answer": "",
+                "content": "Существует 4 области оценки рисков при ручном обращении; нагрузка, индивидуальная, нагрузка и среда.\nЗадача ручной обработки должна быть изучена, чтобы увидеть, можно ли исключить реализацию ручной обработки, а если нет, найти способы снижения риска.\nЗадачи, которые включают в себя скручивание, сгибание или растяжение тела, представляют больший риск получения травмы. Лучше скручивать свое тело при подъеме или переноске веса, чем поворачивать ноги и корпус в том направлении, в котором вы хотите двигаться.",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step1/c17.webp",
+                "title": "Индивидуальные факторы",
+                "answer": "",
+                "content": "Следует учитывать индивидуальные способности человека, выполняющего ручную погрузку-разгрузку. Например, возраст человека, общее состояние здоровья и уровень физической подготовки влияют на способность поднимать вес. Никогда не поднимайте тяжести, если вы не уверены в своих силах. Вы должны поднимать только то, что можно сделать с комфортом. Из-за индивидуальных факторов трудно указать точный максимальный вес, который может нести человек.Однако на следующем экране есть некоторые рекомендации, которые вы можете использовать, чтобы определить, следует ли вам поднимать определенный груз.",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step1/c18.webp",
+                "title": "",
+                "img_additional": "/images/curs/step4/sl_18.png",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step1/c19.webp",
+                "title": "Индивидуальные факторы",
+                "answer": "",
+                "content": "Проблемы со здоровьем\nЕсли у вас есть определенные проблемы со здоровьем (например, ранее существовавшая травма спины) или если вы принимаете какие-либо лекарства, которые могут повлиять на вашу способность выполнять ручные операции, вы должны сообщить об этом своему руководителю. Никогда не поднимайте груз с тележки\nвы не уверены, что сможете выполнить его без травм.\nСообщите своему менеджеру, если вам требуется специализированное обучение.",
+                "bullets": [
+                ]
+            },
+            "slide_20": {
+                "img" : "/images/curs/step1/c20.webp",
+                "title": "Индивидуальные факторы",
+                "answer": "",
+                "content": "Соответствующая обувь, средства индивидуальной защиты и одежда Какие факторы следует учитывать?",
+                "bullets": [
+                ]
+            },
+            "slide_21": {
+                "img" : "/images/curs/step1/c21.webp",
+                "title": "ОБУВЬ",
+                "answer": "",
+                "content": "Как правило, туфли на плоской подошве с нескользящей подошвой.\nследует носить. Если необходимо\nтолкать или тянуть груз,\nобувь должна быть нескользкой. Если существует риск травмы стопы, может быть предоставлена подходящая обувь/сапоги.",
+                "bullets": [
+                ]
+            },
+            "slide_22": {
+                "img" : "/images/curs/step1/c22.webp",
+                "title": "РУКИ",
+                "answer": "",
+                "content": "Если существует риск травмирования рук, могут быть предоставлены подходящие перчатки, которые необходимо надевать.",
+                "bullets": [
+                ]
+            },
+            "slide_23": {
+                "img" : "/images/curs/step1/c23.webp",
+                "title": "НОСИТЬ",
+                "answer": "",
+                "content": "Одежды должно быть достаточно.\nдостаточно свободно, чтобы обеспечить свободное движение тела, но не слишком свободно, чтобы его можно было прикрепить к чему-либо, что может вызвать опасность. При необходимости могут быть предоставлены комбинезоны или аналогичная одежда.\nзащита, помогающая держать грузы близко к телу.",
+                "bullets": [
+                ]
+            },
+            "slide_24": {
+                "img" : "/images/curs/step1/c24.webp",
+                "title": "Индивидуальные факторы",
+                "answer": "",
+                "content": "Уход за спиной\nЧтобы предотвратить боль в спине, позаботьтесь о своей спине, поддерживая ее в форме и правильно тренируя. Слабые мышцы часто являются причиной болей в спине, особенно в пояснице. Мышцы спины, живота и ягодиц поддерживают позвоночник. Эти мышцы называются мышцами кора, и, правильно тренируя их, вы можете укрепить их и снизить риск болей в спине. Сильные четырехглавые мышцы (передняя часть мышц бедра) и подколенные сухожилия (задняя часть мышц бедра) важны для предотвращения травм спины при подъеме тяжестей.\nПравильная техника подъема подразумевает использование ног, и если ваши ноги слабы, вы можете в конечном итоге использовать спину.",
+                "bullets": [
+                ]
+            },
+            "slide_25": {
+                "img" : "/images/curs/step1/c25.webp",
+                "title": "Задача",
+                "answer": "",
+                "content": "Всегда проверяйте вес груза перед подъемом.\nВес груза может быть четко указан, но если это не так или груз неизвестен, есть несколько методов, которые можно использовать для оценки веса груза.",
+                "bullets": [
+                ]
+            },
+            "slide_26": {
+                "img" : "/images/curs/step1/c26.webp",
+                "title": "вес",
+                "answer": "",
+                "content": "Один из методов, который вы можете использовать для оценки веса, заключается в перемещении груза вперед и назад.\nВы также должны проверить, существует ли он\nболее тяжелая сторона (если центр тяжести смещен от центра).\nТакже можно постепенно прикладывать усилие к грузу (весу) и прекращать его подъем, если подъем становится неудобным.",
+                "bullets": [
+                ]
+            },
+            "slide_27": {
+                "img" : "/images/curs/step1/c27.webp",
+                "title": "Задача",
+                "answer": "",
+                "content": "Какие еще факторы могут вызвать трудности при поднятии тяжестей? Помимо веса, при беременности следует проверить, есть ли:",
+                "bullets": [
+                    "громоздкий или его трудно удерживать при транспортировке, он имеет острые или сломанные края",
+                    "жарко, мокро, грязно или скользко\nимеет отображаемую информацию\n",
+                    "нестабилен, например, его содержимое может двигаться",
+                    "это заблокирует ваш обзор. "
+                ]
+            },
+            "slide_28": {
+                "img" : "/images/curs/step1/c28.webp",
+                "title": "Рабочая среда",
+                "answer": "",
+                "content": "После оценки вашей беременности и ее веса\nна возможные риски важно сразу же оценить рабочую обстановку. Прежде чем что-либо перемещать/перевозить, учтите следующее:",
+                "bullets": [
+                    "Достаточно ли места для комфортного маневрирования?\nСтабильны ли полы и находятся ли они на одном уровне?",
+                    "Комфортна ли температура? Чрезвычайно низкая температура или\nвысокая температура груза может затруднить его переноску/перемещение.\n",
+                    "нестабилен, например, его содержимое может двигаться",
+                    "Достаточно ли освещения, чтобы четко видеть, что вы делаете?"
+                ]
+            },
+            "slide_29": {
+                "img" : "/images/curs/step1/c29.webp",
+                "title": "опасности",
+                "answer": "",
+                "content": "Эта рабочая среда представляет ряд опасностей, включая риск ручного выполнения задач развертывания.",
+                "bullets": [
+                    "Всегда убедитесь, что вы работаете в хорошо освещенном помещении, так как плохое освещение ограничивает вашу способность определять любые опасности и препятствия."
+                ]
+            },
+            "slide_30": {
+                "img" : "/images/curs/step1/c30.webp",
+                "title": "Правильный",
+                "answer": "",
+                "content": "Всегда проверяйте, чтобы полы были сухими и находились на одном уровне. Скользкий, неровный или неустойчивый пол увеличивает риск несчастных случаев и травм спины и других частей тела. Сообщите своему менеджеру, если вам известны какие-либо дефекты полов.",
+                "bullets": [
+                ]
+            },
+            "slide_31": {
+                "img" : "/images/curs/step1/c31.webp",
+                "title": "Правильный",
+                "answer": "",
+                "content": "Будьте в курсе вашего маршрута и любых опасностей, которые могут присутствовать. Кроме того, убедитесь, что у вас достаточно места для маневра во время выполнения задачи. Работа в замкнутом пространстве мешает правильной осанке и маневренности и вынуждает вас совершать неуклюжие движения, которые подвергают вас повышенному риску получения травмы.",
+                "bullets": [
+
+                ]
+            },
+            "slide_32": {
+                "img" : "/images/curs/step1/c32.webp",
+                "title": "Вопрос",
+                "answer": "",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Антураж",
+                    "Задача",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_33": {
+                "img" : "/images/curs/step1/c33.webp",
+                "title": "Вопрос",
+                "answer": "Индивидуальные способности. В этом примере риск связан с индивидуальными способностями.\nЧеловек беременен, что влияет на его способность осуществлять ручное обращение. Пожалуйста, продолжайте.",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Антураж",
+                    "Задача",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_34": {
+                "img" : "/images/curs/step1/c34.webp",
+                "title": "Вопрос",
+                "answer": "",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Антураж",
+                    "Беременность",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_35": {
+                "img" : "/images/curs/step1/c35.webp",
+                "title": "Вопрос",
+                "answer": "Беременность. В этом примере риск связан с весом беременной. Груз плохо упакован, что может повлиять на его безопасную транспортировку. Пожалуйста, продолжайте.",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Антураж",
+                    "Беременность",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_36": {
+                "img" : "/images/curs/step1/c36.webp",
+                "title": "Вопрос",
+                "answer": "",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Антураж",
+                    "Беременность",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_37": {
+                "img" : "/images/curs/step1/c37.webp",
+                "title": "Вопрос",
+                "answer": "В этом примере риск связан с окружающей средой. Неудобные движения, такие как растяжка, которые повышают риск получения травмы. Чтобы снизить риск получения травмы, груз следует хранить на уровне талии, где можно избежать растяжения и с комфортом обращаться с грузом. Пожалуйста, продолжайте.",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Антураж",
+                    "Беременность",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_38": {
+                "img" : "/images/curs/step1/c38.webp",
+                "title": "Вопрос",
+                "answer": "",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Беременность",
+                    "Вес",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_39": {
+                "img" : "/images/curs/step1/c39.webp",
+                "title": "Вопрос",
+                "answer": "В этом примере риск связан с рабочей средой. Работа при плохом освещении не позволяет вам ясно видеть и затрудняет выявление каких-либо опасностей. Пожалуйста, продолжайте.",
+                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
+                "bullets": [
+                    "Беременность",
+                    "Вес",
+                    "Рабочая среда",
+                    "Индивидуальные способности"
+                ]
+            },
+            "slide_40": {
+                "img" : "/images/curs/step1/c39.webp",
+                "title": "Вопрос",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Неправильные методы ручного обращения могут оставаться незамеченными в течение многих лет.\nНегативные последствия этих неправильных упражнений могут быть незаметны.\nна данный момент, но это может иметь серьезные последствия в будущем, которые могут вызвать\nсерьезные проблемы со спиной.",
+                    "В ваших интересах правильно оценивать\nкаждую выполняемую вручную задачу обработки.",
+                    "При оценке риска, связанного с ручным управлением,\nдумать \"ПЛИТКА\" (задача, личность (собственные способности),\nвес груза и рабочая среда."
+                ]
+            }
+        },
+        "stage_4": {
+            "slide_1": {
+                "img" : "/images/curs/step1/d1.webp",
+                "title": "Вопрос",
+                "answer": "",
+                "content": "Когда невозможно избежать ручного перемещения, важно использовать правильную технику перемещения при подъеме, переноске, размещении, толкании или вытягивании груза.",
+                "bullets": [
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step1/d2.webp",
+                "title": "Цели урока",
+                "answer": "",
+                "content": "Этот урок охватывает:",
+                "bullets": [
+                    "Принципы ручной обработки",
+                    "Как выполнять правильный подъем в различных ситуациях в соответствии с инструкцией по обращению с грузом."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step1/d3.webp",
+                "title": "Принципы ручного обращения",
+                "answer": "",
+                "content": "Каковы принципы безопасности при ручном обращении, которых следует придерживаться, чтобы снизить риск получения травм?",
+                "bullets": [
+                    "Принципы ручной обработки",
+                    "Как выполнять правильный подъем в различных ситуациях в соответствии с инструкцией по обращению с грузом."
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step1/d4.webp",
+                "title": "Примите устойчивую позу",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step1/d5.webp",
+                "title": "Примите устойчивую позу",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step1/d6.webp",
+                "title": "Медленно вставайте",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step1/d7.webp",
+                "title": "Носите груз близко к телу",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step1/d8.webp",
+                "title": "Избегайте скручивания во время выполнения ручных операций",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step1/d9.webp",
+                "title": "Принятие стабильной позиции",
+                "answer": "",
+                "content": "Ваши ноги и тело должны быть направлены в том направлении, в котором вы собираетесь идти. Если груз имеет нестабильный вес (в движении), вы должны держать самую тяжелую часть груза ближе к телу.\nЗаймите положение, поставив ноги на ширину плеч на землю, чтобы обеспечить себе опору и устойчивость. Держите одну ногу немного впереди другой и избегайте наклона вперед или назад из этого положения, потому что вы рискуете потерять устойчивость.\nИзбегайте тесной одежды или неподходящей обуви, которая может затруднить движение.",
+                "bullets": [
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step1/d10.webp",
+                "title": "Принятие стабильной позиции",
+                "answer": "",
+                "content": "согните колени и дайте им разойтись.\nИзбегайте наклона (сгибание спины)\nили положение на корточках (полностью гибкие бедра и колени).",
+                "bullets": [
+                ]
+            },
+            "slide_11": {
+                "img" : "/images/curs/step1/d11.webp",
+                "title": "Принятие стабильной позиции",
+                "answer": "",
+                "content": "Слегка наклоните голову и направьте корпус в сторону груза, чтобы хорошенько обхватить его руками.\nУ вас будет лучший захват, если вы сможете схватить груз всей рукой так, чтобы ваши пальцы согнулись вокруг него. Если груз скользкий, жирный или по какой-либо другой причине его трудно ухватить, возможно, потребуется надеть перчатки. Возможно, вам придется немного наклониться над грузом, чтобы получить лучший контакт (захват).",
+                "bullets": [
+                ]
+            },
+            "slide_12": {
+                "img" : "/images/curs/step1/d12.webp",
+                "title": "Медленно вставай",
+                "answer": "",
+                "content": "Когда вы поднимаетесь, держите спину в естественной форме. Держите плечи на одном уровне, а лицо в том же направлении, что и бедра. Когда начнется подъем, медленно и плавно используйте ноги, осторожно упираясь головой. Когда вы выпрямляете колени, позвольте бедрам выпрямиться.\nПодтяните груз к талии (центру тяжести).\nНе перекручивать при подъеме.",
+                "bullets": [
+                ]
+            },
+            "slide_13": {
+                "img" : "/images/curs/step1/d13.webp",
+                "title": "Носите груз близко к телу.",
+                "answer": "",
+                "content": "Во время ходьбы держите груз близко к телу.\nПереноска груза близко к центру тяжести снижает нагрузку на спину. Удерживание груза на небольшом расстоянии от тела удваивает влияние его веса на давление тела (на спину), удерживание груза на расстоянии вытянутой руки увеличивает его воздействие на тело в пять раз. Минимизируйте влияние нагрузки. Держите центр тяжести груза близко к центру тяжести тела.",
+                "bullets": [
+                ]
+            },
+            "slide_14": {
+                "img" : "/images/curs/step1/d14.webp",
+                "title": "Принцип качелей",
+                "answer": "",
+                "content": "Когда вы сидите на качелях с кем-то такого же веса, вы будете в равновесии.Что происходит, когда вы тяжелее человека, с которым сидите, например, ребенка?",
+                "bullets": [
+                ]
+            },
+            "slide_15": {
+                "img" : "/images/curs/step1/d15.webp",
+                "title": "Принцип качелей",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "У более тяжелого человека будет нижний рокер.",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step1/d16.webp",
+                "title": "Принцип качелей",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "Сможете ли вы балансировать на качелях, если один человек тяжелее другого?",
+                "bullets": [
+                ]
+            },
+            "slide_17": {
+                "img" : "/images/curs/step1/d17.webp",
+                "title": "Правильный",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "Если более тяжелый человек сидит ближе к точке поворота (в данном случае к середине качалки), влияние его веса меньше.\nПожалуйста, продолжайте.",
+                "bullets": [
+                ]
+            },
+            "slide_18": {
+                "img" : "/images/curs/step1/d18.webp",
+                "title": "Чему учит нас кресло-качалка?",
+                "answer": "",
+                "content": "Итак, мы знаем, что когда мы помещаем что-то более тяжелое ближе к стержню, влияние этого веса уменьшается.\nПочему это имеет значение при применении ручного управления?\n(Подсказка: 2 верно)\nМы должны попытаться встать близко к объекту, который мы поднимаем, прежде чем поднять его.\nМы должны стараться удерживать груз близко к телу, когда поднимаем, опускаем, толкаем или тянем.\nМы должны найти кого-то более легкого (по весу) для выполнения задачи по ручной обработке.",
+                "bullets": [
+                ]
+            },
+            "slide_19": {
+                "img" : "/images/curs/step1/d19.webp",
+                "title": "Правильно",
+                "answer": "Мы должны найти кого-то более легкого (по весу), чтобы выполнить ручную работу.",
+                "content": "Если вы начнете процедуру ручной обработки рядом с грузом и постараетесь держать ее близко к телу, вы уменьшите усилие, необходимое для ее выполнения. Пожалуйста, продолжайте. ✓ Мы должны стараться встать рядом с предметом, который мы поднимаем, прежде чем поднять его. Мы должны стараться удерживать груз близко к телу, когда поднимаем, опускаем, толкаем или тянем.",
+                "bullets": [
+                ]
+            },
+            "slide_20": {
+                "img" : "/images/curs/step1/d20.webp",
+                "title": "Избегайте скручивания во время процедуры ручного обращения.",
+                "answer": "",
+                "content": "При ходьбе с отягощением идите осторожно, нормальным шагом. Смотрите вперед, а не вниз на груз.\nЕсли вам нужно изменить направление, двигайте сначала ногами, а затем всем телом. Помните, избегайте скручивания тела во время ручной обработки.",
+                "bullets": [
+                ]
+            },
+            "slide_21": {
+                "img" : "/images/curs/step1/d21.webp",
+                "title": "Верно Ложно",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "X Когда вы собираетесь поднять груз/вес, встаньте, поставив ноги близко друг к другу, чтобы они давали вам опору и устойчивость.",
+                    "X Хорошо скручивать тело и поднимать его одновременно.",
+                    "✓ Удерживание груза вдали от центра тяжести тела увеличивает воздействие груза. X Встаньте как можно быстрее после подъема груза с пола."
+                ]
+            },
+            "slide_22": {
+                "img" : "/images/curs/step1/d22.webp",
+                "title": "Размещение груза",
+                "answer": "",
+                "content": "Размещение груза вниз может повлиять на спину так же сильно, как и его поднятие.\nВот этот.\nПри размещении груза вниз согните колени, чтобы добиться меньшей высоты тела, но при этом спина должна оставаться в своей естественной форме. Не теряйте контакт с грузом до тех пор, пока он не будет опущен.\nЕсли требуется точное позиционирование груза,\nсначала поместите его вниз, затем найдите нужное положение.",
+                "bullets": [
+                ]
+            },
+            "slide_23": {
+                "img" : "/images/curs/step1/d23.webp",
+                "title": "Толкать или тянуть груз ",
+                "answer": "",
+                "content": "Как для толкания, так и для вытягивания груза руки должны располагаться между плечами и уровнем талии. Руки, расположенные слишком высоко или слишком низко над грузом, создают дополнительную нагрузку на тело.\nНаклоняйтесь в том направлении, в котором вы толкаете или тянете, сохраняя естественную форму спины и слегка согнув колени.\nКогда вы отталкиваетесь, поставьте одну ногу вперед и оттолкнитесь от задней ноги. Когда вы тянете, поставьте одну ногу назад и\nоттолкнуться передней ногой.",
+                "bullets": [
+                ]
+            },
+            "slide_24": {
+                "img" : "/images/curs/step1/d24.webp",
+                "title": "Выполнение командной нагрузки ",
+                "answer": "",
+                "content": "При групповой загрузке убедитесь, что есть достаточно места для маневра всей командой. Работайте с кем-то, кто схож с вами телосложением и ростом.\nОбсудите эффективность нагрузки. Должно быть назначено лицо, которое будет давать указания.\nОпределить центр тяжести\nгруз - есть более тяжелая часть? Если на вашем маршруте есть лестницы или склоны, помните, что больше веса груза будет ощущаться теми, кто находится внизу.\nПоднимайте одновременно и двигайтесь согласованно вместе.",
+                "bullets": [
+                ]
+            },
+            "slide_25": {
+                "img" : "/images/curs/step1/d25.webp",
+                "title": "Разгрузка автомобиля (багажника)",
+                "answer": "",
+                "content": "Подъем тяжелых предметов с очень малой высоты создает более серьезные проблемы и требует особого внимания. Чтобы поместить груз в багажник, поместите груз на край багажника. Затем медленно опустите его, согнув оба колена. Старайтесь держать широкую базу. Может помочь, если вы поставите одну ногу перед другой.\nСовет:Положите большой кусок картона на пол за машиной перед ее разгрузкой. Затем, когда вы придете разгружать багажник, вы сможете опустить груз с помощью этого картона, что значительно облегчит ситуацию, чем слишком сильно перегибаться.",
+                "bullets": [
+                ]
+            },
+            "slide_26": {
+                "img" : "/images/curs/step1/d26.webp",
+                "title": "Подъем груза в положении сидя",
+                "answer": "",
+                "content": "Если вы поднимаете предмет сидя, вы не можете использовать свои сильные мышцы ног.\nЭто означает, что большую часть работы выполняют более слабые мышцы верхней части тела. По этой причине вам следует избегать подъема предметов, когда вы находитесь в сидячем положении.",
+                "bullets": [
+                ]
+            },
+            "slide_27": {
+                "img" : "/images/curs/step1/d27.webp",
+                "title": "Подъем сидя",
+                "answer": "",
+                "content": "Если вам приходится поднимать тяжести сидя, размещайте предметы таким образом, чтобы\nне растягивайтесь и не сгибайтесь слишком далеко перед телом.\nИзбегайте хранения грузов ниже уровня талии, так как это приводит к изгибу и скручиванию тела.",
+                "bullets": [
+                ]
+            },
+            "slide_28": {
+                "img" : "/images/curs/step1/d28.webp",
+                "title": "Загрузка в два этапа ",
+                "answer": "",
+                "content": "Для выполнения нагрузки с большим расстоянием, например от пола до высоты плеч, целесообразно делать это в два этапа.\nЗаймите положение и медленно/слегка поднимите груз. Затем поместите груз на безопасное место на полпути (например, на стол или скамью), чтобы изменить хват и принять более подходящее положение для подъема с высоты талии на высоту плеч.",
+                "bullets": [
+                ]
+            },
+            "slide_29": {
+                "img" : "/images/curs/step1/d29.webp",
+                "title": "Загрузка в два этапа ",
+                "answer": "",
+                "content": "Для выполнения нагрузки с большим расстоянием, например от пола до высоты плеч, целесообразно делать это в два этапа.\nЗаймите положение и медленно/слегка поднимите груз. Затем поместите груз на безопасное место на полпути (например, на стол или скамью), чтобы изменить хват и принять более подходящее положение для подъема с высоты талии на высоту плеч.",
+                "bullets": [
+                ]
+            },
+            "slide_30": {
+                "img" : "/images/curs/step1/d30.webp",
+                "title": "Продолжайте подниматься на верхний уровень. ",
+                "answer": "",
+                "content": "Следует соблюдать особую осторожность при подъеме выше уровня плеч (например, укладывая предметы/предметы на высокие полки), так как подъем грузов на этом уровне находится слишком далеко от центра тяжести тела и увеличивает влияние веса груза, что влияет на давление. на плечах и спине.",
+                "bullets": [
+                ]
+            },
+            "slide_31": {
+                "img" : "/images/curs/step1/d31.webp",
+                "title": "Краткое содержание",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Всегда останавливайтесь и думайте, прежде чем приступать к ручной обработке. Спланируйте транспортировку, учтите механические средства, ознакомьтесь с маршрутом и возможными опасностями.",
+                    "Если вам необходимо выполнить подъем, поставьте ноги на ширине плеч, слегка согните колени, возьмитесь крепко и медленно поднимитесь.",
+                    "Травмы получаются не только при подъеме тяжестей. Они также могут произойти, когда\nосуществлять толкание, тягу, транспортировку и размещение груза."
+                ]
+            }
+        },
+        "test": {
+            "slide_1": {
+                "img" : "/images/curs/step1/d32.webp",
+                "title": "Что из следующего является правильным при размещении нагрузки?",
+                "answer": "Слегка согните ноги в коленях, сохраняя при этом спину в естественной форме.",
+                "content": "",
+                "bullets": [
+                    "Уберите руки с груза перед тем, как положить его.",
+                    "Положите груз на колени перед тем, как положить его.",
+                    "Слегка согните колени, сохраняя при этом естественную форму спины."
+                ]
+            },
+            "slide_2": {
+                "img" : "/images/curs/step1/d32.webp",
+                "title": "При выполнении групповой нагрузки что из перечисленного следует выполнять?",
+                "answer": "Обсудите производительность нагрузки. Должно быть назначено лицо, которое будет давать указания.",
+                "content": "",
+                "bullets": [
+                    "Переносите груз выше уровня плеч.",
+                    "Сначала поднимите груз на одну сторону, а затем попросите другого человека поднять свою сторону.",
+                    "Обсудите производительность нагрузки. Должно быть назначено лицо, которое будет давать указания."
+                ]
+            },
+            "slide_3": {
+                "img" : "/images/curs/step1/d32.webp",
+                "title": "Что делать, если вы не уверены в своей способности поднять груз?",
+                "answer": "",
+                "content": "",
+                "bullets": [
+                    "Все равно продолжайте зарядку.",
+                    "Сообщите своему менеджеру"
+                ]
+            },
+            "slide_4": {
+                "img" : "/images/curs/step1/d33.webp",
+                "title": "Задачи ручной обработки возникают только в интенсивных рабочих условиях, таких как фабрика или промышленная среда.",
+                "answer": "Фальшивый",
+                "content": "",
+                "bullets": [
+                    "Истинный",
+                    "Фальшивый"
+                ]
+            },
+            "slide_5": {
+                "img" : "/images/curs/step1/d33.webp",
+                "title": "Какое из следующих утверждений наиболее точно описывает процедуру ручной обработки?",
+                "answer": "Любая транспортировка, если требуется человеческая сила.",
+                "content": "",
+                "bullets": [
+                    "Перемещение тяжелых предметов.",
+                    "Перемещение объектов механическими средствами.",
+                    "Любой транспорт, где требуется человеческая сила."
+                ]
+            },
+            "slide_6": {
+                "img" : "/images/curs/step1/d33.webp",
+                "title": "Какая часть тела наиболее подвержена травмам в результате выполнения процедуры мануальной обработки?",
+                "answer": "Спина",
+                "content": "",
+                "bullets": [
+                    "Руки",
+                    "Спина",
+                    "Ноги"
+                ]
+            },
+            "slide_7": {
+                "img" : "/images/curs/step1/d33.webp",
+                "title": "Как лучше всего переносить груз/вес вручную?",
+                "answer": "Держите груз близко к центру тяжести вашего тела.",
+                "content": "",
+                "bullets": [
+                    "Держите груз на уровне плеч.",
+                    "Держите груз на небольшом расстоянии от тела.",
+                    "Держите груз близко к центру тяжести вашего тела."
+                ]
+            },
+            "slide_8": {
+                "img" : "/images/curs/step1/d33.webp",
+                "title": "При переноске груза/веса следует ли при необходимости менять направление?",
+                "answer": "Двигая ногами",
+                "content": "",
+                "bullets": [
+                    "Двигать ногами.",
+                    "Скручивание тела.",
+                    "Шаг назад и скручивание тела."
+                ]
+            },
+            "slide_9": {
+                "img" : "/images/curs/step1/d33.webp",
+                "title": "При переноске груза/веса следует ли при необходимости менять направление?",
+                "answer": "Между высотой плеча и талии.",
+                "content": "",
+                "bullets": [
+                    "Высота выше плеча.",
+                    "Высота ниже талии.",
+                    "Между плечом и высотой талии."
+                ]
+            },
+            "slide_10": {
+                "img" : "/images/curs/step1/d33.webp",
+                "title": "Как вы, скорее всего, повредите спину?",
+                "answer": "В результате кумулятивного повреждения чаще всего травмируется спина.",
+                "content": "",
+                "bullets": [
+                    "Спина обычно страдает от регулярной ходьбы.",
+                    "Спина обычно повреждается в результате одного инцидента.",
+                    "В результате кумулятивного повреждения чаще всего травмируется спина."
+                ]
+            }
+
+        }
+
+    },
+    "romanian": {
+
+    },
+    "spanish": {
+
+    }
+}

@@ -1,0 +1,9 @@
+.startCourseButton{
+    border: 1px solid purple;
+    padding: 10px;
+    border-radius: 6px;
+}
+.startCourseButton:hover{
+    background: purple;
+    color: white;
+}

@@ -14,20 +14,23 @@ class PackageController extends Controller
      */
     public function index()
     {
-        $packages = DB::select("SELECT * FROM `packages`");
-        $employees = DB::select("SELECT * FROM company_employee JOIN users ON users.id = company_employee.employee");
-        return view('admin.administrator.package')->with('packages', $packages)->with('employees',$employees);
+        $packages = DB::select("SELECT * FROM `packages` WHERE user_id=" . auth()->user()->id);
+        return view('admin.administrator.package')->with('packages', $packages);
     }
 
     public function share($id)
     {
+        $employeesToShare = DB::select('SELECT * FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=' . auth()->user()->id);
         $packageToShare = DB::select("SELECT * FROM packages WHERE id=".$id);
-        return view('admin.administrator.share')->with('packageToShare',$packageToShare);
+        return view('admin.administrator.share')->with('packageToShare',$packageToShare)->with('employeesToShare',$employeesToShare);
     }
 
-    public function sharePackage($id, $sharingTo)
+    public function sharePackage(Request $request, $id)
     {
-
+        DB::statement('INSERT INTO user_package(`sharing_from`, `sharing_to`, `package_id`) VALUES(' . auth()->user()->id . ',' . $request->shareToEmployee . ','.$id.')');
+        DB::statement('UPDATE packages SET user_id=' . $request->shareToEmployee . ' WHERE id=' . $id);
+        $userShareTo = DB::select('SELECT name FROM users WHERE id=' . $request->shareToEmployee);
+        return(redirect(route('package.index')))->with('success', 'The course has been shared to ' . $userShareTo[0]->name);
     }
 
     /**
