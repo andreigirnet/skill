@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="{{asset("css/admin/dashboard.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/basket.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/orders.css")}}">
+    <link rel="stylesheet" href="{{asset("css/admin/course.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/checkout.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/package.css")}}">
     <link rel="stylesheet" href="{{asset("css/admin/share.css")}}">

@@ -931,7 +931,7 @@
     "polish": {
         "stage_1":{
             "slide_1": {
-                "img" : "/images/curs/step4/1.webp",
+                "img" : "/images/curs/step1/1.webp",
                 "title": "WSTĘP",
                 "answer": "",
                 "content": "Ręczne zadania przenoszenia występują wszędzie tam, gdzie pracują ludzie.\nZa każdym razem, gdy używamy naszych ciał do poruszenia przedmiotu, jesteśmy w procesie manualnym\nobsługi, niezależnie od tego, czy znajdujemy się w biurze, fabryce, magazynie, sklepie czy jakimkolwiek innym środowisku\nDo pracy.",
@@ -939,10 +939,10 @@
                 ]
             },
             "slide_2": {
-                "img" : "/images/curs/step4/2.webp",
+                "img" : "/images/curs/step1/2.webp",
                 "title": "CELE KURSU",
                 "answer": "",
-                "content": "Ręczne zadania przenoszenia występują wszędzie tam, gdzie pracują ludzie.\nZa każdym razem, gdy używamy naszych ciał do poruszenia przedmiotu, jesteśmy w procesie manualnym\nobsługi, niezależnie od tego, czy znajdujemy się w biurze, fabryce, magazynie, sklepie czy jakimkolwiek innym środowisku\nDo pracy.",
+                "content": "",
                 "bullets": [
                     "Aby zwrócić uwagę na niebezpieczeństwa związane z bólem pleców, w jaki sposób są one spowodowane i co możesz zrobić, aby zapobiec tym zagrożeniom.",
                     "Aby zachęcić Cię do oceny swoich zadań związanych z przenoszeniem ręcznym.",
@@ -951,7 +951,7 @@
                 ]
             },
             "slide_3": {
-                "img" : "/images/curs/step4/3.webp",
+                "img" : "/images/curs/step1/3.webp",
                 "title": "CZYM JEST PRZENOSZENIE RĘCZNE?",
                 "answer": "",
                 "content": "Ręczne zadania przenoszenia występują wszędzie tam, gdzie pracują ludzie.\nZa każdym razem, gdy używamy naszych ciał do poruszenia przedmiotu, jesteśmy w procesie manualnym\nobsługi, niezależnie od tego, czy znajdujemy się w biurze, fabryce, magazynie, sklepie czy jakimkolwiek innym środowisku\nDo pracy.",
@@ -963,7 +963,7 @@
                 ]
             },
             "slide_4": {
-                "img" : "/images/curs/step4/4.webp",
+                "img" : "/images/curs/step1/4.webp",
                 "title": "ZADANIA PRZENOSZENIA RĘCZNEGO",
                 "answer": "",
                 "content": "Kilka przykładów zadań związanych z ręczną obsługą\ncodziennie obejmują:\n",
@@ -978,7 +978,7 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step4/5.webp",
+                "img" : "/images/curs/step1/5.webp",
                 "title": "USZKODZENIA SPOWODOWANE NIEWŁAŚCIWĄ RĘCZNĄ OBSŁUGĄ",
                 "answer": "",
                 "content": "",
@@ -989,7 +989,7 @@
                 ]
             },
             "slide_6": {
-                "img" : "/images/curs/step4/6.webp",
+                "img" : "/images/curs/step1/6.webp",
                 "title": "Jakie są moje obowiązki związane z ręcznym przemieszczaniem w pracy? Jako pracownik musisz:",
                 "answer": "",
                 "content": "",
@@ -998,7 +998,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/7.webp",
+                "img" : "/images/curs/step1/7.webp",
                 "title": "STRESZCZENIE",
                 "answer": "",
                 "content": "",
@@ -1011,7 +1011,7 @@
         },
         "stage_2":{
             "slide_1": {
-                "img" : "/images/curs/step4/b1.webp",
+                "img" : "/images/curs/step2/b1.webp",
                 "title": "WSTĘP",
                 "answer": "",
                 "content": "Plecy są częścią ciała najbardziej narażoną na ręczne czynności transportowe. Aby zapobiec urazom kręgosłupa, ważne jest, aby zrozumieć, jak działają twoje plecy i co możesz zrobić, aby o nie zadbać.",
@@ -1019,7 +1019,7 @@
                 ]
             },
             "slide_2": {
-                "img" : "/images/curs/step4/b2.webp",
+                "img" : "/images/curs/step2/b2.webp",
                 "title": "CELE LEKCJI",
                 "answer": "",
                 "content": "Ta lekcja obejmuje:",
@@ -1030,7 +1030,7 @@
                 ]
             },
             "slide_3": {
-                "img" : "/images/curs/step4/b3.webp",
+                "img" : "/images/curs/step2/b3.webp",
                 "title": "KOMPONENTY TYLNE",
                 "answer": "",
                 "content": "Twoje plecy to złożona struktura składająca się z wielu części, w tym:",
@@ -1041,7 +1041,7 @@
                 ]
             },
             "slide_4": {
-                "img" : "/images/curs/step4/b4.webp",
+                "img" : "/images/curs/step2/b4.webp",
                 "title": "KRĘGOSŁUP",
                 "answer": "",
                 "content": "Główną kością w plecach jest kręgosłup. Kręgosłup zapewnia strukturalne wsparcie dla ciała i składa się z kości zwanych kręgami i krążków międzykręgowych.",
@@ -1049,7 +1049,7 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step4/b5.webp",
+                "img" : "/images/curs/step2/b5.webp",
                 "title": "NERWOWOŚĆ",
                 "answer": "",
                 "content": "Głównym nerwem w plecach jest rdzeń kręgowy.\nRdzeń kręgowy łączy nerwy w każdym z nich\nczęść ciała z mózgiem.\n",
@@ -1057,7 +1057,7 @@
                 ]
             },
             "slide_6": {
-                "img" : "/images/curs/step4/b6.webp",
+                "img" : "/images/curs/step2/b6.webp",
                 "title": "MIĘŚNIE, WIĘZADŁA I ŚCIĘGNA",
                 "answer": "",
                 "content": "Mięśnie wspierające, więzadła i ścięgna pleców łączą się z kręgosłupem i pozwalają ciału przyjmować różne pozycje.",
@@ -1065,7 +1065,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/b7.webp",
+                "img" : "/images/curs/step2/b7.webp",
                 "title": "KRĘGOSŁUP",
                 "answer": "",
                 "content": "Kręgosłup rozciąga się od czaszki do kości ogonowej.\nSkłada się z 33 zazębiających się kości zwanych kręgami\nktóre siedzą jedna na drugiej i tworzą lekką krzywiznę w kształcie litery „S”.",
@@ -1073,7 +1073,7 @@
                 ]
             },
             "slide_8": {
-                "img" : "/images/curs/step4/b8.webp",
+                "img" : "/images/curs/step2/b8.webp",
                 "title": "DYSKI",
                 "answer": "",
                 "content": "Kręgi są oddzielone dyskami\nw przedniej części kręgosłupa (obciążająca część kręgosłupa). Tarcze te są wypełnione galaretowatą substancją, która działa jak tylny amortyzator. Dyski wchłaniają płyn, gdy się kładziemy, co odciąża kręgosłup.",
@@ -1081,7 +1081,7 @@
                 ]
             },
             "slide_9": {
-                "img" : "/images/curs/step4/b9.webp",
+                "img" : "/images/curs/step2/b9.webp",
                 "title": "CHOROBY DYSKU",
                 "answer": "",
                 "content": "Jeśli na dyski zostanie przyłożona nadmierna siła lub powtarzające się obciążenia (na przykład podczas podnoszenia ciężarów), może dojść do degeneracji dysku. Gdy dysk ulega degeneracji, na dysku mogą pojawić się pęknięcia. Dysk, który pęka, nazywany jest przepukliną dysku (znaną również jako wypadnięcie lub wypadnięcie dysku). Krążki zawierają niewiele nerwów i dlatego uszkodzenia kręgosłupa czasami pozostają niezauważone przez lata.",
@@ -1089,7 +1089,7 @@
                 ]
             },
             "slide_10": {
-                "img" : "/images/curs/step4/b10.webp",
+                "img" : "/images/curs/step2/b10.webp",
                 "title": "RDZEŃ KRĘGOWY (NERWY)",
                 "answer": "",
                 "content": "Rdzeń kręgowy rozciąga się od podstawy mózgu około dwóch trzecich długości kręgosłupa.\nNerwy rdzenia kręgowego rozgałęziają się przez małe szczeliny między kręgami i łączą się z nerwami w całym ciele. Każda tkanka uciskająca nerw może powodować ból, na przykład zapalenie mięśnia lub przepuklina dysku.",
@@ -1097,7 +1097,7 @@
                 ]
             },
             "slide_11": {
-                "img" : "/images/curs/step4/b11.webp",
+                "img" : "/images/curs/step2/b11.webp",
                 "title": "MIĘŚNIE, WIĘZADŁA I ŚCIĘGNA",
                 "answer": "",
                 "content": "Czy wiesz, co robią mięśnie, więzadła i ścięgna?",
@@ -1108,7 +1108,7 @@
                 ]
             },
             "slide_12": {
-                "img" : "/images/curs/step4/b12.webp",
+                "img" : "/images/curs/step2/b12.webp",
                 "title": "obrażenia",
                 "answer": "",
                 "content": "Więzadło krzyżowe występuje, gdy więzadło jest rozciągnięte lub rozdarte.\nSkręcenie jest zwykle spowodowane bezpośrednim urazem lub nagłym skręceniem stawu. Możesz nadwerężyć mięśnie, rozciągając je zbyt daleko, powodując drobne rozdarcia w tkance. Mięśnie są wtedy osłabione, przez co mogą nie być w stanie utrzymać kości kręgosłupa we właściwym miejscu. Kręgosłup staje się mniej stabilny, powodując ból w dole pleców. Mięśnie męczą się, jeśli nie pozwalają im odpocząć i zregenerować się podczas użytkowania.",
@@ -1116,7 +1116,7 @@
                 ]
             },
             "slide_13": {
-                "img" : "/images/curs/step4/b13.webp",
+                "img" : "/images/curs/step2/b13.webp",
                 "title": "W JAKI SPOSÓB OBRAŻA SIĘ PLECY?",
                 "answer": "",
                 "content": "Czasami plecy są kontuzjowane przez tylko jedno zdarzenie, na przykład podnoszenie czegoś\nzbyt mocno, ale zwykle kontuzja pleców jest konsekwencją skumulowanego nadużycia w czasie. Skumulowane nadużywanie to termin używany do opisania powtarzających się złych pozycji lub ruchów podczas wykonywania manualnych zadań siłowych, które z czasem powodują urazy kręgosłupa. Na przykład ciągłe skręcanie i zginanie pleców podczas podnoszenia, umieszczanie przedmiotu na określonej wysokości może prowadzić do kontuzji.",
@@ -1124,7 +1124,7 @@
                 ]
             },
             "slide_14": {
-                "img" : "/images/curs/step4/b14.webp",
+                "img" : "/images/curs/step2/b14.webp",
                 "title": "PRZYKŁADY RUCHÓW KUMULATYCZNYCH",
                 "answer": "",
                 "content": "Zła postawa, powtarzające się ruchy, nieaktywny tryb życia i nieprawidłowe techniki ćwiczeń ruchowych to przykłady skumulowanych nadużyć.\nNIEPRAWIDŁOWA TECHNIKA ĆWICZEŃ CIAŁA\nNieprawidłowa technika ćwiczeń (na przykład skręcanie podczas podnoszenia) wywiera nacisk na plecy, ramiona i szyję. Z biegiem czasu ruchy te powodują urazy kręgosłupa.",
@@ -1132,7 +1132,7 @@
                 ]
             },
             "slide_15": {
-                "img" : "/images/curs/step4/b15.webp",
+                "img" : "/images/curs/step2/b15.webp",
                 "title": "POWTÓRZENIE ZADANIA",
                 "answer": "",
                 "content": "Czynność powtarzalna to czynność wykonywana wielokrotnie iw sposób ciągły, na przykład zadania związane z pakowaniem lub sortowaniem. Powtarzające się zadania zwiększają ryzyko kontuzji, gdy powtarzasz wysiłek na tym samym zestawie mięśni.",
@@ -1140,7 +1140,7 @@
                 ]
             },
             "slide_16": {
-                "img" : "/images/curs/step4/b16.webp",
+                "img" : "/images/curs/step2/b16.webp",
                 "title": "ZŁA POSTAWA",
                 "answer": "",
                 "content": "Zła postawa, zarówno siedząca, jak i stojąca, zwiększa obciążenie pleców i szyi. Zła postawa może nie powodować dyskomfortu na krótką metę, ale utrzymująca się zła postawa może powodować ból pleców w dłuższej perspektywie.Pamiętaj, że mięśnie pleców wspierają kręgosłup, więc utrzymanie dobrej postawy może zmniejszyć prawdopodobieństwo wystąpienia problemów.",
@@ -1148,7 +1148,7 @@
                 ]
             },
             "slide_17": {
-                "img" : "/images/curs/step4/b17.webp",
+                "img" : "/images/curs/step2/b17.webp",
                 "title": "NAWYKI NA CAŁE ŻYCIE",
                 "answer": "",
                 "content": "Jeśli masz nadwagę i prowadzisz siedzący tryb życia, istnieje większe prawdopodobieństwo uszkodzenia kręgosłupa. Nadwaga powoduje większy nacisk na obciążone stawy i zwiększa ryzyko ich zużycia. Mięśnie i stawy muszą być ćwiczone, aby zachować siłę. Siedzący tryb życia oznacza, że mięśnie i stawy tracą siłę. Ręczne czynności związane z przemieszczaniem powodują większe obciążenie słabo kondycjonowanych mięśni niż dobrze kondycjonowanych.",
@@ -1156,7 +1156,7 @@
                 ]
             },
             "slide_18": {
-                "img" : "/images/curs/step4/b18.webp",
+                "img" : "/images/curs/step2/b18.webp",
                 "title": "PYTANIE",
                 "answer": "",
                 "content": "Trzy z poniższych stwierdzeń są poprawne.",
@@ -1168,7 +1168,7 @@
                 ]
             },
             "slide_19": {
-                "img" : "/images/curs/step4/b18.webp",
+                "img" : "/images/curs/step2/b18.webp",
                 "title": "STRESZCZENIE",
                 "answer": "",
                 "content": "Trzy z poniższych stwierdzeń są poprawne.",
