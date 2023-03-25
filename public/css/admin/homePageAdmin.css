@@ -18,6 +18,7 @@
     display: flex;
     column-gap: 5px;
     font-size: 17px;
+    margin-top: 20px;
 }
 .textColorTitle{
     color: var(--textTitle);

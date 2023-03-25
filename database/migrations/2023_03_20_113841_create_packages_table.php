@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users');
             $table->text('course_name')->nullable();
             $table->text('status')->nullable();
-            $table->foreignId('certificate_id')->constrained('certificates');
+            $table->foreignId('certificate_id')->nullable()->constrained('certificates');
             $table->timestamps();
         });
     }

@@ -10,69 +10,68 @@
 
            Our easy-to-use online learning platform makes training easy whether for yourself or hundreds of your staff.
        </div>
-        <div class="stepsCircle">
-            <div class="stepsContainer">
-                <div class="stepsCircleTitle">STEP 1- PAY FOR YOUR COURSE</div>
-                <div class="circle-progress first-circle" data-aos="fade-right">
-                    <div class="circle-nr">1</div>
-                    <svg viewBox="0 0 36 36" class="circular-chart orange">
-                        <path class="circle-bg"
-                              d="M18 2.0845
-                                         a 15.9155 15.9155 0 0 1 0 31.831
-                                         a 15.9155 15.9155 0 0 1 0 -31.831"
-                        />
-                        <path class="circle"
-                              stroke-dasharray="25, 100"
-                              d="M18 2.0845
-                                         a 15.9155 15.9155 0 0 1 0 31.831
-                                         a 15.9155 15.9155 0 0 1 0 -31.831"
-                        />
+{{--        <div class="stepsCircle">--}}
+{{--            <div class="stepsContainer">--}}
+{{--                <div class="stepsCircleTitle">STEP 1- PAY FOR YOUR COURSE</div>--}}
+{{--                <div class="circle-progress first-circle" data-aos="fade-right">--}}
+{{--                    <div class="circle-nr">1</div>--}}
+{{--                    <svg viewBox="0 0 36 36" class="circular-chart orange">--}}
+{{--                        <path class="circle-bg"--}}
+{{--                              d="M18 2.0845--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 31.831--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 -31.831"--}}
+{{--                        />--}}
+{{--                        <path class="circle"--}}
+{{--                              stroke-dasharray="25, 100"--}}
+{{--                              d="M18 2.0845--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 31.831--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 -31.831"--}}
+{{--                        />--}}
 
-                  </svg>
-                </div>
-            </div>
-            <div class="stepsContainer">
-                <div class="stepsCircleTitle">STEP 2 - STUDY & PASS THE TEST</div>
-                <div class="circle-progress first-circle" data-aos="fade-right">
-                    <div class="circle-nr">2</div>
-                    <svg viewBox="0 0 36 36" class="circular-chart orange">
-                        <path class="circle-bg"
-                              d="M18 2.0845
-                                         a 15.9155 15.9155 0 0 1 0 31.831
-                                         a 15.9155 15.9155 0 0 1 0 -31.831"
-                        />
-                        <path class="circle"
-                              stroke-dasharray="75, 100"
-                              d="M18 2.0845
-                                         a 15.9155 15.9155 0 0 1 0 31.831
-                                         a 15.9155 15.9155 0 0 1 0 -31.831"
-                        />
+{{--                  </svg>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="stepsContainer">--}}
+{{--                <div class="stepsCircleTitle">STEP 2 - STUDY & PASS THE TEST</div>--}}
+{{--                <div class="circle-progress first-circle" data-aos="fade-right">--}}
+{{--                    <div class="circle-nr">2</div>--}}
+{{--                    <svg viewBox="0 0 36 36" class="circular-chart orange">--}}
+{{--                        <path class="circle-bg"--}}
+{{--                              d="M18 2.0845--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 31.831--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 -31.831"--}}
+{{--                        />--}}
+{{--                        <path class="circle"--}}
+{{--                              stroke-dasharray="75, 100"--}}
+{{--                              d="M18 2.0845--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 31.831--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 -31.831"--}}
+{{--                        />--}}
 
-                    </svg>
-                </div>
-            </div>
-            <div class="stepsContainer">
-                <div class="stepsCircleTitle">STEP 3 - DOWNLOAD CERTIFICATE</div>
-                <div class="circle-progress first-circle" data-aos="fade-right">
-                    <div class="circle-nr">3</div>
-                    <svg viewBox="0 0 36 36" class="circular-chart orange">
-                        <path class="circle-bg"
-                              d="M18 2.0845
-                                         a 15.9155 15.9155 0 0 1 0 31.831
-                                         a 15.9155 15.9155 0 0 1 0 -31.831"
-                        />
-                        <path class="circle"
-                              stroke-dasharray="100, 100"
-                              d="M18 2.0845
-                                         a 15.9155 15.9155 0 0 1 0 31.831
-                                         a 15.9155 15.9155 0 0 1 0 -31.831"
-                        />
+{{--                    </svg>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="stepsContainer">--}}
+{{--                <div class="stepsCircleTitle">STEP 3 - DOWNLOAD CERTIFICATE</div>--}}
+{{--                <div class="circle-progress first-circle" data-aos="fade-right">--}}
+{{--                    <div class="circle-nr">3</div>--}}
+{{--                    <svg viewBox="0 0 36 36" class="circular-chart orange">--}}
+{{--                        <path class="circle-bg"--}}
+{{--                              d="M18 2.0845--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 31.831--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 -31.831"--}}
+{{--                        />--}}
+{{--                        <path class="circle"--}}
+{{--                              stroke-dasharray="100, 100"--}}
+{{--                              d="M18 2.0845--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 31.831--}}
+{{--                                         a 15.9155 15.9155 0 0 1 0 -31.831"--}}
+{{--                        />--}}
 
-                    </svg>
-                </div>
-            </div>
-        </div>
-
+{{--                    </svg>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
        <div class="productSection">
            <div class="productWrapper">

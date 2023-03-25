@@ -31,6 +31,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/register/employee', [App\Http\Controllers\EmployeeController::class,'create'])->name('register.employee');
     Route::post('/register/employee/store', [App\Http\Controllers\EmployeeController::class,'store'])->name('register.employee.store');
+    Route::delete('/delete/employee/{id}', [App\Http\Controllers\EmployeeController::class,'destroy'])->name('employee.delete');
 
     Route::get('/cart', [App\Http\Controllers\BasketController::class,'index'])->name('basket.index');
     Route::get('/cart/get', [App\Http\Controllers\BasketController::class,'getCartItems'])->name('basket.get');
@@ -54,6 +55,8 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/share/package/{id}', [App\Http\Controllers\PackageController::class,'sharePackage'])->name('package.share.store');
 
     Route::get('/course/{id}', [App\Http\Controllers\CourseController::class,'index'])->name('course.index');
+    Route::get('/certificates', [App\Http\Controllers\CertificateController::class,'index'])->name('certificate.index');
+    Route::post('/certificate/create/{id}}', [App\Http\Controllers\CertificateController::class,'store'])->name('certificate.store');
 
     Route::get('/error', function () {
         return view('admin.administrator.error');

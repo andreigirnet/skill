@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\RegisterEmployeeMail;
+use App\Models\CompanyEmployee;
 use App\Models\Employee;
 use App\Http\Controllers\Controller;
 use App\Models\User;
@@ -20,7 +21,7 @@ class EmployeeController extends Controller
      */
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
-        $employees = DB::select('SELECT * FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=' . auth()->user()->id);
+        $employees = DB::select('SELECT *, company_employee.id as relationId FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=' . auth()->user()->id);
         return view('admin.administrator.dashboard')->with('employees', $employees);
     }
 
@@ -46,11 +47,17 @@ class EmployeeController extends Controller
         $hashPassword = Hash::make($password, [
             'rounds' => 12,
         ]);
-        User::create([
+        $user = User::create([
             'name' => $request->name,
             'email'=> $request->email,
             'password'=>$hashPassword
         ]);
+
+        CompanyEmployee::create([
+            'company'  =>auth()->user()->id,
+            'employee' =>$user->id
+        ]);
+
         return redirect(route('register.employee'))->with('success', 'Employee has been added to your dashboard');
     }
 
@@ -83,7 +90,8 @@ class EmployeeController extends Controller
      */
     public function destroy($id): RedirectResponse
     {
-        DB::statement('DELETE FROM company_employee WHERE employee='.$id);
+        DB::statement('DELETE FROM company_employee WHERE id='.$id);
         return (redirect(route('dashboard.employer')))->with('success', 'Employer has been deleted successfully');
     }
+
 }

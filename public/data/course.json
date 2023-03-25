@@ -233,7 +233,7 @@
             "slide_4": {
                 "img" : "/images/curs/step3/c4.webp",
                 "title": "RISK ASSESSMENT",
-                "content": "There are four areas you should assess for risk before performing a manual handling task.\nSome people find it useful to use the acronym \"TILE\" when referring to these different domains:\n We will now look at each of these four areas in detail.:",
+                "content": "There are four areas you should assess for risk before performing a manual handling task.\nSome people find it useful to use the acronym  when referring to these different domains:\n We will now look at each of these four areas in detail.:",
                 "bullets": [
                     "Task",
                     "Individual (Individual) Load (Load)",
@@ -242,7 +242,7 @@
             },
             "slide_5": {
                 "img" : "/images/curs/step3/c5.webp",
-                "title": "TILE - TASK",
+                "title": "TASK",
                 "content": "Sometimes with manual handling activities, the task itself can be overlooked. People may be more likely to evaluate a task that does not appear to cause problems and appears to be more visible and tangible than the task. However, it is important to be aware of how a task is performed to assess what you can do to reduce the risk of injury.\nFor example, by looking at a load, it may be clear that the load could be lifted mechanically, which eliminates the need to use and involve manual handling.\n\nNote\nThe best way to avoid injury is to avoid manual lifting in general.",
                 "bullets": [
                 ]
@@ -534,7 +534,7 @@
                 "bullets": [
                     "Improper manual handling practices can go unnoticed for years.\nThe negative effects of these incorrect exercises may not be visible\nat the moment, but it could have serious consequences in the future that could cause\nserious back problems.\n",
                     "It is in your best interest to rate correctly\nevery manual handling task you perform.\n",
-                    "When assessing the risk from a manual handling task,\nthink \"TILE\" (task, individual (own abilities),\nthe weight of the load and the working environment. "
+                    "When assessing the risk from a manual handling task,\nthink \nthe weight of the load and the working environment. "
                 ]
             }
         },
@@ -703,7 +703,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d20.webp",
+                "img" : "/images/curs/step4/d21.webp",
                 "title": "Avoid twisting during the manual handling procedure.",
                 "answer": "",
                 "content": "When walking with a weight, walk carefully with a normal step. Look forward, not down at the load.\nIf you need to change direction, move your feet first, then your whole body. Remember, avoid twisting your body during manual handling.",
@@ -810,6 +810,14 @@
             }
         },
         "test":{
+            "slide_0": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Now you will have to pass a Test",
+                "answer": "",
+                "content": "You must answer 7 from 10 questions in order to get the certificate. Please click next slide to start",
+                "bullets": [
+                ]
+            },
             "slide_1": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "Which of the following is correct when placing a load?",
@@ -871,7 +879,7 @@
             "slide_6": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "Which part of the body is most affected by injuries as a result of implementing the manual handling procedure?",
-                "answer": "Back",
+                "answer": "The back.",
                 "content": "",
                 "bullets": [
                     "Hands.",
@@ -882,7 +890,7 @@
             "slide_7": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "What is the best method to carry a load/weight by hand?",
-                "answer": "Bend your knees to bend slightly while keeping your back in its natural shape.",
+                "answer": "Keep the load close to your body's center of gravity.",
                 "content": "",
                 "bullets": [
                     "Hold the load at shoulder height.",
@@ -893,7 +901,7 @@
             "slide_8": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "When carrying a load/weight, should you change direction if necessary?",
-                "answer": "By moving your legs.",
+                "answer": "Moving your legs.",
                 "content": "",
                 "bullets": [
                     "Moving your legs.",
@@ -905,7 +913,7 @@
             "slide_9": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "What is the recommended hand position when pushing or pulling a load/weight?",
-                "answer": "Between the height of the shoulder and the waist.",
+                "answer": "Between shoulder and waist height.",
                 "content": "",
                 "bullets": [
                     "Above shoulder height.",
@@ -917,7 +925,7 @@
             "slide_10": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "How are you most likely to injure your back?",
-                "answer": "Bend your knees to bend slightly while keeping your back in its natural shape.",
+                "answer": "The back is most likely to be injured as a result of cumulative damage.",
                 "content": "",
                 "bullets": [
                     "The back is usually affected from regular walking.",
@@ -1211,7 +1219,7 @@
                 "img" : "/images/curs/step3/c4.webp",
                 "title": "OCENA RYZYKA",
                 "answer": "",
-                "content": "Istnieją cztery obszary, które należy ocenić pod kątem ryzyka przed wykonaniem zadania ręcznego przenoszenia.\nNiektóre osoby uważają za przydatne używanie akronimu „TILE” w odniesieniu do tych różnych domen:",
+                "content": "Istnieją cztery obszary, które należy ocenić pod kątem ryzyka przed wykonaniem zadania ręcznego przenoszenia.\nNiektóre osoby uważają za przydatne używanie akronimu w odniesieniu do tych różnych domen:",
                 "bullets": [
                     "Zadanie",
                     "Obciążenie indywidualne (indywidualne) (obciążenie)",
@@ -1717,7 +1725,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d20.webp",
+                "img" : "/images/curs/step4/d21.webp",
                 "title": "Unikaj skręcania podczas procedury ręcznego przenoszenia.",
                 "answer": "",
                 "content": "Chodząc z ciężarem, chodź ostrożnie, normalnym krokiem. Patrz przed siebie, a nie na ładunek.\nJeśli musisz zmienić kierunek, najpierw poruszaj stopami, a potem całym ciałem. Pamiętaj, unikaj skręcania ciała podczas ręcznego przenoszenia. ",
@@ -1813,6 +1821,14 @@
 
         },
         "test":{
+            "slide_0": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Teraz będziesz musiał zdać Test",
+                "answer": "",
+                "content": "Aby otrzymać certyfikat, należy odpowiedzieć na 7 z 10 pytań. Kliknij następny slajd, aby rozpocząć",
+                "bullets": [
+                ]
+            },
             "slide_1": {
                 "img" : "/images/curs/step4/d31.webp",
                 "title": "Które z poniższych jest prawidłowe podczas umieszczania ładunku?",
@@ -1838,7 +1854,7 @@
             "slide_3": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "Jeśli nie jesteś pewien, czy jesteś w stanie podnieść ciężar, co powinieneś zrobić?",
-                "answer": "Poinformuj swojego przełożonego",
+                "answer": "Poinformuj swojego kierownika",
                 "content": "",
                 "bullets": [
                     "Mimo to kontynuuj ładowanie.",
@@ -1848,7 +1864,7 @@
             "slide_4": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "Ręczne zadania przenoszenia występują tylko w intensywnych środowiskach pracy, takich jak fabryki lub środowiska przemysłowe.",
-                "answer": "Fałsz",
+                "answer": "Podróbka",
                 "content": "",
                 "bullets": [
                     "PRAWDA",
@@ -1858,7 +1874,7 @@
             "slide_5": {
                 "img" : "/images/curs/step4/d33.webp",
                 "title": "Które z poniższych stwierdzeń najdokładniej opisuje procedurę ręcznego przenoszenia?",
-                "answer": "Jakikolwiek transport, jeśli wymagana jest siła ludzka.",
+                "answer": "Każdy transport, w którym wymagana jest siła ludzka.",
                 "content": "",
                 "bullets": [
                     "Przenoszenie ciężkich przedmiotów.",
@@ -1891,7 +1907,7 @@
             "slide_8": {
                 "img" : "/images/curs/step4/d33.webp",
                 "title": "Czy podczas przenoszenia ładunku/ciężaru należy zmienić kierunek, jeśli to konieczne?",
-                "answer": "Poruszając nogami.",
+                "answer": "Poruszanie nogami.",
                 "content": "",
                 "bullets": [
                     "Poruszanie nogami.",
@@ -1902,7 +1918,7 @@
             "slide_9": {
                 "img" : "/images/curs/step4/d33.webp",
                 "title": "Jaka jest zalecana pozycja dłoni podczas pchania lub ciągnięcia ładunku/ciężaru?",
-                "answer": "Poruszając nogami.",
+                "answer": "Między ramionami a talią.",
                 "content": "",
                 "bullets": [
                     "Powyżej wysokości ramion.",
@@ -2212,7 +2228,7 @@
                 "img" : "/images/curs/step3/c4.webp",
                 "title": "ОЦЕНКА РИСКА",
                 "answer": "",
-                "content": "Есть четыре области, которые вы должны оценить на предмет риска, прежде чем выполнять задачу ручной обработки.\nНекоторые люди считают полезным использовать аббревиатуру «TILE» при обращении к этим разным доменам:",
+                "content": "Есть четыре области, которые вы должны оценить на предмет риска, прежде чем выполнять задачу ручной обработки.\nНекоторые люди считают полезным использовать аббревиатуру  при обращении к этим разным доменам:",
                 "bullets": [
                     "Задача",
                     "Индивидуальная (индивидуальная) нагрузка (Load)",
@@ -2718,7 +2734,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d20.webp",
+                "img" : "/images/curs/step4/d21.webp",
                 "title": "Избегайте скручивания во время процедуры ручного обращения.",
                 "answer": "",
                 "content": "При ходьбе с отягощением идите осторожно, нормальным шагом. Смотрите вперед, а не вниз на груз.\nЕсли вам нужно изменить направление, двигайте сначала ногами, а затем всем телом. Помните, избегайте скручивания тела во время ручной обработки.",
@@ -2821,10 +2837,18 @@
             }
         },
         "test": {
+            "slide_0": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Теперь вам предстоит пройти тест",
+                "answer":"",
+                "content": "Для получения сертификата необходимо ответить на 7 из 10 вопросов. Нажмите следующий слайд, чтобы начать",
+                "bullets": [
+                ]
+            },
             "slide_1": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "Что из следующего является правильным при размещении нагрузки?",
-                "answer": "Слегка согните ноги в коленях, сохраняя при этом спину в естественной форме.",
+                "answer": "Слегка согните колени, сохраняя при этом естественную форму спины.",
                 "content": "",
                 "bullets": [
                     "Уберите руки с груза перед тем, как положить его.",
@@ -2846,7 +2870,7 @@
             "slide_3": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "Что делать, если вы не уверены в своей способности поднять груз?",
-                "answer": "",
+                "answer": "Сообщите своему менеджеру",
                 "content": "",
                 "bullets": [
                     "Все равно продолжайте зарядку.",
@@ -2866,7 +2890,7 @@
             "slide_5": {
                 "img" : "/images/curs/step4/d33.webp",
                 "title": "Какое из следующих утверждений наиболее точно описывает процедуру ручной обработки?",
-                "answer": "Любая транспортировка, если требуется человеческая сила.",
+                "answer": "Любой транспорт, где требуется человеческая сила.",
                 "content": "",
                 "bullets": [
                     "Перемещение тяжелых предметов.",
@@ -2899,7 +2923,7 @@
             "slide_8": {
                 "img" : "/images/curs/step4/d33.webp",
                 "title": "При переноске груза/веса следует ли при необходимости менять направление?",
-                "answer": "Двигая ногами",
+                "answer": "Двигать ногами.",
                 "content": "",
                 "bullets": [
                     "Двигать ногами.",
@@ -2910,7 +2934,7 @@
             "slide_9": {
                 "img" : "/images/curs/step4/d33.webp",
                 "title": "При переноске груза/веса следует ли при необходимости менять направление?",
-                "answer": "Между высотой плеча и талии.",
+                "answer": "Между плечом и высотой талии.",
                 "content": "",
                 "bullets": [
                     "Высота выше плеча.",
@@ -3215,7 +3239,7 @@
                 "img" : "/images/curs/step3/c4.webp",
                 "title": "EVALUAREA RISCURILOR",
                 "answer": "",
-                "content": "Există patru domenii pe care ar trebui să le evaluați pentru riscuri înainte de a efectua o sarcină de manual handling.\nUnele persoane consideră că este util să se utilizeze acronimul \"TILE\" atunci când vă amintiți aceste domenii diferite, \n Vom analiza acum fiecare dintre aceste patru domenii în detaliu:",
+                "content": "Există patru domenii pe care ar trebui să le evaluați pentru riscuri înainte de a efectua o sarcină de manual handling.\nUnele persoane consideră că este util să se utilizeze acronimul  atunci când vă amintiți aceste domenii diferite, \n Vom analiza acum fiecare dintre aceste patru domenii în detaliu:",
                 "bullets": [
                     "Sarcina (Task)",
                     "Individuale (Individual) Încărca (Load)",
@@ -3553,7 +3577,7 @@
                 "bullets": [
                     "Practicile de manual handling exercitate incorect pot trece neobservate ani de zile.\nS-ar putea să nu fie vizibile efectele negative ale acestor exercitari incorecte\nla moment, dar ar putea avea consecinte grave pe viitor care ar putea cauza\nserioase probleme de spate.\n",
                     "Este în interesul dumneavoastră să evaluati correct\nfiecare sarcină de manual handling pe care o efectuați.\n",
-                    "Atunci când evaluați riscul de la o sarcină de manual handling,\ngândiţi-vă la \"TILE\" (sarcină, individual (propriile capacităţi),\ngreutatea sarcinii şi mediul de lucru."
+                    "Atunci când evaluați riscul de la o sarcină de manual handling,\ngândiţi-vă la (sarcină, individual (propriile capacităţi),\ngreutatea sarcinii şi mediul de lucru."
                 ]
             }
         },
@@ -3719,7 +3743,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d20.webp",
+                "img" : "/images/curs/step4/d21.webp",
                 "title": "Evitaţi răsucirea în timpul procedurii de manual handling",
                 "answer": "",
                 "content": "Atunci când mergeti pe jos cu o greutate, mergeti atent cu pas normal. Uitati-va înainte, nu in jos la încărcătură.\nDacă trebuie să vă schimbați direcţia,intâi mişcaţi-vă picioarele apoi întregul corp. Amintiţi-vă, evitați răsucirea corpului în timpul efectuarii manual handling.\n",
@@ -3819,6 +3843,14 @@
             }
         },
         "test": {
+            "slide_0": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Acum va trebui să face-ți un Test",
+                "answer": "",
+                "content": "Trebuie să răspunde-ți la minim 7 întrebări din 10 ca să primi-ți certificatul",
+                "bullets": [
+                ]
+            },
             "slide_1": {
                 "img" : "/images/curs/step4/d31.webp",
                 "title": "Care dintre următoarele este corecta la plasarea unei încărcături?",
@@ -3875,7 +3907,7 @@
             "slide_6": {
                 "img" : "/images/curs/step4/d35.webp",
                 "title": "Care parte a corpului este cea mai afectată de leziuni ca rezultat la implementarea procedurii de manual handling?",
-                "answer": "Fals",
+                "answer": "Spatele",
                 "content": "",
                 "bullets": [
                     "Mâinile",
@@ -3885,13 +3917,13 @@
             },
             "slide_7": {
                 "img" : "/images/curs/step4/d35.webp",
-                "title": "Care parte a corpului este cea mai afectată de leziuni ca rezultat la implementarea procedurii de manual handling?",
-                "answer": "Spatele",
+                "title": "Care este cea mai buna metoda de a transporta manual o incarcatura/greutate?",
+                "answer": "Țineți încărcătura aproape de centrul de gravitatie a corpului.",
                 "content": "",
                 "bullets": [
-                    "Mâinile",
-                    "Spatele",
-                    "Picioarele"
+                    "Țineți incarcatura la înălțimea umerilor.",
+                    "Țineți incarcatura ușor indepartata de corp.",
+                    "Țineți încărcătura aproape de centrul de gravitatie a corpului."
                 ]
             },
             "slide_8": {
@@ -4214,7 +4246,7 @@
                 "img" : "/images/curs/step3/c4.webp",
                 "title": "EVALUACIÓN DE RIESGOS",
                 "answer": "",
-                "content": "Hay cuatro áreas en las que debe evaluar el riesgo antes de realizar una tarea de manipulación manual.\nAlgunas personas encuentran útil usar el acrónimo \"TILE\" cuando se refieren a estos diferentes dominios:",
+                "content": "Hay cuatro áreas en las que debe evaluar el riesgo antes de realizar una tarea de manipulación manual.\nAlgunas personas encuentran útil usar el acrónimo cuando se refieren a estos diferentes dominios:",
                 "bullets": [
                     "Tarea",
                     "Carga Individual (Individual) (Load)",
@@ -4551,7 +4583,7 @@
                 "bullets": [
                     "Las prácticas de manipulación manual inadecuadas pueden pasar desapercibidas durante años.\nLos efectos negativos de estos ejercicios incorrectos pueden no ser visibles\npor el momento, pero podría tener graves consecuencias en el futuro que podrían causar\nserios problemas de espalda.\n",
                     "Le conviene calificar correctamente\ncada tarea de manipulación manual que realice.\n",
-                    "Al evaluar el riesgo de una tarea de manipulación manual,\npiensa en \"TILE\" (tarea, individual (habilidades propias),\nel peso de la carga y el entorno de trabajo "
+                    "Al evaluar el riesgo de una tarea de manipulación manual,\npiensa en (tarea, individual (habilidades propias),\nel peso de la carga y el entorno de trabajo "
                 ]
             }
         },
@@ -4817,10 +4849,18 @@
             }
         },
         "test": {
+            "slide_0": {
+                "img" : "/images/curs/step4/d32.webp",
+                "title": "Ahora tendrás que pasar una Prueba",
+                "answer": "",
+                "content": "Debe responder 7 de 10 preguntas para obtener el certificado. Haga clic en la siguiente diapositiva para comenzar",
+                "bullets": [
+                ]
+            },
             "slide_1": {
                 "img" : "/images/curs/step4/d32.webp",
                 "title": "Cuál de las siguientes es correcta al colocar una carga?",
-                "answer": "Dobla las rodillas para doblarlas ligeramente mientras mantienes la espalda en su forma natural.",
+                "answer": "Doble las rodillas para doblarlas ligeramente mientras mantiene la espalda en su forma natural.",
                 "content": "",
                 "bullets": [
                     "Quite las manos de la carga antes de dejarla.",
@@ -4831,7 +4871,7 @@
             "slide_2": {
                 "img" : "/images/curs/step4/d33.webp",
                 "title": "Al realizar una carga de equipo, ¿cuál de los siguientes debe realizarse?",
-                "answer": "Analice el rendimiento de la carga. Se debe designar a una persona para dar instrucciones.",
+                "answer": "Discutir el desempeño de la carga. Se debe designar a una persona para dar instrucciones.",
                 "content": "",
                 "bullets": [
                     "Llevar la carga por encima de la altura de los hombros",
@@ -4842,7 +4882,7 @@
             "slide_3": {
                 "img" : "/images/curs/step4/d34.webp",
                 "title": "Si no está seguro de su capacidad para levantar una carga, ¿qué debe hacer?",
-                "answer": "Informe a su gerente ",
+                "answer": "Informe a su gerente",
                 "content": "",
                 "bullets": [
                     "Continúe cargando de todos modos.",
@@ -4862,7 +4902,7 @@
             "slide_5": {
                 "img" : "/images/curs/step4/d34.webp",
                 "title": "Cuál de las siguientes afirmaciones describe con mayor precisión un procedimiento de manipulación manual.",
-                "answer": "Cualquier transporte si se requiere fuerza humana.",
+                "answer": "Cualquier transporte donde se requiera fuerza humana.",
                 "content": "",
                 "bullets": [
                     "Mover objetos pesados.",
@@ -4873,7 +4913,7 @@
             "slide_6": {
                 "img" : "/images/curs/step4/d36.webp",
                 "title": "Qué parte del cuerpo se ve más afectada por lesiones como resultado de implementar el procedimiento de manejo manual?",
-                "answer": "La parte de atrás",
+                "answer": "La parte de atrás.",
                 "content": "",
                 "bullets": [
                     "Manos",
@@ -4895,7 +4935,7 @@
             "slide_8": {
                 "img" : "/images/curs/step4/d38.webp",
                 "title": "Al transportar una carga/peso, ¿debe cambiar de dirección si es necesario?",
-                "answer": "Moviendo las piernas.",
+                "answer": "Mover las piernas.",
                 "content": "",
                 "bullets": [
                     "Mover las piernas.",
@@ -4911,7 +4951,7 @@
                 "bullets": [
                     "Por encima de la altura de los hombros.",
                     "Por debajo de la altura de la cintura.",
-                    "Entre la altura del hombro y la cintura"
+                    "Entre la altura del hombro y la cintura."
                 ]
             },
             "slide_10": {

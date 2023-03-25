@@ -7,17 +7,22 @@
 }
 .progressBar{
     width: 80%;
+    border-radius: 15px;
+    height: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.30) 0px 0px 0px 1px;
+    /*box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.30) 0px 0px 0px 1px;*/
 }
 .progresItem{
     width: 100%;
+    height: 30px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid gray;
+    border: 1px solid gray;
+    cursor: pointer;
 }
 .courseContainer{
     width: 1310px;
@@ -37,7 +42,7 @@
 .langItem img{
     width: 40px;
     cursor: pointer;
-    transition: 0.8s;
+    transition: 0.1s;
 }
 .langItem img:hover{
     transform: scale(1.1);
@@ -63,8 +68,9 @@
     width: 1310px;
     height: 100%;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 .slideContent{
     background: black;
@@ -111,5 +117,91 @@
 .bulletText{
     font-size: 18px;
     text-align: center;
-    color: #ADD8E6;
+    color: white;
+}
+.slideAnswer{
+    background: #6bcb96;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+.showAnswer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8a62e;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.showAnswer:hover{
+    font-size: 22px;
+}
+.isActiveClass{
+    background: var(--navAdminColor);
+    color: white;
+}
+.bulletPoint{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.bulletPoint img{
+    width: 20px;
+}
+.submitTestQuesstion{
+    padding: 10px;
+    background: #f8a62e;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.downCertificate{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    background: var(--navAdminColor);
+}
+.tryAgainButton{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--textTitle);
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fce001;
+}
+.tryAgainDiv{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.tryAgain{
+    font-size: 20px;
+    color: red;
+}
+.succesTest{
+    font-size: 20px;
+    color: green;
 }

@@ -24,7 +24,8 @@
             <div class="navLinkDropAdmin">Register Your Employee</div></a>
         <a href="{{route('admin.consulting')}}">
             <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
-            <div class="navLinkDropAdmin">Instructions</div></a>
+            <div class="navLinkDropAdmin">Instructions</div>
+        </a>
     </div>
     <div class="navLinkAdmin" id="billingNavButton">
         <div class="navIconAdmin"><img src="{{asset('images/icons/bank.png')}}" alt=""></div>
@@ -48,4 +49,10 @@
             <div class="navLinkDropAdmin">Packages</div>
         </a>
     </div>
+    <a href="{{route('certificate.index')}}">
+        <div class="navLinkAdmin">
+            <div class="navIconAdmin"><img src="{{asset('images/icons/doc.png')}}" alt=""></div>
+            <div class="navLinkName">Certificates</div>
+        </div>
+    </a>
 </div>

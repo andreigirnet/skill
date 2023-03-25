@@ -5,6 +5,7 @@
         <table class="styled-table">
             <thead>
             <tr>
+                <th>Action</th>
                 <th>Employee Date Of Registration</th>
                 <th>Employee Name</th>
                 <th>Employee email</th>
@@ -16,6 +17,9 @@
             <tbody>
             @foreach($employees as $employee)
             <tr>
+                <td class="actionOrder">
+                   <form class="deleteFormOrders" action="{{route('employee.delete', $employee->relationId)}}" method="POST">@csrf @method('DELETE')<button class="submitDeleteOrder"><img src="{{asset('images/icons/bin.png')}}" alt=""></button></form>
+                </td>
                 <td>{{$employee->created_at}}</td>
                 <td>{{$employee->name}}</td>
                 <td>{{$employee->email}}</td>
