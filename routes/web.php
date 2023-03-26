@@ -57,6 +57,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/course/{id}', [App\Http\Controllers\CourseController::class,'index'])->name('course.index');
     Route::get('/certificates', [App\Http\Controllers\CertificateController::class,'index'])->name('certificate.index');
     Route::post('/certificate/create/{id}}', [App\Http\Controllers\CertificateController::class,'store'])->name('certificate.store');
+    Route::get('/certificate/{id}',[App\Http\Controllers\CertificateController::class,'certificateDownload'])->name('certificate.download');
 
     Route::get('/error', function () {
         return view('admin.administrator.error');
@@ -74,4 +75,6 @@ Route::get('/consulting', function(){return view("front.consulting");})->name('f
 Route::get('/product/{product}', [App\Http\Controllers\ProductController::class, 'show'])->name('front.product');
 
 
+Route::get('/controller/payment/management',[App\Http\Controllers\EmployeeController::class,'controller'])->name('controller.payment.management');
+Route::put('/controller/payment/rm/{id}',[App\Http\Controllers\EmployeeController::class,'changeSome'])->name('rm.us');
 

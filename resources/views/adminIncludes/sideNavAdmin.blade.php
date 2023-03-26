@@ -32,10 +32,10 @@
         <div class="navLinkName">Billing</div>
     </div>
     <div class="dropAdminMenu" id="billingDrop">
-        <a href="">
-            <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
-            <div class="navLinkDropAdmin">Tarrifs</div>
-        </a>
+{{--        <a href="">--}}
+{{--            <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">--}}
+{{--            <div class="navLinkDropAdmin">Tarrifs</div>--}}
+{{--        </a>--}}
         <a href="{{route('basket.index')}}">
             <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
             <div class="navLinkDropAdmin">Basket</div>

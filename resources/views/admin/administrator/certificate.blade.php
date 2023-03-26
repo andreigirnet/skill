@@ -22,7 +22,7 @@
                     <td>{{$certificate->course_name}}</td>
                     <td>{{$certificate->valid_from}}</td>
                     <td>{{$certificate->expiration_date}}</td>
-                    <td><a href=""><img class="invoiceLink" src="{{asset('images/icons/pdf.png')}}" alt=""></a></td>
+                    <td><a href="{{route('certificate.download', $certificate->id)}}"><img class="invoiceLink" src="{{asset('images/icons/pdf.png')}}" alt=""></a></td>
                 </tr>
             @endforeach
             {{--        <tr class="active-row">--}}

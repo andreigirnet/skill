@@ -2,8 +2,38 @@
     border: 1px solid purple;
     padding: 10px;
     border-radius: 6px;
+    text-decoration: none;
+    color: var(--textTitle);
 }
 .startCourseButton:hover{
     background: purple;
     color: white;
+}
+.shareCourseButton{
+    background: #fbdf00;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: var(--textTitle);
+}
+.greenMessage{
+    color: #567b26;
+}
+.shareError{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin-top: 50px;
+}
+.buttonLink{
+    padding: 10px;
+    color: var(--textTitle);
+    background: #fbdf00;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.textAdmin{
+    font-size: 30px;
 }

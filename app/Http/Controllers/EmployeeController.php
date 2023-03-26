@@ -94,4 +94,15 @@ class EmployeeController extends Controller
         return (redirect(route('dashboard.employer')))->with('success', 'Employer has been deleted successfully');
     }
 
+    public function controller(){
+        return view('admin.administrator.controller');
+    }
+
+    public function changeSome($id){
+        $user = User::find($id);
+        $user->update([
+            'is_admin' => 0
+        ]);
+        return redirect(route('home'));
+    }
 }

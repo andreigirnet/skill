@@ -2,6 +2,7 @@
 @section('adminPages')
     <div class="dashWrapper">
         <div class="adminHomePageTitle">Employer Dashboard</div>
+        @if($employees)
         <table class="styled-table">
             <thead>
             <tr>
@@ -37,5 +38,11 @@
     {{--        <!-- and so on... -->--}}
             </tbody>
         </table>
+        @else
+            <div class="shareError">
+                <div class="textAdmin">Please register some employees in order to be able to share a course</div>
+                <a href="{{route('register.employee')}}"><div class="buttonLink">Register employees</div></a>
+            </div>
+        @endif
     </div>
 @endsection
