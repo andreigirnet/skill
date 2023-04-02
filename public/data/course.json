@@ -335,7 +335,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step3/c18.webp",
-                "title": "",
+                "title": "Study the image",
                 "content": "",
                 "bullets": [
                 ]
@@ -859,9 +859,7 @@
                 "content": "",
                 "bullets": [
                     "True",
-                    "False",
-                    "Bend your knees to bend slightly while keeping your back in its natural shape."
-
+                    "False"
                 ]
             },
             "slide_5": {
@@ -1338,7 +1336,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step3/c18.webp",
-                "title": "",
+                "title": "Study the image",
                 "img_additional": "/images/curs/step3/sl_18.png",
                 "answer": "",
                 "content": "",
@@ -2344,7 +2342,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step3/c18.webp",
-                "title": "",
+                "title": "Study the image",
                 "img_additional": "/images/curs/step4/sl_18.png",
                 "answer": "",
                 "content": "",

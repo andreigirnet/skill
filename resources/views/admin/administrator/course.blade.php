@@ -1,6 +1,7 @@
 @extends('admin.administrator.layout')
 @section('adminPages')
 <div class="dashWrapper" x-data="{
+            showHideContent: true,
             showStartTest: true,
             message: '',
             testAnswers: 0,
@@ -13,6 +14,9 @@
             answer: false,
             stage: 1,
             courses:'',
+            showHideSlide: function(){
+                this.showHideContent = !this.showHideContent
+            },
             setLanguage: function(lang)
             {
                 this.language = lang
@@ -184,12 +188,13 @@
                     <div class="progresItem" @click="setStage('test')" x-bind:class="{ 'isActiveClass': isActive === 'test' }">Test</div>
                 </div>
                 <div class="courseContainer">
+                    <img id="eyeIcon" @click="showHideSlide" src="{{asset('images/icons/eye.png')}}" alt="Show hide image">
                     <div class="courseSlider" id="courseSlider">
                         <div class="courseStage" x-show="stage === 1">
                             <template x-for="slide in courses.stage_1">
                                 <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover; background-repeat: no-repeat'">
                                     <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
-                                    <div class="slideContent" x-show="slide.title">
+                                    <div class="slideContent" x-show="showHideContent">
                                         <div class="slideTitle" x-text="slide.title"></div>
                                         <div class="slideSubText" x-text="slide.content"></div>
                                         <template x-for="bullet in slide.bullets">
@@ -207,7 +212,7 @@
                             <template x-for="slide in courses.stage_2">
                                 <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
                                     <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
-                                    <div class="slideContent" x-show="slide.title">
+                                    <div class="slideContent" x-show="showHideContent">
                                         <div class="slideTitle" x-text="slide.title"></div>
                                         <div class="slideSubText" x-text="slide.content"></div>
                                         <template x-for="bullet in slide.bullets">
@@ -225,7 +230,7 @@
                             <template x-for="slide in courses.stage_3">
                                 <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
                                     <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
-                                    <div class="slideContent" x-show="slide.title">
+                                    <div class="slideContent" x-show="showHideContent">
                                         <div class="slideTitle" x-text="slide.title"></div>
                                         <div class="slideSubText" x-text="slide.content"></div>
                                         <template x-for="bullet in slide.bullets">
@@ -243,7 +248,7 @@
                             <template x-for="slide in courses.stage_4">
                                 <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
                                     <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
-                                    <div class="slideContent" x-show="slide.title">
+                                    <div class="slideContent" x-show="showHideContent">
                                         <div class="slideTitle" x-text="slide.title"></div>
                                         <div class="slideSubText" x-text="slide.content"></div>
                                         <template x-for="bullet in slide.bullets">
@@ -262,7 +267,7 @@
                                 <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
                                     <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
                                     <div class="slideAnswer" x-show="message" x-text="message"></div>
-                                    <div class="slideContent">
+                                    <div class="slideContent" x-show="showHideContent">
                                         <div class="slideTitle" x-text="slide.title"></div>
                                         <div class="slideSubText" x-text="slide.content"></div>
                                         <template x-for="bullet in slide.bullets">
@@ -281,7 +286,7 @@
                 </div>
                 <div class="navButtons">
                     <div class="navButton" x-show="stage !== 'test'" @click="prevSlide">Previous</div>
-{{--                    <template x-if="certificateButton">--}}
+                    <template x-if="certificateButton">
                         <div class="tryAgainDiv">
                             <div class="succesTest">You have passed the test:</div>
                             <form action="{{route('certificate.store', $packagesOwnedByUser[0]->id)}}" method="POST">
@@ -289,7 +294,7 @@
                                 <button type="submit" class="downCertificate">Downloand Certificate</button>
                             </form>
                         </div>
-{{--                    </template>--}}
+                    </template>
                     <template x-if="tryAgainButton">
                         <div class="tryAgainDiv">
                             <div class="tryAgain">Please try Again you dit not pass:</div>

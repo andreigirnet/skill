@@ -41,22 +41,25 @@
         .information table {
             padding: 10px;
         }
+        .address{
+            text-align: center;
+        }
     </style>
 
 </head>
 <body>
 
 <div class="information">
-    <table width="100%">
+    <table style="width: 100%">
         <tr>
             <td align="center" style="width: 40%;">
-                <h3 style="margin-left: 40px">{{$user[0]->name}}</h3>
-                <h3 style="margin-left: 40px">{{$user[0]->email}}</h3>
-                <pre>
-                {{$order['address']}}
-                {{$order['city']}}
-                {{$order['county']}}
-                {{$order['country']}}
+                <h3 class style="margin-left: 40px">{{$user[0]->name}}</h3>
+                <h3 class style="margin-left: 40px">{{$user[0]->email}}</h3>
+                <div class="address">{{$order['address']}}</div>
+
+                <div class="address">{{$order['city']}}</div>
+                <div class="address">{{$order['county']}}</div>
+                <div class="address">{{$order['country']}}</div>
                 <br /><br />
                 Date: {{date('Y-m-d',strtotime($order['created_at']))}}
                 Identifier: #{{$order['id']}}

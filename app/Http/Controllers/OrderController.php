@@ -23,6 +23,21 @@ class OrderController extends Controller
         return view('admin.administrator.orders')->with('orders',$orders);
     }
 
+    public function allOrders(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+    {
+        $orders = DB::select("SELECT *, orders.user_id as owner_id, (SELECT email FROM users WHERE id=owner_id) as owner_email FROM orders ORDER BY created_at DESC");
+        return view('admin.admin.orders.index')->with('orders',$orders);
+    }
+
+    public function searchOrder(Request $request)
+    {
+        $order= DB::select("SELECT *, orders.user_id as owner_id, (SELECT email FROM users WHERE id=owner_id) as owner_email FROM orders WHERE id=" . $request->id);
+        if ($order === []){
+            return redirect()->back()->with('success', 'No record has been found with this id');
+        }
+            return view('admin.admin.orders.search')->with('order',$order[0]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */
@@ -36,9 +51,6 @@ class OrderController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        Order::create([
-            ""
-        ]);
     }
 
     /**
@@ -52,25 +64,47 @@ class OrderController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Order $order): Response
+    public function edit($id)
     {
-        //
+        $order = Order::find($id);
+        return view('admin.admin.orders.edit')->with('order', $order);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Order $order): RedirectResponse
+    public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'quantity' => 'required|max:50',
+            'address'  => 'required',
+            'county'   => 'required',
+            'city'     => 'required',
+            'country'  => 'required'
+        ]);
+        $order = Order::find($id);
+        $order->update([
+            'quantity'=>$request->quantity,
+            'address' =>$request->address,
+            'county'  =>$request->county,
+            'city'    =>$request->city,
+            'country' =>$request->country
+        ]);
+        return redirect(route('orders.index'))->with('success','Order has been updated');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy($id): RedirectResponse
+    public function destroy($id)
     {
         DB::statement("DELETE FROM orders WHERE id=".$id);
         return redirect(route('order.index'))->with('success','Order has been removed');
+    }
+
+    public function adminDeleteOrder($id)
+    {
+        DB::statement("DELETE FROM orders WHERE id=".$id);
+        return redirect(route('orders.index'))->with('success','Order has been removed');
     }
 }

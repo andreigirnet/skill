@@ -33,7 +33,7 @@ class CheckoutController extends Controller
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
         $cartDetails = $this->cart->getDetails();
-        return view('admin.administrator.checkout')->with('cartDetails',$cartDetails);
+        return view("admin.administrator.checkout")->with('cartDetails',$cartDetails);
     }
 
     /**
@@ -65,6 +65,7 @@ class CheckoutController extends Controller
                 'description' => 'Payment from ' . auth()->user()->email . ' on the date ' . date("Y-m-d h:i:sa"),
                 'customer'    => $customer->id
             ]);
+
             // Check if the charge was successful
             if ($charge->status === 'succeeded')
             {
@@ -111,7 +112,7 @@ class CheckoutController extends Controller
                 return redirect(route('error'));
             }
         }catch (\Stripe\Exception\CardException $e){
-
+                return redirect(route('error'));
         }
     }
 

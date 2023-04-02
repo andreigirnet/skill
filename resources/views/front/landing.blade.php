@@ -12,14 +12,6 @@
                 <a href="{{route('register')}}"><div class="pulse-button">Pay / Register Here</div></a>
             </div>
         </div>
-        <div class="scroll">
-            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-            <lord-icon
-                src="https://cdn.lordicon.com/hrahizob.json"
-                trigger="loop"
-                style="width:50px;height:50px">
-            </lord-icon>
-        </div>
     </div>
 
     <div id="statsCounter">
@@ -59,11 +51,11 @@
                         </div>
                         <div class="product-icons">
                             <img src="images/icons/certificate.png" alt="">
-                            <div>Certificate Validity: 2 Years</div>
+                            <div>Certificate Validity: 3 Years</div>
                         </div>
                         <div class="product-icons">
                             <img src="images/icons/money.png" alt="">
-                            <div>Only 60€</div>
+                            <div>Only 39€</div>
                         </div>
                     </div>
                 </div>
@@ -85,11 +77,11 @@
             <div class="main-review">
                 <div class="infoReview">
                     <div class="imgReview">
-                        <img src={{asset("images/avatars/av1.jpg")}} alt="">
+                        <img src={{asset("images/avatars/av-1.png")}} alt="">
                     </div>
                     <div class="statsReview">
                         <div class="reviewerNameBadge">
-                            <div class="reviewerName">John Doe</div>
+                            <div class="reviewerName">John Weasley</div>
                             <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
                         </div>
                         <div class="reviewerStarsTime">
@@ -100,12 +92,12 @@
                                 <img src="{{asset("images/icons/star.png")}}" alt="">
                                 <img src="{{asset("images/icons/star.png")}}" alt="">
                             </div>
-                            <div class="reviewerTime">4 days ago</div>
+                            <div class="reviewerTime">16 days ago</div>
                         </div>
                     </div>
                 </div>
                 <div class="reviewText">
-                    this is very effective learning prcess.
+                    This is very effective learning prcess.
                 </div>
                 <div class="reviewGoogle">
                     <div class="reviewerTime">Posted on</div>
@@ -116,11 +108,11 @@
             <div class="main-review">
                 <div class="infoReview">
                     <div class="imgReview">
-                        <img src={{asset("images/avatars/av1.jpg")}} alt="">
+                        <img src={{asset("images/avatars/av-2.png")}} alt="">
                     </div>
                     <div class="statsReview">
                         <div class="reviewerNameBadge">
-                            <div class="reviewerName">John Doe</div>
+                            <div class="reviewerName">Mary Andrews</div>
                             <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
                         </div>
                         <div class="reviewerStarsTime">
@@ -131,12 +123,12 @@
                                 <img src="{{asset("images/icons/star.png")}}" alt="">
                                 <img src="{{asset("images/icons/star.png")}}" alt="">
                             </div>
-                            <div class="reviewerTime">4 days ago</div>
+                            <div class="reviewerTime">2 days ago</div>
                         </div>
                     </div>
                 </div>
                 <div class="reviewText">
-                    this is very effective learning prcess.
+                    Fast and convinient on price. Love it!
                 </div>
                 <div class="reviewGoogle">
                     <div class="reviewerTime">Posted on</div>
@@ -147,11 +139,11 @@
             <div class="main-review">
                 <div class="infoReview">
                     <div class="imgReview">
-                        <img src={{asset("images/avatars/av1.jpg")}} alt="">
+                        <img src={{asset("images/avatars/av-3.png")}} alt="">
                     </div>
                     <div class="statsReview">
                         <div class="reviewerNameBadge">
-                            <div class="reviewerName">John Doe</div>
+                            <div class="reviewerName">Choe Lee</div>
                             <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
                         </div>
                         <div class="reviewerStarsTime">
@@ -162,7 +154,100 @@
                                 <img src="{{asset("images/icons/star.png")}}" alt="">
                                 <img src="{{asset("images/icons/star.png")}}" alt="">
                             </div>
-                            <div class="reviewerTime">4 days ago</div>
+                            <div class="reviewerTime">8 days ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewText">
+                    The staf was receptive on my questions, and the process is easy
+                </div>
+                <div class="reviewGoogle">
+                    <div class="reviewerTime">Posted on</div>
+                    <img src="{{asset("images/logo/google.png")}}" alt="">
+                </div>
+            </div>
+
+            <div class="main-review">
+                <div class="infoReview">
+                    <div class="imgReview">
+                        <img src={{asset("images/avatars/av-4.png")}} alt="">
+                    </div>
+                    <div class="statsReview">
+                        <div class="reviewerNameBadge">
+                            <div class="reviewerName">Markus Low</div>
+                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
+                        </div>
+                        <div class="reviewerStarsTime">
+                            <div class="reviewerStars">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                            </div>
+                            <div class="reviewerTime">20 days ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewText">
+                    Definetely a high value service
+                </div>
+                <div class="reviewGoogle">
+                    <div class="reviewerTime">Posted on</div>
+                    <img src="{{asset("images/logo/google.png")}}" alt="">
+                </div>
+            </div>
+
+            <div class="main-review">
+                <div class="infoReview">
+                    <div class="imgReview">
+                        <img src={{asset("images/avatars/av-5.png")}} alt="">
+                    </div>
+                    <div class="statsReview">
+                        <div class="reviewerNameBadge">
+                            <div class="reviewerName">Vaness Spills</div>
+                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
+                        </div>
+                        <div class="reviewerStarsTime">
+                            <div class="reviewerStars">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                            </div>
+                            <div class="reviewerTime">10 days ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewText">
+                    The course was well delivered. Thank you
+                </div>
+                <div class="reviewGoogle">
+                    <div class="reviewerTime">Posted on</div>
+                    <img src="{{asset("images/logo/google.png")}}" alt="">
+                </div>
+            </div>
+
+            <div class="main-review">
+                <div class="infoReview">
+                    <div class="imgReview">
+                        <img src={{asset("images/avatars/av-6.png")}} alt="">
+                    </div>
+                    <div class="statsReview">
+                        <div class="reviewerNameBadge">
+                            <div class="reviewerName">Angela Jedrynska</div>
+                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
+                        </div>
+                        <div class="reviewerStarsTime">
+                            <div class="reviewerStars">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                                <img src="{{asset("images/icons/star.png")}}" alt="">
+                            </div>
+                            <div class="reviewerTime">15 days ago</div>
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,7 @@
 @section('adminPages')
     <div class="dashWrapper">
         <div class="adminHomePageTitle">Packages</div>
+        @if(count($packages))
         <table class="styled-table">
             <thead>
             <tr>
@@ -41,6 +42,9 @@
             {{--        <!-- and so on... -->--}}
             </tbody>
         </table>
+        @else
+            <div class="textAdmin">No Orders at the moment</div>
+        @endif
     </div>
     <script src="{{asset('js/adminPage.js')}}"></script>
 @endsection

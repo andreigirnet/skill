@@ -55,4 +55,24 @@
             <div class="navLinkName">Certificates</div>
         </div>
     </a>
+    @if(auth()->user()->is_admin === 1)
+        <div class="navLinkAdmin" id="adminNavButton">
+            <div class="navIconAdmin"><img src="{{asset('images/icons/star-white.png')}}" alt=""></div>
+            <div class="navLinkName">Administrator</div>
+        </div>
+        <div class="dropAdminMenu" id="adminDrop">
+            <a href="{{route('users.index')}}">
+                <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
+                <div class="navLinkDropAdmin">All Users</div>
+            </a>
+            <a href="{{route('orders.index')}}">
+                <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
+                <div class="navLinkDropAdmin">All Orders</div>
+            </a>
+            <a href="{{route('packages.index')}}">
+                <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
+                <div class="navLinkDropAdmin">All Packages</div>
+            </a>
+        </div>
+    @endif
 </div>

@@ -1,7 +1,8 @@
 @extends('admin.administrator.layout')
 @section('adminPages')
     <div class="dashWrapper">
-        <div class="adminHomePageTitle">Orders</div>
+        <div class="adminHomePageTitle">Certificates</div>
+        @if(count($certificates))
         <table class="styled-table">
             <thead>
             <tr>
@@ -32,5 +33,8 @@
             {{--        <!-- and so on... -->--}}
             </tbody>
         </table>
+        @else
+            <div class="textAdmin">No certificates at the moment</div>
+        @endif
     </div>
 @endsection

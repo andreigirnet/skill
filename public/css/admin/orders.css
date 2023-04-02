@@ -6,6 +6,7 @@
 .submitDeleteOrder{
     border: none;
     cursor: pointer;
+    background: white;
 }
 .submitDeleteOrder img{
     width: 30px;

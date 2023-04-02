@@ -35,18 +35,20 @@ class CertificateController extends Controller
     public function store(Request $request, $packageId)
     {
         $uniqueCertificateId = 'CERT' . rand(10000, 1000000);
-        $now = new \DateTime();
+        $now                 = new \DateTime();
         $now->add(new \DateInterval('P3Y'));
         $date_three_years_ahead = $now->format('Y-m-d');
+
         $certificate = Certificate::create([
             'user_id'         => auth()->user()->id,
             'package_id'      => $packageId,
             'unique_id'       => $uniqueCertificateId,
             'expiration_date' => $date_three_years_ahead
         ]);
+
         $packageToUpdate = Package::find($packageId);
         $packageToUpdate->update([
-            'status' => 'theoryPass',
+            'status'         => 'theoryPass',
             'certificate_id' => $certificate->id
         ]);
         return redirect(route('certificate.index'))->with('success','Here you can downloand you Certificates');
@@ -55,11 +57,12 @@ class CertificateController extends Controller
     //Downloand certificate
     public function certificateDownload($id)
     {
-        $certificate = DB::select('SELECT *, certificates.created_at as valid_from FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.id =' . $id);
-        $holder = User::find($certificate[0]->user_id);
-        $data = ['certificate' => $certificate, 'holder' => $holder];
-        $pdf = Pdf::loadView('admin.administrator.generateCertificate', $data);
+        $certificate = DB::select("SELECT *, certificates.created_at as valid_from FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.id =" . $id);
+        $holder      = User::find($certificate[0]->user_id);
+        $data        = ['certificate' => $certificate, 'holder' => $holder];
+        $pdf         = Pdf::loadView('admin.administrator.generateCertificate', $data);
         $pdf->setPaper('a4', 'landscape');
+
         return $pdf->download('certificate.pdf');
     }
 

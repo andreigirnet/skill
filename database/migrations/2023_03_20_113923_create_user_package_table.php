@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('user_package', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('sharing_from')->constrained('users');
-            $table->foreignId('sharing_to')->constrained('users');
-            $table->foreignId('package_id')->constrained('packages');
+            $table->foreignId('sharing_from')->constrained('users')->cascadeOnDelete()->cascadeOnUpdate();
+            $table->foreignId('sharing_to')->constrained('users')->cascadeOnDelete()->cascadeOnUpdate();
+            $table->foreignId('package_id')->constrained('packages')->cascadeOnDelete()->cascadeOnUpdate();
             $table->timestamps();
         });
     }

@@ -5,17 +5,17 @@
         </div>
     </a>
     <div id="navMenu">
-        <div class="navItem"><a href="{{route('home')}}">Home</a></div>
-        <div class="navItem attention"><a href="{{route('front.faq')}}" style="color: red;">Please Read Faq's</a></div>
+        <a href="{{route('home')}}"><div class="navItem">Home</div></a>
+        <a href="{{route('front.faq')}}"><div class="navItem" id="attentionItem">Please Read Faq's</div></a>
 {{--        <div class="navItem"><a href="{{route('front.products')}}">Online Courses</a></div>--}}
-        <div class="navItem"><a href="{{route('front.team')}}">Team Training</a></div>
-        <div class="navItem"><a href="{{route('front.consulting')}}">Consulting</a></div>
-        <div class="navItem"><a href="tel:{{config('app.telephone')}}">Call us</a></div>
+        <a href="{{route('front.team')}}"><div class="navItem">Team Training</div></a>
+        <a href="{{route('front.consulting')}}"><div class="navItem">Consulting</div></a>
+        <a href="tel:{{config('app.telephone')}}"><div class="navItem">Call us</div></a>
     </div>
     <div id="loginMenu">
         <div id="googleIcon">
             <a href=""><img src="{{asset("images/logo/google-icon.webp")}}" alt=""></a>
         </div>
-        <div class="navItem"><a href="{{route("login")}}">Login</a></div>
+        <a href="{{route("login")}}"><div class="navItem">Login</div></a>
     </div>
 </div>

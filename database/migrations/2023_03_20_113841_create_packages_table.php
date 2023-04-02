@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('packages', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained('users');
+            $table->foreignId('user_id')->constrained('users')->cascadeOnDelete()->cascadeOnUpdate();
             $table->text('course_name')->nullable();
             $table->text('status')->nullable();
-            $table->foreignId('certificate_id')->nullable()->constrained('certificates');
+            $table->foreignId('certificate_id')->nullable()->constrained('certificates')->cascadeOnDelete()->cascadeOnUpdate();;
             $table->timestamps();
         });
     }

@@ -29,7 +29,7 @@
           </div>
       </div>
       <div class="userUpdate">
-          <form class="userUpdateForm" action="{{route('password.update', auth()->user()->id)}}" method="POST">
+          <form class="userUpdateForm" action="{{route('password.dashboard.update', auth()->user()->id)}}" method="POST">
               <div class="formTitle">Change your password</div>
               @csrf
               @method('PUT')

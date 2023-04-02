@@ -23,11 +23,12 @@ class BasketController extends Controller
      */
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
-        $cartItems = $this->cart->getDetails();
-        $cartTotal = $this->cart->getTotal();
+        $cartItems    = $this->cart->getDetails();
+        $cartTotal    = $this->cart->getTotal();
         $cartSubTotal = $this->cart->getItemsSubtotal();
         return view('admin.administrator.cart');
     }
+
     public function getCartItems(): string
     {
         $cartItems = $this->cart->getDetails();
@@ -46,14 +47,15 @@ class BasketController extends Controller
      */
     public function store(Request $request): RedirectResponse
     {
-        $product = DB::select('SELECT * FROM products WHERE id='.$request->productId);
+        $product = DB::select("SELECT * FROM products WHERE id=".$request->productId);
 
         $this->cart->addItem([
-            'id'=>$request->productId,
-            'title'=>$product[0]->name,
-            'price'=>$product[0]->price,
+            'id'      =>$request->productId,
+            'title'   =>$product[0]->name,
+            'price'   =>$product[0]->price,
             'quantity'=>1
         ]);
+
         return redirect(route('basket.index'))->with('success',"The course has been added to the cart");
     }
 
@@ -103,6 +105,7 @@ class BasketController extends Controller
     {
         $this->cart->clearActions();
         $this->cart->removeItem($id);
+
         return redirect(route('basket.index'))->with('success', "The course has been deleted");
     }
 }

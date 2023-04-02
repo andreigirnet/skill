@@ -89,11 +89,11 @@
                            </div>
                            <div class="product-icons">
                                <img src="images/icons/certificate.png" alt="">
-                               <div>Certificate Validity: 2 Years</div>
+                               <div>Certificate Validity: 3 Years</div>
                            </div>
                            <div class="product-icons">
                                <img src="images/icons/money.png" alt="">
-                               <div>Only 60€</div>
+                               <div>Only 39€</div>
                            </div>
                        </div>
                    </div>

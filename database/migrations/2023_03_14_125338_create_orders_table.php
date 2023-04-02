@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete()->cascadeOnUpdate();
             $table->text('product_name');
             $table->integer('quantity')->default(1);
             $table->float('paid');
@@ -23,6 +23,7 @@ return new class extends Migration
             $table->text('county')->nullable();
             $table->text('city')->nullable();
             $table->text('country')->nullable();
+            $table->text('status')->nullable();
             $table->timestamps();
         });
     }

@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Certificate extends Model
 {
     use HasFactory;
-    protected $fillable = ['user_id','package_id','unique_id','expiration_date'];
+    protected $fillable = ['user_id', 'package_id', 'unique_id', 'expiration_date'];
 }

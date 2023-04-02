@@ -2,9 +2,12 @@ const employerTriggerNav = document.getElementById('employersNavButton');
 const billingTriggerButton = document.getElementById('billingNavButton');
 const dropEmployerDiv = document.getElementById('employersDrop');
 const dropBillingDiv = document.getElementById('billingDrop');
+const adminTriggerNav = document.getElementById('adminNavButton');
+const dropAdminDiv = document.getElementById('adminDrop');
 
 let showEmployer = false;
 let showBilling = false;
+let showAdmin = false;
 
 employerTriggerNav.addEventListener('click', ()=>{
     if(showEmployer === false){
@@ -25,3 +28,14 @@ billingTriggerButton.addEventListener('click', ()=>{
         showBilling = false;
     }
 })
+
+adminTriggerNav.addEventListener('click', ()=>{
+    if(showAdmin === false){
+        dropAdminDiv.style.display = 'flex';
+        showAdmin = true;
+    }else{
+        dropAdminDiv.style.display = 'none';
+        showAdmin = false;
+    }
+})
+

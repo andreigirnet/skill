@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    --primary: #333333;
-    --hoverColor: #d9c208;
-    --yellowColor: #fce001;
+    --primary: #2f4238;
+    --hoverColor: #f97432;
+    --yellowColor: #4c9a2a;
     --textTitle: #414141;
     --mainWidth: 1178px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -20,7 +20,7 @@ a{
     align-items: center;
 }
 #mainLogo img{
-    width: 85px;
+    width: 100px;
 }
 
 #navMenu{
@@ -33,7 +33,7 @@ a{
     padding: 15px;
     cursor: pointer;
 }
-.navItem a{
+a .navItem{
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
@@ -45,7 +45,7 @@ a{
     column-gap: 10px;
 }
 #googleIcon img{
-    width: 50px;
+    width: 60px;
 }
 #hamButton{
     position: fixed;
@@ -83,6 +83,23 @@ a{
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+}
+.infoWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoText{
+    width: 70%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#attentionItem{
+    color: #f97432;
+}
+#attentionItem:hover{
+    color: white;
 }
 
 

@@ -2,10 +2,10 @@
 @section('adminPages')
     <div class="dashWrapper">
         <div class="adminHomePageTitle">Orders</div>
+        @if(count($orders))
         <table class="styled-table">
             <thead>
             <tr>
-                <th>Action</th>
                 <th>Purchase Date</th>
                 <th>Order Id</th>
                 <th>Amount</th>
@@ -17,10 +17,6 @@
             <tbody>
             @foreach($orders as $order)
             <tr>
-                <td class="actionOrder">
-                    <form class="deleteFormOrders" action="{{route('order.delete', $order->id)}}" method="POST">@csrf @method('DELETE')<button class="submitDeleteOrder"><img src="{{asset('images/icons/bin.png')}}" alt=""></button></form>
-                    <img src="{{asset('images/icons/share.png')}}" class="invoiceLink" alt="">
-                </td>
                 <td>{{$order->created_at}}</td>
                 <td>{{$order->id}}</td>
                 <td>{{$order->paid}}</td>
@@ -36,5 +32,8 @@
             {{--        <!-- and so on... -->--}}
             </tbody>
         </table>
+        @else
+            <div class="textAdmin">No Orders at the moment</div>
+        @endif
     </div>
 @endsection

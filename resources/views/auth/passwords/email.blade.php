@@ -14,6 +14,11 @@
                 <strong>{{ $message }}</strong>
             </span>
             @enderror
+            @if (session('status'))
+                <div class="alert-success">
+                    {{ session('status') }}
+                </div>
+            @endif
             <button type="submit" class="loginRegisterButton">
                 {{ __('Send Password Reset Link') }}
             </button>
