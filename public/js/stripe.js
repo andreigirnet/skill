@@ -1,5 +1,5 @@
 (function(){
-    let stripe = Stripe('pk_test_51JenjxEOwT6rweEZmZvuBnKmBuFNI6SB6pFeZuBCeKq8JErAPZVBm8VhJqqUZPv0DQeliLrbgjEPGptvn20OuNGB00lcr89MRV');
+    let stripe = Stripe('pk_test_51MoxgFKyjQemDeuHOJQ6kvDFCKPiLAxvhGnnMqnv3ycR7HRUK5bgX2AYLhQ0bARRVBAdoUQPZWldyGYymAraOl9000Xsl5oowt');
     let elements = stripe.elements();
     let style = {
         base:{

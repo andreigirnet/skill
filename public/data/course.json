@@ -199,7 +199,7 @@
                 ]
             },
             "slide_19": {
-                "img" : "/images/curs/step2/b18.webp",
+                "img" : "/images/curs/step2/b19.webp",
                 "title": "SUMMARY",
                 "content": "",
                 "bullets": [
@@ -3076,8 +3076,8 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step2/b4.webp",
-                "title": "COLOANA VERTEBRALĂ",
+                "img" : "/images/curs/step2/b5.webp",
+                "title": "Nervul",
                 "answer": "",
                 "content": "Nervul principal din spatele tău este măduva spinării.\nMăduva spinării conectează nervii din fiecare\nparte a corpului cu creierul tău.",
                 "bullets": [
@@ -3184,7 +3184,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step2/b18.webp",
-                "title": "ÎNTREBARE",
+                "title": "Trei din următoarele declarații sunt corecte",
                 "answer": "",
                 "content": "Trei dintre următoarele afirmaţii sunt corecte.",
                 "bullets": [
@@ -3197,7 +3197,7 @@
             },
             "slide_19": {
                 "img" : "/images/curs/step2/b19.webp",
-                "title": "ÎNTREBARE",
+                "title": "Rezumat",
                 "answer": "",
                 "content": "",
                 "bullets": [

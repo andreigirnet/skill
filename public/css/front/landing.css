@@ -68,7 +68,7 @@
     font-weight: 600;
 }
 .pulse-button:hover {
-    background: #f97432;
+    background: #fec512;
     color: white;
     -webkit-animation: pulse 1.5s infinite;
 }
@@ -274,7 +274,7 @@ span {
 }
 
 .product-price-btn button:hover {
-    background-color: #f97432;
+    background-color: #fec512;
     color: white;
 }
 .product-icons img{

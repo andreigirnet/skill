@@ -58,20 +58,20 @@
     @if(auth()->user()->is_admin === 1)
         <div class="navLinkAdmin" id="adminNavButton">
             <div class="navIconAdmin"><img src="{{asset('images/icons/star-white.png')}}" alt=""></div>
-            <div class="navLinkName">Administrator</div>
+            <div class="navLinkName">Администратор</div>
         </div>
         <div class="dropAdminMenu" id="adminDrop">
             <a href="{{route('users.index')}}">
                 <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
-                <div class="navLinkDropAdmin">All Users</div>
+                <div class="navLinkDropAdmin">Все пользователи</div>
             </a>
             <a href="{{route('orders.index')}}">
                 <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
-                <div class="navLinkDropAdmin">All Orders</div>
+                <div class="navLinkDropAdmin">Все заказы</div>
             </a>
             <a href="{{route('packages.index')}}">
                 <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
-                <div class="navLinkDropAdmin">All Packages</div>
+                <div class="navLinkDropAdmin">Все пакеты</div>
             </a>
         </div>
     @endif

@@ -78,14 +78,14 @@
     background: #318031;
 }
 .lostPassword{
-    color: #d9016e;
+    color: #fec512;
     margin-top: 10px;
 }
 .loginForm{
     margin-top: 20px;
 }
 .registerLink a{
-    color: #d9016e;
+    color: #fec512;
 }
 .invalid-feedback{
     color: red;
