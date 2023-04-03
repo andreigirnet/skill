@@ -286,7 +286,7 @@
             },
             "slide_11": {
                 "img" : "/images/curs/step3/c11.webp",
-                "title": "Activity: Does pregnancy involve twisting?",
+                "title": "Activity: Does activity involve twisting?",
                 "content": "Twisting affects the lower back, putting stress on the entire back structure.\nAvoid twisting your body when carrying or placing a load.\nInstead, turn your legs and your whole body in the direction you want to go.\nAny sudden or heavy movement that could lead to loss of control should be avoided.",
                 "bullets": [
                 ]
@@ -399,13 +399,14 @@
             "slide_27": {
                 "img" : "/images/curs/step3/c27.webp",
                 "title": "Task",
+                "answer": "All of these factors affect your ability to handle the load safely and increase the risk of injury.",
                 "content": "What other factors could cause difficulty while lifting a weight? Apart from weight, the pregnancy should be examined to check if:",
                 "bullets": [
                     "is bulky or difficult to contain for transport, has sharp or broken edges",
                     "is hot, wet, dirty or slippery",
                     "has information displayed",
                     "is unstable, for example, its contents can move",
-                    "this will block your view. All of these factors affect your ability to handle the load safely and increase the risk of injury."
+                    "this will block your view."
                 ]
             },
             "slide_28": {
@@ -620,8 +621,7 @@
                 "content": "",
                 "bullets": [
                     "bend your knees and let them move away from each other.",
-                    "Avoid a bend (bending over the back)",
-                    "or squatting position (fully flexible hips and knees)."
+                    "Avoid a bend (bending over the back) or squatting position (fully flexible hips and knees)."
                 ]
             },
             "slide_11": {
@@ -666,8 +666,8 @@
                 ]
             },
             "slide_16": {
-                "img" : "/images/curs/step4/d16.webp",
-                "title": "Correct",
+                "img" : "/images/curs/step4/d15.webp",
+                "title": "Seasaw Principle",
                 "img_additional": "/images/curs/step4/seesaw.png",
                 "answer": "",
                 "content": "The heavier person will have the lower rocker.",
@@ -675,7 +675,7 @@
                 ]
             },
             "slide_17": {
-                "img" : "/images/curs/step4/d17.webp",
+                "img" : "/images/curs/step4/d14.webp",
                 "title": "Correct",
                 "img_additional": "/images/curs/step4/seesaw.png",
                 "answer": "",
@@ -703,7 +703,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d21.webp",
+                "img" : "/images/curs/step4/d20.webp",
                 "title": "Avoid twisting during the manual handling procedure.",
                 "answer": "",
                 "content": "When walking with a weight, walk carefully with a normal step. Look forward, not down at the load.\nIf you need to change direction, move your feet first, then your whole body. Remember, avoid twisting your body during manual handling.",
@@ -996,7 +996,7 @@
             },
             "slide_6": {
                 "img" : "/images/curs/step1/6.webp",
-                "title": "Jakie są moje obowiązki związane z ręcznym przemieszczaniem w pracy? Jako pracownik musisz:",
+                "title": "Jakie są moje obowiązki związane z ręcznym przemieszczaniem w pracy?",
                 "answer": "",
                 "content": "",
                 "bullets": [
@@ -1210,7 +1210,7 @@
                 "answer": "",
                 "content": "Twój pracodawca przeprowadzi ocenę ryzyka dla wszelkich zadań związanych z ręcznym przemieszczaniem, które mogą być wykonywane regularnie\nJeśli jednak chcesz uniknąć szkód teraz iw przyszłości, musisz także wyrobić w sobie nawyk oceny ryzyka związanego z każdym zadaniem związanym z przenoszeniem ręcznym.",
                 "bullets": [
-                    "Notatka Jest to szczególnie ważne, jeśli wykonujesz tylko okazjonalne zadania związane z przenoszeniem ręcznym.\n"
+            
                 ]
             },
             "slide_4": {
@@ -1231,7 +1231,7 @@
                 "answer": "",
                 "content": "Czasami przy ręcznych czynnościach związanych z przenoszeniem można przeoczyć samo zadanie. Ludzie mogą być bardziej skłonni do oceny zadania, które nie wydaje się sprawiać problemów i wydaje się być bardziej widoczne i namacalne niż zadanie. Jednak ważne jest, aby być świadomym sposobu wykonywania zadania, aby ocenić, co możesz zrobić, aby zmniejszyć ryzyko obrażeń.\nNa przykład, patrząc na ładunek, może być jasne, że ładunek można podnieść mechanicznie, co eliminuje potrzebę użycia i ręcznej obsługi.",
                 "bullets": [
-                    "Notatka Najlepszym sposobem uniknięcia obrażeń jest ogólne unikanie ręcznego podnoszenia."
+                   
                 ]
             },
             "slide_6": {
@@ -1250,8 +1250,7 @@
                 "answer": "",
                 "content": "Ta opcja eliminuje potrzebę ręcznej obsługi.\nnawyk oceniania każdego zadania, które wykonujesz.\nDowiedz się, co jest dla Ciebie najlepsze!",
                 "bullets": [
-                    "Zmniejsz liczbę dokumentów w torbie.",
-                    "Mieć drugi zestaw dokumentów, tak aby jeden zestaw mógł być przechowywany w pracy, a drugi w domu."
+                    
                 ]
             },
             "slide_8": {
@@ -1280,41 +1279,41 @@
             },
             "slide_11": {
                 "img" : "/images/curs/step3/c11.webp",
-                "title": "Aktywność",
+                "title": "Aktywność. Czy aktywność obejmuje skręcanie?",
                 "answer": "",
-                "content": "Czy ciąża wiąże się ze skręcaniem?\nSkręcanie wpływa na dolną część pleców, kładąc nacisk na całą strukturę pleców.\nUnikaj skręcania ciała podczas przenoszenia lub umieszczania ładunku.\nZamiast tego obróć nogi i całe ciało w kierunku, w którym chcesz iść.\nNależy unikać wszelkich nagłych lub ciężkich ruchów, które mogłyby doprowadzić do utraty kontroli.",
+                "content": "Skręcanie wpływa na dolną część pleców, kładąc nacisk na całą strukturę pleców.\nUnikaj skręcania ciała podczas przenoszenia lub umieszczania ładunku.\nZamiast tego obróć nogi i całe ciało w kierunku, w którym chcesz iść.\nNależy unikać wszelkich nagłych lub ciężkich ruchów, które mogłyby doprowadzić do utraty kontroli.",
                 "bullets": [
                 ]
             },
             "slide_12": {
                 "img" : "/images/curs/step3/c12.webp",
-                "title": "Aktywność",
+                "title": "Aktywność. Czy zlecenie obejmuje transport na duże odległości?",
                 "answer": "",
-                "content": "Czy zlecenie obejmuje transport na duże odległości?\nZawsze rozważ użycie pomocy mechanicznych w celu zmniejszenia obciążenia ciała.\nNa przykład użyj tak prostego jak wózek,\nTorba umożliwia łatwe przenoszenie ładunków między wyznaczonymi lokalizacjami. Używając odpowiedniego sprzętu (np. wózka paletowego, wózka,\ntorba, drążek na ubrania, przenośnik taśmowy itp.) dla konkretnego\nobciążenie zmniejsza ryzyko, że urządzenie mechaniczne przejmie większą część ciężaru. Notatka\nNie używaj pomocy mechanicznej, której nie jesteś pewien, jak prawidłowo używać lub której obsługi nie zostałeś przeszkolony.",
+                "content": "Zawsze rozważ użycie pomocy mechanicznych w celu zmniejszenia obciążenia ciała.\nNa przykład użyj tak prostego jak wózek,\nTorba umożliwia łatwe przenoszenie ładunków między wyznaczonymi lokalizacjami. Używając odpowiedniego sprzętu (np. wózka paletowego, wózka,\ntorba, drążek na ubrania, przenośnik taśmowy itp.) dla konkretnego\nobciążenie zmniejsza ryzyko, że urządzenie mechaniczne przejmie większą część ciężaru. Notatka\nNie używaj pomocy mechanicznej, której nie jesteś pewien, jak prawidłowo używać lub której obsługi nie zostałeś przeszkolony.",
                 "bullets": [
                 ]
             },
             "slide_13": {
                 "img" : "/images/curs/step3/c13.webp",
-                "title": "Aktywność",
+                "title": "Aktywność. Czy ładunek obejmuje pchanie lub ciągnięcie?",
                 "answer": "",
-                "content": "Czy ładunek obejmuje pchanie lub ciągnięcie?\nJeśli masz wybór, zaleca się raczej pchanie ciężarka niż ciągnięcie go. Sprawdź, czy na drodze nie ma żadnych zagrożeń ani przeszkód. Podczas pchania lub ciągnięcia ciężarów należy nosić obuwie antypoślizgowe.",
+                "content": "Jeśli masz wybór, zaleca się raczej pchanie ciężarka niż ciągnięcie go. Sprawdź, czy na drodze nie ma żadnych zagrożeń ani przeszkód. Podczas pchania lub ciągnięcia ciężarów należy nosić obuwie antypoślizgowe.",
                 "bullets": [
                 ]
             },
             "slide_14": {
                 "img" : "/images/curs/step3/c14.webp",
-                "title": "Aktywność",
+                "title": "Aktywność. Czy zadanie obejmuje powtarzalną obsługę?",
                 "answer": "",
-                "content": "Czy zadanie obejmuje powtarzalną obsługę? Staraj się unikać powtarzających się manipulacji, ponieważ wymaga to ciągłego używania tych samych mięśni do wykonania zadania. W takich sytuacjach ważne jest obracanie lub zmiana obciążenia. Zróżnicowanie obciążenia pozwala niektórym mięśniom odpocząć, podczas gdy inne są używane.\n\nJeśli nie możesz zmienić czynności, poświęć wystarczająco dużo czasu na odpoczynek lub regenerację.",
+                "content": "Staraj się unikać powtarzających się manipulacji, ponieważ wymaga to ciągłego używania tych samych mięśni do wykonania zadania. W takich sytuacjach ważne jest obracanie lub zmiana obciążenia. Zróżnicowanie obciążenia pozwala niektórym mięśniom odpocząć, podczas gdy inne są używane.\n\nJeśli nie możesz zmienić czynności, poświęć wystarczająco dużo czasu na odpoczynek lub regenerację.",
                 "bullets": [
                 ]
             },
             "slide_15": {
                 "img" : "/images/curs/step3/c15.webp",
-                "title": "Aktywność",
+                "title": "Aktywność. Planowałeś przeprowadzkę lub transport?",
                 "answer": "",
-                "content": "Planowałeś przeprowadzkę lub transport?\nPowinieneś zaplanować z wyprzedzeniem trasę, którą będziesz używać do przemieszczania lub transportu zadań związanych z ręcznym przemieszczaniem.\nNp:\nCzy znasz trasę, którą będziesz podróżować, czy jest to trasa nieznana? Czy trasa jest wolna od zagrożeń?",
+                "content": "Powinieneś zaplanować z wyprzedzeniem trasę, którą będziesz używać do przemieszczania lub transportu zadań związanych z ręcznym przemieszczaniem.\nNp:\nCzy znasz trasę, którą będziesz podróżować, czy jest to trasa nieznana? Czy trasa jest wolna od zagrożeń?",
                 "bullets": [
                 ]
             },
@@ -1336,7 +1335,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step3/c18.webp",
-                "title": "Study the image",
+                "title": "Przestudiuj obraz",
                 "img_additional": "/images/curs/step3/sl_18.png",
                 "answer": "",
                 "content": "",
@@ -1410,7 +1409,7 @@
             "slide_27": {
                 "img" : "/images/curs/step3/c27.webp",
                 "title": "Zadanie",
-                "answer": "",
+                "answer": "Wszystkie te czynniki wpływają na zdolność bezpiecznego przenoszenia ładunku i zwiększają ryzyko obrażeń.",
                 "content": "Jakie inne czynniki mogą powodować trudności podczas podnoszenia ciężarów? Poza wagą należy zbadać ciążę pod kątem:",
                 "bullets": [
                     "jest wielkogabarytowy lub trudny do przechowywania podczas transportu, ma ostre lub połamane krawędzie",
@@ -1643,8 +1642,10 @@
                 "img" : "/images/curs/step4/d10.webp",
                 "title": "Przyjęcie stabilnej pozycji",
                 "answer": "",
-                "content": "ugnij kolana i pozwól im się od siebie oddalić.\nUnikaj zginania (pochylania się nad plecami)\nlub w pozycji kucznej (w pełni elastyczne biodra i kolana).",
+                "content": "",
                 "bullets": [
+                    "ugnij kolana i pozwól im się od siebie oddalić.",
+                    "Unikaj zgięcia (pochylenie się nad plecami) lub pozycji kucznej (w pełni elastyczne biodra i kolana)."
                 ]
             },
             "slide_11": {
@@ -1681,24 +1682,24 @@
             },
             "slide_15": {
                 "img" : "/images/curs/step4/d15.webp",
-                "title": "Cięższa osoba będzie miała dolny wahacz.",
+                "title": "Zasada huśtawki",
                 "img_additional": "/images/curs/step4/seesaw.png",
                 "answer": "",
-                "content": "Kiedy siedzisz na huśtawce z kimś o tej samej wadze, będziesz w równowadze.Co się dzieje, gdy jesteś cięższy od osoby, z którą siedzisz, na przykład z dzieckiem?",
+                "content": "Czy możesz utrzymać równowagę na huśtawce, gdy jedna osoba jest cięższa od drugiej?",
                 "bullets": [
                 ]
             },
             "slide_16": {
-                "img" : "/images/curs/step4/d16.webp",
+                "img" : "/images/curs/step4/d15.webp",
                 "title": "Zasada huśtawki",
                 "img_additional": "/images/curs/step4/seesaw.png",
                 "answer": "",
-                "content": "Czy potrafisz utrzymać równowagę na huśtawce, gdy jedna osoba jest cięższa od drugiej?",
+                "content": "Cięższa osoba będzie miała dolny wahacz.",
                 "bullets": [
                 ]
             },
             "slide_17": {
-                "img" : "/images/curs/step4/d17.webp",
+                "img" : "/images/curs/step4/d14.webp",
                 "title": "Prawidłowy",
                 "img_additional": "/images/curs/step4/seesaw.png",
                 "answer": "",
@@ -1710,8 +1711,11 @@
                 "img" : "/images/curs/step4/d18.webp",
                 "title": "Czego uczy nas bujany fotel?",
                 "answer": "",
-                "content": "Wiemy więc, że gdy umieścimy coś cięższego bliżej sworznia, efekt tego ciężaru zostanie zmniejszony.\nDlaczego ma to znaczenie przy stosowaniu ręcznego przenoszenia?\n(Wskazówka: 2 są poprawne)\nPowinniśmy starać się stanąć blisko przedmiotu, który podnosimy, zanim go podniesiemy.\nPowinniśmy starać się trzymać ładunek blisko ciała podczas podnoszenia, opuszczania, pchania lub ciągnięcia.\nPowinniśmy znaleźć kogoś lżejszego (wagowo) do ręcznego przenoszenia.",
+                "content": "Wiemy więc, że gdy umieścimy coś cięższego bliżej sworznia, efekt tego ciężaru zostanie zmniejszony.",
                 "bullets": [
+                    "Dlaczego ma to znaczenie przy stosowaniu ręcznego przenoszenia?",
+                    "(Wskazówka: 2 są poprawne)\nPowinniśmy starać się stanąć blisko przedmiotu, który podnosimy, zanim go podniesiemy.\nPowinniśmy starać się trzymać ładunek blisko ciała podczas podnoszenia, opuszczania, pchania lub ciągnięcia.",
+                    "Powinniśmy znaleźć kogoś lżejszego (wagowo) do ręcznego przenoszenia."
                 ]
             },
             "slide_19": {
@@ -1723,7 +1727,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d21.webp",
+                "img" : "/images/curs/step4/d20.webp",
                 "title": "Unikaj skręcania podczas procedury ręcznego przenoszenia.",
                 "answer": "",
                 "content": "Chodząc z ciężarem, chodź ostrożnie, normalnym krokiem. Patrz przed siebie, a nie na ładunek.\nJeśli musisz zmienić kierunek, najpierw poruszaj stopami, a potem całym ciałem. Pamiętaj, unikaj skręcania ciała podczas ręcznego przenoszenia. ",
@@ -1994,11 +1998,7 @@
                 "bullets": [
                     "Работа, выполняемая вручную, ежегодно является причиной большого количества производственных травм. Неправильное выполнение ручных операций может привести к травмам рук, рук и шеи.",
                     "Случайно падающие грузы также могут повредить ноги. • Тем не менее, большинство травм, связанных с ручной работой, затрагивают спину.",
-                    "Полученная травма может быть порезом или синяком, но чаще это растяжение мышц или травма связок.",
-                    "разгрузка автомобиля",
-                    "штабелируемые полки",
-                    "воспитание ребенка",
-                    "передвижение мебели"
+                    "Полученная травма может быть порезом или синяком, но чаще это растяжение мышц или травма связок."
                 ]
             },
             "slide_6": {
@@ -2199,9 +2199,7 @@
                 "answer": "",
                 "content": "Травмы спины могут быть очень болезненными и долго заживают.\nПоэтому гораздо лучше предвидеть получение травмы сейчас,\nвместо того, чтобы пытаться вылечить его после его получения.",
                 "bullets": [
-                    "Ваша спина состоит из костей (позвонков), нервов (спинной мозг) и поддерживающих мышц, связок и сухожилий.",
-                    "Иногда спина может быть повреждена в результате одного инцидента, но обычно проблемы со спиной являются результатом кумулятивного использования.",
-                    "Плохая осанка, малоподвижный образ жизни, повторение задач и использование неправильных техник – все это примеры кумулятивного неправильного использования."
+                   
                 ]
             },
             "slide_2": {
@@ -2219,7 +2217,7 @@
                 "answer": "",
                 "content": "Ваш работодатель проведет оценку рисков для любых ручных операций, которые могут выполняться на регулярной основе.\nОднако, если вы хотите избежать какого-либо вреда сейчас и в будущем, вы также должны выработать привычку оценивать риски, связанные с каждой ручной работой, которую вы выполняете.",
                 "bullets": [
-                    "Примечание Это особенно важно, если вы только время от времени выполняете ручные операции."
+                    
                 ]
             },
             "slide_4": {
@@ -2239,7 +2237,7 @@
                 "answer": "",
                 "content": "Иногда при ручной обработке можно упустить из виду саму задачу. Люди могут с большей вероятностью оценить задачу, которая не вызывает проблем и кажется более заметной и осязаемой, чем задача. Однако важно знать, как выполняется задача, чтобы оценить, что вы можете сделать, чтобы снизить риск получения травмы.\nНапример, при взгляде на груз может быть ясно, что груз можно поднять механически, что устраняет необходимость использования ручного труда.",
                 "bullets": [
-                    "Примечание: Лучший способ избежать травм — вообще избегать ручного подъема.\n"
+                
                 ]
             },
             "slide_6": {
@@ -2286,7 +2284,7 @@
             },
             "slide_11": {
                 "img" : "/images/curs/step3/c11.webp",
-                "title": "Включает ли беременность скручивание?",
+                "title": "Включает ли деятельность скручивание?",
                 "answer": "",
                 "content": "Скручивания воздействуют на нижнюю часть спины, создавая нагрузку на всю структуру спины.\nИзбегайте скручивания тела при переноске или размещении груза.\nВместо этого поверните ноги и все тело в нужном вам направлении.\nСледует избегать любых резких или резких движений, которые могут привести к потере контроля.",
                 "bullets": [
@@ -2294,33 +2292,33 @@
             },
             "slide_12": {
                 "img" : "/images/curs/step3/c12.webp",
-                "title": "Деятельность",
+                "title": "Деятельность. Включает ли задача транспортировку на дальние расстояния?",
                 "answer": "",
-                "content": "Включает ли задача транспортировку на дальние расстояния?\nВсегда рассматривайте возможность использования механических вспомогательных средств для снижения нагрузки на тело.\nНапример, использовать так же просто, как тележка,\nСумка позволяет легко перевозить грузы между предполагаемыми местами. Использование подходящего оборудования (например, тележки, тележки,\nсумка, штанга для одежды, конвейерная лента и т. д.) для конкретного\nнагрузка снижает риск того, что механическое устройство возьмет на себя большую часть веса. Примечание\nНе используйте вспомогательное механическое средство, которым вы не уверены, как правильно пользоваться, или которым вы не обучены пользоваться.",
+                "content": "Всегда рассматривайте возможность использования механических вспомогательных средств для снижения нагрузки на тело.\nНапример, использовать так же просто, как тележка,\nСумка позволяет легко перевозить грузы между предполагаемыми местами. Использование подходящего оборудования (например, тележки, тележки,\nсумка, штанга для одежды, конвейерная лента и т. д.) для конкретного\nнагрузка снижает риск того, что механическое устройство возьмет на себя большую часть веса. Примечание\nНе используйте вспомогательное механическое средство, которым вы не уверены, как правильно пользоваться, или которым вы не обучены пользоваться.",
                 "bullets": [
                 ]
             },
             "slide_13": {
                 "img" : "/images/curs/step3/c13.webp",
-                "title": "Деятельность",
+                "title": "Деятельность. Включает ли нагрузка толкание или вытягивание?",
                 "answer": "",
-                "content": "Включает ли нагрузка толкание или вытягивание?\nЕсли у вас есть выбор, рекомендуется толкать вес, а не тянуть его. Убедитесь, что на вашем пути нет опасностей или препятствий. Вы должны носить нескользящую обувь, когда толкаете или тянете вес.",
+                "content": "Если у вас есть выбор, рекомендуется толкать вес, а не тянуть его. Убедитесь, что на вашем пути нет опасностей или препятствий. Вы должны носить нескользящую обувь, когда толкаете или тянете вес.",
                 "bullets": [
                 ]
             },
             "slide_14": {
                 "img" : "/images/curs/step3/c14.webp",
-                "title": "Деятельность",
+                "title": "Деятельность. Включает ли задание повторяющиеся действия?",
                 "answer": "",
-                "content": "Включает ли задание повторяющиеся действия? Старайтесь избегать повторяющихся манипуляций, потому что они включают в себя многократное использование одних и тех же мышц для выполнения задачи. В этих ситуациях важно чередовать или варьировать нагрузку. Изменение нагрузки позволяет некоторым мышцам отдыхать, в то время как другие мышцы используются.\n\nЕсли вы не можете изменить деятельность, выделите достаточно времени для отдыха или восстановления.",
+                "content": "Старайтесь избегать повторяющихся манипуляций, потому что они включают в себя многократное использование одних и тех же мышц для выполнения задачи. В этих ситуациях важно чередовать или варьировать нагрузку. Изменение нагрузки позволяет некоторым мышцам отдыхать, в то время как другие мышцы используются.\n\nЕсли вы не можете изменить деятельность, выделите достаточно времени для отдыха или восстановления.",
                 "bullets": [
                 ]
             },
             "slide_15": {
                 "img" : "/images/curs/step3/c15.webp",
-                "title": "Деятельность",
+                "title": "Деятельность. Вы планировали переехать или перевезти?",
                 "answer": "",
-                "content": "Вы планировали переехать или перевезти?\nВам следует заранее спланировать маршрут, который вы будете использовать для перемещения или перевозки ручного труда.\nНапример:\nВы знаете маршрут, по которому пойдете, или это неизвестный маршрут? Маршрут свободен от опасностей?",
+                "content": "Вам следует заранее спланировать маршрут, который вы будете использовать для перемещения или перевозки ручного труда.\nНапример:\nВы знаете маршрут, по которому пойдете, или это неизвестный маршрут? Маршрут свободен от опасностей?",
                 "bullets": [
                 ]
             },
@@ -2342,7 +2340,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step3/c18.webp",
-                "title": "Study the image",
+                "title": "Изучите изображение",
                 "img_additional": "/images/curs/step4/sl_18.png",
                 "answer": "",
                 "content": "",
@@ -2416,7 +2414,7 @@
             "slide_27": {
                 "img" : "/images/curs/step3/c27.webp",
                 "title": "Задача",
-                "answer": "",
+                "answer": "Все эти факторы влияют на вашу способность безопасно справляться с нагрузкой и повышают риск получения травмы.",
                 "content": "Какие еще факторы могут вызвать трудности при поднятии тяжестей? Помимо веса, при беременности следует проверить, есть ли:",
                 "bullets": [
                     "громоздкий или его трудно удерживать при транспортировке, он имеет острые или сломанные края",
@@ -2596,8 +2594,7 @@
                 "answer": "",
                 "content": "Каковы принципы безопасности при ручном обращении, которых следует придерживаться, чтобы снизить риск получения травм?",
                 "bullets": [
-                    "Принципы ручной обработки",
-                    "Как выполнять правильный подъем в различных ситуациях в соответствии с инструкцией по обращению с грузом."
+                
                 ]
             },
             "slide_4": {
@@ -2652,8 +2649,10 @@
                 "img" : "/images/curs/step4/d10.webp",
                 "title": "Принятие стабильной позиции",
                 "answer": "",
-                "content": "согните колени и дайте им разойтись.\nИзбегайте наклона (сгибание спины)\nили положение на корточках (полностью гибкие бедра и колени).",
+                "content": "",
                 "bullets": [
+                    "согните колени и дайте им разойтись.",
+                    "Избегайте наклона (сгибание спины)\nили положение на корточках (полностью гибкие бедра и колени)."
                 ]
             },
             "slide_11": {
@@ -2693,21 +2692,21 @@
                 "title": "Принцип качелей",
                 "img_additional": "/images/curs/step4/seesaw.png",
                 "answer": "",
-                "content": "У более тяжелого человека будет нижний рокер.",
-                "bullets": [
-                ]
-            },
-            "slide_16": {
-                "img" : "/images/curs/step4/d16.webp",
-                "title": "Принцип качелей",
-                "img_additional": "/images/curs/step4/seesaw.png",
-                "answer": "",
                 "content": "Сможете ли вы балансировать на качелях, если один человек тяжелее другого?",
                 "bullets": [
                 ]
             },
+            "slide_16": {
+                "img" : "/images/curs/step4/d15.webp",
+                "title": "Принцип качелей",
+                "img_additional": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "У более тяжелого человека будет нижний рокер.",
+                "bullets": [
+                ]
+            },
             "slide_17": {
-                "img" : "/images/curs/step4/d17.webp",
+                "img" : "/images/curs/step4/d14.webp",
                 "title": "Правильный",
                 "img_additional": "/images/curs/step4/seesaw.png",
                 "answer": "",
@@ -2719,8 +2718,11 @@
                 "img" : "/images/curs/step4/d18.webp",
                 "title": "Чему учит нас кресло-качалка?",
                 "answer": "",
-                "content": "Итак, мы знаем, что когда мы помещаем что-то более тяжелое ближе к стержню, влияние этого веса уменьшается.\nПочему это имеет значение при применении ручного управления?\n(Подсказка: 2 верно)\nМы должны попытаться встать близко к объекту, который мы поднимаем, прежде чем поднять его.\nМы должны стараться удерживать груз близко к телу, когда поднимаем, опускаем, толкаем или тянем.\nМы должны найти кого-то более легкого (по весу) для выполнения задачи по ручной обработке.",
+                "content": "Итак, мы знаем, что когда мы помещаем что-то более тяжелое ближе к стержню, влияние этого веса уменьшается.\n(Подсказка: 2 верно)",
                 "bullets": [
+                    "Почему это имеет значение при применении ручного управления?",
+                    "Мы должны попытаться встать близко к объекту, который мы поднимаем, прежде чем поднять его.",
+                    "\nМы должны стараться удерживать груз близко к телу, когда поднимаем, опускаем, толкаем или тянем.\nМы должны найти кого-то более легкого (по весу) для выполнения задачи по ручной обработке."
                 ]
             },
             "slide_19": {
@@ -2732,7 +2734,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d21.webp",
+                "img" : "/images/curs/step4/d20.webp",
                 "title": "Избегайте скручивания во время процедуры ручного обращения.",
                 "answer": "",
                 "content": "При ходьбе с отягощением идите осторожно, нормальным шагом. Смотрите вперед, а не вниз на груз.\nЕсли вам нужно изменить направление, двигайте сначала ногами, а затем всем телом. Помните, избегайте скручивания тела во время ручной обработки.",
@@ -3297,41 +3299,41 @@
             },
             "slide_11": {
                 "img" : "/images/curs/step3/c11.webp",
-                "title": "Activitate",
+                "title": "Activitate. Sarcina implică răsucire?",
                 "answer": "",
-                "content": "Sarcina implică răsucirea?\nRăsucirea afectează partea inferioară a spatelui, punând stres pe întreaga structură a spatelui.\nEvitaţi răsucirea corpului atunci când transportați sau plasați o sarcină.\nÎn schimb, întoarce-ţi picioarele şi tot corpul în direcţia în care vreti să mergeti.\nAr trebui să fie evitata orice miscare brusca sau grea care ar putea fi pierduta de sub conotrol.",
+                "content": "Răsucirea afectează partea inferioară a spatelui, punând stres pe întreaga structură a spatelui.\nEvitaţi răsucirea corpului atunci când transportați sau plasați o sarcină.\nÎn schimb, întoarce-ţi picioarele şi tot corpul în direcţia în care vreti să mergeti.\nAr trebui să fie evitata orice miscare brusca sau grea care ar putea fi pierduta de sub conotrol.",
                 "bullets": [
                 ]
             },
             "slide_12": {
                 "img" : "/images/curs/step3/c12.webp",
-                "title": "Activitate",
+                "title": "Activitate. Sarcina implică transportul la distanţă?",
                 "answer": "",
-                "content": "Sarcina implică transportul la distanţă?\nÎntotdeauna ia în considerare utilizarea de ajutoare mecanice pentru a reduce incordarea corpului.\nDe exemplu, utilizarea la fel de simplu ca un cărucior,\nsac vă permite să transportați sarcinile cu ușurință între locațiile destinate. Utilizarea echipamentului potrivit (de exemplu, un camion palet, cărucior,\nsac, şină de haine, bandă de transportare, etc) pentru o anumită\nsarcină reduce riscul de a lăsa dispozitivul mecanic să ia cea mai mare parte a greutatii. Notă\nNu utilizaţi un ajutor mecanic pe care nu stiti la sigur cum sa-l folositi corect sau pentru care nu a-ti fost instruiţi să îl utilizați.",
+                "content": "Întotdeauna ia în considerare utilizarea de ajutoare mecanice pentru a reduce incordarea corpului.\nDe exemplu, utilizarea la fel de simplu ca un cărucior,\nsac vă permite să transportați sarcinile cu ușurință între locațiile destinate. Utilizarea echipamentului potrivit (de exemplu, un camion palet, cărucior,\nsac, şină de haine, bandă de transportare, etc) pentru o anumită\nsarcină reduce riscul de a lăsa dispozitivul mecanic să ia cea mai mare parte a greutatii. Notă\nNu utilizaţi un ajutor mecanic pe care nu stiti la sigur cum sa-l folositi corect sau pentru care nu a-ti fost instruiţi să îl utilizați.",
                 "bullets": [
                 ]
             },
             "slide_13": {
                 "img" : "/images/curs/step3/c13.webp",
-                "title": "Activitate",
+                "title": "Activitate. Sarcina implică împingerea sau tragerea?",
                 "answer": "",
-                "content": "Sarcina implică împingerea sau tragerea?\nDacă aveți de ales, este recomandat să împingeți o greutate, mai degrabă decât sa o trageți. Verificați dacă nu există pericole sau obstacole în calea dumneavoastră. Trebuie să purtați încălţăminte rezistentă la alunecare atunci când împingeți sau tragetio greutate.",
+                "content": "Dacă aveți de ales, este recomandat să împingeți o greutate, mai degrabă decât sa o trageți. Verificați dacă nu există pericole sau obstacole în calea dumneavoastră. Trebuie să purtați încălţăminte rezistentă la alunecare atunci când împingeți sau tragetio greutate.",
                 "bullets": [
                 ]
             },
             "slide_14": {
                 "img" : "/images/curs/step3/c14.webp",
-                "title": "Activitate",
+                "title": "Activitate. Sarcina implică manipularea repetitivă?",
                 "answer": "",
-                "content": "Sarcina implică manipularea repetitivă? Încercaţi să evitați manipularea repetitiva pentru ca aceasta implică utilizarea aceloraşi muşchi iar si iar pentru a finaliza o sarcina. În aceste situații, este important să rotiți sau să variaţi sarcina. Variind sarcina permite unor muschi sa se odihneasca in timp ce alţi muşchi sunt folositi.\n\nDacă nu puteți modifica activităţile, acordati suficient timp de odihnă sau recuperare.",
+                "content": "Încercaţi să evitați manipularea repetitiva pentru ca aceasta implică utilizarea aceloraşi muşchi iar si iar pentru a finaliza o sarcina. În aceste situații, este important să rotiți sau să variaţi sarcina. Variind sarcina permite unor muschi sa se odihneasca in timp ce alţi muşchi sunt folositi.\n\nDacă nu puteți modifica activităţile, acordati suficient timp de odihnă sau recuperare.",
                 "bullets": [
                 ]
             },
             "slide_15": {
                 "img" : "/images/curs/step3/c15.webp",
-                "title": "Activitate",
+                "title": "Activitate. Am plănuit mutarea sau transportarea?",
                 "answer": "",
-                "content": "Am plănuit mutarea sau transportarea?\nAr trebui să planifici inticipat traseul pe care îl vei folosi pentru a efectua mutarea sau transportarea unei sarcini de manual handling. \nDe exemplu:\nŞtii traseul pe care îl vei parcurge sau este un traseu necunoscut? Traseul este liber de pericole?",
+                "content": "Ar trebui să planifici inticipat traseul pe care îl vei folosi pentru a efectua mutarea sau transportarea unei sarcini de manual handling. \nDe exemplu:\nŞtii traseul pe care îl vei parcurge sau este un traseu necunoscut? Traseul este liber de pericole?",
                 "bullets": [
                 ]
             },
@@ -3353,7 +3355,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step3/c18.webp",
-                "title": "Factori individuali",
+                "title": "Studiază imaginea",
                 "img_additional": "/images/curs/step3/sl_18.png",
                 "answer": "",
                 "content": "",
@@ -3425,9 +3427,9 @@
                 ]
             },
             "slide_27": {
-                "img" : "/images/curs/step3/c26.webp",
+                "img" : "/images/curs/step3/c27.webp",
                 "title": "Sarcina",
-                "answer": "",
+                "answer": "Toți acești factori afectează capacitatea dumneavoastră de a manipula sarcina în siguranță și cresc riscul de rănire.",
                 "content": "Ce alţi factori ar putea provoca dificultăți în timpul ridicarii unei greutati? Înafara de greutate, ar trebui să se examineze sarcina pentru a verifica dacă:",
                 "bullets": [
                     "este voluminoasa sau dificila de a fi cuprinsa pentru transportare are margini ascuțite sau rupte",
@@ -3661,8 +3663,7 @@
                 "content": "",
                 "bullets": [
                     "îndoiti genunchii şi lăsaţi-i să se îndepărteze unul de celălalt.",
-                    "Evitați o îndoire (îndoire peste spate)",
-                    "sau poziția ghemuit (complet flexibil şoldurile şi genunchii)."
+                    "Evitați o îndoire (îndoire peste spate) sau poziția ghemuit (complet flexibil şoldurile şi genunchii)."
                 ]
             },
             "slide_11": {
@@ -3699,24 +3700,24 @@
             },
             "slide_15": {
                 "img" : "/images/curs/step4/d15.webp",
-                "title": "Persoana cu greutatea mai mare va avea balansoarul mai jos.",
+                "title": "Principiul Balansoarului",
                 "additional_image": "seesaw.png",
                 "answer": "",
-                "content": "",
+                "content": "Poți echilibra un balansoar când o persoană este mai grea decât cealaltă?",
                 "bullets": [
                 ]
             },
             "slide_16": {
-                "img" : "/images/curs/step4/d16.webp",
+                "img" : "/images/curs/step4/d15.webp",
                 "title": "Principiul Balansoarului",
                 "additional_image": "seesaw.png",
                 "answer": "",
-                "content": "Poţi face echilibrul unui balansoar atunci când o persoană este mai grea decât cealaltă?",
+                "content": "Persoana mai grea va avea balansierul inferior.",
                 "bullets": [
                 ]
             },
             "slide_17": {
-                "img" : "/images/curs/step4/d17.webp",
+                "img" : "/images/curs/step4/d14.webp",
                 "title": "Corect",
                 "additional_image": "seesaw.png",
                 "answer": "",
@@ -3741,7 +3742,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d21.webp",
+                "img" : "/images/curs/step4/d20.webp",
                 "title": "Evitaţi răsucirea în timpul procedurii de manual handling",
                 "answer": "",
                 "content": "Atunci când mergeti pe jos cu o greutate, mergeti atent cu pas normal. Uitati-va înainte, nu in jos la încărcătură.\nDacă trebuie să vă schimbați direcţia,intâi mişcaţi-vă picioarele apoi întregul corp. Amintiţi-vă, evitați răsucirea corpului în timpul efectuarii manual handling.\n",
@@ -4012,7 +4013,7 @@
                 "img" : "/images/curs/step1/5.webp",
                 "title": "LESIONES OCASIONADAS POR MANEJO MANUAL INCORRECTO",
                 "answer": "",
-                "content": "Algunos ejemplos de tareas de manipulación manual\ndiario incluyen:",
+                "content": "",
                 "bullets": [
                     "Las tareas de manipulación manual son la causa de un gran número de accidentes laborales cada año. Las tareas de manejo manual inadecuadas pueden causar lesiones en manos, brazos y cuello.",
                     "La caída accidental de cargas también puede lesionar las piernas. • Sin embargo, la mayoría de las lesiones por manejo manual afectan la espalda.",
@@ -4021,7 +4022,7 @@
             },
             "slide_6": {
                 "img" : "/images/curs/step1/6.webp",
-                "title": "LESIONES OCASIONADAS POR MANEJO MANUAL INCORRECTO",
+                "title": "RESPONSABILIDAD",
                 "answer": "",
                 "content": "Cuáles son mis responsabilidades con respecto a la manipulación manual en el trabajo? Como empleado, usted debe:",
                 "bullets": [
@@ -4234,10 +4235,10 @@
             "slide_3": {
                 "img" : "/images/curs/step3/c3.webp",
                 "title": "EVALUACIÓN DE RIESGOS",
-                "answer": "Nota\nEsto es especialmente importante si solo realiza tareas de manipulación manual ocasionales.\n",
-                "content": "Esta lección cubre:",
+                "answer": "",
+                "content": "Su empleador llevará a cabo una evaluación de riesgos para cualquier tarea de manipulación manual que pueda llevarse a cabo de forma regular\nSin embargo, si desea evitar cualquier daño ahora y en el futuro, también debe desarrollar el hábito de evaluar los riesgos involucrados en cada tarea de manipulación manual que realice. \n\nNota\nEsto es especialmente importante si solo realiza tareas de manejo manual ocasionales.",
                 "bullets": [
-                    "Su empleador llevará a cabo una evaluación de riesgos para cualquier tarea de manipulación manual que pueda llevarse a cabo de forma regular.\nSin embargo, si desea evitar cualquier daño ahora y en el futuro, también debe desarrollar el hábito de evaluar los riesgos involucrados en cada tarea de manipulación manual que realice."
+                    
                 ]
             },
             "slide_4": {
@@ -4254,7 +4255,7 @@
             "slide_5": {
                 "img" : "/images/curs/step3/c5.webp",
                 "title": "TAREA",
-                "answer": "Nota: La mejor manera de evitar lesiones es evitar el levantamiento manual en general.",
+                "answer": "",
                 "content": "A veces, con las actividades de manejo manual, la tarea en sí puede pasarse por alto. Es más probable que las personas evalúen una tarea que no parece causar problemas y parece ser más visible y tangible que la tarea. Sin embargo, es importante ser consciente de cómo se realiza una tarea para evaluar qué puede hacer para reducir el riesgo de lesiones.\nPor ejemplo, al mirar una carga, puede quedar claro que la carga podría levantarse mecánicamente, lo que elimina la necesidad de usar e involucrar la manipulación manual.",
                 "bullets": [
                 ]
@@ -4303,41 +4304,41 @@
             },
             "slide_11": {
                 "img" : "/images/curs/step3/c11.webp",
-                "title": "Actividad",
+                "title": "La actividad implica torcer?",
                 "answer": "",
-                "content": "El embarazo implica torcer?\nLa torsión afecta la parte inferior de la espalda, ejerciendo presión sobre toda la estructura de la espalda.\nEvite torcer su cuerpo al transportar o colocar una carga.\nEn su lugar, gire las piernas y todo el cuerpo en la dirección que desea ir.\nSe debe evitar cualquier movimiento repentino o pesado que pueda conducir a la pérdida de control.",
+                "content": "La torsión afecta la parte inferior de la espalda, ejerciendo presión sobre toda la estructura de la espalda.\nEvite torcer su cuerpo al transportar o colocar una carga.\nEn su lugar, gire las piernas y todo el cuerpo en la dirección que desea ir.\nSe debe evitar cualquier movimiento repentino o pesado que pueda conducir a la pérdida de control.",
                 "bullets": [
                 ]
             },
             "slide_12": {
                 "img" : "/images/curs/step3/c12.webp",
-                "title": "Actividad",
+                "title": "Actividad.La tarea implica transporte de larga distancia?",
                 "answer": "",
-                "content": "La tarea implica transporte de larga distancia?\nConsidere siempre el uso de ayudas mecánicas para reducir la tensión corporal.\nPor ejemplo, use tan simple como un carro,\nLa bolsa le permite transportar cargas fácilmente entre las ubicaciones previstas. Utilizando el equipo adecuado (por ejemplo, una transpaleta, carro,\nbolsa, riel de ropa, cinta transportadora, etc.) para una específica\nreduce el riesgo de dejar que el dispositivo mecánico soporte la mayor parte del peso. Nota\nNo use una ayuda mecánica que no esté seguro de cómo usar correctamente o que no haya recibido capacitación para usar.",
+                "content": "Considere siempre el uso de ayudas mecánicas para reducir la tensión corporal.\nPor ejemplo, use tan simple como un carro,\nLa bolsa le permite transportar cargas fácilmente entre las ubicaciones previstas. Utilizando el equipo adecuado (por ejemplo, una transpaleta, carro,\nbolsa, riel de ropa, cinta transportadora, etc.) para una específica\nreduce el riesgo de dejar que el dispositivo mecánico soporte la mayor parte del peso. Nota\nNo use una ayuda mecánica que no esté seguro de cómo usar correctamente o que no haya recibido capacitación para usar.",
                 "bullets": [
                 ]
             },
             "slide_13": {
                 "img" : "/images/curs/step3/c13.webp",
-                "title": "Actividad",
+                "title": "Actividad. La carga implica empujar o tirar?",
                 "answer": "",
-                "content": "La carga implica empujar o tirar?\nSi tiene la opción, se recomienda empujar un peso en lugar de tirar de él. Verifique que no haya peligros u obstáculos en su camino. Debe usar calzado antideslizante al empujar o tirar de peso.",
+                "content": "Si tiene la opción, se recomienda empujar un peso en lugar de tirar de él. Verifique que no haya peligros u obstáculos en su camino. Debe usar calzado antideslizante al empujar o tirar de peso.",
                 "bullets": [
                 ]
             },
             "slide_14": {
                 "img" : "/images/curs/step3/c14.webp",
-                "title": "Actividad",
+                "title": "Actividad. La tarea implica un manejo repetitivo? ",
                 "answer": "",
-                "content": "La tarea implica un manejo repetitivo? Trate de evitar la manipulación repetitiva porque implica usar los mismos músculos una y otra vez para completar una tarea. En estas situaciones, es importante rotar o variar la carga. Variar la carga permite que algunos músculos descansen mientras se usan otros músculos.\n\nSi no puede cambiar las actividades, deje suficiente tiempo para descansar o recuperarse.",
+                "content": "Trate de evitar la manipulación repetitiva porque implica usar los mismos músculos una y otra vez para completar una tarea. En estas situaciones, es importante rotar o variar la carga. Variar la carga permite que algunos músculos descansen mientras se usan otros músculos.\n\nSi no puede cambiar las actividades, deje suficiente tiempo para descansar o recuperarse.",
                 "bullets": [
                 ]
             },
             "slide_15": {
                 "img" : "/images/curs/step3/c15.webp",
-                "title": "Actividad",
+                "title": "Actividad. Ha planeado mudarse o transportarse?",
                 "answer": "",
-                "content": "Ha planeado mudarse o transportarse?\nDebe planificar con anticipación la ruta que utilizará para mover o transportar una tarea de manejo manual.\nP.ej:\n¿Conoces la ruta que vas a recorrer o es una ruta desconocida? ¿La ruta está libre de peligros?",
+                "content": "Debe planificar con anticipación la ruta que utilizará para mover o transportar una tarea de manejo manual.\nP.ej:\n¿Conoces la ruta que vas a recorrer o es una ruta desconocida? ¿La ruta está libre de peligros?",
                 "bullets": [
                 ]
             },
@@ -4359,7 +4360,7 @@
             },
             "slide_18": {
                 "img" : "/images/curs/step3/c18.webp",
-                "title": "Factores individuales",
+                "title": "Estudia la imagen",
                 "additional_image": "/images/curs/step3/sl_18.webp",
                 "answer": "",
                 "content": "",
@@ -4637,7 +4638,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/d6.webp",
+                "img" : "/images/curs/step4/d7.webp",
                 "title": "Lleve la carga cerca de su cuerpo",
                 "answer": "",
                 "content": "",
@@ -4664,8 +4665,10 @@
                 "img" : "/images/curs/step4/d10.webp",
                 "title": "Adoptar una posición estable",
                 "answer": "",
-                "content": "dobla las rodillas y deja que se alejen una de la otra.\nEvite una curva (doblarse sobre la espalda)\no posición en cuclillas (caderas y rodillas totalmente flexibles).",
+                "content": "",
                 "bullets": [
+                    "dobla las rodillas y deja que se alejen una de la otra.",
+                    "Evite una curva (doblarse sobre la espalda)\no posición en cuclillas (caderas y rodillas totalmente flexibles)."
                 ]
             },
             "slide_11": {
@@ -4702,25 +4705,25 @@
             },
             "slide_15": {
                 "img" : "/images/curs/step4/d15.webp",
-                "title": "Correcto",
+                "title": "El principio del balancín",
+                "additional_image": "/images/curs/step4/seesaw.png",
+                "answer": "",
+                "content": "¿Puedes equilibrar un balancín cuando una persona pesa más que la otra?",
+                "bullets": [
+                ]
+            },
+            "slide_16": {
+                "img" : "/images/curs/step4/d15.webp",
+                "title": "El principio del balancín",
                 "additional_image": "/images/curs/step4/seesaw.png",
                 "answer": "",
                 "content": "La persona más pesada tendrá el balancín más bajo.",
                 "bullets": [
                 ]
             },
-            "slide_16": {
-                "img" : "/images/curs/step4/d16.webp",
-                "title": "El principio del balancín",
-                "additional_image": "/images/curs/step4/seesaw.png",
-                "answer": "",
-                "content": "Puedes equilibrar un balancín cuando una persona pesa más que la otra?",
-                "bullets": [
-                ]
-            },
             "slide_17": {
-                "img" : "/images/curs/step4/d17.webp",
-                "title": "El principio del balancín",
+                "img" : "/images/curs/step4/d14.webp",
+                "title": "Correcto",
                 "additional_image": "/images/curs/step4/seesaw.png",
                 "answer": "",
                 "content": "Si la persona más pesada se sienta más cerca del punto de pivote (en este caso, el medio del balancín), el efecto de su peso es menor.",
@@ -4744,7 +4747,7 @@
                 ]
             },
             "slide_20": {
-                "img" : "/images/curs/step4/d19.webp",
+                "img" : "/images/curs/step4/d20.webp",
                 "title": "Evite torcer durante el procedimiento de manipulación manual.",
                 "answer": "",
                 "content": "Cuando camine con peso, camine con cuidado con un paso normal. Mire hacia adelante, no hacia abajo en la carga.\nSi necesita cambiar de dirección, mueva primero los pies y luego todo el cuerpo. Recuerde, evite torcer su cuerpo durante la manipulación manual.",
