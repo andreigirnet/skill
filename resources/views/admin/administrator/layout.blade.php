@@ -6,7 +6,6 @@
             @include('adminIncludes.sideNavAdmin')
         </div>
         <div class="adminWrap">
-            <div class="urlPage">/{{request()->route()->uri()}}</div>
             @yield('adminPages')
         </div>
     </div>

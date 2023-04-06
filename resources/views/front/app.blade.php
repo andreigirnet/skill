@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{-- Title --}}
-    <title>{{env("APP_NAME")}}</title>
+    <title>Irish Safety Training - Online Manual Handling Course</title>
     {{-- Fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow" rel="stylesheet">
     {{-- Css --}}
+    <link rel = "icon" href ="{{asset('images/logo/flavicon.png')}}" type = "image/x-icon">
     <link rel="stylesheet" href="{{asset("css/main.css")}}">
     <link rel="stylesheet" href="{{asset("css/front/registerInclude.css")}}">
     <link rel="stylesheet" href="{{asset("css/front/footer.css")}}">
@@ -29,7 +30,12 @@
 @include("frontIncludes/frontNav")
 
 @yield('content')
-
+<script>
+window.replainSettings = { id: 'c80878c4-2fae-43e0-9c25-b83f75ab8a61' };
+(function(u){var s=document.createElement('script');s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 @include("frontIncludes/registerInclude")
 @include("frontIncludes/footer")
 @include("frontIncludes/brandSwiper")

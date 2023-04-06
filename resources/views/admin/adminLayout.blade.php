@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{env("APP_NAME")}}</title>
-
+    <title>Irish Safety Training - Online Manual Handling Course</title>
+    <link rel = "icon" href ="{{asset('images/logo/flavicon.png')}}" type = "image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow" rel="stylesheet">
@@ -49,7 +49,12 @@
 @include('adminIncludes/navigationAdminMain')
 @yield('adminContent')
 
-
+<script>
+window.replainSettings = { id: 'c80878c4-2fae-43e0-9c25-b83f75ab8a61' };
+(function(u){var s=document.createElement('script');s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 {{--<script src="{{asset('js/language.js')}}"></script>--}}
 <script src="{{asset('js/dropAdminMenu.js')}}"></script>
 <script src="{{asset('js/errors.js')}}"></script>

@@ -444,17 +444,6 @@
                 ]
             },
             "slide_32": {
-                "img" : "/images/curs/step3/c32.webp",
-                "title": "Question",
-                "content": "In this situation, to which of the four areas below does the risk apply?",
-                "bullets": [
-                    "Entourage",
-                    "Task",
-                    "Work environment",
-                    "Individual abilities"
-                ]
-            },
-            "slide_33": {
                 "img" : "/images/curs/step3/c33.webp",
                 "title": "Question",
                 "answer": "In this example, risk is related to individual capabilities.\nThe person is pregnant, which affects her ability to implement manual handling.\n",
@@ -467,44 +456,20 @@
                     "Correct"
                 ]
             },
-            "slide_34": {
+            "slide_33": {
                 "img" : "/images/curs/step3/c34.webp",
                 "title": "Question",
-                "answer": "",
-                "content": "In this situation, to which of the four areas below does the risk apply?",
-                "bullets": [
-                    "Entourage",
-                    "Pregnancy",
-                    "Work environment",
-                    "Individual abilities"
-                ]
-            },
-            "slide_35": {
-                "img" : "/images/curs/step3/c35.webp",
-                "title": "Question",
-                "answer": "Pregnancy. In this example, the risk is related to the weight of the pregnancy. The load is poorly packed, which could affect its safe transport.",
+                "answer": "Task. In this example, the risk is related to the weight of the task. The load is poorly packed, which could affect its safe transport.",
                 "content": "In this situation, to which of those\nfour areas below does the risk apply? ",
                 "bullets": [
                     "Entourage",
-                    "Pregnancy",
+                    "Task",
                     "Work environment",
                     "Individual abilities"
                 ]
             },
-            "slide_36": {
+            "slide_34": {
                 "img" : "/images/curs/step3/c36.webp",
-                "title": "Question",
-                "answer": "",
-                "content": "In this situation, to which of the four areas below does the risk apply?",
-                "bullets": [
-                    "Entourage",
-                    "Pregnancy",
-                    "Work environment",
-                    "Individual abilities"
-                ]
-            },
-            "slide_37": {
-                "img" : "/images/curs/step3/c37.webp",
                 "title": "Question",
                 "answer": "Entourage. In this example, the risk is related to the environment. Uncomfortable movements, such as stretching, which increase the risk of injury. \n To reduce the risk of injury, the load should be stored at waist height, \n where stretching can be avoided and the load can be handled comfortably.",
                 "content": "In this situation, to which of the four areas below does the risk apply?",
@@ -515,19 +480,19 @@
                     "Individual abilities"
                 ]
             },
-            "slide_38": {
-                "img" : "/images/curs/step3/c38.webp",
+            "slide_35": {
+                "img" : "/images/curs/step3/c37.webp",
                 "title": "Question",
-                "answer": "",
+                "answer": "In this example, the risk is related to the working environment. Working in poor light prevents you from seeing clearly and makes it difficult to spot any hazards. Please continue.",
                 "content": "In this situation, to which of the four areas below does the risk apply?",
                 "bullets": [
                     "Entourage",
                     "Pregnancy",
-                    "Work environment",
+                    "Working environment",
                     "Individual abilities"
                 ]
             },
-            "slide_39": {
+            "slide_36": {
                 "img" : "/images/curs/step3/c39.webp",
                 "title": "SUMMARY",
                 "answer": "",
@@ -819,7 +784,7 @@
                 ]
             },
             "slide_1": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Which of the following is correct when placing a load?",
                 "answer": "Bend your knees to bend slightly while keeping your back in its natural shape.",
                 "content": "",
@@ -831,7 +796,7 @@
                 ]
             },
             "slide_2": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "When performing a team load, which of the following should be performed?",
                 "answer": "Discuss the performance of the load. A person should be appointed to give instructions.",
                 "content": "",
@@ -843,7 +808,7 @@
                 ]
             },
             "slide_3": {
-                "img" : "/images/curs/step4/d34.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "If you are unsure about your ability to lift a load, what should you do?",
                 "answer": "Inform your manager",
                 "content": "",
@@ -853,7 +818,7 @@
                 ]
             },
             "slide_4": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Manual handling tasks only occur in intensive work environments, such as factory or industrial environments.",
                 "answer": "False",
                 "content": "",
@@ -863,7 +828,7 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Which of the following statements most accurately describes a manual handling procedure?",
                 "answer": "Any transportation where human power is required.",
                 "content": "",
@@ -875,7 +840,7 @@
                 ]
             },
             "slide_6": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Which part of the body is most affected by injuries as a result of implementing the manual handling procedure?",
                 "answer": "The back.",
                 "content": "",
@@ -886,7 +851,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "What is the best method to carry a load/weight by hand?",
                 "answer": "Keep the load close to your body's center of gravity.",
                 "content": "",
@@ -897,7 +862,7 @@
                 ]
             },
             "slide_8": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "When carrying a load/weight, should you change direction if necessary?",
                 "answer": "Moving your legs.",
                 "content": "",
@@ -909,7 +874,7 @@
                 ]
             },
             "slide_9": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "What is the recommended hand position when pushing or pulling a load/weight?",
                 "answer": "Between shoulder and waist height.",
                 "content": "",
@@ -921,7 +886,7 @@
                 ]
             },
             "slide_10": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "How are you most likely to injure your back?",
                 "answer": "The back is most likely to be injured as a result of cumulative damage.",
                 "content": "",
@@ -1210,7 +1175,7 @@
                 "answer": "",
                 "content": "Twój pracodawca przeprowadzi ocenę ryzyka dla wszelkich zadań związanych z ręcznym przemieszczaniem, które mogą być wykonywane regularnie\nJeśli jednak chcesz uniknąć szkód teraz iw przyszłości, musisz także wyrobić w sobie nawyk oceny ryzyka związanego z każdym zadaniem związanym z przenoszeniem ręcznym.",
                 "bullets": [
-            
+
                 ]
             },
             "slide_4": {
@@ -1231,7 +1196,7 @@
                 "answer": "",
                 "content": "Czasami przy ręcznych czynnościach związanych z przenoszeniem można przeoczyć samo zadanie. Ludzie mogą być bardziej skłonni do oceny zadania, które nie wydaje się sprawiać problemów i wydaje się być bardziej widoczne i namacalne niż zadanie. Jednak ważne jest, aby być świadomym sposobu wykonywania zadania, aby ocenić, co możesz zrobić, aby zmniejszyć ryzyko obrażeń.\nNa przykład, patrząc na ładunek, może być jasne, że ładunek można podnieść mechanicznie, co eliminuje potrzebę użycia i ręcznej obsługi.",
                 "bullets": [
-                   
+
                 ]
             },
             "slide_6": {
@@ -1250,7 +1215,7 @@
                 "answer": "",
                 "content": "Ta opcja eliminuje potrzebę ręcznej obsługi.\nnawyk oceniania każdego zadania, które wykonujesz.\nDowiedz się, co jest dla Ciebie najlepsze!",
                 "bullets": [
-                    
+
                 ]
             },
             "slide_8": {
@@ -1455,18 +1420,6 @@
                 ]
             },
             "slide_32": {
-                "img" : "/images/curs/step3/c32.webp",
-                "title": "Pytanie",
-                "answer": "",
-                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
-                "bullets": [
-                    "Otoczenie",
-                    "Zadanie",
-                    "Środowisko pracy",
-                    "Umiejętności indywidualne"
-                ]
-            },
-            "slide_33": {
                 "img" : "/images/curs/step3/c33.webp",
                 "title": "Pytanie",
                 "answer": "Indywidualne możliwości. W tym przykładzie ryzyko jest związane z indywidualnymi możliwościami.\nOsoba jest w ciąży, co wpływa na jej zdolność do ręcznego przenoszenia. Proszę kontynuować.",
@@ -1478,68 +1431,32 @@
                     "Prawidłowy"
                 ]
             },
-            "slide_34": {
+            "slide_33": {
                 "img" : "/images/curs/step3/c34.webp",
-                "title": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
-                "answer": "",
-                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
-                "bullets": [
-                    "Otoczenie",
-                    "Ciąża",
-                    "Środowisko pracy",
-                    "Umiejętności indywidualne"
-                ]
-            },
-            "slide_35": {
-                "img" : "/images/curs/step3/c35.webp",
                 "title": "Pytanie",
-                "answer": "Ciąża. W tym przykładzie ryzyko jest związane z wagą ciąży. Ładunek jest źle zapakowany, co może mieć wpływ na jego bezpieczny transport. Proszę kontynuuj.",
+                "answer": "zadanie. W tym przykładzie ryzyko jest związane z wagą zadanie. Ładunek jest źle zapakowany, co może mieć wpływ na jego bezpieczny transport. Proszę kontynuuj.",
                 "content": "W tej sytuacji, do którego z tych\ncztery obszary poniżej, czy występuje ryzyko?",
                 "bullets": [
                     "Otoczenie",
-                    "Ciąża",
+                    "zadanie",
                     "Środowisko pracy",
                     "Indywidualne zdolności"
                 ]
             },
-            "slide_36": {
+            "slide_34": {
                 "img" : "/images/curs/step3/c36.webp",
-                "title": "Pytanie",
-                "answer": "",
-                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
-                "bullets": [
-                    "Otoczenie",
-                    "Ciąża",
-                    "Środowisko pracy",
-                    "Indywidualne zdolności"
-                ]
-            },
-            "slide_37": {
-                "img" : "/images/curs/step3/c37.webp",
                 "title": "Pytanie",
                 "answer": "Otoczenie. W tym przykładzie ryzyko jest związane ze środowiskiem. Niewygodne ruchy, takie jak rozciąganie, które zwiększają ryzyko kontuzji. Aby zmniejszyć ryzyko obrażeń, ładunek należy przechowywać na wysokości pasa, gdzie można uniknąć rozciągania i wygodnie go przenosić. Proszę kontynuuj.",
                 "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko? ",
                 "bullets": [
                     "Otoczenie",
-                    "Ciąża",
+                    "zadanie",
                     "Środowisko pracy",
                     "Indywidualne zdolności"
                 ]
             },
-            "slide_38": {
-                "img" : "/images/curs/step3/c38.webp",
-                "title": "Pytanie",
-                "answer": "",
-                "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
-                "bullets": [
-                    "Ciąża",
-                    "Waga",
-                    "Środowisko pracy",
-                    "Indywidualne zdolności"
-                ]
-            },
-            "slide_39": {
-                "img" : "/images/curs/step3/c39.webp",
+            "slide_35": {
+                "img" : "/images/curs/step3/c37.webp",
                 "title": "Pytanie",
                 "answer": "Środowisko pracy. ntuzji. W tym przykładzie ryzyko jest związane ze środowiskiem pracy. Praca przy słabym oświetleniu nie pozwala wyraźnie widzieć i utrudnia identyfikację ewentualnych zagrożeń. Proszę kontynuuj.",
                 "content": "W tej sytuacji, którego z czterech poniższych obszarów dotyczy ryzyko?",
@@ -1550,9 +1467,9 @@
                     "Indywidualne zdolności"
                 ]
             },
-            "slide_40": {
+            "slide_36": {
                 "img" : "/images/curs/step3/c40.webp",
-                "title": "Pytanie",
+                "title": "STRESZCZENIE",
                 "answer": "",
                 "content": "",
                 "bullets": [
@@ -1737,19 +1654,20 @@
             "slide_21": {
                 "img" : "/images/curs/step4/d21.webp",
                 "title": "Prawda fałsz",
-                "answer": "Trzymanie ładunku z dala od środka ciężkości ciała zwiększa siłę oddziaływania ładunku. X Wstań jak najszybciej po podniesieniu ładunku z podłogi.",
+                "answer": "",
                 "content": "",
                 "bullets": [
-                    "Gdy zamierzasz podnieść ładunek/ciężar, stań ze stopami blisko siebie, aby zapewnić ci podstawę podparcia i stabilności.",
-                    "Dobrze jest skręcać ciało i jednocześnie podnosić.",
-                    "Trzymanie ładunku z dala od środka ciężkości ciała zwiększa siłę oddziaływania ładunku. X Wstań jak najszybciej po podniesieniu ładunku z podłogi."
+                    "X Gdy zamierzasz podnieść ładunek/ciężar, stań ze stopami blisko siebie, aby zapewnić ci podstawę podparcia i stabilności.",
+                    "X Dobrze jest skręcać ciało i jednocześnie podnosić.",
+                    "✓ Trzymanie ładunku z dala od środka ciężkości ciała zwiększa siłę oddziaływania ładunku.",
+                    "X Wstań jak najszybciej po podniesieniu ładunku z podłogi."
                 ]
             },
             "slide_22": {
                 "img" : "/images/curs/step4/d22.webp",
                 "title": "Umieszczanie ładunku",
-                "answer": "Umieszczanie ładunku może wpływać na plecy tak samo, jak jego podnoszenie\nten.\nOdkładając ładunek ugnij kolana, aby uzyskać niższą wysokość ciała, ale jednocześnie plecy powinny pozostać w swoim naturalnym kształcie. Nie trać kontaktu z ładunkiem, dopóki nie zostanie on odłożony.\nJeśli wymagane jest precyzyjne pozycjonowanie ładunku,\nnajpierw umieść go, a następnie znajdź żądaną pozycję.",
-                "content": "",
+                "answer": "",
+                "content": "Umieszczanie ładunku może wpływać na plecy tak samo, jak jego podnoszenie\nten.\nOdkładając ładunek ugnij kolana, aby uzyskać niższą wysokość ciała, ale jednocześnie plecy powinny pozostać w swoim naturalnym kształcie. Nie trać kontaktu z ładunkiem, dopóki nie zostanie on odłożony.\nJeśli wymagane jest precyzyjne pozycjonowanie ładunku,\nnajpierw umieść go, a następnie znajdź żądaną pozycję.",
                 "bullets": [
                 ]
             },
@@ -1773,8 +1691,9 @@
                 "img" : "/images/curs/step4/d25.webp",
                 "title": "Rozładunek samochodu (bagażnika) ",
                 "answer": "",
-                "content": "Podnoszenie ciężkich przedmiotów z bardzo małej wysokości stwarza poważniejsze problemy i wymaga szczególnej uwagi. Aby umieścić ładunek w bagażniku, umieść go na krawędzi bagażnika. Następnie powoli opuść go, zginając oba kolana. Staraj się zachować szeroką podstawę. Może pomóc, jeśli postawisz jedną stopę przed drugą.\nRada:Przed rozładunkiem połóż duży kawałek kartonu na podłodze za maszyną. Następnie, gdy przyjdziesz rozładować bagażnik, możesz obniżyć ładunek za pomocą tej tektury, co znacznie ułatwia sytuację niż nadmierne schylanie się.",
+                "content": "Podnoszenie ciężkich przedmiotów z bardzo małej wysokości stwarza poważniejsze problemy i wymaga szczególnej uwagi. Aby umieścić ładunek w bagażniku, umieść go na krawędzi bagażnika. Następnie powoli opuść go, zginając oba kolana. Staraj się zachować szeroką podstawę. Może pomóc, jeśli postawisz jedną stopę przed drugą.",
                 "bullets": [
+                    "Rada:Przed rozładunkiem połóż duży kawałek kartonu na podłodze za maszyną. Następnie, gdy przyjdziesz rozładować bagażnik, możesz obniżyć ładunek za pomocą tej tektury, co znacznie ułatwia sytuację niż nadmierne schylanie się."
                 ]
             },
             "slide_26": {
@@ -1824,7 +1743,7 @@
         },
         "test":{
             "slide_0": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Teraz będziesz musiał zdać Test",
                 "answer": "",
                 "content": "Aby otrzymać certyfikat, należy odpowiedzieć na 7 z 10 pytań. Kliknij następny slajd, aby rozpocząć",
@@ -1832,7 +1751,7 @@
                 ]
             },
             "slide_1": {
-                "img" : "/images/curs/step4/d31.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Które z poniższych jest prawidłowe podczas umieszczania ładunku?",
                 "answer": "Zegnij kolana, aby lekko się ugiąć, utrzymując plecy w ich naturalnym kształcie.",
                 "content": "",
@@ -1843,7 +1762,7 @@
                 ]
             },
             "slide_2": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Które z poniższych czynności należy wykonać podczas wykonywania obciążenia zespołowego?",
                 "answer": "Omów wydajność obciążenia. Należy wyznaczyć osobę do wydawania instrukcji.",
                 "content": "",
@@ -1854,7 +1773,7 @@
                 ]
             },
             "slide_3": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Jeśli nie jesteś pewien, czy jesteś w stanie podnieść ciężar, co powinieneś zrobić?",
                 "answer": "Poinformuj swojego kierownika",
                 "content": "",
@@ -1864,7 +1783,7 @@
                 ]
             },
             "slide_4": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Ręczne zadania przenoszenia występują tylko w intensywnych środowiskach pracy, takich jak fabryki lub środowiska przemysłowe.",
                 "answer": "Podróbka",
                 "content": "",
@@ -1874,7 +1793,7 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Które z poniższych stwierdzeń najdokładniej opisuje procedurę ręcznego przenoszenia?",
                 "answer": "Każdy transport, w którym wymagana jest siła ludzka.",
                 "content": "",
@@ -1885,7 +1804,7 @@
                 ]
             },
             "slide_6": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Która część ciała jest najbardziej narażona na urazy w wyniku realizacji procedury ręcznego przemieszczania?",
                 "answer": "Powrót",
                 "content": "",
@@ -1896,7 +1815,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Jaka jest najlepsza metoda ręcznego przenoszenia ładunku/ciężaru?",
                 "answer": "Trzymaj ładunek blisko środka ciężkości ciała.",
                 "content": "",
@@ -1907,7 +1826,7 @@
                 ]
             },
             "slide_8": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Czy podczas przenoszenia ładunku/ciężaru należy zmienić kierunek, jeśli to konieczne?",
                 "answer": "Poruszanie nogami.",
                 "content": "",
@@ -1918,7 +1837,7 @@
                 ]
             },
             "slide_9": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Jaka jest zalecana pozycja dłoni podczas pchania lub ciągnięcia ładunku/ciężaru?",
                 "answer": "Między ramionami a talią.",
                 "content": "",
@@ -1929,7 +1848,7 @@
                 ]
             },
             "slide_10": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "W jaki sposób najprawdopodobniej zranisz plecy?",
                 "answer": "Plecy są najbardziej narażone na kontuzje w wyniku skumulowanych uszkodzeń.",
                 "content": "",
@@ -2199,7 +2118,7 @@
                 "answer": "",
                 "content": "Травмы спины могут быть очень болезненными и долго заживают.\nПоэтому гораздо лучше предвидеть получение травмы сейчас,\nвместо того, чтобы пытаться вылечить его после его получения.",
                 "bullets": [
-                   
+
                 ]
             },
             "slide_2": {
@@ -2217,7 +2136,7 @@
                 "answer": "",
                 "content": "Ваш работодатель проведет оценку рисков для любых ручных операций, которые могут выполняться на регулярной основе.\nОднако, если вы хотите избежать какого-либо вреда сейчас и в будущем, вы также должны выработать привычку оценивать риски, связанные с каждой ручной работой, которую вы выполняете.",
                 "bullets": [
-                    
+
                 ]
             },
             "slide_4": {
@@ -2237,7 +2156,7 @@
                 "answer": "",
                 "content": "Иногда при ручной обработке можно упустить из виду саму задачу. Люди могут с большей вероятностью оценить задачу, которая не вызывает проблем и кажется более заметной и осязаемой, чем задача. Однако важно знать, как выполняется задача, чтобы оценить, что вы можете сделать, чтобы снизить риск получения травмы.\nНапример, при взгляде на груз может быть ясно, что груз можно поднять механически, что устраняет необходимость использования ручного труда.",
                 "bullets": [
-                
+
                 ]
             },
             "slide_6": {
@@ -2461,18 +2380,6 @@
 
                 ]
             },
-            "slide_32": {
-                "img" : "/images/curs/step3/c32.webp",
-                "title": "Вопрос",
-                "answer": "",
-                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
-                "bullets": [
-                    "Антураж",
-                    "Задача",
-                    "Рабочая среда",
-                    "Индивидуальные способности"
-                ]
-            },
             "slide_33": {
                 "img" : "/images/curs/step3/c33.webp",
                 "title": "Вопрос",
@@ -2488,78 +2395,42 @@
             "slide_34": {
                 "img" : "/images/curs/step3/c34.webp",
                 "title": "Вопрос",
-                "answer": "",
+                "answer": "задача. В этом примере риск связан с весом задача. Груз плохо упакован, что может повлиять на его безопасную транспортировку. Пожалуйста, продолжайте.",
                 "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
                 "bullets": [
                     "Антураж",
-                    "Беременность",
+                    "задача",
                     "Рабочая среда",
                     "Индивидуальные способности"
                 ]
             },
             "slide_35": {
-                "img" : "/images/curs/step3/c35.webp",
-                "title": "Вопрос",
-                "answer": "Беременность. В этом примере риск связан с весом беременной. Груз плохо упакован, что может повлиять на его безопасную транспортировку. Пожалуйста, продолжайте.",
-                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
-                "bullets": [
-                    "Антураж",
-                    "Беременность",
-                    "Рабочая среда",
-                    "Индивидуальные способности"
-                ]
-            },
-            "slide_36": {
                 "img" : "/images/curs/step3/c36.webp",
-                "title": "Вопрос",
-                "answer": "",
-                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
-                "bullets": [
-                    "Антураж",
-                    "Беременность",
-                    "Рабочая среда",
-                    "Индивидуальные способности"
-                ]
-            },
-            "slide_37": {
-                "img" : "/images/curs/step3/c37.webp",
                 "title": "Вопрос",
                 "answer": "В этом примере риск связан с окружающей средой. Неудобные движения, такие как растяжка, которые повышают риск получения травмы. Чтобы снизить риск получения травмы, груз следует хранить на уровне талии, где можно избежать растяжения и с комфортом обращаться с грузом. Пожалуйста, продолжайте.",
                 "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
                 "bullets": [
                     "Антураж",
-                    "Беременность",
+                    "задача",
                     "Рабочая среда",
                     "Индивидуальные способности"
                 ]
             },
-            "slide_38": {
-                "img" : "/images/curs/step3/c38.webp",
-                "title": "Вопрос",
-                "answer": "",
-                "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
-                "bullets": [
-                    "Беременность",
-                    "Вес",
-                    "Рабочая среда",
-                    "Индивидуальные способности"
-                ]
-            },
-            "slide_39": {
-                "img" : "/images/curs/step3/c39.webp",
+            "slide_36": {
+                "img" : "/images/curs/step3/c37.webp",
                 "title": "Вопрос",
                 "answer": "В этом примере риск связан с рабочей средой. Работа при плохом освещении не позволяет вам ясно видеть и затрудняет выявление каких-либо опасностей. Пожалуйста, продолжайте.",
                 "content": "В этой ситуации к какой из четырех перечисленных ниже областей относится риск?",
                 "bullets": [
-                    "Беременность",
+                    "задача",
                     "Вес",
                     "Рабочая среда",
                     "Индивидуальные способности"
                 ]
             },
-            "slide_40": {
+            "slide_37": {
                 "img" : "/images/curs/step3/c39.webp",
-                "title": "Вопрос",
+                "title": "Краткое содержание",
                 "answer": "",
                 "content": "",
                 "bullets": [
@@ -2594,7 +2465,7 @@
                 "answer": "",
                 "content": "Каковы принципы безопасности при ручном обращении, которых следует придерживаться, чтобы снизить риск получения травм?",
                 "bullets": [
-                
+
                 ]
             },
             "slide_4": {
@@ -2749,7 +2620,8 @@
                 "bullets": [
                     "X Когда вы собираетесь поднять груз/вес, встаньте, поставив ноги близко друг к другу, чтобы они давали вам опору и устойчивость.",
                     "X Хорошо скручивать тело и поднимать его одновременно.",
-                    "✓ Удерживание груза вдали от центра тяжести тела увеличивает воздействие груза. X Встаньте как можно быстрее после подъема груза с пола."
+                    "✓ Удерживание груза вдали от центра тяжести тела увеличивает воздействие груза.",
+                    "X Встаньте как можно быстрее после подъема груза с пола."
                 ]
             },
             "slide_22": {
@@ -2780,8 +2652,9 @@
                 "img" : "/images/curs/step4/d25.webp",
                 "title": "Разгрузка автомобиля (багажника)",
                 "answer": "",
-                "content": "Подъем тяжелых предметов с очень малой высоты создает более серьезные проблемы и требует особого внимания. Чтобы поместить груз в багажник, поместите груз на край багажника. Затем медленно опустите его, согнув оба колена. Старайтесь держать широкую базу. Может помочь, если вы поставите одну ногу перед другой.\nСовет:Положите большой кусок картона на пол за машиной перед ее разгрузкой. Затем, когда вы придете разгружать багажник, вы сможете опустить груз с помощью этого картона, что значительно облегчит ситуацию, чем слишком сильно перегибаться.",
+                "content": "Подъем тяжелых предметов с очень малой высоты создает более серьезные проблемы и требует особого внимания. Чтобы поместить груз в багажник, поместите груз на край багажника. Затем медленно опустите его, согнув оба колена. Старайтесь держать широкую базу. Может помочь, если вы поставите одну ногу перед другой.",
                 "bullets": [
+                    "Совет:Положите большой кусок картона на пол за машиной перед ее разгрузкой. Затем, когда вы придете разгружать багажник, вы сможете опустить груз с помощью этого картона, что значительно облегчит ситуацию, чем слишком сильно перегибаться."
                 ]
             },
             "slide_26": {
@@ -2838,7 +2711,7 @@
         },
         "test": {
             "slide_0": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Теперь вам предстоит пройти тест",
                 "answer":"",
                 "content": "Для получения сертификата необходимо ответить на 7 из 10 вопросов. Нажмите следующий слайд, чтобы начать",
@@ -2846,7 +2719,7 @@
                 ]
             },
             "slide_1": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Что из следующего является правильным при размещении нагрузки?",
                 "answer": "Слегка согните колени, сохраняя при этом естественную форму спины.",
                 "content": "",
@@ -2857,7 +2730,7 @@
                 ]
             },
             "slide_2": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "При выполнении групповой нагрузки что из перечисленного следует выполнять?",
                 "answer": "Обсудите производительность нагрузки. Должно быть назначено лицо, которое будет давать указания.",
                 "content": "",
@@ -2868,7 +2741,7 @@
                 ]
             },
             "slide_3": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Что делать, если вы не уверены в своей способности поднять груз?",
                 "answer": "Сообщите своему менеджеру",
                 "content": "",
@@ -2878,7 +2751,7 @@
                 ]
             },
             "slide_4": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Задачи ручной обработки возникают только в интенсивных рабочих условиях, таких как фабрика или промышленная среда.",
                 "answer": "Фальшивый",
                 "content": "",
@@ -2888,7 +2761,7 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Какое из следующих утверждений наиболее точно описывает процедуру ручной обработки?",
                 "answer": "Любой транспорт, где требуется человеческая сила.",
                 "content": "",
@@ -2899,7 +2772,7 @@
                 ]
             },
             "slide_6": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Какая часть тела наиболее подвержена травмам в результате выполнения процедуры мануальной обработки?",
                 "answer": "Спина",
                 "content": "",
@@ -2910,7 +2783,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Как лучше всего переносить груз/вес вручную?",
                 "answer": "Держите груз близко к центру тяжести вашего тела.",
                 "content": "",
@@ -2921,7 +2794,7 @@
                 ]
             },
             "slide_8": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "При переноске груза/веса следует ли при необходимости менять направление?",
                 "answer": "Двигать ногами.",
                 "content": "",
@@ -2932,7 +2805,7 @@
                 ]
             },
             "slide_9": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "При переноске груза/веса следует ли при необходимости менять направление?",
                 "answer": "Между плечом и высотой талии.",
                 "content": "",
@@ -2943,7 +2816,7 @@
                 ]
             },
             "slide_10": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Как вы, скорее всего, повредите спину?",
                 "answer": "В результате кумулятивного повреждения чаще всего травмируется спина.",
                 "content": "",
@@ -3486,31 +3359,7 @@
                 ]
             },
             "slide_33": {
-                "img" : "/images/curs/step3/c33.webp",
-                "title": "În această situaţie, la care dintre cele patru domenii de mai jos se aplică riscul?",
-                "answer": "Capacități individuale. În acest exemplu, riscul este legat de capacitatile individuale.\nPersoana este insarcinata(gravida), ceea ce afectează capacitatea ei de a implementa manual handling. Vă rog să continuaţi.\n",
-                "content": "",
-                "bullets": [
-                    "Anturaj",
-                    "Sarcina",
-                    "Mediul de lucru",
-                    "Capacităţi individuale"
-                ]
-            },
-            "slide_34": {
                 "img" : "/images/curs/step3/c34.webp",
-                "title": "În această situaţie, la care dintre cele patru domenii de mai jos se aplică riscul?",
-                "answer": "",
-                "content": "",
-                "bullets": [
-                    "Anturaj",
-                    "Sarcina",
-                    "Mediul de lucru",
-                    "Capacităţi individuale"
-                ]
-            },
-            "slide_35": {
-                "img" : "/images/curs/step3/c35.webp",
                 "title": "În această situaţie, la care dintre cele patru domenii de mai jos se aplică riscul?",
                 "answer": "Sarcina. În acest exemplu, riscul este legat de greutatea sarcinii. Sarcina este prost ambalata, ceea ce ar putea afecta transportarea ei în condiții de siguranţă. Vă rog să continuaţi.",
                 "content": "",
@@ -3521,20 +3370,8 @@
                     "Capacităţi individuale"
                 ]
             },
-            "slide_36": {
+            "slide_34": {
                 "img" : "/images/curs/step3/c36.webp",
-                "title": "În această situaţie, la care dintre cele patru domenii de mai jos se aplică riscul?",
-                "answer": "",
-                "content": "",
-                "bullets": [
-                    "Anturaj",
-                    "Sarcina",
-                    "Mediul de lucru",
-                    "Capacităţi individuale"
-                ]
-            },
-            "slide_37": {
-                "img" : "/images/curs/step3/c37.webp",
                 "title": "În această situaţie, la care dintre cele patru domenii de mai jos se aplică riscul?",
                 "answer": "În acest exemplu, riscul este legat de Anturaj. Mişcările incomode, ar fi întinderea, care creste riscul de rănire. Pentru a reduce riscul de rănire, sarcina trebuie depozitată la înălţimea taliei, unde întinderea poate fi evitată, iar sarcina poate fi manipulată confortabil. Vă rog să continuaţi.",
                 "content": "",
@@ -3545,20 +3382,8 @@
                     "Capacităţi individuale"
                 ]
             },
-            "slide_38": {
-                "img" : "/images/curs/step3/c38.webp",
-                "title": "În această situaţie, la care dintre cele patru domenii de mai jos se aplică riscul?",
-                "answer": "",
-                "content": "",
-                "bullets": [
-                    "Anturaj",
-                    "Sarcina",
-                    "Mediul de lucru",
-                    "Capacităţi individuale"
-                ]
-            },
-            "slide_39": {
-                "img" : "/images/curs/step3/c39.webp",
+            "slide_35": {
+                "img" : "/images/curs/step3/c37.webp",
                 "title": "În această situaţie, la care dintre cele patru domenii de mai jos se aplică riscul?",
                 "answer": "Mediul de lucru. În acest exemplu, riscul este legat de mediul de lucru. Lucrul în iluminare slabă nu vă permite să vedeţi clar şi va face dificilă identificarea oricăror pericole. Vă rog să continuați.",
                 "content": "",
@@ -3569,7 +3394,7 @@
                     "Capacităţi individuale"
                 ]
             },
-            "slide_40": {
+            "slide_36": {
                 "img" : "/images/curs/step3/c39.webp",
                 "title": "REZUMAT",
                 "answer": "",
@@ -3736,7 +3561,7 @@
             "slide_19": {
                 "img" : "/images/curs/step4/d19.webp",
                 "title": "Corect",
-                "answer": "",
+                "answer": "Trebuie să găsim pe cineva mai ușor (în greutate) care să facă lucrul manual.",
                 "content": "Dacă începeţi procedura de manual handling aproape de incarcatura şi încercaţi să o păstraţi aproape de corp, reduceți efortul necesar pentru efectuarea acesteia. Vă rog să continuați.",
                 "bullets": [
                 ]
@@ -3753,12 +3578,16 @@
                 "img" : "/images/curs/step4/d21.webp",
                 "title": "Adevărat Fals",
                 "answer": "",
-                "content": "X Când sunteţi pe cale să ridicați o incarcatura/greutate, stați cu picioarele aproape unul de celălalt, astfel încât să vă ofere o bază de sprijin şi stabilitate.\nX Este bine să va răsuciți corpul şi să ridicați în acelaşi timp.\n✓ Ţinând o încărcătură departe de centrul de gravitatie a corpului creşte impactul încărcăturii. X Ridicaţi-vă cât mai repede posibil după ridicarea unei încărcături de pe podea.",
+                "content": "",
                 "bullets": [
+                    "X Când sunteţi pe cale să ridicați o incarcatura/greutate, stați cu picioarele aproape unul de celălalt, astfel încât să vă ofere o bază de sprijin şi stabilitate.",
+                    "X Este bine să va răsuciți corpul şi să ridicați în acelaşi timp.",
+                    "✓ Ţinând o încărcătură departe de centrul de gravitatie a corpului creşte impactul încărcăturii.",
+                    "X Ridicaţi-vă cât mai repede posibil după ridicarea unei încărcături de pe podea."
                 ]
             },
             "slide_22": {
-                "img" : "/images/curs/step4/d21.webp",
+                "img" : "/images/curs/step4/d22.webp",
                 "title": "Plasarea unei încărcături",
                 "answer": "",
                 "content": "Plasarea unei incarcaturi jos poate afecta la fel de mult spatele ca si la ridicarea\nacesteia.\nAtunci când plasati jos incarcatura, îndoiți genunchii pentru a atinge o inaltime mai mica a corpului, dar în acelaşi timp spatele trebuie sa stea în forma sa naturală. Nu pierdeti contactul cu incarcatura până când aceasta nu a fost plasata jos.\nDacă este necesară poziționarea precisă a încărcăturii,\nmai întâi plasati-o jos, apoi gasiti poziţia dorită.",
@@ -3785,8 +3614,9 @@
                 "img" : "/images/curs/step4/d25.webp",
                 "title": "Descarcarea unui automobil(portbagaj)",
                 "answer": "",
-                "content": "Ridicarea obiectelor grele de la o inaltime extrem de joasa creează probleme mai serioase şi necesită o atenție deosebită. Pentru a plasa o incarcatura în portbagaj, plasați incarcatura pe marginea portbagajului. Apoi, coborâți-l încet îndoind ambii genunchi. Încearcă să menții o bază largă. Poate ajuta daca a-ti pune un picior în faţa celuilalt.\nSfat: Aşezaţi o bucată mare de carton pe podeaua din spatele maşinii înainte de a o descărca. Apoi, când veniți să descarcati portbagajul, puteți cobori incarcatura cu ajutorul acestui carton, ceea ce usureaza semnificativ situatia decat sa efectuati o aplecare prea mare.",
+                "content": "Ridicarea obiectelor grele de la o inaltime extrem de joasa creează probleme mai serioase şi necesită o atenție deosebită. Pentru a plasa o incarcatura în portbagaj, plasați incarcatura pe marginea portbagajului. Apoi, coborâți-l încet îndoind ambii genunchi. Încearcă să menții o bază largă. Poate ajuta daca a-ti pune un picior în faţa celuilalt.",
                 "bullets": [
+                    "Sfat: Aşezaţi o bucată mare de carton pe podeaua din spatele maşinii înainte de a o descărca. Apoi, când veniți să descarcati portbagajul, puteți cobori incarcatura cu ajutorul acestui carton, ceea ce usureaza semnificativ situatia decat sa efectuati o aplecare prea mare."
                 ]
             },
             "slide_26": {
@@ -3843,7 +3673,7 @@
         },
         "test": {
             "slide_0": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Acum va trebui să face-ți un Test",
                 "answer": "",
                 "content": "Trebuie să răspunde-ți la minim 7 întrebări din 10 ca să primi-ți certificatul",
@@ -3851,7 +3681,7 @@
                 ]
             },
             "slide_1": {
-                "img" : "/images/curs/step4/d31.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Care dintre următoarele este corecta la plasarea unei încărcături?",
                 "answer": "Îndoiți genunchii pentru a vă apleca usor în timp ce vă păstrați spatele în forma sa naturală.",
                 "content": "",
@@ -3862,7 +3692,7 @@
                 ]
             },
             "slide_2": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Atunci când se efectuează o incarcatura in echipa, care dintre următoarele ar trebui să fie efectuate?",
                 "answer": "Discută despre efectuarea incarcaturii. O persoană ar trebui să fie numita pentru a da instrucțiuni.",
                 "content": "",
@@ -3873,7 +3703,7 @@
                 ]
             },
             "slide_3": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Dacă nu sunteți sigur cu privire la capacitatea dumneavoastră de a ridica o incarcatura, ce ar trebui să faceți?",
                 "answer": "Informează-ți managerul",
                 "content": "",
@@ -3883,7 +3713,7 @@
                 ]
             },
             "slide_4": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Sarcinile de manual handling au loc numai în mediul de lucru intensiv,precum ar fi mediul fabricilor sau cele industriale.",
                 "answer": "Fals",
                 "content": "",
@@ -3893,7 +3723,7 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step4/d34.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Care dintre următoarele afirmații descrie cu cea mai mare precizie o procedura de manual handling?",
                 "answer": "Orice transportare în cazul în care forța umană este necesară.",
                 "content": "",
@@ -3904,7 +3734,7 @@
                 ]
             },
             "slide_6": {
-                "img" : "/images/curs/step4/d35.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Care parte a corpului este cea mai afectată de leziuni ca rezultat la implementarea procedurii de manual handling?",
                 "answer": "Spatele",
                 "content": "",
@@ -3915,7 +3745,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/d35.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Care este cea mai buna metoda de a transporta manual o incarcatura/greutate?",
                 "answer": "Țineți încărcătura aproape de centrul de gravitatie a corpului.",
                 "content": "",
@@ -3926,7 +3756,7 @@
                 ]
             },
             "slide_8": {
-                "img" : "/images/curs/step4/d35.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Atunci când transportati o incarcatura/greutate, ar trebui să vă schimbați direcția, dacă este necesar?",
                 "answer": "Mișcându-ți picioarele.",
                 "content": "",
@@ -3937,7 +3767,7 @@
                 ]
             },
             "slide_9": {
-                "img" : "/images/curs/step4/d35.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Care este poziția recomandată a mâinilor atunci când împingeți sau trageți o incarcatura/greutate?",
                 "answer": "Între înălțimea umărului și a taliei.",
                 "content": "",
@@ -3948,7 +3778,7 @@
                 ]
             },
             "slide_10": {
-                "img" : "/images/curs/step4/d36.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Cum este cel mai probabil sa va traumati spatele?",
                 "answer": "Spatele este cel mai probabil să fie rănit ca urmare a daunelor cumulative.",
                 "content": "",
@@ -4238,7 +4068,7 @@
                 "answer": "",
                 "content": "Su empleador llevará a cabo una evaluación de riesgos para cualquier tarea de manipulación manual que pueda llevarse a cabo de forma regular\nSin embargo, si desea evitar cualquier daño ahora y en el futuro, también debe desarrollar el hábito de evaluar los riesgos involucrados en cada tarea de manipulación manual que realice. \n\nNota\nEsto es especialmente importante si solo realiza tareas de manejo manual ocasionales.",
                 "bullets": [
-                    
+
                 ]
             },
             "slide_4": {
@@ -4479,18 +4309,6 @@
                 ]
             },
             "slide_32": {
-                "img" : "/images/curs/step3/c32.webp",
-                "title": "Pregunta",
-                "answer": "",
-                "content": "En esta situación, ¿a cuál de las cuatro áreas siguientes se aplica el riesgo?",
-                "bullets": [
-                    "Séquito",
-                    "Tarea",
-                    "ambiente de trabajo",
-                    "Habilidades individuales"
-                ]
-            },
-            "slide_33": {
                 "img" : "/images/curs/step3/c33.webp",
                 "title": "Pregunta",
                 "answer": "En este ejemplo, el riesgo está relacionado con las capacidades individuales.\nLa persona está embarazada, lo que afecta su capacidad para implementar el manejo manual. Continúe.",
@@ -4502,20 +4320,8 @@
                     "Habilidades individuales"
                 ]
             },
-            "slide_34": {
+            "slide_33": {
                 "img" : "/images/curs/step3/c34.webp",
-                "title": "Pregunta",
-                "answer": "",
-                "content": "En esta situación, ¿a cuál de las cuatro áreas siguientes se aplica el riesgo?",
-                "bullets": [
-                    "Séquito",
-                    "Tarea",
-                    "ambiente de trabajo",
-                    "Habilidades individuales"
-                ]
-            },
-            "slide_35": {
-                "img" : "/images/curs/step3/c35.webp",
                 "title": "Pregunta",
                 "answer": "En este ejemplo, el riesgo está relacionado con el peso del embarazo. La carga está mal embalada, lo que podría afectar a su transporte seguro. Por favor continua.",
                 "content": "En esta situación, ¿a cuál de las cuatro áreas siguientes se aplica el riesgo?",
@@ -4526,11 +4332,11 @@
                     "Habilidades individuales"
                 ]
             },
-            "slide_36": {
+            "slide_34": {
                 "img" : "/images/curs/step3/c36.webp",
                 "title": "Pregunta",
-                "answer": "",
-                "content": "En esta situación, ¿a cuál de las cuatro áreas siguientes se aplica el riesgo?",
+                "answer": "En este ejemplo, el riesgo está relacionado con el medio ambiente. Movimientos incómodos, como estiramientos, que aumentan el riesgo de lesiones. Para reducir el riesgo de lesiones, la carga debe almacenarse a la altura de la cintura, donde se puede evitar el estiramiento y la carga se puede manejar cómodamente. Por favor continua.",
+                "content": "",
                 "bullets": [
                     "Séquito",
                     "Tarea",
@@ -4538,32 +4344,8 @@
                     "Habilidades individuales"
                 ]
             },
-            "slide_37": {
+            "slide_35": {
                 "img" : "/images/curs/step3/c37.webp",
-                "title": "Pregunta",
-                "answer": "ro. Por favor continua.",
-                "content": "En este ejemplo, el riesgo está relacionado con el medio ambiente. Movimientos incómodos, como estiramientos, que aumentan el riesgo de lesiones. Para reducir el riesgo de lesiones, la carga debe almacenarse a la altura de la cintura, donde se puede evitar el estiramiento y la carga se puede manejar cómodamente. Por favor continua.",
-                "bullets": [
-                    "Séquito",
-                    "Tarea",
-                    "ambiente de trabajo",
-                    "Habilidades individuales"
-                ]
-            },
-            "slide_38": {
-                "img" : "/images/curs/step3/c38.webp",
-                "title": "Pregunta",
-                "answer": "",
-                "content": "En esta situación, ¿a cuál de las cuatro áreas siguientes se aplica el riesgo?",
-                "bullets": [
-                    "Séquito",
-                    "Tarea",
-                    "ambiente de trabajo",
-                    "Habilidades individuales"
-                ]
-            },
-            "slide_39": {
-                "img" : "/images/curs/step3/c39.webp",
                 "title": "Pregunta",
                 "answer": "En este ejemplo, el riesgo está relacionado con el entorno de trabajo. Trabajar con poca luz no le permite ver con claridad y dificultará la identificación de cualquier peligro. Por favor continua.",
                 "content": "En esta situación, ¿a cuál de las cuatro áreas siguientes se aplica el riesgo?",
@@ -4574,7 +4356,7 @@
                     "Habilidades individuales"
                 ]
             },
-            "slide_40": {
+            "slide_36": {
                 "img" : "/images/curs/step3/c39.webp",
                 "title": "RESUMEN",
                 "answer": "",
@@ -4762,7 +4544,8 @@
                 "bullets": [
                     "X Cuando esté a punto de levantar una carga/peso, párese con los pies juntos para que le den una base de apoyo y estabilidad.",
                     "X Es bueno torcer el cuerpo y levantar al mismo tiempo.",
-                    "✓ Sostener una carga lejos del centro de gravedad del cuerpo aumenta el impacto de la carga. X Levántese lo más rápido posible después de levantar una carga del piso."
+                    "✓ Sostener una carga lejos del centro de gravedad del cuerpo aumenta el impacto de la carga.",
+                    "X Levántese lo más rápido posible después de levantar una carga del piso."
                 ]
             },
             "slide_22": {
@@ -4793,8 +4576,9 @@
                 "img" : "/images/curs/step4/d25.webp",
                 "title": "Descarga de un coche (maletero) ",
                 "answer": "",
-                "content": "Levantar objetos pesados desde una altura extremadamente baja crea problemas más serios y requiere atención especial. Para colocar una carga en la cajuela, coloque la carga en el borde de la cajuela. Luego bájelo lentamente doblando ambas rodillas. Trate de mantener una base amplia. Puede ayudar si pones un pie delante del otro.\nConsejo:Coloque un gran trozo de cartón en el suelo detrás de la máquina antes de descargarla. Luego, cuando venga a descargar el baúl, puede bajar la carga con la ayuda de este cartón, lo que hace que la situación sea mucho más fácil que doblarse demasiado.",
+                "content": "Levantar objetos pesados desde una altura extremadamente baja crea problemas más serios y requiere atención especial. Para colocar una carga en la cajuela, coloque la carga en el borde de la cajuela. Luego bájelo lentamente doblando ambas rodillas. Trate de mantener una base amplia. Puede ayudar si pones un pie delante del otro.",
                 "bullets": [
+                    "Consejo:Coloque un gran trozo de cartón en el suelo detrás de la máquina antes de descargarla. Luego, cuando venga a descargar el baúl, puede bajar la carga con la ayuda de este cartón, lo que hace que la situación sea mucho más fácil que doblarse demasiado."
                 ]
             },
             "slide_26": {
@@ -4851,7 +4635,7 @@
         },
         "test": {
             "slide_0": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Ahora tendrás que pasar una Prueba",
                 "answer": "",
                 "content": "Debe responder 7 de 10 preguntas para obtener el certificado. Haga clic en la siguiente diapositiva para comenzar",
@@ -4859,7 +4643,7 @@
                 ]
             },
             "slide_1": {
-                "img" : "/images/curs/step4/d32.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Cuál de las siguientes es correcta al colocar una carga?",
                 "answer": "Doble las rodillas para doblarlas ligeramente mientras mantiene la espalda en su forma natural.",
                 "content": "",
@@ -4870,7 +4654,7 @@
                 ]
             },
             "slide_2": {
-                "img" : "/images/curs/step4/d33.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Al realizar una carga de equipo, ¿cuál de los siguientes debe realizarse?",
                 "answer": "Discutir el desempeño de la carga. Se debe designar a una persona para dar instrucciones.",
                 "content": "",
@@ -4881,7 +4665,7 @@
                 ]
             },
             "slide_3": {
-                "img" : "/images/curs/step4/d34.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Si no está seguro de su capacidad para levantar una carga, ¿qué debe hacer?",
                 "answer": "Informe a su gerente",
                 "content": "",
@@ -4891,7 +4675,7 @@
                 ]
             },
             "slide_4": {
-                "img" : "/images/curs/step4/d34.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Las tareas de manipulación manual solo ocurren en entornos de trabajo intensivo, como fábricas o entornos industriales.",
                 "answer": "Falso",
                 "content": "",
@@ -4901,7 +4685,7 @@
                 ]
             },
             "slide_5": {
-                "img" : "/images/curs/step4/d34.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Cuál de las siguientes afirmaciones describe con mayor precisión un procedimiento de manipulación manual.",
                 "answer": "Cualquier transporte donde se requiera fuerza humana.",
                 "content": "",
@@ -4912,7 +4696,7 @@
                 ]
             },
             "slide_6": {
-                "img" : "/images/curs/step4/d36.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Qué parte del cuerpo se ve más afectada por lesiones como resultado de implementar el procedimiento de manejo manual?",
                 "answer": "La parte de atrás.",
                 "content": "",
@@ -4923,7 +4707,7 @@
                 ]
             },
             "slide_7": {
-                "img" : "/images/curs/step4/d37.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Cuál es el mejor método para llevar una carga/peso a mano?",
                 "answer": "Mantenga la carga cerca del centro de gravedad de su cuerpo.",
                 "content": "",
@@ -4934,7 +4718,7 @@
                 ]
             },
             "slide_8": {
-                "img" : "/images/curs/step4/d38.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Al transportar una carga/peso, ¿debe cambiar de dirección si es necesario?",
                 "answer": "Mover las piernas.",
                 "content": "",
@@ -4945,7 +4729,7 @@
                 ]
             },
             "slide_9": {
-                "img" : "/images/curs/step4/d38.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Cuál es la posición recomendada de las manos al empujar o tirar de una carga/peso?",
                 "answer": "Entre la altura del hombro y la cintura.",
                 "content": "",
@@ -4956,7 +4740,7 @@
                 ]
             },
             "slide_10": {
-                "img" : "/images/curs/step4/d38.webp",
+                "img" : "/images/curs/step4/test.webp",
                 "title": "Cómo es más probable que se lesione la espalda?",
                 "answer": "Es más probable que la espalda se lastime como resultado del daño acumulativo.",
                 "content": "",

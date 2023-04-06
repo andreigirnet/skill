@@ -7,7 +7,7 @@
         <div class="registerLink"><a href="{{route("register")}}">Don't Have an account? Register on this link</a></div>
         <form method="POST" class="loginForm" action="{{ route('login') }}">
             @csrf
-            <input id="email" type="email"placeholder="username" class=" inputLogin @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+            <input id="email" type="email"placeholder="email" class=" inputLogin @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
             @error('email')
             <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>

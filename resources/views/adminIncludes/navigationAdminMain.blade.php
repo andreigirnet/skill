@@ -1,6 +1,6 @@
 <div class="adminNav">
         <div class="adminNavWrap">
-            <div class="logo"><img src="{{asset('images/logo/logomain.png')}}" alt=""></div>
+            <a href="{{route('admin.en.home')}}"><div class="logo"><img src="{{asset('images/logo/logomain.png')}}" alt=""></div></a>
                 <div class="rightAdminMainNav">
                     <div class="profilePicture">
                         @if(auth()->user()->profilePic)

@@ -31,8 +31,7 @@
             {
             quantity: this.cartTotalQty
             }).then(response => {
-            this.cartGetItems()
-            this.checkSale()
+	    this.checkSale()
             }).catch(error => {
                 console.error(error);
             });
@@ -44,8 +43,7 @@
                 {
                 quantity: this.cartTotalQty
                 }).then(response => {
-                   this.cartGetItems()
-                   this.checkSale()
+                   this.checkSale()                 
                 }).catch(error => {
                     console.error(error);
                 });
@@ -61,21 +59,22 @@
          checkSale: function(){
             console.log(this.cartTotalQty)
             if(this.cartTotalQty>24){
-                this.showDiscount=true
                 axios.post('/cart/add/discount')
                 .then(response => {
+                this.showDiscount=true
+                this.cartGetItems()
                 }).catch(error => {
                     console.error(error);
                 });
             }else{
-                 this.showDiscount=false
                  axios.post('/cart/clear/discount')
                 .then(response => {
+                this.showDiscount=false
+                this.cartGetItems()
                 }).catch(error => {
                     console.error(error);
                 });
             }
-            this.cartGetItems()
          }
          }" x-init="cartGetItems">
         <div class="adminHomePageTitle">Your Basket</div>

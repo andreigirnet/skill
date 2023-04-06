@@ -68,6 +68,7 @@ class BasketController extends Controller
             'enabled'    =>  false
         ]);
     }
+
     public function removeDiscount(){
         $this->cart->clearActions();
     }
