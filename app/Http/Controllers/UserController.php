@@ -20,17 +20,17 @@ class UserController extends Controller
 
     public function searchUser(Request $request)
     {
-        $user = DB::select("SELECT * FROM users WHERE email LIKE '" . $request->email . "%'");
-        if ($user === []){
+        $users = DB::select("SELECT * FROM users WHERE email LIKE '" . $request->email . "%'");
+        if ($users === []){
             return redirect()->back()->with('success', 'No record has been found with this id');
         }
-        return view('admin.admin.users.search')->with('user',$user[0]);
+        return view('admin.admin.users.search')->with('users',$users);
     }
 
     public function search(Request $request)
     {
         $query = $request->get('q');
-        $users = DB::select("SELECT email, id from users WHERE email LIKE '" . $query . "%'");
+        $users = DB::select("SELECT id,email from users WHERE email LIKE '" . $query . "%'");
         return response()->json($users);
     }
     /**
@@ -54,7 +54,7 @@ class UserController extends Controller
      */
     public function show(string $id)
     {
-        $user = DB::select("SELECT * FROM users LEFT JOIN certificates ON users.id=certificates.user_id WHERE users.id=" . $id);
+        $user = DB::select("SELECT *, users.id FROM users LEFT JOIN certificates ON users.id=certificates.user_id WHERE users.id=" . $id);
         $packages = DB::select("SELECT *,packages.id as package_id,packages.created_at, certificates.id as certificate_id FROM packages LEFT JOIN certificates ON packages.id=certificates.package_id WHERE packages.user_id=" . $id);
 
         $employees =  DB::select("SELECT *, company_employee.id as relationId FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=" . $id);

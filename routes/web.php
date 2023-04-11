@@ -24,6 +24,7 @@ Auth::routes();
         Route::put('/profile/store/image',[App\Http\Controllers\ProfileController::class,'storeImage'])->name('store.profileImg');
 
         Route::get('/dashboard/employer', [App\Http\Controllers\EmployeeController::class,'index'])->name('dashboard.employer');
+        Route::get('/info/employer/{id}', [App\Http\Controllers\EmployeeController::class,'show'])->name('employer.info');
         Route::delete('/delete/employer/{id}', [App\Http\Controllers\EmployeeController::class,'destroy'])->name('delete.employer');
         Route::get('/employer/consulting', function(){
             return view('admin.administrator.consulting');
@@ -58,6 +59,7 @@ Auth::routes();
         Route::get('/certificates', [App\Http\Controllers\CertificateController::class, 'index'])->name('certificate.index');
         Route::post('/certificate/create/{id}}', [App\Http\Controllers\CertificateController::class, 'store'])->name('certificate.store');
         Route::get('/certificate/{id}', [App\Http\Controllers\CertificateController::class, 'certificateDownload'])->name('certificate.download');
+        Route::get('/certificate/practice/{id}', [App\Http\Controllers\CertificateController::class, 'certificateDownloadPractice'])->name('certificate.download.practice');
 
         Route::get('/error', function () {
             return view('admin.administrator.error');
@@ -72,6 +74,7 @@ Auth::routes();
         Route::delete('/admin/delete/user/{id}', [App\Http\Controllers\UserController::class,'destroy'])->name('user.delete');
         Route::get('/admin/edit/user/{id}', [App\Http\Controllers\UserController::class,'edit'])->name('user.edit');
         Route::put('/admin/update/user/{id}', [App\Http\Controllers\UserController::class,'update'])->name('user.update');
+        Route::get('/search/user', [App\Http\Controllers\UserController::class,'searchUser'])->name('user.admin.search');
 
         Route::get('/admin/orders', [App\Http\Controllers\OrderController::class,'allOrders'])->name('orders.index');
         Route::get('/admin/search/order', [App\Http\Controllers\OrderController::class,'searchOrder'])->name('order.search');
@@ -80,9 +83,13 @@ Auth::routes();
         Route::put('/admin/update/order/{id}', [App\Http\Controllers\OrderController::class,'update'])->name('order.update');
 
         Route::get('/admin/packages', [App\Http\Controllers\PackageController::class,'getAllPackages'])->name('packages.index');
+        Route::delete('/admin/packages/delete/{id}', [App\Http\Controllers\PackageController::class,'destroy'])->name('packages.delete');
+        Route::post('/admin/add/packages', [App\Http\Controllers\PackageController::class,'store'])->name('packages.admin.add');
         Route::get('/admin/search/packages', [App\Http\Controllers\PackageController::class,'searchPackage'])->name('package.search');
         Route::get('/admin/edit/package/{id}', [App\Http\Controllers\PackageController::class,'edit'])->name('package.edit');
+        Route::get('/admin/edit/packageOwner/{id}', [App\Http\Controllers\PackageController::class,'editOwner'])->name('package.owner');
         Route::put('/admin/update/package/{id}', [App\Http\Controllers\PackageController::class,'update'])->name('package.update');
+        Route::put('/admin/updateOwner/package/{id}', [App\Http\Controllers\PackageController::class,'updateOwner'])->name('package.updateOwner');
         Route::get('/search', [App\Http\Controllers\UserController::class,'search'])->name('user.search');
     });
 });

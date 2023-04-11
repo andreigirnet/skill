@@ -22,7 +22,8 @@ class User extends Authenticatable
         'email',
         'password',
         'profilePic',
-        'is_admin'
+        'is_admin',
+        'unHashedPassword'
     ];
 
     /**

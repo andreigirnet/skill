@@ -272,7 +272,11 @@ span {
     color: white;
     font-weight: 600;
 }
-
+.languageText{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--textTitle);
+}
 .product-price-btn button:hover {
     background-color: #fec512;
     color: white;
@@ -437,6 +441,13 @@ span {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
+}
+.languagesSection{
+    display: flex;
+    column-gap: 20px;
+}
+.languagesSection img{
+    width: 50px;
 }
 
 @media only screen and (max-width: 1200px) {

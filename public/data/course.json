@@ -836,18 +836,17 @@
                     "Moving heavy objects.",
                     "Moving objects with mechanical means.",
                     "Any transportation where human power is required."
-
                 ]
             },
             "slide_6": {
                 "img" : "/images/curs/step4/test.webp",
                 "title": "Which part of the body is most affected by injuries as a result of implementing the manual handling procedure?",
-                "answer": "The back.",
+                "answer": "The back",
                 "content": "",
                 "bullets": [
-                    "Hands.",
-                    "The back.",
-                    "The legs."
+                    "Hands",
+                    "The back",
+                    "The legs"
                 ]
             },
             "slide_7": {
@@ -864,13 +863,12 @@
             "slide_8": {
                 "img" : "/images/curs/step4/test.webp",
                 "title": "When carrying a load/weight, should you change direction if necessary?",
-                "answer": "Moving your legs.",
+                "answer": "Moving your legs",
                 "content": "",
                 "bullets": [
-                    "Moving your legs.",
-                    "Twisting your body.",
-                    "Stepping back and twisting your body."
-
+                    "By moving your legs",
+                    "By twisting your body.",
+                    "By stepping back and twisting your body."
                 ]
             },
             "slide_9": {
@@ -882,7 +880,6 @@
                     "Above shoulder height.",
                     "Below waist height.",
                     "Between shoulder and waist height."
-
                 ]
             },
             "slide_10": {
@@ -894,7 +891,6 @@
                     "The back is usually affected from regular walking.",
                     "The back is usually injured by a single incident.",
                     "The back is most likely to be injured as a result of cumulative damage."
-
                 ]
             }
         }

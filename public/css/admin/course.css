@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 15px;
     align-items: center;
 }
 .progressBar{
@@ -28,9 +28,10 @@
     width: 1310px;
     height: 600px;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.30) 0px 0px 0px 1px;
     position: relative;
     overflow: hidden;
+    align-items: center;
+    flex-direction: column;
 }
 .selectLang{
     width: 30%;
@@ -217,5 +218,40 @@
     z-index: 1;
 }
 #eyeIcon:hover{
-    background: #fec512; 
+    background: #fec512;
 }
+.modalCourseComplete{
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.modalTitle{
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--textTitle);
+}
+.modalText{
+    display: flex;
+    font-size: 20px;
+    color: var(--textTitle);
+    margin-top: 20px;
+}
+.practicalVideo{
+    width: 85%;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 100px;
+}
+

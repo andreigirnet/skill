@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Certificate;
 use App\Models\Package;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -59,7 +60,14 @@ class PackageController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        for ($i = 0; $i < $request->quantity; $i++) {
+            $package = new Package();
+            $package->user_id = $request->userId;
+            $package->course_name = $request->course;
+            $package->status = "purchased";
+            $package->save();
+        }
+        return redirect()->back()->with('success', 'Packages has been created');
     }
 
     /**
@@ -80,6 +88,13 @@ class PackageController extends Controller
         return view('admin.admin.packages.edit')->with('package', $package)->with('employees', $employees);
     }
 
+    public function editOwner($id)
+    {
+        $package= Package::find($id);
+        $employees = DB::select("SELECT *, company_employee.id as relationId FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=" . $package->user_id);
+        return view('admin.admin.packages.editOwner')->with('package', $package)->with('employees', $employees);
+    }
+
     /**
      * Update the specified resource in storage.
      */
@@ -93,10 +108,17 @@ class PackageController extends Controller
         $order->update([
             'course_name'=>$request->course_name,
             'status'     =>$request->status,
-            'user_id'    =>$request->owner,
-
         ]);
         return redirect(route('packages.index'))->with('success','Package has been updated');
+    }
+
+    public function updateOwner(Request $request, $id)
+    {
+        $order = Package::find($id);
+        $order->update([
+            'user_id'=>$request->user_id,
+        ]);
+        return redirect(route('packages.index'))->with('success','Owner of the package has been updated');
     }
 
     /**

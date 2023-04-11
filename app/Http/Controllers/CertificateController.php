@@ -17,7 +17,7 @@ class CertificateController extends Controller
      */
     public function index()
     {
-        $certificates = DB::select('SELECT *, certificates.created_at as valid_from, certificates.id as id FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.user_id=' . auth()->user()->id . ' ORDER BY valid_from DESC');
+        $certificates = DB::select('SELECT *, certificates.created_at as valid_from, certificates.id as id,certificates.status as status FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.user_id=' . auth()->user()->id . ' ORDER BY valid_from DESC');
         return view('admin.administrator.certificate')->with('certificates', $certificates);
     }
 
@@ -43,21 +43,52 @@ class CertificateController extends Controller
             'user_id'         => auth()->user()->id,
             'package_id'      => $packageId,
             'unique_id'       => $uniqueCertificateId,
+            'status'          => 'theory',
             'expiration_date' => $date_three_years_ahead
         ]);
 
         $packageToUpdate = Package::find($packageId);
         $packageToUpdate->update([
-            'status'         => 'theoryPass',
+            'status'         => 'theory',
             'certificate_id' => $certificate->id
         ]);
+        return redirect(route('certificate.index'))->with('success','Here you can downloand you Certificates');
+    }
+
+    public function storePractice(Request $request, $packageId)
+    {
+        $uniqueCertificateId = 'CERT' . rand(10000, 1000000);
+        $now                 = new \DateTime();
+        $now->add(new \DateInterval('P3Y'));
+        $date_three_years_ahead = $now->format('Y-m-d');
+
+        $certificate = Certificate::create([
+            'user_id'         => auth()->user()->id,
+            'package_id'      => $packageId,
+            'unique_id'       => $uniqueCertificateId,
+            'status'          => 'practice',
+            'expiration_date' => $date_three_years_ahead
+        ]);
+
         return redirect(route('certificate.index'))->with('success','Here you can downloand you Certificates');
     }
 
     //Downloand certificate
     public function certificateDownload($id)
     {
-        $certificate = DB::select("SELECT *, certificates.created_at as valid_from FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.id =" . $id);
+        $certificate = DB::select("SELECT *, certificates.created_at as valid_from FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.id =" . $id . " AND status='theory'");
+        $holder      = User::find($certificate[0]->user_id);
+        $data        = ['certificate' => $certificate, 'holder' => $holder];
+        $pdf         = Pdf::loadView('admin.administrator.generateCertificate', $data);
+        $pdf->setPaper('a4', 'landscape');
+
+        return $pdf->download('certificate.pdf');
+    }
+
+    public function certificateDownloadPractice($id)
+    {
+        $certificate = DB::select("SELECT *, certificates.created_at as valid_from FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.id =" . $id. " AND status='practice'");
+        dd($certificate);
         $holder      = User::find($certificate[0]->user_id);
         $data        = ['certificate' => $certificate, 'holder' => $holder];
         $pdf         = Pdf::loadView('admin.administrator.generateCertificate', $data);

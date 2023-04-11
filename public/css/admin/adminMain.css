@@ -169,7 +169,7 @@ a{
     cursor: pointer;
 }
 .editLink img{
-    width: 30px;
+    width: 35px;
 }
 .actionRow{
     display: flex;
@@ -193,4 +193,23 @@ a{
 }
 #adminRegisterEmployee{
     display: none;
+}
+#adminCreatePackage{
+    display: none;
+}
+.hideNav{
+    width: 32px;
+}
+.hideNavDiv{
+    padding: 10px;
+    cursor: pointer;
+}
+.hideNavMessage{
+    opacity: 0.8;
+    color: var(--textTitle);
+}
+#hideNavDiv{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
 }

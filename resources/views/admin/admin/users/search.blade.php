@@ -4,7 +4,7 @@
         <div class="adminHomePageTitle">Search User Result</div>
         <div class="searchUser">
             <div class="searchText">Search for a user</div>
-            <form action="{{route('user.search')}}">
+            <form action="{{route('user.admin.search')}}">
                 <input type="text" name="email" placeholder="Type the users email" required>
                 <button type="submit" class="searchButton">Search</button>
             </form>
@@ -22,6 +22,7 @@
             </tr>
             </thead>
             <tbody>
+            @foreach($users as $user)
             <tr>
                 <td class="actionRow">
                     <form action="{{route('user.delete', $user->id)}}" method="POST">
@@ -31,14 +32,15 @@
                             <img src="{{asset('images/icons/bin.png')}}" alt="">
                         </button>
                     </form>
-                    <a href="" class="editLink"><img src="{{asset('images/icons/edit.png')}}" alt=""></a>
-                    <a href="" class="editLink"><img src="{{asset('images/icons/info.png')}}" alt=""></a>
+                    <a href="{{route('user.edit', $user->id)}}" class="editLink"><img src="{{asset('images/icons/edit.png')}}" alt=""></a>
+                    <a href="{{route('user.info', $user->id)}}" class="editLink"><img src="{{asset('images/icons/info.png')}}" alt=""></a>
                 </td>
                 <td>{{$user->id}}</td>
                 <td>{{$user->created_at}}</td>
                 <td>{{$user->name}}</td>
                 <td>{{$user->email}}</td>
             </tr>
+            @endforeach
             {{--        <tr class="active-row">--}}
             {{--            <td>Melissa</td>--}}
             {{--            <td>5150</td>--}}

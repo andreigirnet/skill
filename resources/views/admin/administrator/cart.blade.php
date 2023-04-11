@@ -10,7 +10,7 @@
                 this.cartSubTotal = response.data.items_subtotal
                 this.cartTotalQty = response.data.quantities_sum
                 this.cartItems = response.data.items
-                if(this.cartTotalQty>24){
+                if(this.cartTotalQty>14){
                 this.showDiscount=true
                  }else{
                  this.showDiscount=false
@@ -43,7 +43,7 @@
                 {
                 quantity: this.cartTotalQty
                 }).then(response => {
-                   this.checkSale()                 
+                   this.checkSale()
                 }).catch(error => {
                     console.error(error);
                 });
@@ -58,7 +58,7 @@
          },
          checkSale: function(){
             console.log(this.cartTotalQty)
-            if(this.cartTotalQty>24){
+            if(this.cartTotalQty>14){
                 axios.post('/cart/add/discount')
                 .then(response => {
                 this.showDiscount=true

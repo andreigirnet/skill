@@ -21,16 +21,11 @@
                 <input class="formInputProfile" type="text" id="course_name" name="course_name" value="{{$package->course_name}}">
                 <label class="formLabel" for="status">Statuts: Change</label>
                 <select name="status" id="status" style="height: 40px" id="">
+                        <option value="purchased">purchased</option>
                         <option value="theory">theory</option>
-                        <option value="theoryPass">theoryPass</option>
+                        <option value="practice">practice</option>
                 </select>
-                <label class="formLabel" for="owner">Employees: Change Owner</label>
-                <input type="text" x-model="query" x-on:keyup.debounce.500ms="getUsers">
-                <select x-show="showResult" name="owner" id="owner" style="height: 200px" id="" multiple>
-                    <template x-for="user in users" >
-                        <option  x-text="user.email" :value="user.id"></option>
-                    </template>
-                </select>
+                <input type="hidden" value="{{$package->user_id}}" name="user_id">
                 <button type="submit" class="adminButton">Update</button>
             </form>
         </div>

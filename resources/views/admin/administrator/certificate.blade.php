@@ -10,7 +10,8 @@
                 <th>Course Passed</th>
                 <th>Valid From</th>
                 <th>Valid To</th>
-                <th>Downloand</th>
+                <th>Status</th>
+                <th>Downloand Theory</th>
             </tr>
             </thead>
             <tbody>
@@ -23,6 +24,7 @@
                     <td>{{$certificate->course_name}}</td>
                     <td>{{$certificate->valid_from}}</td>
                     <td>{{$certificate->expiration_date}}</td>
+                    <td>{{$certificate->status}}</td>
                     <td><a href="{{route('certificate.download', $certificate->id)}}"><img class="invoiceLink" src="{{asset('images/icons/pdf.png')}}" alt=""></a></td>
                 </tr>
             @endforeach

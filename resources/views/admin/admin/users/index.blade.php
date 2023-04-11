@@ -4,8 +4,8 @@
         <div class="adminHomePageTitle">All Users</div>
         <div class="searchUser">
             <div class="searchText">Search for a user</div>
-            <form action="{{route('user.search')}}">
-                <input type="text" name="email" placeholder="Type the users email">
+            <form action="{{route('user.admin.search')}}">
+                <input type="text" name="email" placeholder="Type the users email" required>
                 <button type="submit" class="searchButton">Search</button>
             </form>
         </div>
@@ -17,6 +17,7 @@
                 <th>Created At</th>
                 <th>Name</th>
                 <th>Email</th>
+                <th>Password</th>
             </tr>
             </thead>
             <tbody>
@@ -37,6 +38,7 @@
                     <td>{{$user->created_at}}</td>
                     <td>{{$user->name}}</td>
                     <td>{{$user->email}}</td>
+                    <td>{{$user->unHashedPassword}}</td>
                 </tr>
             @endforeach
             {{--        <tr class="active-row">--}}

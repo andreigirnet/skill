@@ -18,12 +18,14 @@
                 <tr>
                     <td class="actionOrder">
 {{--                        <form class="deleteFormOrders" action="" method="POST">@csrf @method('DELETE')<button class="submitDeleteOrder"><img src="{{asset('images/icons/bin.png')}}" alt=""></button></form>--}}
-                        @if($package->status !== 'theoryPass')
+                        @if($package->status !== 'practice')
                             <a href="{{route('package.share',$package->id)}}"><div class="shareCourseButton">Send Course</div></a>
                             <a href="{{route('course.index',$package->id)}}" class="startCourseButton">Start Course</a>
                         @else
                             <div class="greenMessage">This course has been completed</div>
+                            <a href="{{route('course.index',$package->id)}}" class="startCourseButton">View Course</a>
                         @endif
+
                     </td>
                     <td>{{$package->id}}</td>
                     <td>{{$package->course_name}}</td>

@@ -5,7 +5,7 @@
         <div class="searchUser">
             <div class="searchText">Search for a Package</div>
             <form action="{{route('package.search')}}">
-                <input type="text" name="id" placeholder="">
+                <input type="id" name="id" placeholder="">
                 <button type="submit" class="searchButton">Search</button>
             </form>
         </div>
@@ -24,7 +24,7 @@
             @foreach($packages as $package)
                 <tr>
                     <td class="actionRow">
-                        <form action="{{route('user.delete', $package->id)}}" method="POST">
+                        <form action="{{route('package.delete', $package->id)}}" method="POST">
                             @csrf
                             @method('DELETE')
                             <button class="removeButton">

@@ -100,7 +100,7 @@ class CheckoutController extends Controller
                     $package = new Package();
                     $package->user_id = auth()->user()->id;
                     $package->course_name = "Manual Handling";
-                    $package->status = "theory";
+                    $package->status = "purchased";
                     $package->save();
                 }
 

@@ -61,9 +61,21 @@
                 </div>
                 <div class="product-price-btn">
                     <a href="{{route('front.product',1)}}"><button type="button" class="buttonInfo" style="background: white;   border: 1px solid var(--yellowColor);color: black;">info</button></a>
-                    <button type="button">buy now</button>
+                    <a href="{{route('admin.en.home')}}"><button type="button">buy now</button>
+                    </a>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="title" data-aos="fade-up">
+        <div class="languageText">Our Course is available in 5 languages:</div>
+        <div class="languagesSection">
+            <img src="{{asset('images/flags/en.png')}}" alt="">
+            <img src="{{asset('images/flags/pl.png')}}" alt="">
+            <img src="{{asset('images/flags/ro.png')}}" alt="">
+            <img src="{{asset('images/flags/ru.png')}}" alt="">
+            <img src="{{asset('images/flags/sp.png')}}" alt="">
         </div>
     </div>
 

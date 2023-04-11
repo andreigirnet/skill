@@ -23,7 +23,7 @@ class EmployeeController extends Controller
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
         $employees = DB::select('SELECT *, company_employee.id as relationId FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=' . auth()->user()->id);
-
+        dd($employees);
         return view('admin.administrator.dashboard')->with('employees', $employees);
     }
 
@@ -75,9 +75,11 @@ class EmployeeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Employee $employee): Response
+    public function show($id): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Foundation\Application
     {
-        //
+        $user = DB::select("SELECT * FROM users LEFT JOIN certificates ON users.id=certificates.user_id WHERE users.id=" . $id);
+        $packages = DB::select("SELECT *,packages.id as package_id,packages.created_at, certificates.id as certificate_id FROM packages LEFT JOIN certificates ON packages.id=certificates.package_id WHERE packages.user_id=" . $id);
+        return view('admin.administrator.info')->with('user', $user[0])->with('packages',$packages);
     }
 
     /**

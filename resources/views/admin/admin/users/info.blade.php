@@ -3,6 +3,18 @@
     <div class="dashWrapper">
         <div class="adminHomePageTitle">Info</div>
         <div class="titleText" style="font-size: 23px">Packages Owned By: {{$user->email}}</div>
+        <div href="" class="addEmployee" id="addPackage">Add package</div>
+        <form action="{{route('packages.admin.add')}}" method="POST" id="adminCreatePackage" class="registerEmployeeForm">
+            @csrf
+            <input type="hidden" id="userNameEmployee" name="userId" value="{{$user->id}}">
+            <label for="course" class="formLabel">Course Name</label>
+            <select name="course" id="course" style="height: 40px" required>
+                <option value="Manual Handling" >Manual Handling</option>
+            </select>
+            <label for="userEmailEmployee" class="formLabel">Quantity</label>
+            <input type="number" id="userEmailEmployee" name="quantity" class="formInputProfile" placeholder="Type the quantity" required>
+            <button type="submit" class="adminButton">Add</button>
+        </form>
         <table class="styled-table">
             <thead>
             <tr>
@@ -25,7 +37,8 @@
                                 <img src="{{asset('images/icons/bin.png')}}" alt="">
                             </button>
                         </form>
-                        <a href="" class="editLink"><img src="{{asset('images/icons/edit.png')}}" alt=""></a>
+                        <a href="{{route('package.edit', $package->package_id)}}" class="editLink"><img src="{{asset('images/icons/edit.png')}}" alt=""></a>
+                        <a href="{{route('package.owner', $package->package_id)}}" class="editLink"><img src="{{asset('images/icons/star.png')}}" alt=""></a>
                     </td>
                     <td>{{$package->package_id}}</td>
                     <td>{{$package->created_at}}</td>
@@ -100,12 +113,23 @@
         const form = document.getElementById('adminRegisterEmployee');
         let showRegisterEmployee = false;
         addEmployee.addEventListener('click', function (){
-            console.log('click')
             showRegisterEmployee = !showRegisterEmployee;
             if(showRegisterEmployee === true){
                 form.style.display = 'flex';
             }else{
                 form.style.display = 'none';
+            }
+        })
+
+        let addPackage = document.getElementById('addPackage');
+        const formPackage = document.getElementById('adminCreatePackage');
+        let showAddPackage = false;
+        addPackage.addEventListener('click', function (){
+            showAddPackage = !showAddPackage;
+            if(showAddPackage === true){
+                formPackage.style.display = 'flex';
+            }else{
+                formPackage.style.display = 'none';
             }
         })
     </script>
