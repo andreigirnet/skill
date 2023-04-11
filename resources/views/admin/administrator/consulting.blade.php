@@ -62,7 +62,7 @@
         <div class="consultingListText">We provide support to employers who require third-party support to achieve their health and safety objectives for their workplace or on a project basis.<br>
             Through our discovery process we work together to determine your unique objectives and requirements, and establish key results to align our work with your measurement of success.<br>
 
-            At SkillCourses.ie, we work with organizations to support the ongoing implementation of a health and safety program with audits and inspections, through the development of hazard specific policy and procedure, and as the outsourced health and safety management as required.<br>
+            At irish-safetytraining.com, we work with organizations to support the ongoing implementation of a health and safety program with audits and inspections, through the development of hazard specific policy and procedure, and as the outsourced health and safety management as required.<br>
 
             If you have questions about our Advisory service offering or what is required for your workplace by the act and legislation, you can schedule a consultation with our team directly at
             {{0 . config('app.telephone')}}.</div>

@@ -28,6 +28,7 @@
             </tr>
             </thead>
             <tbody>
+            @if($orders)
             @foreach($orders as $order)
                 <tr>
                     <td class="actionRow">
@@ -54,6 +55,9 @@
                     <td><a href="{{route('invoice.download',$order->id)}}"><img class="invoiceLink" src="{{asset('images/icons/pdf.png')}}" alt=""></a></td>
                 </tr>
             @endforeach
+            @else
+                <td>No orders</td>
+            @endif
             {{--        <tr class="active-row">--}}
             {{--            <td>Melissa</td>--}}
             {{--            <td>5150</td>--}}

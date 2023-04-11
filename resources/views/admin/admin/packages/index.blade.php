@@ -21,6 +21,7 @@
             </tr>
             </thead>
             <tbody>
+            @if($packages)
             @foreach($packages as $package)
                 <tr>
                     <td class="actionRow">
@@ -45,6 +46,9 @@
             {{--            <td>5150</td>--}}
             {{--        </tr>--}}
             {{--        <!-- and so on... -->--}}
+            @else
+                <td>No packages</td>
+            @endif
             </tbody>
         </table>
     </div>

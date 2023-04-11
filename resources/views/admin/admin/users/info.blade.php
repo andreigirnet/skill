@@ -22,11 +22,14 @@
                 <th>Package Id</th>
                 <th>Purchase Date</th>
                 <th>Course Name</th>
+                <th>Status</th>
                 <th>Certificate</th>
                 <th>Expiration Date</th>
+                <th>Generate Certificate</th>
             </tr>
             </thead>
             <tbody>
+            @if($packages)
             @foreach($packages as $package)
                 <tr>
                     <td class="actionRow">
@@ -43,12 +46,35 @@
                     <td>{{$package->package_id}}</td>
                     <td>{{$package->created_at}}</td>
                     <td>{{$package->course_name}}</td>
-                    @if($package->certificate_id)
+                    <td>{{$package->status}}</td>
+                    @if($package->certificate_id !== null)
                     <td><a href="{{route('certificate.download', $package->certificate_id)}}"><img class="invoiceLink" src="{{asset('images/icons/pdf.png')}}" alt=""></a></td>
+                    @else
+                        <td>No certificate</td>
                     @endif
+                    @if($package->certificate_id !== null)
                     <td>{{$package->expiration_date}}</td>
+                    @else
+                        <td>No certificate</td>
+                    @endif
+
+                        @if($package->status === 'practice')
+                        <td>
+                            <form action="{{route('certificate.store', $package->package_id)}}" method="POST">
+                                @csrf
+                                <button type="submit" class="downCertificate">Generate Certificate</button>
+                            </form>
+                        </td>
+                        @elseif($package->certificate_id !== null)
+                            <td>Certificate generated</td>
+                        @else
+                            <td>Course not completed</td>
+                        @endif
                 </tr>
             @endforeach
+            @else
+                <td>No packages owned by this user</td>
+            @endif
             {{--        <tr class="active-row">--}}
             {{--            <td>Melissa</td>--}}
             {{--            <td>5150</td>--}}
@@ -83,6 +109,7 @@
             </tr>
             </thead>
             <tbody>
+            @if($employees)
             @foreach($employees as $employee)
                 <tr>
                     <td class="actionRow">
@@ -100,6 +127,9 @@
                     <td>{{$employee->email}}</td>
                 </tr>
             @endforeach
+            @else
+                <td>No employees owned by this user</td>
+            @endif
             {{--        <tr class="active-row">--}}
             {{--            <td>Melissa</td>--}}
             {{--            <td>5150</td>--}}

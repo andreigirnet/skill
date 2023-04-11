@@ -55,8 +55,7 @@ class UserController extends Controller
     public function show(string $id)
     {
         $user = DB::select("SELECT *, users.id FROM users LEFT JOIN certificates ON users.id=certificates.user_id WHERE users.id=" . $id);
-        $packages = DB::select("SELECT *,packages.id as package_id,packages.created_at, certificates.id as certificate_id FROM packages LEFT JOIN certificates ON packages.id=certificates.package_id WHERE packages.user_id=" . $id);
-
+        $packages = DB::select("SELECT *,packages.id as package_id,packages.created_at, certificates.id as certificate_id, packages.status as status FROM packages LEFT JOIN certificates ON packages.id=certificates.package_id WHERE packages.user_id=" . $id);
         $employees =  DB::select("SELECT *, company_employee.id as relationId FROM users JOIN company_employee ON users.id = company_employee.employee WHERE company_employee.company=" . $id);
         return view('admin.admin.users.info')->with('user', $user[0])->with('employees',$employees)->with('packages',$packages);
     }

@@ -28,11 +28,8 @@
                 let videoPractice = document.getElementById('practiceVideo');
                 videoPractice.onended = (event) => {
                   console.log(
-                    'Video stopped either because it has finished playing or no further data is available.'
-                );
-                    this.certificateButton = true
+                    'Video stopped either because it has finished playing or no further data is available.');
                 };
-                console.log(this.certificateButton);
             },
             showHideSlide: function(){
                 this.showHideContent = !this.showHideContent
@@ -63,7 +60,7 @@
                     this.submittedAnswers.push(this.selectedAnswer)
                     this.nextSlide();
                     this.message = '';
-                    this.selectedAnswer = ''
+                    this.selectedAnswer = '';
                 }else
                 {
                         this.message = 'Select an answer to go to next question';
@@ -228,6 +225,12 @@
                 <div class="langItem" @click="setLanguage('romanian')"><img src="{{asset('/images/flags/ro.png')}}" alt=""></div>
                 <div class="langItem" @click="setLanguage('russian')"><img src="{{asset('/images/flags/ru.png')}}" alt=""></div>
                 <div class="langItem" @click="setLanguage('spanish')"><img src="{{asset('/images/flags/sp.png')}}" alt=""></div>
+                <div>|</div>
+                <div class="langText">Hide nav bar</div>
+                <label class="switch" id="showHideNav">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
             </div>
             <div class="progressBar">
                 <div class="progresItem" @click="setStage(1)" x-bind:class="{ 'isActiveClass': isActive === 1 }">1</div>
@@ -236,12 +239,27 @@
                 <div class="progresItem" @click="setStage(4)" x-bind:class="{ 'isActiveClass': isActive === 4 }">4</div>
                 <div class="progresItem" @click="setStage('test')" x-bind:class="{ 'isActiveClass': isActive === 'test' }">Test</div>
             </div>
-            <div class="courseContainer">
-                <img id="eyeIcon" @click="showHideSlide" x-show="showEye" src="{{asset('images/icons/eye.png')}}" alt="Show hide image">
-                <video autoplay muted controls class="practicalVideo" x-show="video" id="practiceVideo">
+            <div class="videoContainer" x-show="video">
+                <video autoplay muted controls class="practicalVideo" id="practiceVideo">
                     <source src="{{asset('video/practical.mp4')}}" type="video/mp4">
                 </video>
-
+                <div class="videoText">
+                    <strong>You have two options for completing the self assessment and to get the full certificate that allows you to use it for any job for 3 years.</strong><br>
+                    <br>
+                    You can watch the video demonstration attached on our website and record after that your video showing how to lift up and carry the load safely and send it back to us through this chat and we'll check that for you.
+                    No need to explain the steps if you don’t feel confident about that. Also,it’s not mandatory to wear special equipment (such as PPE) during this process.You can record it in any work environment or at home if you wish so.<br><br>
+                    The steps required are:<br><br>
+                    *Assess the area /*Assess the load/*Get a good stable base, feet flat on the floor in the line with your shoulders/*Bend the knees/*Keep your back straight /*Take the load from the floor with a good palm grip (one palm at the front side and another palm at the bottom)/*Hold the load close to your body/*Turn around with your feet,don’t twist your body<br><br>
+                    It’s important to lift the load from the floor/ground and place it on the table (or any other surface available ) and then back on the floor by following all the steps above.
+                    You can use anything as a load in case you don’t have a box.
+                    Please watch the video demonstration as advised.<br><br>
+                    You can send your video demonstration to our team through the Whatsapp chat on 0892777333 and our instructors will evaluate that for you a.s.a.p.
+                    Our team is assisting all our customers with a prompt response during our working hours.Sometimes our team might assist you outside our usual working program but during our fixed hours you will  definitely be assisted without any delay.<br><br>
+                    If you wish to book a live video call with one of our instructors  to complete the self assessment please send a text message with your full name and email address that was used for your training and with your request regarding that. All the certificates are emailed to everyone straight away after the full course is fully completed.
+                </div>
+            </div>
+            <div class="courseContainer">
+                <img id="eyeIcon" @click="showHideSlide" x-show="showEye" src="{{asset('images/icons/eye.png')}}" alt="Show hide image">
                 <div class="courseSlider" id="courseSlider" x-show="showSlider">
                     <div class="courseStage" x-show="stage === 1">
                         <template x-for="slide in courses.stage_1">
@@ -339,13 +357,6 @@
             </div>
             <div class="navButtons">
                 <div class="navButton" x-show="stage !== 'test'" @click="prevSlide">Previous</div>
-                <div class="tryAgainDiv" x-show="certificateButton">
-                    <div class="succesTest">You have passed the test:</div>
-                    <form action="{{route('certificate.store', $packagesOwnedByUser[0]->id)}}" method="POST">
-                        @csrf
-                        <button type="submit" class="downCertificate">Downloand Certificate</button>
-                    </form>
-                </div>
                 <template x-if="tryAgainButton">
                     <div class="tryAgainDiv">
                         <div class="tryAgain">Please try Again you dit not pass:</div>

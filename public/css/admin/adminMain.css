@@ -45,6 +45,7 @@ a{
 .side{
     width: 15%;
     background: var(--navAdminColor);
+    position: relative;
 }
 .navLinkAdmin{
     display: flex;
@@ -213,3 +214,4 @@ a{
     align-items: center;
     column-gap: 5px;
 }
+

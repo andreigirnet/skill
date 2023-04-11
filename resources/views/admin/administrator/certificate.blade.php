@@ -11,7 +11,7 @@
                 <th>Valid From</th>
                 <th>Valid To</th>
                 <th>Status</th>
-                <th>Downloand Theory</th>
+                <th>Downloand</th>
             </tr>
             </thead>
             <tbody>

@@ -10,7 +10,7 @@
         }
         #id{
             position: absolute;
-            bottom: 0;
+            bottom: -4px;
             left: 50%;
             color: #4a4e4d;
             font-weight: 600;
@@ -50,7 +50,7 @@
 
 <div>
     <div id="container">
-        <img src="images/certificate/certificate-theory.png" id="image"    style="width: 100%" alt="">
+        <img src="images/certificate/certificate.png" id="image"    style="width: 100%" alt="">
         <div id="holder">{{$holder->name}}</div>
         <div id="id">#{{$certificate[0]->unique_id}}</div>
         <div id="valid">{{$certificate[0]->valid_from}}</div>

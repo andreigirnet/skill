@@ -98,6 +98,7 @@ Auth::routes();
         Route::get('/', function(){return view("front.landing");})->name('home');
         Route::get('/products', function(){return view("front.products");})->name('front.products');
         Route::get('/team', function(){return view("front.teamTraining");})->name('front.team');
+        Route::get('/contact', function(){return view("front.contact");})->name('front.contact');
         Route::get('/faq', function(){return view("front.faq");})->name('front.faq');
         Route::get('/consulting', function(){return view("front.consulting");})->name('front.consulting');
         Route::get('/verify/certificate', function(){return view("front.verify");})->name('front.verify');

@@ -28,6 +28,7 @@
                 <input type="hidden" value="{{$package->user_id}}" name="user_id">
                 <button type="submit" class="adminButton">Update</button>
             </form>
+
         </div>
     </div>
     <script src="//unpkg.com/alpinejs" defer></script>

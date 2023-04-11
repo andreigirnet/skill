@@ -1,23 +1,16 @@
-let hideNavButton = document.getElementById('hideNavDiv');
-let hideShowMessage = document.getElementById('hideNavMessage');
-let hideImg = document.getElementById('hideImg');
-let sideNav = document.getElementById('side');
-let message = "Hide Nav Bar";
-let hide = false;
-window.addEventListener('load', function (){
-    hideShowMessage.innerHTML = message
-})
-hideNavButton.addEventListener('click', function(){
-    hide = !hide;
-    if (hide === true){
-        sideNav.style.display = 'none';
-        hideImg.style.transform = 'rotate(180deg)'
-        message = "Show Nav bar"
-        hideShowMessage.innerHTML = message
-    }else{
-        sideNav.style.display = 'block'
-        hideImg.style.transform = 'rotate(0deg)'
-        message = "Hide Nav Bar";
-        hideShowMessage.innerHTML = message
+let showHideButton = document.getElementById('showHideNav');
+let showNavState = true;
+let navBar = document.getElementById('side');
+
+// Add click event listener to the slider span element
+showHideButton.querySelector('.slider').addEventListener('click', function() {
+    showNavState = !showNavState;
+    console.log(showNavState)
+    if (showNavState === true) {
+        navBar.style.display = 'block';
+        showNavState = true;
+    } else {
+        navBar.style.display = 'none';
+        showNavState = false;
     }
-})
+});
