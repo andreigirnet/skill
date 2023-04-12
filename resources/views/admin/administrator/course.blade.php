@@ -4,6 +4,7 @@
             packageId: '{{ $packagesOwnedByUser[0]->id }}',
             correctAnswers: [3,3,2,2,3,2,3,1,3,3],
             certificateButton: false,
+            showNav: false,
             showEye: true,
             showSlider: true,
             showModal: false,
@@ -21,6 +22,13 @@
             stage: 1,
             courses:'',
             video: false,
+            showNavButton: function(){
+                if(this.stage === 1 || this.stage === 2 || this.stage === 3 || this.stage === 4){
+                    this.showNav = true
+                }else{
+                     this.showNav = false
+                }
+            },
             showVideo: function(){
                 axios.put(`/status/package/${this.packageId}`, {id: this.packageId})
                 .then(response => {
@@ -52,10 +60,11 @@
             },
             resetTest: function()
             {
+                this.setStage(5)
+                this.submittedAnswers = [];
                 let slider = document.getElementById('courseSlider');
                 this.slideCounter = 0;
                 slider.style.right = 0 + 'px';
-                this.testAnswers = 0;
                 this.tryAgainButton = false;
                 this.showStartTest = true;
             },
@@ -69,7 +78,7 @@
                     this.selectedAnswer = '';
                 }else
                 {
-                        this.message = 'Select an answer to go to next question';
+                    this.message = 'Select an answer to go to next question';
                 }
             },
             checkResult: function()
@@ -87,8 +96,7 @@
                   {
                     this.tryAgainButton = false;
                     this.showModal = true;
-                    math = 0
-                    this.showModal = true
+                    match = 0
                   }
                   else
                   {
@@ -125,13 +133,18 @@
                 let slider = document.getElementById('courseSlider');
                 this.slideCounter += 1310;
                 let maxPosition = 1310 * this.getLength(this.stage)-1;
-                if(this.slideCounter <= maxPosition){
+                if(this.slideCounter <= maxPosition)
+                {
                     slider.style.right = this.slideCounter + 'px';
                 }else
                 {
-                if(this.stage <6){
-                    this.stage++;
-                }
+                    if(this.stage === 5)
+                    {
+                        this.checkResult()
+                    }
+                    if(this.stage <5){
+                        this.stage++;
+                    }
                     this.setStage(this.stage);
                     this.slideCounter = 0;
                     slider.style.right = 0 + 'px';
@@ -163,9 +176,11 @@
                 }
                  this.slideCounter = 0;
                  slider.style.right = 0 + 'px';
+                 this.showNavButton();
             },
             getCourseItems: function()
             {
+                this.showNavButton();
                 if(this.language === 'english')
                 {
                     axios.get('../data/course.json').then(response => {
@@ -365,14 +380,14 @@
                 </div>
             </div>
             <div class="navButtons">
-                <div class="navButton" x-show="stage !== 5" @click="prevSlide">Previous</div>
+                <div class="navButton" x-show="showNav" @click="prevSlide">Previous</div>
                 <template x-if="tryAgainButton">
                     <div class="tryAgainDiv">
                         <div class="tryAgain">Please try Again you dit not pass:</div>
                         <div class="tryAgainButton" @click="resetTest">Try Again The Test</div>
                     </div>
                 </template>
-                <div class="navButton" x-show="stage !== 5" @click="nextSlide">Next</div>
+                <div class="navButton" x-show="showNav" @click="nextSlide">Next</div>
             </div>
         </div>
     </div>

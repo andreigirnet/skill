@@ -147,6 +147,14 @@
     justify-content: center;
     row-gap: 20px;
 }
+.langTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
 .titleText{
     font-size: 45px;
     font-weight: 600;

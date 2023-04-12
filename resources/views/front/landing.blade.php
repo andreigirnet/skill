@@ -68,7 +68,7 @@
         </div>
     </div>
 
-    <div class="title" data-aos="fade-up">
+    <div class="langTitle" data-aos="fade-up">
         <div class="languageText">Our Course is available in 5 languages:</div>
         <div class="languagesSection">
             <img src="{{asset('images/flags/en.png')}}" alt="">

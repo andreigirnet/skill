@@ -40,8 +40,10 @@
                                 <img src="{{asset('images/icons/bin.png')}}" alt="">
                             </button>
                         </form>
+                        @if($package->certificate_id === null)
                         <a href="{{route('package.edit', $package->package_id)}}" class="editLink"><img src="{{asset('images/icons/edit.png')}}" alt=""></a>
                         <a href="{{route('package.owner', $package->package_id)}}" class="editLink"><img src="{{asset('images/icons/star.png')}}" alt=""></a>
+                        @endif
                     </td>
                     <td>{{$package->package_id}}</td>
                     <td>{{$package->created_at}}</td>

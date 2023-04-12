@@ -116,7 +116,7 @@ class PackageController extends Controller
             'course_name'=>$request->course_name,
             'status'     =>$request->status,
         ]);
-        return redirect(route('packages.index'))->with('success','Package has been updated');
+        return redirect()->back()->with('success','Package has been updated');
     }
 
     public function updateOwner(Request $request, $id)

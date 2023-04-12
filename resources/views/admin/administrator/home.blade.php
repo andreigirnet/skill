@@ -102,10 +102,20 @@
                        <form action="{{route('basket.add')}}" method="POST">
                            @csrf
                            <input type="hidden" value="1" name="productId">
-                           <form action="{{}}" method="POST">@csrf<button type="submit">Add To Basket</button></form>
+                           <button type="submit">Add To Basket</button>
                        </form>
                    </div>
                </div>
+           </div>
+       </div>
+       <div class="langTitle">
+           <div class="languageText">Our Course is available in 5 languages:</div>
+           <div class="languagesSection">
+               <img src="{{asset('images/flags/en.png')}}" alt="">
+               <img src="{{asset('images/flags/pl.png')}}" alt="">
+               <img src="{{asset('images/flags/ro.png')}}" alt="">
+               <img src="{{asset('images/flags/ru.png')}}" alt="">
+               <img src="{{asset('images/flags/sp.png')}}" alt="">
            </div>
        </div>
    </div>

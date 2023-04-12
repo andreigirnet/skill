@@ -20,7 +20,7 @@ class CertificateController extends Controller
      */
     public function index()
     {
-        $certificates = DB::select('SELECT *, certificates.created_at as valid_from, certificates.id as id,certificates.status as status FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.user_id=' . auth()->user()->id . ' ORDER BY valid_from DESC');
+        $certificates = DB::select('SELECT *, certificates.created_at as valid_from, certificates.id as id FROM certificates JOIN packages ON certificates.package_id = packages.id WHERE certificates.user_id=' . auth()->user()->id . ' ORDER BY valid_from DESC');
         return view('admin.administrator.certificate')->with('certificates', $certificates);
     }
 
@@ -46,7 +46,6 @@ class CertificateController extends Controller
             'user_id'         => auth()->user()->id,
             'package_id'      => $packageId,
             'unique_id'       => $uniqueCertificateId,
-            'status'          => 'theory',
             'expiration_date' => $date_three_years_ahead
         ]);
         $user = User::find($request->userId);
@@ -57,7 +56,7 @@ class CertificateController extends Controller
         $packageToUpdate->update([
             'certificate_id' => $certificate->id
         ]);
-        return redirect()->back()->with('success','Here you can downloand you Certificates');
+        return redirect()->back()->with('success','Certificate Generated');
     }
 
     //Downloand certificate
