@@ -19,7 +19,7 @@ class CourseController extends Controller
                 return view('admin.administrator.course')->with('packagesOwnedByUser',$packagesOwnedByUser);
             }
         }
-        return redirect(route('package.index'))->with('success', 'Buy a package to complete a course or choose the right course');
+        return redirect(route('package.index'))->with('success', 'Buy a package to complete a course or choose the right course')->with('packagesOwnedByUser', $packagesOwnedByUser);
     }
 
     /**

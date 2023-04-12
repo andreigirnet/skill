@@ -47,6 +47,13 @@ class PackageController extends Controller
         return view('admin.admin.packages.search')->with('package',$package[0]);
     }
 
+    public function changeStatus(Request $request){
+        $package = Package::find($request->id);
+        $package->update([
+           'status' => 'theory'
+        ]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */

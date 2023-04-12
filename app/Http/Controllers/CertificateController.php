@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\CertificateMail;
+use App\Mail\RegisterEmployeeMail;
 use App\Models\Certificate;
 use App\Http\Controllers\Controller;
 use App\Models\Package;
@@ -9,6 +11,7 @@ use App\Models\User;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 
 class CertificateController extends Controller
 {
@@ -46,13 +49,15 @@ class CertificateController extends Controller
             'status'          => 'theory',
             'expiration_date' => $date_three_years_ahead
         ]);
+        $user = User::find($request->userId);
+        $certificateUrl = env('APP_URL') .'/certificate/' . $certificate->id;
+        Mail::to($user->email)->send(new CertificateMail($certificateUrl));
 
         $packageToUpdate = Package::find($packageId);
         $packageToUpdate->update([
-            'status'         => 'theory',
             'certificate_id' => $certificate->id
         ]);
-        return redirect(route('certificate.index'))->with('success','Here you can downloand you Certificates');
+        return redirect()->back()->with('success','Here you can downloand you Certificates');
     }
 
     //Downloand certificate

@@ -50,7 +50,7 @@
                     @if($package->certificate_id !== null)
                     <td><a href="{{route('certificate.download', $package->certificate_id)}}"><img class="invoiceLink" src="{{asset('images/icons/pdf.png')}}" alt=""></a></td>
                     @else
-                        <td>No certificate</td>
+                    <td>No certificate</td>
                     @endif
                     @if($package->certificate_id !== null)
                     <td>{{$package->expiration_date}}</td>
@@ -58,10 +58,11 @@
                         <td>No certificate</td>
                     @endif
 
-                        @if($package->status === 'practice')
+                        @if($package->status === 'practice' && $package->certificate_id === null)
                         <td>
                             <form action="{{route('certificate.store', $package->package_id)}}" method="POST">
                                 @csrf
+                                <input type="hidden" name="userId" value="{{$user->id}}">
                                 <button type="submit" class="downCertificate">Generate Certificate</button>
                             </form>
                         </td>

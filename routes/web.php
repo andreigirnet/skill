@@ -53,6 +53,7 @@ Auth::routes();
         Route::get('/packages', [App\Http\Controllers\PackageController::class, 'index'])->name('package.index');
         Route::get('/share/packages/{id}', [App\Http\Controllers\PackageController::class, 'share'])->name('package.share');
         Route::post('/share/package/{id}', [App\Http\Controllers\PackageController::class, 'sharePackage'])->name('package.share.store');
+        Route::put('/status/package/{id}', [App\Http\Controllers\PackageController::class, 'changeStatus'])->name('package.status');
         Route::delete('/delete/package/{id}', [App\Http\Controllers\PackageController::class, 'destroy'])->name('package.delete');
 
         Route::get('/course/{id}', [App\Http\Controllers\CourseController::class, 'index'])->name('course.index');

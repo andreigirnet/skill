@@ -86,7 +86,7 @@
     padding: 20px;
 }
 .navButtons{
-    display: none;
+    display: flex;
     width: 80%;
     justify-content: space-between;
 }

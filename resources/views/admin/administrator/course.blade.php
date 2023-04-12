@@ -1,6 +1,7 @@
 @extends('admin.administrator.layout')
 @section('adminPages')
     <div class="dashWrapper" x-data="{
+            packageId: '{{ $packagesOwnedByUser[0]->id }}',
             correctAnswers: [3,3,2,2,3,2,3,1,3,3],
             certificateButton: false,
             showEye: true,
@@ -21,6 +22,11 @@
             courses:'',
             video: false,
             showVideo: function(){
+                axios.put(`/status/package/${this.packageId}`, {id: this.packageId})
+                .then(response => {
+                }).catch(error => {
+                    console.error(error);
+                });
                 this.showSlider = false;
                 this.showModal = false;
                 this.showEye = false;
@@ -121,10 +127,12 @@
                 let maxPosition = 1310 * this.getLength(this.stage)-1;
                 if(this.slideCounter <= maxPosition){
                     slider.style.right = this.slideCounter + 'px';
-                }else{
-                    if(this.stage === 'test'){
-                        this.checkResult();
-                    }
+                }else
+                {
+                if(this.stage <6){
+                    this.stage++;
+                }
+                    this.setStage(this.stage);
                     this.slideCounter = 0;
                     slider.style.right = 0 + 'px';
                 }
@@ -140,6 +148,7 @@
                 }else{
                     this.slideCounter = 0;
                     slider.style.right = 0 + 'px';
+
                 }
             },
             setStage: function(stage)
@@ -233,11 +242,11 @@
                 </label>
             </div>
             <div class="progressBar">
-                <div class="progresItem" @click="setStage(1)" x-bind:class="{ 'isActiveClass': isActive === 1 }">1</div>
-                <div class="progresItem" @click="setStage(2)" x-bind:class="{ 'isActiveClass': isActive === 2 }">2</div>
-                <div class="progresItem" @click="setStage(3)" x-bind:class="{ 'isActiveClass': isActive === 3 }">3</div>
-                <div class="progresItem" @click="setStage(4)" x-bind:class="{ 'isActiveClass': isActive === 4 }">4</div>
-                <div class="progresItem" @click="setStage('test')" x-bind:class="{ 'isActiveClass': isActive === 'test' }">Test</div>
+                <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 1 }">1</div>
+                <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 2 }">2</div>
+                <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 3 }">3</div>
+                <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 4 }">4</div>
+                <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 5 }">Test</div>
             </div>
             <div class="videoContainer" x-show="video">
                 <video autoplay muted controls class="practicalVideo" id="practiceVideo">
@@ -333,7 +342,7 @@
                             </div>
                         </template>
                     </div>
-                    <div class="courseStage" x-show="stage === 'test'">
+                    <div class="courseStage" x-show="stage === 5">
                         <template x-for="slide in courses.test">
                             <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
                                 <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
@@ -356,14 +365,14 @@
                 </div>
             </div>
             <div class="navButtons">
-                <div class="navButton" x-show="stage !== 'test'" @click="prevSlide">Previous</div>
+                <div class="navButton" x-show="stage !== 5" @click="prevSlide">Previous</div>
                 <template x-if="tryAgainButton">
                     <div class="tryAgainDiv">
                         <div class="tryAgain">Please try Again you dit not pass:</div>
                         <div class="tryAgainButton" @click="resetTest">Try Again The Test</div>
                     </div>
                 </template>
-                <div class="navButton" x-show="stage !== 'test'" @click="nextSlide">Next</div>
+                <div class="navButton" x-show="stage !== 5" @click="nextSlide">Next</div>
             </div>
         </div>
     </div>
