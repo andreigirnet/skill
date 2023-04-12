@@ -283,9 +283,9 @@
     <div class="aboutUs" data-aos="fade-up">
         <div class="aboutWrapper">
             <div>
-                SkillCourses.ie was established to provide effective, accessible, and convenient safety training for Irish workers wherever they are located. All courses can be done online.<br>
+                irish-safetytraining.com was established to provide effective, accessible, and convenient safety training for Irish workers wherever they are located. All courses can be done online.<br>
 
-                SkillCourses.ie takes great pride in the quality and integrity of its products and services.<br>
+                irish-safetytraining.com takes great pride in the quality and integrity of its products and services.<br>
 
                 Appropriate safety training can mean the difference between life and death and it is with this belief that we approach our safety training course development and delivery.<br>
 
