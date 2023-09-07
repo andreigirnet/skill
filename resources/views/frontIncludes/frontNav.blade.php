@@ -16,6 +16,6 @@
         <div id="googleIcon">
             <a href=""><img src="{{asset("images/logo/google-icon.webp")}}" alt=""></a>
         </div>
-        <a href="{{route("login")}}"><div class="navItem">Login</div></a>
+        <a href="/"><div class="navItem">Login</div></a>
     </div>
 </div>

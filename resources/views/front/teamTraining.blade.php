@@ -17,16 +17,15 @@
                 <div class="trainingTitle">Bulk Discounts</div>
                 <div class="trainingDescription">Bigger orders = better discounts. Our bulk discounts apply to orders containing any combination of courses. The courses have no time limit for completion so you can take full advantage of your training.<br>
 
-                    -10% discount for orders of 50+ courses<br>
-                    -15% discount for orders of 100+ courses<br>
-                    -20% discount for orders of 500+ courses<br>
+                    -10% discount for orders of 25+ courses <br>
+                    -15% discount for orders of 50+ courses <br>
 
                     Large enterprise orders above 500 courses are dealt with on a case-by-case basis. This includes a tailor-made package to suit your needs, with some of the following benefits:<br>
 
                     -A dedicated Account Manager<br>
                     -Course reset options if an employee leaves your business<br>
                     -Customised reports and progress tracking within your personal Management Suite<br>
-                    To discuss any of your training requirements and budget in more detail, please contact our friendly sales team on 019682644.</div>
+                    To discuss any of your training requirements and budget in more detail, please contact our friendly sales team on +353{{config('app.telephone')}}.</div>
             </div>
             <div class="trainingRightIcon">
                 <img src="{{asset('images/training/tr-img-1.png')}}" alt="">

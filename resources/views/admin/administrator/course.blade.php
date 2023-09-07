@@ -1,13 +1,16 @@
 @extends('admin.administrator.layout')
 @section('adminPages')
     <div class="dashWrapper" x-data="{
+            containerWidth: 0,
+            showModal: false,
             packageId: '{{ $packagesOwnedByUser[0]->id }}',
+            status: '{{$packagesOwnedByUser[0]->status}}',
+            showProgressBar: 'freeze',
             correctAnswers: [3,3,2,2,3,2,3,1,3,3],
             certificateButton: false,
             showNav: false,
             showEye: true,
             showSlider: true,
-            showModal: false,
             submittedAnswers: [],
             showHideContent: true,
             showStartTest: true,
@@ -22,6 +25,13 @@
             stage: 1,
             courses:'',
             video: false,
+            setShowProgressBar: function(){
+                if(this.status === 'purchased'){
+                    this.showProgressBar = 'freeze'
+                }else{
+                    this.showProgressBar = 'navigate'
+                }
+            },
             showNavButton: function(){
                 if(this.stage === 1 || this.stage === 2 || this.stage === 3 || this.stage === 4){
                     this.showNav = true
@@ -37,6 +47,7 @@
                 });
                 this.showSlider = false;
                 this.showModal = false;
+                this.showNav = false;
                 this.showEye = false;
                 this.video = true;
                 let videoPractice = document.getElementById('practiceVideo');
@@ -131,8 +142,8 @@
              {
                 this.answer = false
                 let slider = document.getElementById('courseSlider');
-                this.slideCounter += 1310;
-                let maxPosition = 1310 * this.getLength(this.stage)-1;
+                this.slideCounter += this.containerWidth;
+                let maxPosition = this.containerWidth * this.getLength(this.stage)-1;
                 if(this.slideCounter <= maxPosition)
                 {
                     slider.style.right = this.slideCounter + 'px';
@@ -154,8 +165,8 @@
             {
                 this.answer = false
                 let slider = document.getElementById('courseSlider');
-                this.slideCounter -= 1310;
-                let minPosition = 1310;
+                this.slideCounter -= this.containerWidth;
+                let minPosition = this.containerWidth;
                 if(this.slideCounter >= minPosition){
                     slider.style.right = this.slideCounter + 'px';
                 }else{
@@ -178,8 +189,19 @@
                  slider.style.right = 0 + 'px';
                  this.showNavButton();
             },
+            setScreen: function(){
+                 const courseContainer = document.getElementById('courseContainer');
+                 const containerWidth = courseContainer.offsetWidth;
+                this.containerWidth = containerWidth;
+            },
             getCourseItems: function()
             {
+                window.matchMedia('(orientation : landscape)').addEventListener('change', e=>{
+                    this.setScreen();
+                })
+
+                this.setScreen();
+                this.setShowProgressBar();
                 this.showNavButton();
                 if(this.language === 'english')
                 {
@@ -216,7 +238,6 @@
                 {
                     axios.get('../data/course.json').then(response => {
                         this.courses = response.data.polish
-
                     }).catch(error => {
                         console.error(error);
                     });
@@ -225,21 +246,25 @@
         }"
          x-init="getCourseItems">
         <div class="modalCourseComplete" x-show="showModal">
+            <div class="modalTitle" style="text-align: center">Congratulations you passed the test! </div>
             <div class="modalTitle">IMPORTANT</div>
-            <div class="modalText">Please notice, if you don't book your self assessment with our team as required, your certificate is not fully validated and might not be accepted by your employer/company.
-                This training is covering the full theory and practical part as required by Irish Legislation and regarding that you can use your certificate for any jobs for 3 years after the full course is completed.
+            <div class="modalText">Please notice, you must complete your self assessment with our team as required, so you can get the full certificate straight away after that.  This training is covering the full theory and practical part as required by Irish Legislation and regarding that you can use your certificate for any jobs for 3 years after the full course is completed. The self assessment it’s delivered online.
                 <br>
 
                 <br>
-                It is your responsibility to get in touch with our team as instructed (through WhatsApp chat on +353892777333 texts only) to organise the practical part for your Manual Handling Training a.s.a.p ( within 24-48hrs ) and to have your full course done. After that you will receive your certificate updated with the practical part information on it.
-                Follow the information below regarding the self assessment and to download your first certificate that covers the theory part only and can be used for emergency purposes till you have the full certificate issued from our system.
+                It is your responsibility to get in touch with our team as instructed (through WhatsApp chat on +353{{config('app.telephone')}} texts only) to organise the practical part for your Manual Handling Training a.s.a.p ( within 24-48hrs ) and to have your full course done. After that you will receive your certificate via email straight away. Follow the information below regarding the self assessment.
                 <br>
                 <br>
                 Kind Regards
             </div>
             <div class="modalTitle">Contact Us Via WhatsApp On this line</div>
-            <div class="modalTitle">+353892777333 texts only</div>
+            <div class="modalTitle">+353{{config('app.telephone')}} texts only</div>
+            <div class="modalTitle" style="text-align: center">Press here 👇 to continue</div>
             <div class="adminButton" style="display: flex; align-items: center; justify-content: center; margin-top: 20px" @click="showVideo">UNDERSTOOD</div>
+        </div>
+        <div class="landscape">
+            <img src="{{asset('images/banners/landscape.png')}}" alt="">
+            <div class="landscapeText">Please rotate your phone</div>
         </div>
         <div class="coursePage">
             <div class="selectLang">
@@ -250,17 +275,24 @@
                 <div class="langItem" @click="setLanguage('russian')"><img src="{{asset('/images/flags/ru.png')}}" alt=""></div>
                 <div class="langItem" @click="setLanguage('spanish')"><img src="{{asset('/images/flags/sp.png')}}" alt=""></div>
                 <div>|</div>
-                <div class="langText">Hide nav bar</div>
+                <div class="langText" id="hideNav">Hide nav bar</div>
                 <label class="switch" id="showHideNav">
                     <input type="checkbox">
                     <span class="slider round"></span>
                 </label>
             </div>
-            <div class="progressBar">
+            <div class="progressBar" x-show="showProgressBar === 'freeze'">
                 <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 1 }">1</div>
                 <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 2 }">2</div>
                 <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 3 }">3</div>
                 <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 4 }">4</div>
+                <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 5 }">Test</div>
+            </div>
+            <div class="progressBar" x-show="showProgressBar === 'navigate'">
+                <div class="progresItem" @click="setStage(1)" x-bind:class="{ 'isActiveClass': isActive === 1 }">1</div>
+                <div class="progresItem" @click="setStage(2)" x-bind:class="{ 'isActiveClass': isActive === 2 }">2</div>
+                <div class="progresItem" @click="setStage(3)" x-bind:class="{ 'isActiveClass': isActive === 3 }">3</div>
+                <div class="progresItem" @click="setStage(4)" x-bind:class="{ 'isActiveClass': isActive === 4 }">4</div>
                 <div class="progresItem" x-bind:class="{ 'isActiveClass': isActive === 5 }">Test</div>
             </div>
             <div class="videoContainer" x-show="video">
@@ -277,17 +309,17 @@
                     It’s important to lift the load from the floor/ground and place it on the table (or any other surface available ) and then back on the floor by following all the steps above.
                     You can use anything as a load in case you don’t have a box.
                     Please watch the video demonstration as advised.<br><br>
-                    You can send your video demonstration to our team through the Whatsapp chat on 0892777333 and our instructors will evaluate that for you a.s.a.p.
+                    You can send your video demonstration to our team through the Whatsapp chat on +353{{config('app.telephone')}} and our instructors will evaluate that for you a.s.a.p.
                     Our team is assisting all our customers with a prompt response during our working hours.Sometimes our team might assist you outside our usual working program but during our fixed hours you will  definitely be assisted without any delay.<br><br>
                     If you wish to book a live video call with one of our instructors  to complete the self assessment please send a text message with your full name and email address that was used for your training and with your request regarding that. All the certificates are emailed to everyone straight away after the full course is fully completed.
                 </div>
             </div>
-            <div class="courseContainer">
+            <div class="courseContainer" id="courseContainer" x-on:landscape="setScreen">
                 <img id="eyeIcon" @click="showHideSlide" x-show="showEye" src="{{asset('images/icons/eye.png')}}" alt="Show hide image">
                 <div class="courseSlider" id="courseSlider" x-show="showSlider">
                     <div class="courseStage" x-show="stage === 1">
                         <template x-for="slide in courses.stage_1">
-                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover; background-repeat: no-repeat'">
+                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover; background-repeat: no-repeat; width: ' + containerWidth + 'px;'">
                                 <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
                                 <div class="slideContent" x-show="showHideContent">
                                     <div class="slideTitle" x-text="slide.title"></div>
@@ -305,7 +337,7 @@
                     </div>
                     <div class="courseStage" x-show="stage === 2">
                         <template x-for="slide in courses.stage_2">
-                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
+                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover; background-repeat: no-repeat; width: ' + containerWidth + 'px;'">
                                 <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
                                 <div class="slideContent" x-show="showHideContent">
                                     <div class="slideTitle" x-text="slide.title"></div>
@@ -323,7 +355,7 @@
                     </div>
                     <div class="courseStage" x-show="stage === 3">
                         <template x-for="slide in courses.stage_3">
-                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
+                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover; background-repeat: no-repeat; width: ' + containerWidth + 'px;'">
                                 <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
                                 <div class="slideContent" x-show="showHideContent">
                                     <div class="slideTitle" x-text="slide.title"></div>
@@ -341,7 +373,7 @@
                     </div>
                     <div class="courseStage" x-show="stage === 4">
                         <template x-for="slide in courses.stage_4">
-                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
+                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover; background-repeat: no-repeat; width: ' + containerWidth + 'px;'">
                                 <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
                                 <div class="slideContent" x-show="showHideContent">
                                     <div class="slideTitle" x-text="slide.title"></div>
@@ -359,7 +391,7 @@
                     </div>
                     <div class="courseStage" x-show="stage === 5">
                         <template x-for="slide in courses.test">
-                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover;'">
+                            <div class="slide" x-bind:style="'background-image: url(../..' + slide.img + '); background-size: cover; background-repeat: no-repeat; width: ' + containerWidth + 'px;'">
                                 <div class="slideAnswer" x-show="answer" x-text="slide.answer"></div>
                                 <div class="slideAnswer" x-show="message" x-text="message"></div>
                                 <div class="slideContent" x-show="showHideContent">
@@ -392,5 +424,4 @@
         </div>
     </div>
     <script src="{{asset("js/course.js")}}" defer></script>
-    <script src="//unpkg.com/alpinejs" defer></script>
 @endsection

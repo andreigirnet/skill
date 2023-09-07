@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="accordionContent">
-                        <div class="accText">After you finish the full theory part and pass the theoretical test, please send us a text message through Whatsapp chat on +353 892 777 333 (TEXT ONLY, no phone calls) to book the practical part with our team. The practical part can be done online through a webinar room live with the instructor, it takes about 15-20 minutes to be completed.There are no extra charges  for the practical part. The course price covers theory and self assessment part.</div>
+                        <div class="accText">After you finish the full theory part and pass the theoretical test, please send us a text message through Whatsapp chat on +353{{config('app.telephone')}} (TEXT ONLY, no phone calls) to book the practical part with our team. The practical part can be done online through a webinar room live with the instructor, it takes about 15-20 minutes to be completed.There are no extra charges  for the practical part. The course price covers theory and self assessment part.</div>
                     </div>
 
                     <div class="actionAccordion">
@@ -110,7 +110,11 @@
                     <div class="accordionContent">
                         <div class="accText">Please find attached the pdf file with all the information and instructions that will guide you through this process.This option will give you the opportunity to monitor the progress of your employees,to download their certificates once they have their course completed and much more…
                             Our system was built to offer transparency for all our customers and especially for employers/companies that are behind their employees’ training.
-                            Feel free to give us a call on 0892777333 and get our assistance through this process for the first time to realize how easy and convenient it is for you.
+                            Feel free to give us a call on 0899706050 and get our assistance through this process for the first time to realize how easy and convenient it is for you.
+                        </div>
+                        <div class="faqMessage">
+                            <div class="faqDownloadText">Download here:</div>
+                            <a href="{{route('infoPdf')}}"><img src="{{asset('images/icons/pdf.png')}}" class="pdfImg" alt=""></a>
                         </div>
                     </div>
 
@@ -188,9 +192,9 @@
                         </div>
                     </div>
                     <div class="accordionContent">
-                        <div class="accText">Bulk discount: 15+ courses will give you a 10% discount from the original price and it’s automatically calculated by our payment system when you add this amount of courses to your cart.
-                            Feel free to contact our team on 0892777333 📲 for any further assistance or information.
-                            Or email us to info@irish_safetytraining.com
+                        <div class="accText">Bulk discount: 25+ courses will give you a 10% discount from the original price and it’s automatically calculated by our payment system when you add this amount of courses to your cart.
+                            Feel free to contact our team on +353{{config('app.telephone')}} 📲 for any further assistance or information.
+                            Or email us to info@irish-safetytraining.com
                             </div>
                     </div>
 
@@ -254,7 +258,11 @@
                         </div>
                     </div>
                     <div class="accordionContent">
-                        <div class="accText">Yes, our bulk discounts are automatically applied to orders containing any combination of courses. We offer the following discount on bulk purchases: If you purchase 50+ courses you receive a 10% discount applied on all courses.</div>
+                        <div class="accText"> Yes, our bulk discounts are automatically applied to orders containing any combination of courses. We offer the following discount on bulk purchases: If you purchase:
+                            <br>
+                            -10% discount for orders of 25+ courses <br>
+                            -15% discount for orders of 50+ courses <br>
+                        </div>
                     </div>
 
                     <div class="actionAccordion">
@@ -281,7 +289,9 @@
                         </div>
                     </div>
                     <div class="accordionContent">
-                        <div class="accText">Please click this link and activate your course https://skillcourses.ie/irl/payment/package" If you’re still experiencing trouble, then please contact our friendly Support Team by calling 019682644 or emailing us at info@skillcourses.ie</div>
+                        <div class="accText"><p>Please click this link and activate your course <a href="{{route('home')}}" style="color: blue">"https://irish-safetytraining.com/packages"</a> If you’re still experiencing trouble, then please contact our friendly Support Team by calling +353{{config('app.telephone')}} or emailing us at
+                                <a href="mailto:info@irish-safetytraining.com" style="color: blue">info@irish-safetytraining.com</a></p>
+                        </div>
                     </div>
 
                     <div class="actionAccordion">
@@ -291,7 +301,10 @@
                         </div>
                     </div>
                     <div class="accordionContent">
-                        <div class="accText">To reset your password please click this link <br> Click the link in the email to access your training or you can create a new password in "Profile" section. If you do not receive an email within 5 minutes, please click the re-send email link below.</div>
+                        <div class="accText">
+                            If you are experiencing issues completing your course we recommend clearing your cache, which you can do on your browser. In most cases when you log back into your account you will be able to proceed without issue.<p> If this doesn’t work and you’re still experiencing problems then please get in touch with our Support Team by calling +353{{config('app.telephone')}} or emailing us at
+                                <a href="mailto:info@irish-safetytraining.com" style="color: blue"> info@irish-safetytraining.com </a></p> For the best experience we recommend completing our training using Google Chrome.
+                        </div>
                     </div>
 
 
@@ -302,7 +315,11 @@
                         </div>
                     </div>
                     <div class="accordionContent">
-                        <div class="accText">If you are experiencing issues completing your course we recommend clearing your cache, which you can do on your browser. In most cases when you log back into your account you will be able to proceed without issue. If this doesn’t work and you’re still experiencing problems then please get in touch with our Support Team by calling 019682644 or emailing us at info@skillcourses.ie For the best experience we recommend completing our training using Google Chrome.</div>
+                        <div class="accText">If you are experiencing issues completing your course we recommend clearing your cache, which you can do on your browser. In most cases when you log back into your account you will be able to proceed without issue.
+                            <p> If this doesn’t work and you’re still experiencing problems then please get in touch with our Support Team by calling +353{{config('app.telephone')}} or emailing us at
+                            <a href="mailto:info@irish-safetytraining.com" style="color: blue"> info@skillcourses.ie </a></p>
+                            For the best experience we recommend completing our training using Google Chrome.
+                        </div>
                     </div>
                 </div>
             </div>

@@ -6,8 +6,9 @@
     </div>
     <div class="trainTeamsSection">
         <div class="trainTeamsWrapper">
-            <div class="teamTitle">Call us on - 0892777333</div>
-            <div class="teamDescription">Our working hours are: 10am-7pm Monday - Friday & 10am - 6pm <br> Weekend/Bank Holiday or email us to info@irish-safetytraining.com</div>
+            <div class="teamTitle">Call us on - 0{{config('app.telephone')}}</div>
+            <div class="teamDescription">Our working hours are: 10am-7pm Monday - Friday & 10am - 6pm <br> Weekend/Bank Holiday or email us to
+                {{config('app.email')}}</div>
         </div>
     </div>
 

@@ -19,11 +19,11 @@
 #ready{
     font-size: 34px;
     font-weight: lighter;
-    color: #333324;
+    color: white;
 }
 #start{
     width: 600px;
-    border: 2px solid var(--primary);
+    border: 1px solid white;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     padding: 20px;
     font-size: 56px;
     cursor: pointer;
-    color: #333324;
+    color: white;
     position: relative;
     z-index: 1;
 }

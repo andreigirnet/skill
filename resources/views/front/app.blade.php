@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="{{asset("css/front/consulting.css")}}">
     <link rel="stylesheet" href="{{asset("css/front/login.css")}}">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body>
 @include("frontIncludes/hamburger")
@@ -43,6 +45,7 @@ var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
 <script src="{{asset("js/hamburgerAction.js")}}"></script>
 <script src="{{asset("js/brandSwiper.js")}}"></script>
 <script src="{{asset("js/accordion.js")}}"></script>
+<script src="{{asset("js/review.js")}}"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();

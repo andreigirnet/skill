@@ -10,13 +10,11 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Storage;
 use Jackiedo\Cart\Cart;
-use Stripe\Customer;
-use Stripe\InvoiceItem;
 use Stripe\Stripe;
-use Stripe\Charge;
-use Stripe\Invoice;
+
 
 
 class CheckoutController extends Controller
@@ -32,8 +30,16 @@ class CheckoutController extends Controller
      */
     public function index(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
     {
+        Stripe::setApiKey(env('STRIPE_SECRET'));
         $cartDetails = $this->cart->getDetails();
         return view("admin.administrator.checkout")->with('cartDetails',$cartDetails);
+    }
+
+    public function indexS(): \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+    {
+        Stripe::setApiKey(env('STRIPE_SECRET'));
+        $cartDetails = $this->cart->getDetails();
+        return view("admin.administrator.checkoutS")->with('cartDetails',$cartDetails);
     }
 
     /**
@@ -47,72 +53,92 @@ class CheckoutController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function setPayment(Request $request)
     {
         Stripe::setApiKey(env('STRIPE_SECRET'));
-
-        $amoutToInt = round($request->cartTotal * 100, 0, PHP_ROUND_HALF_UP);
-
+        $json_str = file_get_contents('php://input');
+        $json_obj = json_decode($json_str);
+        $amountToInt = round($this->cart->getTotal() * 100, 0, PHP_ROUND_HALF_UP);
+        $intent = null;
         try {
-            $customer = Customer::create([
-                'email'  => auth()->user()->email,
-                'source' => $request->stripeToken,
-            ]);
-
-            $charge = Charge::create([
-                'amount'      => $amoutToInt,
-                'currency'    => 'eur', // set the currency to euro
-                'description' => 'Payment from ' . auth()->user()->email . ' on the date ' . date("Y-m-d h:i:sa"),
-                'customer'    => $customer->id
-            ]);
-
-            // Check if the charge was successful
-            if ($charge->status === 'succeeded')
-            {
-
-                // Create an invoice for the charge
-                InvoiceItem::create([
-                    'customer' => $customer->id,
-                    'amount'   => $amoutToInt,
-                    'currency' => 'usd'
+            if (isset($json_obj->payment_method_id)) {
+                # Create the PaymentIntent
+                $customer = \Stripe\Customer::create([
+                    'email' => auth()->user()->email,
+                    'description' => 'New customer',
+                    'metadata' => [
+                        'name' => auth()->user()->name,
+                    ],
                 ]);
-
-                $invoice = Invoice::create([
-                    'customer'     => $charge->customer,
-                    'auto_advance' => true,
+                $intent = \Stripe\PaymentIntent::create([
+                    'payment_method' => $json_obj->payment_method_id,
+                    'amount' => $amountToInt,
+                    'currency' => 'eur',
+                    'confirmation_method' => 'manual',
+                    'confirm' => true,
+                    'statement_descriptor' => 'irish-safetytraining',
+                    'customer'=> $customer->id,
+                    'description' => 'Payment made by '. auth()->user()->email,
                 ]);
-
-                Order::create([
-                    'user_id'     => auth()->user()->id,
-                    'product_name'=> "Manual Handling",
-                    'quantity'    => $request->cartQty,
-                    'paid'        => $request->cartTotal,
-                    'charge_id'   => $charge->id,
-                    'invoice_id'  => $invoice->id,
-                    'address'     => $request->address,
-                    'city'        => $request->city,
-                    'county'      => $request->county,
-                    'country'     => $request->country,
-                    'status'      => 'paid'
-                ]);
-
-                for ($i = 0; $i < $request->cartQty; $i++) {
-                    $package = new Package();
-                    $package->user_id = auth()->user()->id;
-                    $package->course_name = "Manual Handling";
-                    $package->status = "purchased";
-                    $package->save();
-                }
-
-                $this->cart->clearItems();
-
-                return redirect(route('order.index'))->with('success', 'The payment has been submited successfully');
-            } else
-            {
-                return redirect(route('error'));
             }
-        }catch (\Stripe\Exception\CardException $e){
-                return redirect(route('error'));
+            if (isset($json_obj->payment_intent_id)) {
+                $intent = \Stripe\PaymentIntent::retrieve(
+                    $json_obj->payment_intent_id
+                );
+                $intent->confirm();
+            }
+            $this->generateResponse($intent, $request);
+        } catch (\Stripe\Exception\ApiErrorException $e) {
+            # Display error on client
+            echo json_encode([
+                'error' => $e->getMessage()
+            ]);
+        }
+
+    }
+    public function generateResponse($intent, Request $request) {
+        # Note that if your API version is before 2019-02-11, 'requires_action'
+        # appears as 'requires_source_action'.
+        if ($intent->status == 'requires_action' &&
+            $intent->next_action->type == 'use_stripe_sdk') {
+            # Tell the client to handle the action
+            echo json_encode([
+                'requires_action' => true,
+                'payment_intent_client_secret' => $intent->client_secret
+            ]);
+        } else if ($intent->status == 'succeeded') {
+            # The payment didn’t need any additional actions and completed!
+            # Handle post-payment fulfillment
+            Order::create([
+                'user_id' => auth()->user()->id,
+                'product_name' => "Manual Handling",
+                'quantity' => $this->cart->sumItemsQuantity(),
+                'paid' => $this->cart->getTotal(),
+                'charge_id' => $intent->id,
+                'invoice_id' => $intent->id,
+                'address' => $request->address,
+                'city' => $request->city,
+                'county' => $request->county,
+                'country' => $request->country,
+                'status' => 'paid',
+            ]);
+
+            for ($i = 0; $i < $this->cart->sumItemsQuantity(); $i++) {
+                $package = new Package();
+                $package->user_id = auth()->user()->id;
+                $package->course_name = "Manual Handling";
+                $package->status = "purchased";
+                $package->save();
+            }
+            $this->cart->clearItems();
+            $request->session()->flash('success', 'Payment has been received successfully');
+            echo json_encode([
+                "success" => true
+            ]);
+        } else {
+            # Invalid status
+            http_response_code(500);
+            echo json_encode(['error' => 'Invalid PaymentIntent status']);
         }
     }
 

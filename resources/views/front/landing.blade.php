@@ -55,13 +55,13 @@
                         </div>
                         <div class="product-icons">
                             <img src="images/icons/money.png" alt="">
-                            <div>Only 39€</div>
+                            <div style="font-weight: 600">Only 30€</div>
                         </div>
                     </div>
                 </div>
                 <div class="product-price-btn">
-                    <a href="{{route('front.product',1)}}"><button type="button" class="buttonInfo" style="background: white;   border: 1px solid var(--yellowColor);color: black;">info</button></a>
-                    <a href="{{route('admin.en.home')}}"><button type="button">buy now</button>
+                    <a href=""><button type="button" class="buttonInfo" style="background: white;   border: 1px solid var(--yellowColor);color: black;">info</button></a>
+                    <a href=""><button type="button">buy now</button>
                     </a>
                 </div>
             </div>
@@ -85,192 +85,13 @@
     </div>
 
     <div id="customersReviews">
-        <div id="customerReviewWrap">
-            <div class="main-review">
-                <div class="infoReview">
-                    <div class="imgReview">
-                        <img src={{asset("images/avatars/av-1.png")}} alt="">
-                    </div>
-                    <div class="statsReview">
-                        <div class="reviewerNameBadge">
-                            <div class="reviewerName">John Weasley</div>
-                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
-                        </div>
-                        <div class="reviewerStarsTime">
-                            <div class="reviewerStars">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                            </div>
-                            <div class="reviewerTime">16 days ago</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviewText">
-                    This is very effective learning prcess.
-                </div>
-                <div class="reviewGoogle">
-                    <div class="reviewerTime">Posted on</div>
-                    <img src="{{asset("images/logo/google.png")}}" alt="">
-                </div>
-            </div>
-
-            <div class="main-review">
-                <div class="infoReview">
-                    <div class="imgReview">
-                        <img src={{asset("images/avatars/av-2.png")}} alt="">
-                    </div>
-                    <div class="statsReview">
-                        <div class="reviewerNameBadge">
-                            <div class="reviewerName">Mary Andrews</div>
-                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
-                        </div>
-                        <div class="reviewerStarsTime">
-                            <div class="reviewerStars">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                            </div>
-                            <div class="reviewerTime">2 days ago</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviewText">
-                    Fast and convinient on price. Love it!
-                </div>
-                <div class="reviewGoogle">
-                    <div class="reviewerTime">Posted on</div>
-                    <img src="{{asset("images/logo/google.png")}}" alt="">
-                </div>
-            </div>
-
-            <div class="main-review">
-                <div class="infoReview">
-                    <div class="imgReview">
-                        <img src={{asset("images/avatars/av-3.png")}} alt="">
-                    </div>
-                    <div class="statsReview">
-                        <div class="reviewerNameBadge">
-                            <div class="reviewerName">Choe Lee</div>
-                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
-                        </div>
-                        <div class="reviewerStarsTime">
-                            <div class="reviewerStars">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                            </div>
-                            <div class="reviewerTime">8 days ago</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviewText">
-                    The staf was receptive on my questions, and the process is easy
-                </div>
-                <div class="reviewGoogle">
-                    <div class="reviewerTime">Posted on</div>
-                    <img src="{{asset("images/logo/google.png")}}" alt="">
-                </div>
-            </div>
-
-            <div class="main-review">
-                <div class="infoReview">
-                    <div class="imgReview">
-                        <img src={{asset("images/avatars/av-4.png")}} alt="">
-                    </div>
-                    <div class="statsReview">
-                        <div class="reviewerNameBadge">
-                            <div class="reviewerName">Markus Low</div>
-                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
-                        </div>
-                        <div class="reviewerStarsTime">
-                            <div class="reviewerStars">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                            </div>
-                            <div class="reviewerTime">20 days ago</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviewText">
-                    Definetely a high value service
-                </div>
-                <div class="reviewGoogle">
-                    <div class="reviewerTime">Posted on</div>
-                    <img src="{{asset("images/logo/google.png")}}" alt="">
-                </div>
-            </div>
-
-            <div class="main-review">
-                <div class="infoReview">
-                    <div class="imgReview">
-                        <img src={{asset("images/avatars/av-5.png")}} alt="">
-                    </div>
-                    <div class="statsReview">
-                        <div class="reviewerNameBadge">
-                            <div class="reviewerName">Vaness Spills</div>
-                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
-                        </div>
-                        <div class="reviewerStarsTime">
-                            <div class="reviewerStars">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                            </div>
-                            <div class="reviewerTime">10 days ago</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviewText">
-                    The course was well delivered. Thank you
-                </div>
-                <div class="reviewGoogle">
-                    <div class="reviewerTime">Posted on</div>
-                    <img src="{{asset("images/logo/google.png")}}" alt="">
-                </div>
-            </div>
-
-            <div class="main-review">
-                <div class="infoReview">
-                    <div class="imgReview">
-                        <img src={{asset("images/avatars/av-6.png")}} alt="">
-                    </div>
-                    <div class="statsReview">
-                        <div class="reviewerNameBadge">
-                            <div class="reviewerName">Angela Jedrynska</div>
-                            <div class="reviewerBadge"><img src="{{asset("images/icons/check.png")}}" alt=""></div>
-                        </div>
-                        <div class="reviewerStarsTime">
-                            <div class="reviewerStars">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                                <img src="{{asset("images/icons/star.png")}}" alt="">
-                            </div>
-                            <div class="reviewerTime">15 days ago</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reviewText">
-                    this is very effective learning prcess.
-                </div>
-                <div class="reviewGoogle">
-                    <div class="reviewerTime">Posted on</div>
-                    <img src="{{asset("images/logo/google.png")}}" alt="">
-                </div>
-            </div>
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-452ee68c-8e4c-4329-bf9d-d5f4175f5d0e"></div>
+    </div>
+    <div id="customerReviewsMob">
+        <div class="customerReviewsMobWrap">
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-6a3ccd9b-896b-4195-946e-7cba27a27218"></div>
         </div>
     </div>
 
@@ -283,9 +104,9 @@
     <div class="aboutUs" data-aos="fade-up">
         <div class="aboutWrapper">
             <div>
-                irish-safetytraining.com was established to provide effective, accessible, and convenient safety training for Irish workers wherever they are located. All courses can be done online.<br>
+                www.skillcourses.ie was established to provide effective, accessible, and convenient safety training for Irish workers wherever they are located. All courses can be done online.<br>
 
-                irish-safetytraining.com takes great pride in the quality and integrity of its products and services.<br>
+                www.skillcourses.ie takes great pride in the quality and integrity of its products and services.<br>
 
                 Appropriate safety training can mean the difference between life and death and it is with this belief that we approach our safety training course development and delivery.<br>
 

@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\DB;
 
 class ProductController extends Controller
 {
@@ -16,6 +17,13 @@ class ProductController extends Controller
     public function index(): Response
     {
         //
+    }
+
+    public function info(): Response
+    {
+        $data = DB::select("SELECT sum(paid) as total FROM orders");
+        $converted = $data[0]->total;
+        dd($converted);
     }
 
     /**

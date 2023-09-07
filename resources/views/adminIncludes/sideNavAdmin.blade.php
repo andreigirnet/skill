@@ -44,10 +44,6 @@
             <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
             <div class="navLinkDropAdmin">Orders</div>
         </a>
-        <a href="{{route('package.index')}}">
-            <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
-            <div class="navLinkDropAdmin">Packages</div>
-        </a>
     </div>
     <a href="{{route('certificate.index')}}">
         <div class="navLinkAdmin">
@@ -55,7 +51,14 @@
             <div class="navLinkName">Certificates</div>
         </div>
     </a>
-    @if(auth()->user()->is_admin === 1)
+    <a href="{{route('package.index')}}">
+        <div class="navLinkAdmin">
+            <div class="navIconAdmin"> <img src="{{asset('images/arrows/right-white.png')}}" alt=""></div>
+            <div class="navLinkName">Packages</div>
+        </div>
+    </a>
+
+    @if(auth()->user()->is_admin==1)
         <div class="navLinkAdmin" id="adminNavButton">
             <div class="navIconAdmin"><img src="{{asset('images/icons/star-white.png')}}" alt=""></div>
             <div class="navLinkName">Администратор</div>
@@ -69,9 +72,13 @@
                 <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
                 <div class="navLinkDropAdmin">Все заказы</div>
             </a>
-            <a href="{{route('packages.index')}}">
+            <a href="{{route('packages.admin.index')}}">
                 <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
                 <div class="navLinkDropAdmin">Все пакеты</div>
+            </a>
+            <a href="{{route('certificates.admin.index')}}">
+                <img class="navArrow" src="{{asset('images/arrows/right-white.png')}}" alt="">
+                <div class="navLinkDropAdmin">Все сертификаты</div>
             </a>
         </div>
     @endif

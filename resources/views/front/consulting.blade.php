@@ -8,6 +8,15 @@
     <div class="consultingWrap" data-aos="fade-up">
         <div class="consultingContainer">
             <h1 class="consultingTitle">Our Services:</h1>
+            <br><br>
+            <div class="consultingListText">Our years of experience has prepared us to be at the forefront of the latest corporate safety standards to prevent accidents.</div>
+            <br>
+            <div class="consultingListText"><h4>Safety Consultancy Services in Dublin </h4>
+                We carry out Health & Safety Consultancy throughout Dublin with experts in the field to provide courses and preparation in companies of all types.
+            </div>
+            <br>
+            <div class="consultingListText">We also investigate accidents and their causes, as well as the implementation of the necessary prevention so that they do not happen again in the work area.</div>
+
             <div class="consultingList">
                 <div class="consultingListItem">
                     <img src="{{asset("images/icons/right-arrow.png")}}" alt="">
@@ -57,20 +66,18 @@
                     <img src="{{asset("images/icons/right-arrow.png")}}" alt="">
                     <div class="consultingListText">Assessing training needs and provision of seminars/toolbox talks and training courses</div>
                 </div>
+                <div class="consultingListItem">
+                    <img src="{{asset("images/icons/right-arrow.png")}}" alt="">
+                    <div class="consultingListText">PAT testing</div>
+                </div>
             </div>
-            <hr>
+            <hr style="margin-top: 50px">
             <br>
             <br>
-            <div class="consultingListText">We work collaboratively with you to determine your objectives, and apply our expertise to develop a culture of workplace health and safety.</div>
-            <br>
-            <br>
-            <h1 class="consultingTitle">Our Approach</h1>
-            <div class="consultingListText">We provide support to employers who require third-party support to achieve their health and safety objectives for their workplace or on a project basis.<br><br>
-                Through our discovery process we work together to determine your unique objectives and requirements, and establish key results to align our work with your measurement of success.<br><br>
 
-                At SkillCourses.ie, we work with organizations to support the ongoing implementation of a health and safety program with audits and inspections, through the development of hazard specific policy and procedure, and as the outsourced health and safety management as required.<br><br>
-
-                If you have questions about our Advisory service offering or what is required for your workplace by the act and legislation, you can schedule a consultation with our team directly at 019682644.</div>
+            <div class="consultingListText">Please send us an email with any request regarding our services listed above on
+                {{config('app.email')}} or call us on 0{{config('app.telephone')}}.<br><br>
+            </div>
         </div>
     </div>
 @endsection
